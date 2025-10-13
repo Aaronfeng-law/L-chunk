@@ -22,7 +22,7 @@ def test_imports():
         from lchunk.detectors.hybrid import HybridLevelSymbolDetector
         print("✅ HybridLevelSymbolDetector 導入成功")
         
-        from lchunk.detectors.intelligent_hybrid import IntelligentHybridDetector
+        from lchunk.detectors.adaptive_hybrid import IntelligentHybridDetector
         print("✅ IntelligentHybridDetector 導入成功")
         
         # 測試分析器

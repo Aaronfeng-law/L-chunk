@@ -37,7 +37,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "lchunk-detect=lchunk.detectors.intelligent_hybrid:main",
+            "lchunk-detect=lchunk.detectors.adaptive_hybrid:main",
             "lchunk-train=lchunk.training.bert_trainer:main",
             "lchunk-compare=lchunk.training.model_comparison:main",
         ]

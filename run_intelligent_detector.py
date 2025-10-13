@@ -17,7 +17,7 @@ def main():
     print("="*50)
     
     try:
-        from lchunk.detectors.intelligent_hybrid import IntelligentHybridDetector
+        from lchunk.detectors.adaptive_hybrid import IntelligentHybridDetector
         
         # 檢查模型路徑
         model_path = "models/bert/level_detector/best_model"

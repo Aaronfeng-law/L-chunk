@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
 """
 混合批次層級檢測器
-基於 Linus "漸進式過濾" 原則的批次處理版本
+
 
 結合：
 1. 規則檢測：零容忍格式檢查
 2. BERT分類：精確語義理解
 3. 批次處理：高效處理大量文檔
 
-Linus式設計原則：
-- "Good programmers worry about data structures" - 優化批次數據流
-- "Talk is cheap. Show me the code" - 實際測試證明效果
+
 """
 
 import json
@@ -47,7 +45,7 @@ class HybridProcessingStats:
     output_data: Optional[Dict] = None
 
 class HybridBatchProcessor:
-    """混合批次處理器 - Linus式高效設計"""
+    """混合批次處理器 - 高效設計"""
     
     def __init__(self, output_base_dir: str = "hybrid_output", model_path: str = None):
         self.output_base_dir = Path(output_base_dir)
@@ -268,7 +266,7 @@ class HybridBatchProcessor:
         
         report = f"""
 ============================================================
-⚡ 混合批次層級檢測報告 (Linus式漸進過濾)
+⚡ 混合批次層級檢測報告
 ============================================================
 
 🔧 檢測配置:
@@ -299,7 +297,7 @@ class HybridBatchProcessor:
   規則檢測: {batch_stats['total_rule_only_markers']:,}
   平均標記/檔: {batch_stats['total_markers'] / batch_stats['successful_files'] if batch_stats['successful_files'] > 0 else 0:.1f}
 
-⚡ Linus式洞察:
+洞察:
   漸進過濾效率: {candidate_rate:.1f}% 的行進入 BERT 處理
   BERT 貢獻度: {bert_refinement_rate:.1f}% 的標記經過語義精煉
   整體性能: 平衡了準確性和計算效率
@@ -332,7 +330,7 @@ def main():
     parser.add_argument("input_dir", help="輸入目錄路徑")
     parser.add_argument("--output", "-o", default="hybrid_output", help="輸出目錄 (默認: hybrid_output)")
     parser.add_argument("--subdir", "-s", help="輸出子目錄名稱 (默認: 使用輸入目錄名)")
-    parser.add_argument("--model", "-m", help="BERT 模型路徑 (默認: bert_level_detector/best_model)")
+    parser.add_argument("--model", "-m", help="BERT 模型路徑 (默認: models/bert/level_detector/best_model)")
     
     args = parser.parse_args()
     
@@ -348,7 +346,7 @@ def main():
     # 確定 BERT 模型路徑
     model_path = args.model
     if not model_path:
-        default_model = Path("bert_level_detector/best_model")
+        default_model = Path("models/bert/level_detector/best_model")
         if default_model.exists():
             model_path = str(default_model)
         else:
@@ -358,7 +356,6 @@ def main():
     output_subdir = args.subdir or input_path.name
     
     print("⚡ 啟動混合批次層級檢測器")
-    print("基於 Linus '漸進式過濾' 原則")
     print("規則檢測 + BERT 語義理解 = 最佳準確性")
     print()
     

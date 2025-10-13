@@ -18,7 +18,7 @@ from .splitter import process_single_file, find_section_patterns, extract_dates_
 
 def analyze_filtered_dataset():
     """分析完整的 filtered 數據集"""
-    filtered_dir = Path("data/filted")
+    filtered_dir = Path("data/processed/filtered")
     
     if not filtered_dir.exists():
         print(f"❌ Filtered directory {filtered_dir} not found")
@@ -515,13 +515,15 @@ def generate_detailed_category_report(stats):
     
     symbol_categories = stats.get('symbol_categories', {})
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_dir = Path("output/analysis")
+    output_dir.mkdir(parents=True, exist_ok=True)
     
     # 為每個符號類別生成詳細報告
     for symbol, files in symbol_categories.items():
         if not files:
             continue
             
-        report_filename = f"symbol_{symbol}_{timestamp}.txt"
+        report_filename = output_dir / f"symbol_{symbol}_{timestamp}.txt"
         
         with open(report_filename, 'w', encoding='utf-8') as f:
             f.write(f"# 符號 '{symbol}' 類別詳細報告\n")
@@ -623,14 +625,16 @@ def main():
         report = generate_comprehensive_report(stats)
         
         # 保存報告
-        report_filename = f"comprehensive_analysis_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+        output_dir = Path("output/analysis")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        report_filename = output_dir / f"comprehensive_analysis_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
         with open(report_filename, 'w', encoding='utf-8') as f:
             f.write(report)
         
         print(f"\n✅ 分析完成！報告已保存至: {report_filename}")
         
         # 保存 JSON 格式的原始數據
-        json_filename = f"analysis_raw_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        json_filename = output_dir / f"analysis_raw_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         
         # 轉換不能序列化的數據
         json_stats = dict(stats)

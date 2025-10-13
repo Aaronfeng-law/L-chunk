@@ -2,7 +2,7 @@
 
 **重組時間**: 2025-10-13 14:59:02
 **源目錄**: /home/soogoino/Publics/Projects/L-chunk
-**目標目錄**: L-chunk-reorganized
+**目標目錄**: L-chunk
 
 ## 📁 目錄結構變更
 
@@ -22,17 +22,6 @@
 - `models/bert/`: BERT 模型文件
 - `results/`: 各種檢測和分析結果
 
-## 🔄 文件映射
-
-### 檢測器
-- `ultra_strict_detector.py` → `src/lchunk/detectors/ultra_strict.py`
-- `hybrid_detector.py` → `src/lchunk/detectors/hybrid.py`
-- `hybrid_batch_detector.py` → `src/lchunk/detectors/batch_hybrid.py`
-- `intelligent_hybrid_detector.py` → `src/lchunk/detectors/intelligent_hybrid.py`
-- `comprehensive_analysis.py` → `src/lchunk/analyzers/comprehensive.py`
-- `judgment_splitter.py` → `src/lchunk/analyzers/splitter.py`
-- `train_bert_classifier.py` → `src/lchunk/training/bert_trainer.py`
-- `model_comparison_evaluation.py` → `src/lchunk/training/model_comparison.py`
 
 ## ✨ 改進項目
 
@@ -46,7 +35,7 @@
 
 ```bash
 # 進入新目錄
-cd L-chunk-reorganized
+cd L-chunk
 
 # 安裝開發模式
 pip install -e .
@@ -61,5 +50,3 @@ lchunk-detect data/samples/
 2. 腳本路徑已調整
 3. 保持了原有功能完整性
 4. 添加了適當的 __init__.py 文件
-
-"Good code is organized code. Great code teaches through its organization." - Linus 式智慧

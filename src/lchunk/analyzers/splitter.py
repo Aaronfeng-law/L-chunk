@@ -234,7 +234,7 @@ def test_on_sample(verbose=False):
 
 def test_on_filtered(verbose=False):
     """Test the splitter on filtered files"""
-    filtered_dir = Path("data/filted")
+    filtered_dir = Path("data/processed/filtered")
     
     if not filtered_dir.exists():
         print(f"Filtered directory {filtered_dir} not found")

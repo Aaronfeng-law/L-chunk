@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 BERT 層級符號分類器訓練器 & 傳統模型比較器
-基於 Linus "單一職責" 原則：專注訓練和比較
+基於  "單一職責" 原則：專注訓練和比較
 
 專注於：
 1. 加載標註數據
@@ -37,9 +37,9 @@ import torch.nn.functional as F
 class BERTLevelSymbolTrainer:
     """BERT 層級符號分類器訓練器"""
     
-    def __init__(self, output_dir: str = "bert_level_detector"):
+    def __init__(self, output_dir: str = "models/training"):
         self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(exist_ok=True)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # 模型相關
         self.bert_model = None
@@ -183,78 +183,44 @@ class BERTLevelSymbolTrainer:
         
         return training_info
     
-    def compare_traditional_models(self, training_data_path: str) -> Dict:
-        """比較傳統機器學習模型的性能"""
-        print("🔬 比較傳統機器學習模型...")
-        
-        # 載入訓練數據
-        df = pd.read_csv(training_data_path)
-        print(f"✅ 載入 {len(df)} 條訓練數據")
-        
-        # 準備數據
-        X = df['line_text'].values
-        y = (df['sentiment'] == 'Positive').astype(int).values
-        
-        # 分割數據
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=0.2, random_state=42, stratify=y
+    def _tokenize_function(self, examples):
+        """BERT tokenization"""
+        return self.bert_tokenizer(
+            examples['text'],
+            truncation=True,
+            padding=True,
+            max_length=512
         )
-        
-        print(f"📊 訓練集: {len(X_train)} 樣本")
-        print(f"📊 測試集: {len(X_test)} 樣本")
-        
-        # TF-IDF 向量化
-        print("🔧 進行 TF-IDF 向量化...")
-        vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 2))
-        X_train_vec = vectorizer.fit_transform(X_train)
-        X_test_vec = vectorizer.transform(X_test)
-        
-        # 定義模型
-        models = {
-            'Logistic Regression': LogisticRegression(random_state=42, max_iter=1000),
-            'SVM': SVC(random_state=42, probability=True),
-            'Random Forest': RandomForestClassifier(random_state=42, n_estimators=100)
-        }
-        
-        results = {}
-        
-        # 訓練和評估每個模型
-        for model_name, model in models.items():
-            print(f"🔥 訓練 {model_name}...")
-            
-            # 訓練
-            model.fit(X_train_vec, y_train)
-            
-            # 預測
-            y_pred = model.predict(X_test_vec)
-            
-            # 評估指標
-            accuracy = accuracy_score(y_test, y_pred)
-            precision = precision_score(y_test, y_pred)
-            recall = recall_score(y_test, y_pred)
-            f1 = f1_score(y_test, y_pred)
-            
-            results[model_name] = {
-                'accuracy': float(accuracy),
-                'precision': float(precision),
-                'recall': float(recall),
-                'f1_score': float(f1)
-            }
-            
-            print(f"   ✅ {model_name} 完成!")
-            print(f"      準確率: {accuracy:.4f}")
-            print(f"      精確率: {precision:.4f}")
-            print(f"      召回率: {recall:.4f}")
-            print(f"      F1分數: {f1:.4f}")
-        
-        # 保存比較結果
-        comparison_file = self.output_dir / 'model_comparison.json'
-        with open(comparison_file, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
-        
-        print(f"📋 模型比較結果已保存: {comparison_file}")
-        
-        return results
+
+def main():
+    """主函數 - 只負責 BERT 訓練"""
+    print("� 啟動 BERT 層級符號分類器訓練")
+    print("基於  '單一職責' 原則：專注訓練")
+    print("="*60)
+    
+    # 檢查訓練數據
+    training_data = "data/training/project-1-at-2025-10-10-15-05-fea45fba.csv"
+    if not Path(training_data).exists():
+        print(f"❌ 找不到訓練數據: {training_data}")
+        print("請確保標註數據文件存在")
+        return
+    
+    # 初始化訓練器
+    trainer = BERTLevelSymbolTrainer()
+    
+    # 執行 BERT 訓練
+    training_info = trainer.train_classifier(training_data)
+    
+    print(f"\n🎉 BERT 訓練完成!")
+    print(f"🏆 最佳性能: 準確率 {training_info['accuracy']:.4f}, 召回率 {training_info['recall']:.4f}")
+    print(f"💾 模型保存在: {training_info['model_path']}")
+    
+    # GPU 設備信息
+    if torch.cuda.is_available():
+        gpu_name = torch.cuda.get_device_name(0)
+        print(f"🎮 使用 GPU: {gpu_name}")
+    else:
+        print("💻 使用 CPU 訓練")
     
     def _tokenize_function(self, examples):
         """BERT tokenization"""
@@ -268,11 +234,10 @@ class BERTLevelSymbolTrainer:
 def main():
     """主函數"""
     print("🚀 啟動 BERT 層級符號分類器訓練 & 傳統模型比較")
-    print("基於 Linus '單一職責' 原則：專注訓練和比較")
     print("="*60)
     
     # 檢查訓練數據
-    training_data = "ml_data/project-1-at-2025-10-10-15-05-fea45fba.csv"
+    training_data = "data/training/project-1-at-2025-10-10-15-05-fea45fba.csv"
     if not Path(training_data).exists():
         print(f"❌ 找不到訓練數據: {training_data}")
         print("請確保標註數據文件存在")

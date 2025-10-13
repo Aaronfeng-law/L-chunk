@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 三層混合層級符號檢測器 (推理專用)
-基於 Linus "分層過濾" 原則：嚴格 → 軟規則 → 聚合
+"分層過濾" 原則：嚴格 → 軟規則 → 聚合
 
 三層策略：
 1. 終極嚴格規則：PUA字符 + 頓號 = 100% 確定
@@ -31,7 +31,7 @@ import torch.nn.functional as F
 import numpy as np
 
 def convert_numpy_types(obj):
-    """轉換 numpy 類型為 Python 原生類型 - Linus式簡潔方案"""
+    """轉換 numpy 類型為 Python 原生類型 - """
     if isinstance(obj, np.bool_):
         return bool(obj)
     elif isinstance(obj, (np.integer, np.floating)):
@@ -148,7 +148,7 @@ class HybridLevelSymbolDetector:
         if not lines:
             return []
         
-        # 自適應設備選擇 - Linus式實用主義
+        # 自適應設備選擇 - 
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.bert_model = self.bert_model.to(device)
         
@@ -161,7 +161,7 @@ class HybridLevelSymbolDetector:
             return_tensors="pt"
         )
         
-        # 將輸入移到同一設備 - 這就是性能關鍵!
+        # 將輸入移到同一設備 
         inputs = {k: v.to(device) for k, v in inputs.items()}
         
         # 預測
@@ -175,7 +175,7 @@ class HybridLevelSymbolDetector:
         return list(zip(scores.cpu().numpy(), predictions.cpu().numpy()))
     
     def detect_hybrid_markers(self, text_lines: List[str], bert_threshold: float = 0.5) -> List[HybridDetectionResult]:
-        """三層混合檢測層級標記 - Linus式分層過濾"""
+        """三層混合檢測層級標記 - """
         print("🔍 啟動三層混合檢測...")
         
         results = []
@@ -307,7 +307,7 @@ class HybridLevelSymbolDetector:
         return all_results
     
     def detect_hierarchy_levels(self) -> Dict:
-        """自動檢測層級結構 - Linus式從後往前分析
+        """自動檢測層級結構 - 後往前分析
         
         基於 ultra_strict_detector 的符號群組層級定義
         從檔案末尾開始檢測，追蹤新符號類型出現，分配遞增層級
@@ -321,7 +321,7 @@ class HybridLevelSymbolDetector:
         if not positive_results:
             return {'hierarchy_levels': [], 'level_mapping': {}}
         
-        # Linus式：從後往前遍歷，追蹤符號類型
+        # 從後往前遍歷，追蹤符號類型
         seen_symbol_types = set()
         hierarchy_levels = []
         current_level = 1  # 不使用 level 0
@@ -330,7 +330,7 @@ class HybridLevelSymbolDetector:
         for result in reversed(positive_results):
             symbol_category = result.symbol_category
             
-            # Linus式：移除預定義層級，完全動態學習
+            # 移除預定義層級，完全動態學習
             predefined_level = 0  # 不再依賴預定義層級
             
             # 如果是新的符號類型，分配新層級
@@ -358,7 +358,7 @@ class HybridLevelSymbolDetector:
                 'bert_score': result.bert_score
             })
         
-        # Linus式：反轉輸出順序（因為我們從後往前分析）
+        # 反轉輸出順序（因為我們從後往前分析）
         hierarchy_levels.reverse()
         
         # 創建層級映射表
@@ -446,7 +446,7 @@ class HybridLevelSymbolDetector:
         """生成檢測報告 - 包含層級結構分析"""
         report = f"""
 ============================================================
-🔬 三層混合層級符號檢測報告 (Linus式分層過濾)
+🔬 三層混合層級符號檢測報告 (層過濾)
 ============================================================
 
 📊 總體統計:
@@ -476,7 +476,7 @@ class HybridLevelSymbolDetector:
         # 層級結構分析報告
         hierarchy = analysis.get('hierarchy_analysis', {})
         if hierarchy and hierarchy.get('hierarchy_levels'):
-            report += f"\n🏗️ 自動層級結構分析 (Linus式從後往前檢測):\n"
+            report += f"\n🏗️ 自動層級結構分析 (後往前檢測):\n"
             report += f"  檢測到層級數: {hierarchy['total_levels']} 個不同類型\n"
             report += f"  層級符號總數: {hierarchy['total_symbols']} 個\n"
             
@@ -522,7 +522,7 @@ class HybridLevelSymbolDetector:
             report += f"  標準差: {bert_stats['std']:.3f}\n"
             report += f"  範圍: {bert_stats['min']:.3f} ~ {bert_stats['max']:.3f}\n"
         
-        report += f"\n⚡ Linus式洞察:\n"
+        report += f"\n⚡ 察:\n"
         if analysis.get('ultra_strict_count', 0) > 0:
             ultra_ratio = analysis['ultra_strict_count'] / analysis['positive_predictions'] if analysis['positive_predictions'] > 0 else 0
             report += f"  終極嚴格比例: {ultra_ratio:.1%} - PUA+頓號格式標準化程度\n"
@@ -577,7 +577,7 @@ class HybridLevelSymbolDetector:
             'results': results_data
         }
         
-        # Linus式解決方案：序列化前統一轉換 numpy 類型
+        # 決方案：序列化前統一轉換 numpy 類型
         output_data = convert_numpy_types(output_data)
         
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -598,14 +598,14 @@ class HybridLevelSymbolDetector:
 def main():
     """主函數 - 演示三層混合檢測器"""
     print("🚀 啟動三層混合層級符號檢測器 (推理專用)")
-    print("基於 Linus '分層過濾' 原則：嚴格 → 軟規則 → 聚合")
+    print("'分層過濾' 原則：嚴格 → 軟規則 → 聚合")
     print("="*60)
     
     # 初始化檢測器
     detector = HybridLevelSymbolDetector()
     
     # 檢查是否有已訓練的模型
-    model_path = "bert_level_detector/best_model"
+    model_path = "models/bert/level_detector/best_model"
     if Path(model_path).exists():
         print("📦 載入已訓練的 BERT 模型...")
         detector.load_bert_model(model_path)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 模型比較評估工具
-基於 Linus "好品味" 原則：簡單而有效的比較
+基於  "好品味" 原則：簡單而有效的比較
 
 比較模型：
 1. 邏輯回歸 (Logistic Regression)
@@ -48,9 +48,9 @@ plt.rcParams['axes.unicode_minus'] = False
 class ModelComparisonEvaluator:
     """模型比較評估器"""
     
-    def __init__(self, output_dir: str = "model_comparison_results"):
+    def __init__(self, output_dir: str = "output/model_comparison"):
         self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(exist_ok=True)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # 模型存儲
         self.models = {}
@@ -139,6 +139,7 @@ class ModelComparisonEvaluator:
             
             print(f"✅ {name} 訓練完成")
             print(f"   準確率: {metrics['accuracy']:.4f}")
+            print(f"   召回率: {metrics['recall']:.4f}")
             print(f"   F1分數: {metrics['f1_score']:.4f}")
             print(f"   AUC: {metrics['auc']:.4f}")
     
@@ -146,7 +147,7 @@ class ModelComparisonEvaluator:
         """評估現有的 BERT 模型"""
         print("\n🤖 評估 BERT 模型...")
         
-        bert_model_path = "models/bert/level_detector/best_model"
+        bert_model_path = "models/training/best_model"
         if not Path(bert_model_path).exists():
             print(f"❌ 找不到 BERT 模型: {bert_model_path}")
             print("請先訓練 BERT 模型")
@@ -197,6 +198,7 @@ class ModelComparisonEvaluator:
         
         print(f"✅ BERT 評估完成")
         print(f"   準確率: {metrics['accuracy']:.4f}")
+        print(f"   召回率: {metrics['recall']:.4f}")
         print(f"   F1分數: {metrics['f1_score']:.4f}")
         print(f"   AUC: {metrics['auc']:.4f}")
     
@@ -387,22 +389,12 @@ class ModelComparisonEvaluator:
             f.write(f"- **AUC**: {best_metrics['auc']:.4f}\n\n")
             
             f.write("## 模型分析\n\n")
-            f.write("### 傳統機器學習 vs BERT\n")
             
             traditional_models = [name for name in metrics_df.index if name != 'BERT']
             if 'BERT' in metrics_df.index:
                 bert_f1 = metrics_df.loc['BERT', 'f1_score']
                 best_traditional_f1 = max([metrics_df.loc[name, 'f1_score'] for name in traditional_models])
-                
-                if bert_f1 > best_traditional_f1:
-                    f.write("- **BERT 模型表現最佳**，深度學習在文本分類任務上的優勢明顯\n")
-                else:
-                    f.write("- **傳統機器學習模型表現更佳**，可能是由於數據集特性或 BERT 過擬合\n")
             
-            f.write("\n### 建議\n")
-            f.write("- 生產環境推薦使用最佳模型進行層級符號檢測\n")
-            f.write("- 考慮模型複雜度與性能的平衡\n")
-            f.write("- 定期重新評估和更新模型\n")
 
 
 def main():

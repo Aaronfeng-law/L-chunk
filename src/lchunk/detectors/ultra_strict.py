@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 終極嚴格格式層級檢測器
-基於 Linus "零容忍" 原則：
+基於  "零容忍" 原則：
 "規則要麼是絕對的，要麼就不是規則"
 
 終極嚴格規則：
@@ -78,7 +78,7 @@ class UltraStrictDetector:
             }
         }
         
-        # PUA符號分組 - 基於格式精確分類（Linus式零容忍分組）
+        # PUA符號分組 - 基於格式精確分類（零容忍分組）
         self.pua_symbol_groups = self._init_pua_groups()
         
         # PUA範圍 (Private Use Area) - 終極精確定義
@@ -94,7 +94,7 @@ class UltraStrictDetector:
             self.all_valid_chars.update(category_info["chars"])
     
     def _init_pua_groups(self) -> Dict:
-        """初始化PUA符號分組 - Linus式精確分類
+        """初始化PUA符號分組 - 精確分類
         
         分組原則：
         1. 全形 vs 半形分開
@@ -196,7 +196,7 @@ class UltraStrictDetector:
         return False, "無效字符"
     
     def get_pua_group(self, char: str) -> str:
-        """獲取PUA字符的精確分組（Linus式零容忍分類）
+        """獲取PUA字符的精確分組（零容忍分類）
         
         特殊合併規則：PUA_全形阿拉伯數字_原數字 → 全形數字
         """
@@ -209,7 +209,7 @@ class UltraStrictDetector:
         for group_name, group_info in self.pua_symbol_groups.items():
             for start, end in group_info["ranges"]:
                 if start <= code_point <= end:
-                    # Linus式合併：PUA全形數字與標準全形數字統一
+                    # 合併：PUA全形數字與標準全形數字統一
                     if group_name == "PUA_全形阿拉伯數字_原數字":
                         return "全形數字"  # 合併到標準全形數字類別
                     return group_name
@@ -388,7 +388,7 @@ class UltraStrictDetector:
         
         report = f"""
 ============================================================
-⚡ 終極嚴格格式層級檢測報告 (Linus式精確分組)
+⚡ 終極嚴格格式層級檢測報告 (精確分組)
 ============================================================
 
 🔒 終極嚴格規則 (零容忍):
@@ -414,7 +414,7 @@ class UltraStrictDetector:
         
         # PUA精確分組統計
         if analysis["by_pua_group"]:
-            report += f"\n🎯 PUA精確分組 (Linus式零容忍分類):\n"
+            report += f"\n🎯 PUA精確分組 (零容忍分類):\n"
             for group_name, group_data in analysis["by_pua_group"].items():
                 format_type = group_data.get("format_type", "未知")
                 level = group_data.get("level", 0)
@@ -474,7 +474,6 @@ def main():
     INPUT_FILE = "data/sample/TPDM,111,易,564,20250113,1.json"
     
     print("⚡ 啟動終極嚴格格式層級檢測器")
-    print("基於 Linus '零容忍' 原則")
     print("規則：\\r\\n + 單字符 + 、(零例外)")
     print()
     
