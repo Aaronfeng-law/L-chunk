@@ -38,18 +38,6 @@ detector = IntelligentHybridDetector()
 result = detector.process_single_file("path/to/document.json")
 ```
 
-## 📜 命令行工具
-
-```bash
-# 檢測文檔
-lchunk-detect path/to/documents/
-
-# 訓練模型  
-lchunk-train
-
-# 模型比較
-lchunk-compare
-```
 
 ## 🎯 核心特性
 
@@ -62,14 +50,8 @@ lchunk-compare
 
 ```bash
 # 開發安裝
-pip install -e ".[dev]"
+pip install -e 
 
-# 運行測試
-pytest tests/
-
-# 代碼格式化
-black src/
-```
 
 ## 📊 性能
 
