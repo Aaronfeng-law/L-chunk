@@ -19,4 +19,3 @@
 ### process_single_file
 處理單個 JSON 文檔。
 
-詳細使用方法請參考源代碼中的文檔字符串。
