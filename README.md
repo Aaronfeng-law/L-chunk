@@ -48,7 +48,7 @@ result = detector.process_single_file("path/to/document.json")
 
 ## 🔧 開發
 
-```bash
+
 # 開發安裝
 pip install -e 
 
