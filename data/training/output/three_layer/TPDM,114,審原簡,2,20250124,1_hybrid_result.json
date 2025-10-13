@@ -1,0 +1,214 @@
+{
+  "source_file": "data/filted/TPDM,114,審原簡,2,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:05.964414",
+  "processing_time": 0.043405771255493164,
+  "statistics": {
+    "total_lines": 198,
+    "candidate_lines": 15,
+    "bert_processed_lines": 15,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 198,
+    "positive_predictions": 15,
+    "positive_ratio": 0.07575757575757576,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 173,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 10,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 15,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9997780481974284,
+      "std": 4.456774165102168e-05,
+      "min": 0.9996553659439087,
+      "max": 0.9998251795768738,
+      "count": 15
+    }
+  },
+  "markers": [
+    {
+      "line_number": 34,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除犯罪事實欄一倒數第1至5行「並扣",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告3人所為，均係犯刑法第268條前段意圖營利供給賭博",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告3人不思以正途賺取財物，竟提供賭博場所及賭",
+      "rule_score": 0.5,
+      "bert_score": 0.9998251795768738,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告3人均未曾因故意犯罪受有期徒刑以上刑之宣告，符合",
+      "rule_score": 0.5,
+      "bert_score": 0.9997826218605042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997761845588684,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告3人均否認獲有犯罪所得，又卷內並無積極證據足認被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997239708900452,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡扣案如附表編號1至12所示之物，係被告吳若有所實際管領且",
+      "rule_score": 0.5,
+      "bert_score": 0.9997115731239319,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢扣案如附表編號13至15所示之手機3支，因與本案犯行無關，",
+      "rule_score": 0.5,
+      "bert_score": 0.9996553659439087,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、依刑事訴訟法第449條第2項、第3項、第450條第1項、第454",
+      "rule_score": 0.5,
+      "bert_score": 0.9997808337211609,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997820258140564,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吳若有、郭意潔、尤儷橞共同意圖營利，基於供給賭博場所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998087286949158,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局大安分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999813973903656,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 175,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 177,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告3人所為，均係犯刑法第268條意圖營利供給賭博場所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 187,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

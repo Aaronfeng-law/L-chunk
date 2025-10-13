@@ -1,0 +1,348 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,1367,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:06.787662",
+  "processing_time": 0.10330033302307129,
+  "statistics": {
+    "total_lines": 537,
+    "candidate_lines": 41,
+    "bert_processed_lines": 41,
+    "total_markers": 27,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 27,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 537,
+    "positive_predictions": 27,
+    "positive_ratio": 0.05027932960893855,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 488,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 41,
+        "positive": 27
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3,
+      "大寫中文數字": 2,
+      "圍字數字": 8,
+      "括號數字": 14
+    },
+    "bert_score_stats": {
+      "mean": 0.6609435903885197,
+      "std": 0.4705176763551369,
+      "min": 0.004002450034022331,
+      "max": 0.9998170733451843,
+      "count": 41
+    }
+  },
+  "markers": [
+    {
+      "line_number": 28,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、二所示之虛偽內容，致法院認定謝勝文、謝佩君均非屬歐邑",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998170733451843,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998100399971008,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告固坦承其於前案中，在上揭時、地，以證人身分到",
+      "rule_score": 0.5,
+      "bert_score": 0.9997665286064148,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡本案不爭執事項：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997590184211731,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告為千禧公司之業務人員，曾招攬證人謝勝文、張佩君加",
+      "rule_score": 0.5,
+      "bert_score": 0.9997236132621765,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人謝勝文於前案檢察事務官詢問時陳述：被告招攬我",
+      "rule_score": 0.5,
+      "bert_score": 0.999782383441925,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人張佩君於前案檢察事務官詢問時陳述：我會知道千",
+      "rule_score": 0.5,
+      "bert_score": 0.9997764229774475,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶證人石家安於前案檢察事務官詢問時陳述：我是由被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997356534004211,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷證人賴志賢於偵訊時證述：千禧集團發生事情後，我是",
+      "rule_score": 0.5,
+      "bert_score": 0.9996596574783325,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 223,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "⑸勾稽上開證人謝勝文、張佩君、石家安、賴志賢之證詞",
+      "rule_score": 0.5,
+      "bert_score": 0.9997377991676331,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 251,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴質諸被告與證人謝勝文之對話紀錄（見他字卷第369頁至",
+      "rule_score": 0.5,
+      "bert_score": 0.9997633099555969,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 261,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵再觀以被告與證人張佩君之臉書Messenger對話紀錄截圖",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 300,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶復依據被告與證人賴志賢之LINE對話紀錄截圖照片（見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997163414955139,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 307,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷準上以觀，被告主動、積極為證人謝勝文、張佩君處理",
+      "rule_score": 0.5,
+      "bert_score": 0.9997155070304871,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 324,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴被告曾於其創立之臉書社團「玩匯天使-穩定賺利息」中",
+      "rule_score": 0.5,
+      "bert_score": 0.999797523021698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 350,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵次以，歐邑楓曾召集千禧公司之業務人員開會，被告並",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 362,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶再由歐邑楓於該會議中之發言，例如：「要撐下去，我",
+      "rule_score": 0.5,
+      "bert_score": 0.999651312828064,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 409,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷此外，千禧公司投資者於105年4月1日在中山公民會館聚",
+      "rule_score": 0.5,
+      "bert_score": 0.9997100234031677,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 413,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "⑸依上，被告既然有上述對外招攬不特定投資人、積極推",
+      "rule_score": 0.5,
+      "bert_score": 0.9997790455818176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 428,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告及辯護人前開辯詞不可採之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.999761164188385,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 486,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上所述，被告及辯護人所辯各節均不足採信，故本案事證",
+      "rule_score": 0.5,
+      "bert_score": 0.9996933937072754,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 488,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 489,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第168條之偽證罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996929168701172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 490,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡起訴書就被告於前案具結後虛偽證稱之內容，雖漏未記載如",
+      "rule_score": 0.5,
+      "bert_score": 0.9996964931488037,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 498,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌被告藐視證人到庭作證應據實陳述之義務、責任，於",
+      "rule_score": 0.5,
+      "bert_score": 0.9997969269752502,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,114,審簡,79,20250131,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:09.345429",
+  "processing_time": 0.04861187934875488,
+  "statistics": {
+    "total_lines": 92,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 92,
+    "positive_predictions": 14,
+    "positive_ratio": 0.15217391304347827,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 72,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.824264755445149,
+      "std": 0.3791395371443212,
+      "min": 0.004498021211475134,
+      "max": 0.9998055100440979,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實要旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、下列證據足證上開犯罪事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠自願受搜索同意書、臺北市政府警察局萬華分局搜索扣押筆",
+      "rule_score": 0.5,
+      "bert_score": 0.9997480511665344,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡臺北市政府警察局萬華分局刑事案件報告書。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997579455375671,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢交通部民用航空局航空醫務中心113年7月1日航藥鑑字第00000",
+      "rule_score": 0.5,
+      "bert_score": 0.9997460246086121,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告陳子淇於本院訊問時之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997441172599792,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯毒品危害防制條例第11條第2項之持有第二",
+      "rule_score": 0.5,
+      "bert_score": 0.9997455477714539,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按對於未發覺之罪自首而受裁判者，得減輕其刑，刑法第62",
+      "rule_score": 0.5,
+      "bert_score": 0.999739944934845,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌毒品之流通及持有，危害國人身心健康及社會秩序，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997898936271667,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第450條第1項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於收受送達判決之日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997826218605042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本件經檢察官林婉儀提起公訴、檢察官李進榮到庭執行職務",
+      "rule_score": 0.5,
+      "bert_score": 0.9997853636741638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

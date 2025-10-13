@@ -1,0 +1,169 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2784,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:39.820569",
+  "processing_time": 0.03780174255371094,
+  "statistics": {
+    "total_lines": 102,
+    "candidate_lines": 15,
+    "bert_processed_lines": 15,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 102,
+    "positive_predictions": 11,
+    "positive_ratio": 0.10784313725490197,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 85,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 15,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.7344704853060345,
+      "std": 0.44000028760318316,
+      "min": 0.0036253074649721384,
+      "max": 0.9998106360435486,
+      "count": 15
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，均引用起訴書之記載(如附件)。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997990727424622,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告李耀鈞所為，係犯刑法第171條第1項之未指定犯人誣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997996687889099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、犯誣告之罪，於所誣告之案件裁判確定前自白者，減輕或免",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、爰審酌被告謊報其自用小客車失竊，造成偵查犯罪資源無端",
+      "rule_score": 0.5,
+      "bert_score": 0.9998064637184143,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997784495353699,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、李耀鈞明知其所有之車牌號碼000-0000號自用小客車(下稱系",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺灣高雄地方檢察署檢察官自動檢舉簽分偵辦後陳請臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998094439506531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實業據被告李耀鈞於本署113年5月3日訊問時坦承",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告李耀鈞所為，係犯刑法第171條第1項之未指定犯人誣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997996687889099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

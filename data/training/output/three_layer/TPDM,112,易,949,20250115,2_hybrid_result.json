@@ -1,0 +1,469 @@
+{
+  "source_file": "data/filted/TPDM,112,易,949,20250115,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:05.122820",
+  "processing_time": 0.10190987586975098,
+  "statistics": {
+    "total_lines": 693,
+    "candidate_lines": 41,
+    "bert_processed_lines": 41,
+    "total_markers": 38,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 38,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 693,
+    "positive_predictions": 38,
+    "positive_ratio": 0.05483405483405483,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 647,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 41,
+        "positive": 38
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 27,
+      "天干": 2,
+      "大寫中文數字": 8,
+      "帶圈數字": 1
+    },
+    "bert_score_stats": {
+      "mean": 0.9271369073085669,
+      "std": 0.2585932084092977,
+      "min": 0.004585420247167349,
+      "max": 0.9998164772987366,
+      "count": 41
+    }
+  },
+  "markers": [
+    {
+      "line_number": 33,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃忠盛分別與許瓏璇、真實姓名年籍不詳之成年女子「李小",
+      "rule_score": 0.5,
+      "bert_score": 0.9998080134391785,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、許瓏璇意圖為自己不法之所有，基於詐欺取財之犯意，於附",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告許瓏璇及其辯護人爭執被害人鄭菊珍、告訴人盧麗梅、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998024106025696,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告許瓏璇及辯護人另爭執被告黃忠盛於偵查中之供述、被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998019337654114,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告以外之人於審判外之言詞或書面陳述，除法律有規定者",
+      "rule_score": 0.5,
+      "bert_score": 0.9998058676719666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、本案認定事實引用之卷內非供述證據，並無證據證明係公務",
+      "rule_score": 0.5,
+      "bert_score": 0.9997743964195251,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、事實認定部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997848868370056,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告等皆為煊信公司業務人員，被告許瓏璇另以唐朝公司業",
+      "rule_score": 0.5,
+      "bert_score": 0.9998131394386292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、附表一編號1部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、附表一編號2部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997994303703308,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、附表一編號3至9部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998030066490173,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 245,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "③之金錢予她，我有一直催她說怎麼那麼久，她都說廟方在",
+      "rule_score": 0.5,
+      "bert_score": 0.9997097849845886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 385,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告等及辯護人所執前揭辯詞俱不足採之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997897744178772,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 425,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，本案事證明確，被告等上開犯行均堪認定，均應",
+      "rule_score": 0.5,
+      "bert_score": 0.9997721314430237,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 427,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 428,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告黃忠盛就附表一編號1、2部分，均係犯刑法第339條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 431,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告黃忠盛分別與被告許瓏璇、「李小姐」就附表一編號1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 434,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告等就附表一編號1所示之犯行、被告黃忠盛就附表一編",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 440,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告黃忠盛所犯上開2罪、被告許瓏璇所犯上開8罪，犯意各",
+      "rule_score": 0.5,
+      "bert_score": 0.9997705817222595,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 442,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告黃忠盛前因公共危險案件，經本院以108年度交簡字第8",
+      "rule_score": 0.5,
+      "bert_score": 0.9997867941856384,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 450,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、爰審酌被告等正值青壯，應有謀生能力，竟不思以正途賺取",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 469,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 470,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪所得",
+      "rule_score": 0.5,
+      "bert_score": 0.9997994303703308,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 520,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、犯罪所用之物",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 529,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至其餘扣案物無證據證明與本件有關，爰均不宣告沒收。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 530,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、無罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 531,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、公訴意旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 532,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告等另共謀詐欺告訴人蔡裕童，由被告許瓏璇於110年9月",
+      "rule_score": 0.5,
+      "bert_score": 0.9998164772987366,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 538,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、關於被告黃忠盛所為如本判決附表一編號2部分犯行，以「",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 542,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、關於被告許瓏璇所為如本判決附表一編號3至9部分犯行，被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997901320457458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 545,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、按犯罪事實應依證據認定之，無證據不得認定犯罪事實。又",
+      "rule_score": 0.5,
+      "bert_score": 0.9997814297676086,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 563,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997597336769104,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 564,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨一部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 619,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、公訴意旨二部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 636,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨三部分",
+      "rule_score": 0.5,
+      "bert_score": 0.999790608882904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 661,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、綜上所述，公訴人所引證據，尚未達於一般人均可確信而無",
+      "rule_score": 0.5,
+      "bert_score": 0.9998056292533875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

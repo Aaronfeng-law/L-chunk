@@ -1,0 +1,248 @@
+{
+  "source_file": "data/filted/TPDM,113,選訴,1,20250116,5.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:00.638602",
+  "processing_time": 0.5270729064941406,
+  "statistics": {
+    "total_lines": 249,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 249,
+    "positive_predictions": 18,
+    "positive_ratio": 0.07228915662650602,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 221,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "大寫中文數字": 2,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9002151504158974,
+      "std": 0.29869302884563687,
+      "min": 0.0036461669951677322,
+      "max": 0.9998218417167664,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 36,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、余玄名（關於余玄名所涉犯行，由本院另行審結）與Telegr",
+      "rule_score": 0.5,
+      "bert_score": 0.9998218417167664,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局刑事警察大隊報告臺灣臺北地方檢察",
+      "rule_score": 0.5,
+      "bert_score": 0.9998182654380798,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上開事實，業據被告3人於本院準備程序及審理中均坦承不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998026490211487,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑罰有關投票行賄、受賄罪之規定，旨在防止賄賂或不正",
+      "rule_score": 0.5,
+      "bert_score": 0.9997313618659973,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按共同實施犯罪行為之人，在合同意思範圍以內，各自分擔犯罪行為之一部，相互利用他人之行為，以達其犯罪之目的者，即應對於全部所發生之結果，共同負責，無分別何一行為係何一共犯所實行之必要，故行為人係基於共同行為決意，所參與者係犯罪構成要件之行為，而與其他共同實施犯罪行為之人，各自分擔犯罪行為之一部，即應對於全部發生之結果共同負責，均屬共同正犯（最高法院107年度台上字第4198號、106年度台上字第137號判決意旨參照）。查被告3人基於對連署人行賄之犯意聯絡，與共同被告余玄名分工為事實欄所示之行為，均係達成交付賄賂連署人之目的所不可或缺，是被告3人與其餘共同被告間，就總統選罷法第87條第1項第2款之對連署人交付賄賂犯行，有犯意聯絡及行為分擔，應論以共同正犯。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997608065605164,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按成年人教唆、幫助或利用兒童及少年犯罪或與之共同實施",
+      "rule_score": 0.5,
+      "bert_score": 0.9997630715370178,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰以行為人之責任為基礎，審酌公正選舉乃民主制度之基石",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤按犯本章之罪或刑法分則第六章之妨害投票罪，宣告有期徒",
+      "rule_score": 0.5,
+      "bert_score": 0.9997428059577942,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 197,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告3人均未曾因故意犯罪受有期徒刑以上刑之宣告，已如前",
+      "rule_score": 0.5,
+      "bert_score": 0.9997496008872986,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠扣案如附表所示之物，為被告許維臻所有，用以做本案聯絡",
+      "rule_score": 0.5,
+      "bert_score": 0.9996871948242188,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 220,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡同案被告余玄名雖交付被告許維臻之1萬6,000顆USDT，惟其中1萬2,000顆係余玄名清償被告許維臻之欠款，僅有4,000顆係用以交付賄賂，此為被告許維臻於本院審理中所陳明（見本院選訴卷二第61頁）。又依本案文字訊息載明需500張身分證，1張200元計算，所需之賄賂金額為10萬元，而USDT之價值與美元相仿，計算所需之USDT為3,000餘顆（100,000÷32=3125），與被告許維臻所述4,000顆USDT為交付賄賂之用相近，堪信被告許維臻所述應屬實在。上開4,000顆USDT既屬作為交付連署人之賄賂，雖未扣案，本應依總統選罷法第87條第3項規定全數宣告沒收，惟因其中279顆已經交付予同案被告陳郁翔，且因屬陳郁翔之犯罪所得，已由本院於另案即本院114年度選簡字第1號宣告沒收，而無重複宣告沒收之必要。僅於本案中就其中3,721顆USDT均宣告沒收，並於全部或一部不能沒收或不宜執行沒收時，均追徵其價額。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997724890708923,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 238,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、對於團體或機構，假借捐助名義，行求期約或交付財物或其",
+      "rule_score": 0.5,
+      "bert_score": 0.9998168349266052,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 241,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、對連署人行求期約或交付賄賂或其他不正利益，使其為特定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998050332069397,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 243,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、對罷免案提議人或同意人行求期約或交付賄賂或其他不正利",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4247,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:37.259337",
+  "processing_time": 0.04734492301940918,
+  "statistics": {
+    "total_lines": 188,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 188,
+    "positive_predictions": 14,
+    "positive_ratio": 0.07446808510638298,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 166,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 14
+    },
+    "bert_score_stats": {
+      "mean": 0.8239997957613977,
+      "std": 0.37976918089054945,
+      "min": 0.003207707079127431,
+      "max": 0.9998151659965515,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實與認定事實所憑證據之部分，均引用檢察官聲",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第450條第1項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997822642326355,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應於判決送達後20日內，向本庭提出上訴狀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997746348381042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、高習智意圖為他人不法之所有，能預見交付電話號碼供他人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經康芳瑜訴由高雄市政府警察局刑事警察大隊報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998151659965515,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第30條第1項、刑法第339條第1項之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998031258583069,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實：高習智可預見行動電話門號若任意交付他人使用",
+      "rule_score": 0.5,
+      "bert_score": 0.999811589717865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、所犯法條：刑法第30條第1項、第339條第1項之幫助詐欺取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997993111610413,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、併案意旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997813105583191,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

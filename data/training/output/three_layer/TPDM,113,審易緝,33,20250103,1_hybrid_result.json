@@ -1,0 +1,126 @@
+{
+  "source_file": "data/filted/TPDM,113,審易緝,33,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:30.891118",
+  "processing_time": 0.025037765502929688,
+  "statistics": {
+    "total_lines": 114,
+    "candidate_lines": 8,
+    "bert_processed_lines": 8,
+    "total_markers": 7,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 7,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 114,
+    "positive_predictions": 7,
+    "positive_ratio": 0.06140350877192982,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 102,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 8,
+        "positive": 7
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8754550567828119,
+      "std": 0.328953561610398,
+      "min": 0.005125742405653,
+      "max": 0.9998200535774231,
+      "count": 8
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略稱：被告昌明弘基於公然侮辱之犯意，於民國10",
+      "rule_score": 0.5,
+      "bert_score": 0.9998200535774231,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按案件時效已完成者，應諭知免訴之判決，並得不經言詞辯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠刑法第309條第1項部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997687935829163,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡追訴權時效部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997569918632507,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜合上述各條文修正前、後之規定，依法律變更比較適用所",
+      "rule_score": 0.5,
+      "bert_score": 0.9997509121894836,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按案件時效已完成者，應諭知免訴之判決，且得不經言詞辯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998124241828918,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、查本案被告被訴犯公然侮辱罪，而公然侮辱罪之最高法定刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997910857200623,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

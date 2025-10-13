@@ -1,0 +1,214 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上,24,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:42.054260",
+  "processing_time": 0.5614304542541504,
+  "statistics": {
+    "total_lines": 108,
+    "candidate_lines": 15,
+    "bert_processed_lines": 15,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 108,
+    "positive_predictions": 15,
+    "positive_ratio": 0.1388888888888889,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 90,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 15,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9997954169909159,
+      "std": 2.5681258351560784e-05,
+      "min": 0.9997202754020691,
+      "max": 0.9998173117637634,
+      "count": 15
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經本院審理結果，認原審以上訴人即被告蔡欣展犯過失",
+      "rule_score": 0.5,
+      "bert_score": 0.9998119473457336,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告上訴意旨略以：我是碰到不是踩到，告訴人的傷跟我碰",
+      "rule_score": 0.5,
+      "bert_score": 0.9998156428337097,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、上訴駁回之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998152852058411,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠行人行走時本應注意腳步，避免踩踏前方行人，此為一般人所應知悉，並應確實遵守，被告依其能力及經驗當應注意上情，而據本院於準備程序對案發時月台監視器錄影影像檔案踐行勘驗程序，並製成勘驗筆錄及擷取影像截圖所示：「畫面右上方顯示0000-00-00 00：53：52開始，可見告訴人自畫面右方步行進入畫面前行，步速與其餘身旁行人相同，被告步行走在告訴人後方，2人步速與其餘身旁行人相同，55秒時，可見被告臉朝前方，右腳往前時踩到告訴人右腳跟及所穿拖鞋並往下踩（如附圖1、2），告訴人右腳旋因右腳拖鞋被被告踩住而相應停留在原地致雙腳呈現弓箭步（如附圖3），身體亦相應微蹲，告訴人旋即回頭往後看向自己右腳再看向被告，同時被告始將右腳抬起，可見告訴人口中出言貌，被告未停步而自告訴人身旁繞離前走二步後始停步看向告訴人，二人交談貌，在旁身著反光背心之捷運站務人員見狀走向被告及告訴人二人，告訴人同時看向站務人員並手指被告，三人交談貌，嗣另一站務人員走來，四人持續交談，告訴人手指被告持續交談，站務人員看向告訴人腳部」，足徵被告確有行走時疏未注意腳步及前方行人而踩到前方告訴人右腳後跟之過失，告訴人步速既未突減，本案事故發生自與告訴人當時是否使用手機無涉。再衡以當時告訴人後腳跟裸露而無任何鞋面保護，被穿著鞋子之成年男性被告之行走速度與力度踩到，確實會造成前揭傷勢，被告之過失行為，依案發當時之情狀而為客觀事後審查，咸認足以發生告訴人之傷害結果，兩者間確有相當因果關係無訛。被告所辯前詞，核與事實不符，實非可採。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡綜上所述，被告上訴始改口否認犯罪並執前揭情詞指摘原審",
+      "rule_score": 0.5,
+      "bert_score": 0.9997202754020691,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據部分增加「被告蔡欣展於本院",
+      "rule_score": 0.5,
+      "bert_score": 0.9998080134391785,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第284條前段之過失傷害罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰以行為人之責任為基礎，審酌被告犯後態度、過失情節、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998148083686829,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，依刑事訴訟法第449條第2項、第3項、第454條第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997937083244324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、蔡欣展於民國112年7月17日18時53分許，在臺北市大安區忠",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經陳祈安訴由臺北市政府警察局大安分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998173117637634,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第284條前段之過失傷害罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

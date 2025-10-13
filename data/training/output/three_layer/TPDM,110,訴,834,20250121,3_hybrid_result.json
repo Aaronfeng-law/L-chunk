@@ -1,0 +1,314 @@
+{
+  "source_file": "data/filted/TPDM,110,訴,834,20250121,3.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:24:47.494122",
+  "processing_time": 0.07488560676574707,
+  "statistics": {
+    "total_lines": 317,
+    "candidate_lines": 25,
+    "bert_processed_lines": 25,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 317,
+    "positive_predictions": 24,
+    "positive_ratio": 0.07570977917981073,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 291,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 25,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 2,
+      "中文數字": 9,
+      "圍字數字": 13
+    },
+    "bert_score_stats": {
+      "mean": 0.9600360715761781,
+      "std": 0.19454411591847157,
+      "min": 0.006968469358980656,
+      "max": 0.9998218417167664,
+      "count": 25
+    }
+  },
+  "markers": [
+    {
+      "line_number": 26,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、有罪部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、程序方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997938275337219,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、本案逮捕被告林煒翔之程序為合法：",
+      "rule_score": 0.5,
+      "bert_score": 0.9996789693832397,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、本案司法警察對被告所為採尿程序為合法：",
+      "rule_score": 0.5,
+      "bert_score": 0.9996814727783203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、除前揭被告有爭執之部分外，本判決所引用下列各項審判外",
+      "rule_score": 0.5,
+      "bert_score": 0.9997174143791199,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、得心證之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告於110年1月15日下午5時40分為警所採尿液，係由被告本",
+      "rule_score": 0.5,
+      "bert_score": 0.9996997117996216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、上開尿液檢體經送台灣尖端先進生技醫藥股份有限公司（下",
+      "rule_score": 0.5,
+      "bert_score": 0.9997292160987854,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、依毒品檢驗學上之常規，尿液中含毒品成分反應所使用之檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9997318387031555,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、再參以被告於偵查時、本院訊問時，原均坦承其有施用古柯",
+      "rule_score": 0.5,
+      "bert_score": 0.9997380375862122,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 162,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、綜上所述，本案事證明確，被告嗣後改口辯稱沒有施用古柯",
+      "rule_score": 0.5,
+      "bert_score": 0.9996351003646851,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑之法律適用：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997991919517517,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 166,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按古柯鹼、大麻分別係毒品危害防制條例第2條第2項第1款、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997197985649109,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 174,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、爰以行為人之責任為基礎，審酌被告前因施用毒品案件，經",
+      "rule_score": 0.5,
+      "bert_score": 0.9997387528419495,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、無罪部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 195,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨另以：被告基於施用第二級毒品GHB之犯意，於110",
+      "rule_score": 0.5,
+      "bert_score": 0.9998218417167664,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 214,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告另涉犯施用第二級毒品GHB罪嫌，無非係以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告固坦承扣案液體4瓶均為伊所有，且有於上開時、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 225,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告於110年1月15日中午12時許，在臺北市萬華區西門町某",
+      "rule_score": 0.5,
+      "bert_score": 0.999718964099884,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 235,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告為警所採尿液及扣案液體，雖均檢出含有GHB成分，惟被",
+      "rule_score": 0.5,
+      "bert_score": 0.9996979236602783,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 284,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、依上所述，本案實難排除被告原係向他人購入GBL即扣案液體",
+      "rule_score": 0.5,
+      "bert_score": 0.9996895790100098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 290,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、本案既不能證明被告犯持有或施用第二級毒品GHB罪，故就",
+      "rule_score": 0.5,
+      "bert_score": 0.9997715353965759,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 293,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上，本案依檢察官所舉直接及間接證據，無從使本院形成",
+      "rule_score": 0.5,
+      "bert_score": 0.999782145023346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

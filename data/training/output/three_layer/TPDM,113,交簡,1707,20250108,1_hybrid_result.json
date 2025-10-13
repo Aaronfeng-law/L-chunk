@@ -1,0 +1,213 @@
+{
+  "source_file": "data/filted/TPDM,113,交簡,1707,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:13.033073",
+  "processing_time": 0.04018139839172363,
+  "statistics": {
+    "total_lines": 106,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 106,
+    "positive_predictions": 15,
+    "positive_ratio": 0.14150943396226415,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 87,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 15
+    },
+    "bert_score_stats": {
+      "mean": 0.9375233828614,
+      "std": 0.24119471061618625,
+      "min": 0.003380286041647196,
+      "max": 0.9998167157173157,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、邱秉睿於民國113年11月5日晚間7時至9時許間，在臺北市○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997974038124084,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局中山分局報告臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上開犯罪事實，業據被告邱秉睿於警詢及偵查中均坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997891783714294,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、據上論斷，依刑事訴訟法第449條第1項前段、第3項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998099207878113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，得自收受判決書送達之翌日起20日內，向本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997867941856384,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吐氣所含酒精濃度達每公升零點二五毫克或血液中酒精濃度",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、有前款以外之其他情事足認服用酒類或其他相類之物，致不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、尿液或血液所含毒品、麻醉藥品或其他相類之物或其代謝物",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、有前款以外之其他情事足認施用毒品、麻醉藥品或其他相類",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、邱秉睿於民國113年11月5日晚間7時至9時許間，在臺北市○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997974038124084,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局中山分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告邱秉睿於警詢及偵查中均坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997908473014832,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第185條之3第1項第1款之駕駛動力交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

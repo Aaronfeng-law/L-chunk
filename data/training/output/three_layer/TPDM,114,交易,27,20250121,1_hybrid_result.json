@@ -1,0 +1,136 @@
+{
+  "source_file": "data/filted/TPDM,114,交易,27,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:03.213543",
+  "processing_time": 0.053868770599365234,
+  "statistics": {
+    "total_lines": 91,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 91,
+    "positive_predictions": 8,
+    "positive_ratio": 0.08791208791208792,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 79,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.8901550161341826,
+      "std": 0.3101359446421447,
+      "min": 0.012958098202943802,
+      "max": 0.9998167157173157,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、聲請意旨詳如附件所示之聲請簡易判決處刑書所載。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 14,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查，被告陳周榮所犯刑法第284條過失傷害罪嫌，依同法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997918009757996,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳周榮於民國111年7月15日上午8時44分許，騎乘車牌號碼0",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經劉美娟訴由臺北市政府警察局文山第二分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告陳周榮於警詢時及偵查中坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第284條前段之過失傷害罪嫌。又被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2287,20250102,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:32.496387",
+  "processing_time": 0.05049300193786621,
+  "statistics": {
+    "total_lines": 155,
+    "candidate_lines": 22,
+    "bert_processed_lines": 22,
+    "total_markers": 21,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 21,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 155,
+    "positive_predictions": 21,
+    "positive_ratio": 0.13548387096774195,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 128,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 22,
+        "positive": 21
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.954477628915232,
+      "std": 0.20757383852521338,
+      "min": 0.0032548096496611834,
+      "max": 0.999819815158844,
+      "count": 22
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃騰宇於民國112年7月1日8時34分前之同年某日時許，加入",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上揭犯罪事實，業據被告於偵查及本院審理中均坦承不諱，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按共同正犯之意思聯絡，不限於事前有所協議，其於行為當",
+      "rule_score": 0.5,
+      "bert_score": 0.9997920393943787,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜據上情，本案事證明確，被告犯行洵堪認定，應依法論科",
+      "rule_score": 0.5,
+      "bert_score": 0.9997740387916565,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.999776303768158,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告行為後，詐欺犯罪危害防制條例已於113年8月2日施行，",
+      "rule_score": 0.5,
+      "bert_score": 0.999729573726654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告就附表一編號1至11所為，均係犯刑法第339條之4第1",
+      "rule_score": 0.5,
+      "bert_score": 0.999738872051239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告如附表一編號1至編號11所示犯行，犯行時間與法益侵害",
+      "rule_score": 0.5,
+      "bert_score": 0.999743640422821,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告於偵、審中均坦承犯行，且查無犯罪所得（詳下述），",
+      "rule_score": 0.5,
+      "bert_score": 0.9997336268424988,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌被告明知現今社會詐欺集團",
+      "rule_score": 0.5,
+      "bert_score": 0.9997884631156921,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥緩刑之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997612833976746,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997678399085999,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告就本案並未獲得報酬一節，業據被告供陳在卷（見偵卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按犯詐欺犯罪，其供犯罪所用之物，不問屬於犯罪行為人與",
+      "rule_score": 0.5,
+      "bert_score": 0.9997174143791199,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、據上論斷，應依刑事訴訟法第449條第2項、第3項、第450條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997971653938293,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、如不服本判決，應於收受送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997861981391907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、本案經檢察官郭千瑄偵查起訴，檢察官李豫雙、盧慧珊、林",
+      "rule_score": 0.5,
+      "bert_score": 0.9997881054878235,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 149,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

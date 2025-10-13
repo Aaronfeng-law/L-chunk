@@ -1,0 +1,236 @@
+{
+  "source_file": "data/filted/TPDM,113,易,973,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:32.907357",
+  "processing_time": 0.05657172203063965,
+  "statistics": {
+    "total_lines": 231,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 231,
+    "positive_predictions": 17,
+    "positive_ratio": 0.0735930735930736,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 205,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 12
+    },
+    "bert_score_stats": {
+      "mean": 0.8949354279198145,
+      "std": 0.30561776043417127,
+      "min": 0.003704522270709276,
+      "max": 0.9998190999031067,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、熊振華於民國112年11月28日晚間6時許，將車牌號碼000-00",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經許字明訴由臺北市政府警察局文山第一分局報告臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998190999031067,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據能力之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998146891593933,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告熊振華之辯護人雖爭執證人即告訴人許字明警詢陳述之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997547268867493,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡本院引用被告以外之人於審判外之陳述，經本院審理時逐項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997634291648865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998113512992859,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告固坦承於前揭時間、地點徒手抓住告訴人之衣領，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997743964195251,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，被告於前揭時間、地點徒手抓住告訴人之衣領，並為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997063279151917,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告徒手抓住告訴人之衣領長達約27秒，以此強暴方式阻擋",
+      "rule_score": 0.5,
+      "bert_score": 0.9997403025627136,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告公然辱罵告訴人「很垃圾的人」、「有夠垃圾」等語，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997050166130066,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤至起訴書雖記載被告違規停車之地點為「臺北市○○區○○路0段",
+      "rule_score": 0.5,
+      "bert_score": 0.9997686743736267,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 187,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥綜上，本案事證明確，被告上開犯行堪以認定，應依法論科",
+      "rule_score": 0.5,
+      "bert_score": 0.9997357726097107,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第304條第1項之強制罪、同法第309條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997432827949524,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告數次口出侮辱言語，係基於單一犯意，於密接之時間、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997194409370422,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告對告訴人所犯上開2罪，係因檢舉違規停車糾紛所生之同",
+      "rule_score": 0.5,
+      "bert_score": 0.9997267127037048,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰審酌被告違規停車在先，而不思虛心檢討，竟因不滿告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997714161872864,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

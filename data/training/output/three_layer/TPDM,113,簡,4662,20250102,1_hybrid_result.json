@@ -1,0 +1,247 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4662,20250102,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:40.069996",
+  "processing_time": 0.052697181701660156,
+  "statistics": {
+    "total_lines": 127,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 127,
+    "positive_predictions": 18,
+    "positive_ratio": 0.14173228346456693,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 101,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9003143944079056,
+      "std": 0.298374693930626,
+      "min": 0.002947427798062563,
+      "max": 0.9998231530189514,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案之犯罪事實及證據，除證據部分補充「本院113年度監",
+      "rule_score": 0.5,
+      "bert_score": 0.9998231530189514,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997056126594543,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人為基礎，審酌被告在下雨天為一時之便，恣意拿",
+      "rule_score": 0.5,
+      "bert_score": 0.9997746348381042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢緩刑部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997448325157166,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997925162315369,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之。前二項之沒收，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997270703315735,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告所竊得之雨傘1把，固為其本案犯罪所得，且未發還予告",
+      "rule_score": 0.5,
+      "bert_score": 0.999705970287323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第449條第1項前段、第3項、第4",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應於判決送達後20日內，向本院提出上訴書",
+      "rule_score": 0.5,
+      "bert_score": 0.9997768998146057,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、曾賢相於民國113年1月3日上午11時許，途經新北市○○區○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9998168349266052,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經陳偉倫訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998111128807068,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998062252998352,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告曾賢相於警詢中之供述。",
+      "rule_score": 0.5,
+      "bert_score": 0.999743640422821,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡告訴人陳偉倫於警詢中之指訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997497200965881,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢監視錄影畫面擷圖1份。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997275471687317,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第320條第1項之竊盜罪嫌。至被告犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

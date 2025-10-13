@@ -1,0 +1,225 @@
+{
+  "source_file": "data/filted/TPDM,113,交簡,1300,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:11.990308",
+  "processing_time": 0.047269344329833984,
+  "statistics": {
+    "total_lines": 97,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 97,
+    "positive_predictions": 16,
+    "positive_ratio": 0.16494845360824742,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 77,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.9411572681000346,
+      "std": 0.23448244842625926,
+      "min": 0.0032274846453219652,
+      "max": 0.9998119473457336,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據均引用檢察官聲請簡易判決處刑書之記",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 15,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告黃呈曜所為，係犯刑法第284條前段之過失傷害罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997245669364929,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡查本案係肇事人親自或話人電話報警，並已報明肇事人姓名",
+      "rule_score": 0.5,
+      "bert_score": 0.9997261166572571,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人之責任為基礎，審酌被告本件過失傷害犯行，造",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第449條第1項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998088479042053,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，得自收受送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃呈曜於民國112年10月28日0時48分許，騎乘車牌號碼000-",
+      "rule_score": 0.5,
+      "bert_score": 0.9998074173927307,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經黃于容訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998119473457336,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告黃呈曜之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997656941413879,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡告訴人黃于容之指訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997847676277161,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢新北市政府警察局新店分局交通事故調查卷宗1份（含道路",
+      "rule_score": 0.5,
+      "bert_score": 0.9996935129165649,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣臺北市立萬芳醫院-委託臺北醫學大學辦理診斷證明書5紙",
+      "rule_score": 0.5,
+      "bert_score": 0.9997418522834778,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第284條前段之過失傷害罪嫌",
+      "rule_score": 0.5,
+      "bert_score": 0.9998025298118591,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

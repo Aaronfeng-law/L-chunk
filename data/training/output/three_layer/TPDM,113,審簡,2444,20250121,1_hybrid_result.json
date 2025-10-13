@@ -1,0 +1,158 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2444,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:35.369646",
+  "processing_time": 0.03127098083496094,
+  "statistics": {
+    "total_lines": 87,
+    "candidate_lines": 10,
+    "bert_processed_lines": 10,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 87,
+    "positive_predictions": 10,
+    "positive_ratio": 0.11494252873563218,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 74,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 10,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.9997994065284729,
+      "std": 9.387729659912887e-06,
+      "min": 0.9997791647911072,
+      "max": 0.9998149275779724,
+      "count": 10
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據名稱引用如附件起訴書之記載，並補充",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑:",
+      "rule_score": 0.5,
+      "bert_score": 0.9997904896736145,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、不予沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第454條第2項，逕以簡易判決",
+      "rule_score": 0.5,
+      "bert_score": 0.9997941851615906,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得於收受送達後之翌日起20日內向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997791647911072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、許連添於民國113年1月31日下午，與友人宇信閤、蘇克緯（",
+      "rule_score": 0.5,
+      "bert_score": 0.9998028874397278,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經唐云利訴由臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第277條第1項之普通傷害罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997984766960144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

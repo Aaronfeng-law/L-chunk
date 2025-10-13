@@ -1,0 +1,468 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,491,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:53.907654",
+  "processing_time": 0.10807371139526367,
+  "statistics": {
+    "total_lines": 593,
+    "candidate_lines": 41,
+    "bert_processed_lines": 41,
+    "total_markers": 38,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 38,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 593,
+    "positive_predictions": 38,
+    "positive_ratio": 0.06408094435075885,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 546,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 41,
+        "positive": 38
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 20,
+      "大寫中文數字": 4,
+      "圍字數字": 14
+    },
+    "bert_score_stats": {
+      "mean": 0.9271227189271551,
+      "std": 0.2585828418274783,
+      "min": 0.004398736171424389,
+      "max": 0.99982088804245,
+      "count": 41
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、何俊賢犯三人以上共同詐欺取財罪，處有期徒刑壹年肆月。",
+      "rule_score": 0.5,
+      "bert_score": 0.99982088804245,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、王皓霆犯三人以上共同詐欺取財罪，處有期徒刑壹年拾月。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、潘恩偉犯三人以上共同詐欺取財罪，處有期徒刑壹年拾月。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997923970222473,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998123049736023,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告何俊賢：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998056292533875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡至被告何俊賢辯護人雖爭執偵44639卷第43頁上方被告王皓霆",
+      "rule_score": 0.5,
+      "bert_score": 0.9997581839561462,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢除上開證據以外，本案據以認定被告何俊賢犯罪之供述證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9997093081474304,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告王皓霆：",
+      "rule_score": 0.5,
+      "bert_score": 0.999798595905304,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告王皓霆之辯護人雖主張證人賴彥伶於偵訊時之證述無證",
+      "rule_score": 0.5,
+      "bert_score": 0.9997403025627136,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢除上開證據以外，本案據以認定被告王皓霆犯罪之供述證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9996895790100098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告潘恩偉：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997848868370056,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、得心證之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997925162315369,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告何俊賢固坦承有於111年4月12日12時30分在臺北市",
+      "rule_score": 0.5,
+      "bert_score": 0.9998063445091248,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告何俊賢於111年4月12日12時30分在臺北市○○區○○路0段00",
+      "rule_score": 0.5,
+      "bert_score": 0.9997403025627136,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人賴彥伶於偵訊時證稱：我在警詢時說的過程都屬實，何",
+      "rule_score": 0.5,
+      "bert_score": 0.9997459053993225,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢另佐以被告何俊賢出具之本案收據上記載：「本人何俊賢於1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997420907020569,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 311,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣至被告何俊賢辯稱：我和告訴人收40萬元是因為我賣2個骨灰",
+      "rule_score": 0.5,
+      "bert_score": 0.9997524619102478,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 390,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤至被告王皓霆辯稱：我不認識潘恩偉，我也不認識賴彥伶，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997534155845642,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 455,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥至被告潘恩偉雖辯稱：我不認識告訴人、王皓霆、何俊賢，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997500777244568,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 484,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、綜上所述，本案事證明確，被告何俊賢、王皓霆、潘恩偉犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 486,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 487,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 488,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告何俊賢、王皓霆、潘恩偉行為後，刑法第339條之4雖於1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997231364250183,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 494,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡詐欺犯罪危害防制條例部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997598528862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 522,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告何俊賢、王皓霆、潘恩偉所為，均係犯刑法第339條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997991919517517,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 524,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告何俊賢、王皓霆、潘恩偉主觀上係基於單一之三人以上",
+      "rule_score": 0.5,
+      "bert_score": 0.9998001456260681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 530,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告何俊賢、王皓霆、潘恩偉於偵查及審理時均未自白犯罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9997822642326355,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 533,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、爰以行為人之責任為基礎，審酌被告何俊賢、王皓霆、潘恩",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 549,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997847676277161,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 550,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告何俊賢供稱：我在本案獲利是20至22萬元等語（訴491",
+      "rule_score": 0.5,
+      "bert_score": 0.999818742275238,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 556,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告王皓霆、潘恩偉均否認本案犯行，卷內復查無積極證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 560,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、觀諸告訴人與被告何俊賢、「潘恩偉」之通話紀錄，及告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 587,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 588,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 589,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 591,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

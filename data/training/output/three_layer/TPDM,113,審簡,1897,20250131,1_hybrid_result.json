@@ -1,0 +1,225 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,1897,20250131,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:31.026068",
+  "processing_time": 0.07752251625061035,
+  "statistics": {
+    "total_lines": 211,
+    "candidate_lines": 29,
+    "bert_processed_lines": 29,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 211,
+    "positive_predictions": 16,
+    "positive_ratio": 0.07582938388625593,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 178,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 29,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.5533228817090777,
+      "std": 0.49500603023596945,
+      "min": 0.0027426525484770536,
+      "max": 0.9998000264167786,
+      "count": 29
+    }
+  },
+  "markers": [
+    {
+      "line_number": 33,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實要旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上列犯罪事實，有下列證據可證：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998000264167786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠證人彭奕翔、A1於警詢及偵訊時之證述。",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人鄭巧梅、朱月秀於警詢時之證述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997698664665222,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢本院112年度聲搜字第002010號搜索票、臺北市政府警察局中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997377991676331,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告甲○、乙○○於本院訊問時之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.99977046251297,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑法第231條第1項前段規定「意圖使男女與他人為性交或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997552037239075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按刑法於94年2月2日修正公布，95年7月1日施行，基於一罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9997064471244812,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌甲○擔任負責人，因擔心店內生意滑落而影響營利，容",
+      "rule_score": 0.5,
+      "bert_score": 0.9997854828834534,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣乙○○於此之前未曾因故意犯罪受有期徒刑以上刑之宣告，有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997571110725403,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第450條第1項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於收受送達判決之日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997826218605042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本案經檢察官黃士元提起公訴，檢察官黃惠欣到庭執行職務",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一。",
+      "rule_score": 0.5,
+      "bert_score": 0.9956393241882324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

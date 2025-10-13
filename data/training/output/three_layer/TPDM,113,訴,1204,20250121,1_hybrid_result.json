@@ -1,0 +1,149 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1204,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:44.659035",
+  "processing_time": 0.033280372619628906,
+  "statistics": {
+    "total_lines": 237,
+    "candidate_lines": 10,
+    "bert_processed_lines": 10,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 237,
+    "positive_predictions": 9,
+    "positive_ratio": 0.0379746835443038,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 225,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 10,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 3,
+      "大寫中文數字": 1
+    },
+    "bert_score_stats": {
+      "mean": 0.9004709194414318,
+      "std": 0.29787248619182094,
+      "min": 0.006853471510112286,
+      "max": 0.9998112320899963,
+      "count": 10
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告邱健銘與簡浚浩、李強等人均為臨時演",
+      "rule_score": 0.5,
+      "bert_score": 0.9998111128807068,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、檢察官認被告涉犯上開罪嫌，無非係以：被告於本案偵查中",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997790455818176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、本件緣係因簡浚浩認被告、鍾振盛等人於本案群組中稱簡浚",
+      "rule_score": 0.5,
+      "bert_score": 0.9996781349182129,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、公訴人固以被告與鍾振盛經簡浚浩於提出告訴時指明同為本",
+      "rule_score": 0.5,
+      "bert_score": 0.9996893405914307,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參（臺北地檢署112年度偵字第703號卷第29頁至第38頁、第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997488856315613,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、綜此，即便被告於前案偵查中所為附表所示之證述與其他證",
+      "rule_score": 0.5,
+      "bert_score": 0.9997377991676331,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，檢察官提出之證據及證明方法，不足以證明被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

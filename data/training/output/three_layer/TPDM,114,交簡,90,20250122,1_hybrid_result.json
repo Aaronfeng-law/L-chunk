@@ -1,0 +1,169 @@
+{
+  "source_file": "data/filted/TPDM,114,交簡,90,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:04.808780",
+  "processing_time": 0.031110286712646484,
+  "statistics": {
+    "total_lines": 77,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 77,
+    "positive_predictions": 11,
+    "positive_ratio": 0.14285714285714285,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 64,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.9997942610220476,
+      "std": 1.1566068458386982e-05,
+      "min": 0.9997721314430237,
+      "max": 0.9998086094856262,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、張舒菱明知服用酒類者，不得駕駛動力交通工具，於民國11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998064637184143,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上開犯罪事實，業據被告張舒菱於警詢及偵查中均坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997949004173279,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告所為，係犯刑法第185條之3第1項第1款之吐氣所含酒",
+      "rule_score": 0.5,
+      "bert_score": 0.9997947812080383,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、爰以行為人責任為基礎，審酌被告明知酒精成分對人之意識",
+      "rule_score": 0.5,
+      "bert_score": 0.9998020529747009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第3項，逕以簡易判決處",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於判決書送達之翌日起20日內，以書狀敘",
+      "rule_score": 0.5,
+      "bert_score": 0.9997721314430237,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本案經檢察官江貞諭聲請以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997749924659729,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吐氣所含酒精濃度達每公升零點二五毫克或血液中酒精濃度",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、有前款以外之其他情事足認服用酒類或其他相類之物，致不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、尿液或血液所含毒品、麻醉藥品或其他相類之物或其代謝物",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、有前款以外之其他情事足認施用毒品、麻醉藥品或其他相類",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

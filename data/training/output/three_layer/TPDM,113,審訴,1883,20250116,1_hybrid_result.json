@@ -1,0 +1,357 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,1883,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:52.152504",
+  "processing_time": 0.09172940254211426,
+  "statistics": {
+    "total_lines": 397,
+    "candidate_lines": 34,
+    "bert_processed_lines": 34,
+    "total_markers": 28,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 28,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 397,
+    "positive_predictions": 28,
+    "positive_ratio": 0.07052896725440806,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 349,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 14,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 34,
+        "positive": 28
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 15
+    },
+    "bert_score_stats": {
+      "mean": 0.8243163701160537,
+      "std": 0.3790230757790327,
+      "min": 0.003066916950047016,
+      "max": 0.999819815158844,
+      "count": 34
+    }
+  },
+  "markers": [
+    {
+      "line_number": 23,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除下列更正與補充外，其餘均引用檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠犯罪事實第一段第23至24行「基於3人以上共同詐欺取財、洗",
+      "rule_score": 0.5,
+      "bert_score": 0.9997712969779968,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證據項目增列「被告曾鈺詅、李彥霖於本院審理中之自白」",
+      "rule_score": 0.5,
+      "bert_score": 0.999729335308075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢理由部分並補充：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997621178627014,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡組織犯罪防制條例係藉由防制組織型態之犯罪活動為手段，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997443556785583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢核被告2人所為，均係犯組織犯罪防制條例第3條第1項後段之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997319579124451,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 174,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣起訴書漏論刑法第216條、第212條之行使偽造特種文書罪，",
+      "rule_score": 0.5,
+      "bert_score": 0.9996848106384277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告2人與所屬詐欺集團成員間，就上開三人以上共同詐欺取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997329115867615,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告2人所犯三人以上共同詐欺取財未遂罪、行使偽造特種文",
+      "rule_score": 0.5,
+      "bert_score": 0.9997188448905945,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦刑之減輕部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997460246086121,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧爰以行為人之責任為基礎，審酌被告2人明知現今社會詐欺集",
+      "rule_score": 0.5,
+      "bert_score": 0.9997822642326355,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "㈨",
+      "unicode_code": "U+3228",
+      "category": "圍字數字",
+      "content": "㈨被告李彥霖未曾因故意犯罪受有期徒刑以上刑之宣告，有臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997300505638123,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 230,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 231,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠犯詐欺犯罪，其供犯罪所用之物，不問屬於犯罪行為人與否",
+      "rule_score": 0.5,
+      "bert_score": 0.9997252821922302,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 251,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告2人於為警逮捕前雖已取得告訴人交付之123萬元（僅其",
+      "rule_score": 0.5,
+      "bert_score": 0.999747097492218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 258,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢就本案犯罪所得部分，被告2人於警詢及本院審理中均稱因本",
+      "rule_score": 0.5,
+      "bert_score": 0.9996929168701172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 262,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第273條之1第1項、第299條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 303,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 304,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 305,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 307,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 339,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、曾鈺詅、李彥霖於民國113年7月1日前之某時許，加入真實",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 372,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經林奇銳訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 374,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 376,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告曾鈺詅、李彥霖所為，均係犯刑法第216、210條行使",
+      "rule_score": 0.5,
+      "bert_score": 0.9998031258583069,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 393,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

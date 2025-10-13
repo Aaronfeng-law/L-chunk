@@ -1,0 +1,291 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,2539,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:11.427247",
+  "processing_time": 0.07582998275756836,
+  "statistics": {
+    "total_lines": 189,
+    "candidate_lines": 25,
+    "bert_processed_lines": 25,
+    "total_markers": 22,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 22,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 189,
+    "positive_predictions": 22,
+    "positive_ratio": 0.1164021164021164,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 156,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 25,
+        "positive": 22
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.8803602036926895,
+      "std": 0.32337502394431206,
+      "min": 0.0031496977899223566,
+      "max": 0.999819815158844,
+      "count": 25
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案之犯罪事實及證據，除起訴書附表不引用（起訴書附表",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告葉振廷就附表A編號1、2所為，均係犯刑法第339條之4",
+      "rule_score": 0.5,
+      "bert_score": 0.9997499585151672,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告與所屬詐欺集團成員以相同理由詐欺附表A編號2所示之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997496008872986,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告所犯三人以上共同詐欺取財罪、洗錢罪間之犯行具有局",
+      "rule_score": 0.5,
+      "bert_score": 0.9997496008872986,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告如附表A編號1、2所示犯行，犯行時間與法益侵害對象均",
+      "rule_score": 0.5,
+      "bert_score": 0.9997348189353943,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告雖於偵查及本院審理中均自白本案犯行，然並未自動繳",
+      "rule_score": 0.5,
+      "bert_score": 0.9997089505195618,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥爰以行為人之責任為基礎，審酌被告明知現今社會詐欺集團",
+      "rule_score": 0.5,
+      "bert_score": 0.9997884631156921,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之；前二項之沒收，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997230172157288,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡扣案如附表B所示手機1支，經被告陳稱並未供本案犯行使用",
+      "rule_score": 0.5,
+      "bert_score": 0.9996836185455322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按修正後洗錢防制法第25條第1項規定：「犯第19條、第20條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第273條之1第1項、第299條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、葉振廷(通訊軟體暱稱「老鼠」)、真實姓名年籍不詳暱稱「",
+      "rule_score": 0.5,
+      "bert_score": 0.9998006224632263,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經陳怡諪、蔡沂辰訴由新北市政府警察局新店分局報告偵",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 170,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告葉振廷所為，係犯洗錢防制法第19條第1項後段之洗",
+      "rule_score": 0.5,
+      "bert_score": 0.999798595905304,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

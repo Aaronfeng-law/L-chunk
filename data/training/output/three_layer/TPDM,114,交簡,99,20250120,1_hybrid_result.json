@@ -1,0 +1,225 @@
+{
+  "source_file": "data/filted/TPDM,114,交簡,99,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:05.365071",
+  "processing_time": 0.04050612449645996,
+  "statistics": {
+    "total_lines": 96,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 96,
+    "positive_predictions": 16,
+    "positive_ratio": 0.16666666666666666,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 78,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9997797757387161,
+      "std": 3.450060995281848e-05,
+      "min": 0.9997039437294006,
+      "max": 0.9998155236244202,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除補充下列證據外，均引用聲請簡易",
+      "rule_score": 0.5,
+      "bert_score": 0.9998019337654114,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠臺北市政府警察局吐氣酒精濃度檢測程序暨拒測法律效果確認單",
+      "rule_score": 0.5,
+      "bert_score": 0.9997239708900452,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡財團法人工業技術研究院呼氣酒精測試器檢定合格證書（見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997337460517883,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告林子淇所為，係犯刑法第185條之3第1項第1款之吐氣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997329115867615,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡刑事訴訟法第451條之1第1項規定：「［檢察官聲請以簡易判",
+      "rule_score": 0.5,
+      "bert_score": 0.9997039437294006,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人責任為基礎，審酌被告酒後騎乘機車，遭查獲時",
+      "rule_score": 0.5,
+      "bert_score": 0.9997712969779968,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、據上論斷，應依刑事訴訟法第449條第1項前段、第3項、第4",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第455條之1第2項規定，本案不得上訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997850060462952,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吐氣所含酒精濃度達每公升零點二五毫克或血液中酒精濃度",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、有前款以外之其他情事足認服用酒類或其他相類之物，致不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、尿液或血液所含毒品、麻醉藥品或其他相類之物或其代謝物",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、有前款以外之其他情事足認施用毒品、麻醉藥品或其他相類",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告林子淇上揭吐氣所含酒精濃度達每公升0.25毫克以上而",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告林子淇所為，係犯刑法第185條之3第1項第1款之吐氣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997984766960144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,216,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:11.956385",
+  "processing_time": 0.03939104080200195,
+  "statistics": {
+    "total_lines": 83,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 83,
+    "positive_predictions": 12,
+    "positive_ratio": 0.14457831325301204,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 62,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.857391162975026,
+      "std": 0.3487447357659356,
+      "min": 0.003124649403616786,
+      "max": 0.9998070597648621,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，均引用檢察官聲請簡易判決處刑書之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠查被告施敏欽於民國113年5月6日前某日不詳時間，在臺北市",
+      "rule_score": 0.5,
+      "bert_score": 0.9997522234916687,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於113年5月6日至同年7月2日共約2個月的期間，持告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997343420982361,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告所犯上開兩罪（侵占遺失物罪、詐欺取財罪），犯意各",
+      "rule_score": 0.5,
+      "bert_score": 0.9997207522392273,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰審酌被告拾獲告訴人遺失之信用卡，竟未將該遺失物送交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997726082801819,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告拾得告訴人之台新信用卡後，除曾簽署自己姓名成功盜",
+      "rule_score": 0.5,
+      "bert_score": 0.9997238516807556,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡至告訴人李姿靜於本案裁判確定後，仍得就上開執行沒收之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997592568397522,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢另就被告本案拾得並盜刷之告訴人名下台新信用卡1張，未據",
+      "rule_score": 0.5,
+      "bert_score": 0.9997597336769104,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第454條第2項（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997814297676086,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應於判決送達後20日內，向本院提出上訴狀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997785687446594,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

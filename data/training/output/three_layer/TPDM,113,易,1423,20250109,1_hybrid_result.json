@@ -1,0 +1,226 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1423,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.365989",
+  "processing_time": 0.6398236751556396,
+  "statistics": {
+    "total_lines": 115,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 115,
+    "positive_predictions": 16,
+    "positive_ratio": 0.1391304347826087,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 93,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "大寫中文數字": 4,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8010270425467751,
+      "std": 0.3975370993410103,
+      "min": 0.0033609215170145035,
+      "max": 0.999823272228241,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、呂進發於民國113年3月8日9時46分許，在全家便利商店臺鐵",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經阮有才訴由內政部警政署鐵路警察局臺北分局報告臺灣",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、法院認為應科拘役、罰金或應諭知免刑或無罪之案件，被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998064637184143,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以下所引用非供述證據部分，因被告經合法傳喚於審理期日",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告於警詢中固坦承有於前揭時間、地點將佳德鳳梨酥",
+      "rule_score": 0.5,
+      "bert_score": 0.9998131394386292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於前揭時間、地點拿取佳德鳳梨酥1盒置入黑色提袋，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997362494468689,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡細繹被告前揭行為之始末，其於113年3月8日9時45分許（監視錄影畫面顯示之時間比實際約快3分鐘，下俱以此標準修正）走入全家便利商店臺鐵南店，於同日9時45分37秒許徒經入口處結帳櫃檯，即徒手取下12入佳德鳳梨酥1盒握執於手中，數秒後旋即右轉至零食貨架旁之走道，於同日9時45分49至57秒許，其以右側零食貨架為屏障，背對結帳櫃檯將提袋與鳳梨酥俱置於身前，原打開提袋之單側提把欲置入鳳梨酥，但未果，再將提袋放在地上成功置入鳳梨酥；隨後被告手上雨傘自手臂滑落經旁人拾起，被告接過雨傘後，站直並拿起地上之黑色提袋，目光掃視開放式冷藏櫃後，於同日9時46分11秒許低頭望向已裝有鳳梨酥之提袋，彎腰伸手入袋內摸索出錢包後，抽出錢包中卡片再將錢包放回提袋內；被告於同日9時47分許目光回到開放式冷藏櫃，並拿取桂格堅果燕麥飲1罐後，逕直走向出口結帳隊伍排隊，迄於同日9時49分許將手中桂格堅果燕麥飲1罐交予店員結帳後，即離開該店各情，業據本院勘驗監視錄影畫面明確，有本院勘驗筆錄及附件在卷可稽（見易卷第34-55頁）。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997797608375549,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢觀諸被告進入前揭店內後，隨即拿取佳德鳳梨酥商品，於",
+      "rule_score": 0.5,
+      "bert_score": 0.9997556805610657,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本件事證既明，被告前揭竊盜犯行堪以認定，應依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997949004173279,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、核被告呂進發所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998100399971008,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、爰以行為人之責任為基礎，審酌被告年已七旬，恣意竊取於",
+      "rule_score": 0.5,
+      "bert_score": 0.999823272228241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

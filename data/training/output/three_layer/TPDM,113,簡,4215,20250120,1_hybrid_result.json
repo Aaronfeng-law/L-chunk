@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4215,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:37.018289",
+  "processing_time": 0.04650068283081055,
+  "statistics": {
+    "total_lines": 111,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 111,
+    "positive_predictions": 14,
+    "positive_ratio": 0.12612612612612611,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 89,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8245793198755778,
+      "std": 0.3784988753032713,
+      "min": 0.003124649403616786,
+      "max": 0.9998158812522888,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除犯罪事實欄一、第1行「於民國113",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告楊才賢所為，係犯刑法第320條第1項之竊盜罪。被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰以行為人之責任為基礎，審酌被告不思以正途獲取所需，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998158812522888,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997785687446594,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第3項、第454條第2項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，得自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997827410697937,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、楊才賢於民國113年5月21日上午9時39分許，在臺北市○○區○",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經羅仁人訴由臺北市政府警察局松山分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998148083686829,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告楊才賢於偵查中之自白；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997443556785583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡告訴人羅仁人於警詢時之指訴；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997606873512268,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢監視器畫面截圖10張及遭竊物品清單照片1張。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997090697288513,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第320條第1項之竊盜罪嫌。被告竊得",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

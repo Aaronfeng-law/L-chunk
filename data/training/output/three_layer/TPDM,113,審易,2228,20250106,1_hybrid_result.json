@@ -1,0 +1,103 @@
+{
+  "source_file": "data/filted/TPDM,113,審易,2228,20250106,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:28.764959",
+  "processing_time": 0.029326200485229492,
+  "statistics": {
+    "total_lines": 130,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 130,
+    "positive_predictions": 5,
+    "positive_ratio": 0.038461538461538464,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 121,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9998052954673767,
+      "std": 8.45004687370522e-06,
+      "min": 0.9997944235801697,
+      "max": 0.9998176693916321,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、崔雯媛於民國113年8月1日晚間7時29分許，行經位於臺北市",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局中山分局報請臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998176693916321,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、程序部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、不另為沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.999808132648468,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

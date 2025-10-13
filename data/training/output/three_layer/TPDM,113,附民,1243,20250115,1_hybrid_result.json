@@ -1,0 +1,181 @@
+{
+  "source_file": "data/filted/TPDM,113,附民,1243,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:02.222233",
+  "processing_time": 0.03897809982299805,
+  "statistics": {
+    "total_lines": 108,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 108,
+    "positive_predictions": 12,
+    "positive_ratio": 0.1111111111111111,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 92,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.8577046537372682,
+      "std": 0.347986960900588,
+      "min": 0.003947453107684851,
+      "max": 0.9998266100883484,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告主張：被告於民國112年11月28日晚間6時許，將車牌號",
+      "rule_score": 0.5,
+      "bert_score": 0.9998008608818054,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告則以：原告請求無理由，請求駁回原告之訴等語置辯。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998266100883484,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本院之判斷：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998118281364441,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按因犯罪而受損害之人，於刑事訴訟程序得附帶提起民事訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997450709342957,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，原告主張之上開事實，業經本院以113年度易字第973",
+      "rule_score": 0.5,
+      "bert_score": 0.9997372031211853,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按不法侵害他人之身體、健康、名譽、自由、信用、隱私、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997246861457825,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣給付無確定期限者，債務人於債權人得請求給付時，經其催",
+      "rule_score": 0.5,
+      "bert_score": 0.9997320771217346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上，原告請求被告給付1萬元，及自113年5月7日起至清償",
+      "rule_score": 0.5,
+      "bert_score": 0.9997524619102478,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、本判決原告勝訴部分所命給付金額未逾50萬元，依刑事訴訟",
+      "rule_score": 0.5,
+      "bert_score": 0.9997932314872742,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、本件事證已臻明確，兩造其餘攻擊或防禦方法及證據資料，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997585415840149,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本件為刑事附帶民事訴訟，依法無庸繳納裁判費，且訴訟程",
+      "rule_score": 0.5,
+      "bert_score": 0.9997779726982117,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、據上論結，本件原告之訴為一部有理由，一部無理由，依刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997743964195251,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

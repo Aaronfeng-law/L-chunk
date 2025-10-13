@@ -1,0 +1,159 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1135,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.389906",
+  "processing_time": 0.038268327713012695,
+  "statistics": {
+    "total_lines": 157,
+    "candidate_lines": 13,
+    "bert_processed_lines": 13,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 157,
+    "positive_predictions": 10,
+    "positive_ratio": 0.06369426751592357,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 142,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 13,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.7707642403323777,
+      "std": 0.41813063885931345,
+      "min": 0.0032945715356618166,
+      "max": 0.9998325109481812,
+      "count": 13
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告甲○○與告訴人乙○○原係址設臺北市○○區",
+      "rule_score": 0.5,
+      "bert_score": 0.9998325109481812,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實，刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、又按刑法第309條第1項規定係以刑罰處罰表意人所為侮辱性",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、公訴意旨認被告涉有上開犯嫌係以，告訴人於警詢之指述及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997879862785339,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、訊據被告固坦承有於上開時、地與告訴人產生糾紛，然辯稱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997915625572205,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告與告訴人原為同事，因交接業務心生嫌隙，被告於民國1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997314810752869,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡再者，另參酌前揭憲法法庭判決之意旨，被告與告訴人於案",
+      "rule_score": 0.5,
+      "bert_score": 0.9997523427009583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢又告訴人及證人黃韋寧均稱當時在會議室現場僅有證人黃韋",
+      "rule_score": 0.5,
+      "bert_score": 0.9997605681419373,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣另被告之辯護人於本院審理程序中主張，欲聲請勘驗告訴人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997578263282776,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，就公訴意旨所稱被告所涉之犯行，檢察官所提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997870326042175,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

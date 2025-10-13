@@ -1,0 +1,158 @@
+{
+  "source_file": "data/filted/TPDM,114,審簡,103,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:06.121691",
+  "processing_time": 0.031987667083740234,
+  "statistics": {
+    "total_lines": 86,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 86,
+    "positive_predictions": 10,
+    "positive_ratio": 0.11627906976744186,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 73,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.9092847453853623,
+      "std": 0.2862419153687685,
+      "min": 0.004108331631869078,
+      "max": 0.9998199343681335,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據清單及待證事實欄編號2「自",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按甲基安非他命為毒品危害防制條例所列管之第二級毒品，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告前因施用毒品，經法院裁定觀察勒戒後，仍未能",
+      "rule_score": 0.5,
+      "bert_score": 0.9998199343681335,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳憲德前因施用第二級毒品案件，經觀察勒戒執行完畢，於",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局松山分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998099207878113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯毒品危害防制條例第10條第2項之施用第",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依毒品危害防制條例第23條第2項前段、刑事訴訟法第251條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998074173927307,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "source_file": "data/filted/TPDM,113,審交簡上,51,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:21.232692",
+  "processing_time": 0.023362398147583008,
+  "statistics": {
+    "total_lines": 50,
+    "candidate_lines": 4,
+    "bert_processed_lines": 4,
+    "total_markers": 4,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 4,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 50,
+    "positive_predictions": 4,
+    "positive_ratio": 0.08,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 43,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 4,
+        "positive": 4
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 2,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9997684061527252,
+      "std": 4.03674739489362e-05,
+      "min": 0.9997221827507019,
+      "max": 0.9998193383216858,
+      "count": 4
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本院審理範圍：本案僅檢察官提起上訴，被告張絮婷並未提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、駁回上訴之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998193383216858,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠檢察官上訴意旨略以：告訴人陳華菁所受傷害非輕，被告未",
+      "rule_score": 0.5,
+      "bert_score": 0.9997362494468689,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡原審審酌被告過失情節，並考量其犯後自始坦承犯行，與告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

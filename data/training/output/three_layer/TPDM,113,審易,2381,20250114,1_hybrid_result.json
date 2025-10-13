@@ -1,0 +1,259 @@
+{
+  "source_file": "data/filted/TPDM,113,審易,2381,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:29.647134",
+  "processing_time": 0.7482028007507324,
+  "statistics": {
+    "total_lines": 129,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 19,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 19,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 129,
+    "positive_predictions": 19,
+    "positive_ratio": 0.14728682170542637,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 104,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 19
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "圍字數字": 6,
+      "大寫中文數字": 1
+    },
+    "bert_score_stats": {
+      "mean": 0.9433112278464251,
+      "std": 0.21756183026370185,
+      "min": 0.0034189519938081503,
+      "max": 0.9998179078102112,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除前案紀錄不引用，及增列「臺北市政府警察局大安分局物品發還領據暨採證照片、對照照片」、「臺北市政府警察局鑑定書」、「被告賴志豪於本院審理中之自白」為證據外，其餘均引用檢察官起訴書之記載（如附件）。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998127818107605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告賴志豪所為，係犯刑法第321條第1項第2款之踰越牆垣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997397065162659,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告前因：①毀損、恐嚇、竊盜、詐欺案件，經本院110年度審易字第600號判決分別判處有期徒刑2月、2月、3月、6月確定；②違反毒品危害防制條例案件，經本院111年度簡字第439號判決判處有期徒刑5月確定；③竊盜案件，經本院111年度審簡字第1582號判決判處有期徒刑6月確定；④偽造文書、竊盜案件，經本院111年度審簡字第2079號判決分別判處有期徒刑4月、3月確定；⑤違反藥事法案件，經本院112年度審簡字第150號判決判處有期徒刑2月確定。上開①至③案，嗣經臺灣高等法院以112年度抗字第225號定應執行有期徒刑1年5月確定（下稱甲執行案）；上開④至⑤案，嗣經本院以112年度聲字第2323號定應執行有期徒刑7月確定（下稱乙執行案），前開甲、乙2執行案與他案罰金易服勞役部分接續執行，於民國113年4月27日縮刑期滿執行完畢等情，有臺灣高等法院被告前案紀錄在卷可參（見本院審易卷第119至125頁）。被告於受上開有期徒刑執行完畢後，5年以內故意再犯本案有期徒刑以上之罪，為累犯，參酌司法院釋字第775號解釋意旨，審酌被告前已因竊盜犯行經法院判刑並執行完畢，卻未能謹慎守法，於前開執行刑執畢後未及3月又再為本案竊盜犯行，其本案所犯竊盜犯行與前開構成累犯所犯竊盜案件，犯罪類型及罪質均相同，顯見被告對於刑罰反應力薄弱及具特別惡性，爰依刑法第47條第1項之規定加重其刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997462630271912,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌被告不思以正當途徑賺取財物，竟任意以竊盜方式取",
+      "rule_score": 0.5,
+      "bert_score": 0.999777615070343,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之。但有特別規定者",
+      "rule_score": 0.5,
+      "bert_score": 0.9997021555900574,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡次按供犯罪所用之物，屬於犯罪行為人者，得沒收之，刑法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997455477714539,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢至扣案如附表編號6所示之手機1支尚難認與本案有關，爰不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997413754463196,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第273條之1第1項、第299條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、毀越門窗、牆垣或其他安全設備而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、賴志豪於民國111年間，因竊盜案件，經依臺灣臺北地方法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998179078102112,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市私立開平餐飲職業學校委託教官石明正訴由臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.9998173117637634,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第321條第2款之加重竊盜罪嫌。被告",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參，其於5年內故意再犯本案有期徒刑以上之罪，為累犯，",
+      "rule_score": 0.5,
+      "bert_score": 0.866730809211731,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告前開所竊得未扣案之筆記型電腦1台（宏碁牌，型號Tra",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、至告訴及報告意旨雖認被告於上開時、地竊取開平學校管領",
+      "rule_score": 0.5,
+      "bert_score": 0.9997836947441101,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997732043266296,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

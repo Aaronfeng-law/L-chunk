@@ -1,0 +1,81 @@
+{
+  "source_file": "data/filted/TPDM,113,審交易,718,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:20.490005",
+  "processing_time": 0.017955303192138672,
+  "statistics": {
+    "total_lines": 48,
+    "candidate_lines": 3,
+    "bert_processed_lines": 3,
+    "total_markers": 3,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 3,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 48,
+    "positive_predictions": 3,
+    "positive_ratio": 0.0625,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 42,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 3,
+        "positive": 3
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9998040000597636,
+      "std": 7.570389559497743e-06,
+      "min": 0.999794065952301,
+      "max": 0.9998124241828918,
+      "count": 3
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告賴映竹於民國113年3月6日18時28分許",
+      "rule_score": 0.5,
+      "bert_score": 0.9998124241828918,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前得撤回其告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查本件告訴人告訴被告過失傷害案件，檢察官認被告係涉犯",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

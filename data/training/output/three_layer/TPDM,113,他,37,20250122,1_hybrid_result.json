@@ -1,0 +1,415 @@
+{
+  "source_file": "data/filted/TPDM,113,他,37,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:16.049391",
+  "processing_time": 0.5309324264526367,
+  "statistics": {
+    "total_lines": 317,
+    "candidate_lines": 38,
+    "bert_processed_lines": 38,
+    "total_markers": 33,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 33,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 317,
+    "positive_predictions": 33,
+    "positive_ratio": 0.10410094637223975,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 271,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 38,
+        "positive": 33
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "天干": 2,
+      "大寫中文數字": 9,
+      "圍字數字": 7,
+      "括號數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8689548331864276,
+      "std": 0.33608647056866686,
+      "min": 0.00284786825068295,
+      "max": 0.9998210072517395,
+      "count": 38
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、劉彥緯自民國109年2月間某日起，加入真實姓名、年籍不詳",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺灣臺北地方檢察署（下稱臺北地檢署）檢察官偵查後",
+      "rule_score": 0.5,
+      "bert_score": 0.9998201727867126,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、關於證據能力之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、供述證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、非供述證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998024106025696,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997931122779846,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按行為後法律有變更者，適用行為時之法律。但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997267127037048,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡詐欺犯罪危害防制條例部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997598528862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢洗錢防制法部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997610449790955,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴經比較新舊法，修正後洗錢防制法第19條第1項後段就「洗錢",
+      "rule_score": 0.5,
+      "bert_score": 0.9997748732566833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵關於自白減輕其刑之規定部分，修法後被告劉彥緯須「偵查",
+      "rule_score": 0.5,
+      "bert_score": 0.9996534585952759,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶如適用修正前洗錢防制法規定，修正前洗錢罪之法定最重本",
+      "rule_score": 0.5,
+      "bert_score": 0.9996155500411987,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、適用之法律：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、共犯關係：",
+      "rule_score": 0.5,
+      "bert_score": 0.999792754650116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、罪數關係：",
+      "rule_score": 0.5,
+      "bert_score": 0.999782145023346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、刑之加重事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997918009757996,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 155,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、量刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997679591178894,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、關於沒收之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 170,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、無罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 171,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、公訴意旨略以：被告林榮昌明知現行宅配、超商店寄送包裹",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 191,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、按法院認為應科拘役、罰金或應諭知免刑或無罪之案件，被告經合法傳喚無正當理由不到庭者，得不待其陳述逕行判決，刑事訴訟法第306條定有明文。被告林榮昌經合法傳喚，於本院114年1月8日審理程序無正當理由不到庭，有本院送達證書、刑事報到單暨審判筆錄、臺灣高等法院被告前案紀錄表在卷可查，而本院斟酌本案情節，認本案係應科拘役、罰金之案件，揆諸前述規定，爰不待被告林榮昌到庭陳述，逕行一造缺席辯論及判決，先予敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998210072517395,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；又",
+      "rule_score": 0.5,
+      "bert_score": 0.9997660517692566,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 206,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、公訴意旨認被告林榮昌涉犯刑法第30條、第339條第1項幫助",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 214,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "伍、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告林榮昌固不否認有收取裝有陳治維之提款卡之包裹",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 222,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告林榮昌依「志誠」之指示於109年3月1日下午2時39分至",
+      "rule_score": 0.5,
+      "bert_score": 0.9997559189796448,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 229,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告林榮昌於109年3月16日上午10時58分警詢時供稱：我是",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 261,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告林榮昌於歷次警偵訊及本院前審理均供稱有受「志誠」",
+      "rule_score": 0.5,
+      "bert_score": 0.999744713306427,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣告訴人陳治維被騙取金融提款卡之時點為109年2月26日（丙1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997637867927551,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 288,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、綜上所述，卷內尚無從證明被告林榮昌主觀上確實具有幫助",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

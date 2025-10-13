@@ -1,0 +1,238 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,680,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:56.160425",
+  "processing_time": 0.05065202713012695,
+  "statistics": {
+    "total_lines": 417,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 417,
+    "positive_predictions": 17,
+    "positive_ratio": 0.0407673860911271,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 396,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 2,
+      "中文數字": 6,
+      "圍字數字": 7,
+      "帶圈數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9444042938476842,
+      "std": 0.22819877690408533,
+      "min": 0.0035166696179658175,
+      "max": 0.9998190999031067,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 44,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序事項",
+      "rule_score": 0.5,
+      "bert_score": 0.9998190999031067,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本判決以下所引用之非供述證據，均與本件事實具有自然關",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告固坦承其有新光帳戶、一銀帳戶，並有將前開帳戶",
+      "rule_score": 0.5,
+      "bert_score": 0.9998146891593933,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告提供其所有之新光帳戶、一銀帳戶之帳號給「廖怡寧」",
+      "rule_score": 0.5,
+      "bert_score": 0.9997431635856628,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告及其辯護人雖以前詞置辯，惟被告主觀上具有詐欺取財",
+      "rule_score": 0.5,
+      "bert_score": 0.9996867179870605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 183,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "①迦英公司係於111年7月19日設立登記，代表人為陳瑋英，陳",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "②被告雖又稱「廖怡寧」有提供迦英公司公司工商登記資料、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997876286506653,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 236,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、又按共同正犯之成立，祇須具有犯意之聯絡，行為之分擔，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997251629829407,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 256,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、綜上所述，被告前開所辯，要屬事後卸責之詞，無足憑採。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998063445091248,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 259,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 260,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997252821922302,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 297,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、核被告所為（就附表編號1至4部分），均係犯刑法第339條第",
+      "rule_score": 0.5,
+      "bert_score": 0.9996843338012695,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 307,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一，且本院審理時已告知被告所為可能涉及加重詐欺取財罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9995526671409607,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 322,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、爰以行為人之責任為基礎，審酌被告為智識正常之成年人，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997203946113586,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 343,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997316002845764,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

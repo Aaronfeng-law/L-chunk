@@ -1,0 +1,204 @@
+{
+  "source_file": "data/filted/TPDM,113,審易,2340,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:28.898315",
+  "processing_time": 0.04168868064880371,
+  "statistics": {
+    "total_lines": 118,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 118,
+    "positive_predictions": 14,
+    "positive_ratio": 0.11864406779661017,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 98,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "大寫中文數字": 2,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.8242931802044896,
+      "std": 0.37910149100018664,
+      "min": 0.0031032515689730644,
+      "max": 0.9998132586479187,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、於民國112年10月12日晚間10時24分許，騎乘其名下車牌號",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、於113年3月12日下午4時40分許，行經臺北市○○區○○路00號",
+      "rule_score": 0.5,
+      "bert_score": 0.9998008608818054,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按法院認為應科拘役、罰金或應諭知免刑或無罪之案件，被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案據以認定事實之供述證據，公訴人及被告於本院言詞辯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告有於前揭時間於本案服飾店拿取本案上衣離去、有於前",
+      "rule_score": 0.5,
+      "bert_score": 0.9997383952140808,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡而被告行為時為年滿62歲之成年人，警詢時自述大學畢業，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997246861457825,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠法律適用：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997513890266418,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡罪數關係：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997643828392029,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢量刑審酌：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997569918632507,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

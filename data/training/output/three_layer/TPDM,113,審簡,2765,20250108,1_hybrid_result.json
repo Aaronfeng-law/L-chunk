@@ -1,0 +1,214 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2765,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:39.591228",
+  "processing_time": 0.049324989318847656,
+  "statistics": {
+    "total_lines": 140,
+    "candidate_lines": 21,
+    "bert_processed_lines": 21,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 140,
+    "positive_predictions": 15,
+    "positive_ratio": 0.10714285714285714,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 117,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 21,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.71560601588516,
+      "std": 0.44931676143813,
+      "min": 0.0036253074649721384,
+      "max": 0.9998170733451843,
+      "count": 21
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除犯罪事實欄一第8行「竟意圖使人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第171條第1項之未指定犯人誣告罪、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997238516807556,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告利用不知情之余羿辰、陳玉洲為上開犯行，為間接正犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9997072815895081,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告前開所犯未指定犯人誣告罪及行使變造特種文書罪間，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997256398200989,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣犯第168條至第171條之罪，於所虛偽陳述或所誣告之案件，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997302889823914,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰審酌被告指示不知情之余羿辰向警察謊報車牌遺失，造成",
+      "rule_score": 0.5,
+      "bert_score": 0.9997888207435608,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告變造之臨時車牌業經臺北市區監理所回收銷燬，足認該",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、薛文彬為普洛吉村有限公司(址設臺北市○○區○○街00巷00號1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998130202293396,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經本署檢察官自動檢舉簽分及臺北市政府警察局中正第一",
+      "rule_score": 0.5,
+      "bert_score": 0.9998170733451843,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按汽車牌照為公路監理機關發給，固具公文書之性質，惟依",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

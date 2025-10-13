@@ -1,0 +1,313 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2705,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:37.404344",
+  "processing_time": 0.1866755485534668,
+  "statistics": {
+    "total_lines": 242,
+    "candidate_lines": 29,
+    "bert_processed_lines": 29,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 242,
+    "positive_predictions": 24,
+    "positive_ratio": 0.09917355371900827,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 210,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 29,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 16,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.8280370093978427,
+      "std": 0.37627561407286336,
+      "min": 0.003143196227028966,
+      "max": 0.9998304843902588,
+      "count": 29
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，證據部分補充「被告顏璟彤於本院審",
+      "rule_score": 0.5,
+      "bert_score": 0.9998130202293396,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：按行為後法律有變更者，適用行為時之法律，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997650980949402,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按刑法上之幫助犯，係對於犯罪與正犯有共同之認識，而以",
+      "rule_score": 0.5,
+      "bert_score": 0.999736487865448,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢核被告所為，係犯刑法第30條、第339條第1項之幫助犯詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997199177742004,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告以一提供帳戶資料之行為，幫助詐欺集團詐欺告訴人楊",
+      "rule_score": 0.5,
+      "bert_score": 0.9997519850730896,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告以幫助之意思，參與洗錢罪構成要件以外之行為，依刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997321963310242,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥爰審酌被告將金融帳戶資料交予他人供詐欺犯罪使用，紊亂",
+      "rule_score": 0.5,
+      "bert_score": 0.999790370464325,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告前未曾因故意犯罪受有期徒刑以上刑之宣告，符合刑法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998019337654114,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告行為後，洗錢防制法關於沒收之規定，於113年7月31日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997919201850891,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠卷內並無積極證據足認被告有因本案犯行獲得任何利益或報",
+      "rule_score": 0.5,
+      "bert_score": 0.9997372031211853,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡告訴人等遭詐騙而匯入款項至被告所提供之帳戶內，即由掌",
+      "rule_score": 0.5,
+      "bert_score": 0.9997467398643494,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997784495353699,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、意圖掩飾或隱匿特定犯罪所得來源，或使他人逃避刑事追訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997990727424622,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、掩飾或隱匿特定犯罪所得之本質、來源、去向、所在、所有",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、收受、持有或使用他人之特定犯罪所得。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告應於民國114年7月15日以前給付告訴人楊唐英新臺幣（下同）5萬元。 二、被告應給付告訴人王郁浩3萬元，付款方式如下：被告應自114年2月起，按月於每月15日以前給付5,000元，至給付完畢止。如有一期未付，視為全部到期。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998304843902588,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、顏璟彤應能預見一般人取得他人金融帳戶之行為，常與財產",
+      "rule_score": 0.5,
+      "bert_score": 0.9998127818107605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 191,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經楊唐英、王郁浩訴由臺北市政府警察局萬華分局報告偵",
+      "rule_score": 0.5,
+      "bert_score": 0.9998123049736023,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按行為後法律有變更者，適用行為時之法律，但行為後之法律有利於",
+      "rule_score": 0.5,
+      "bert_score": 0.9998056292533875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告所為，係犯刑法第30條第1項前段、洗錢防制法第19",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,333,20250106,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:52.001105",
+  "processing_time": 0.10469245910644531,
+  "statistics": {
+    "total_lines": 385,
+    "candidate_lines": 38,
+    "bert_processed_lines": 38,
+    "total_markers": 35,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 35,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 385,
+    "positive_predictions": 35,
+    "positive_ratio": 0.09090909090909091,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 344,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 38,
+        "positive": 35
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "大寫中文數字": 4,
+      "圍字數字": 14,
+      "全形數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9212817309154687,
+      "std": 0.2680456404791855,
+      "min": 0.004148418549448252,
+      "max": 0.9998230338096619,
+      "count": 38
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、李俊緯知悉愷他命屬於毒品危害防制條例第2條第2項第3款",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局萬華分局報告臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998183846473694,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、又卷內所存經本院引用為證據之非供述證據，與本案待證事",
+      "rule_score": 0.5,
+      "bert_score": 0.9998088479042053,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告坦承不諱（本院卷第44、242頁）",
+      "rule_score": 0.5,
+      "bert_score": 0.9998131394386292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、公訴意旨雖認被告持有本案第三級毒品愷他命係涉犯毒品危",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按販賣毒品罪，行為人或基於販賣營利之目的，將毒品販入",
+      "rule_score": 0.5,
+      "bert_score": 0.9997022747993469,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告於警詢及偵查中均自承其有施用第三級毒品愷他命之慣",
+      "rule_score": 0.5,
+      "bert_score": 0.9996960163116455,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、警方查獲被告隨身所攜帶之本案第三級毒品愷他命，其中附",
+      "rule_score": 0.5,
+      "bert_score": 0.9996922016143799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、警方查獲被告隨身攜帶之本案第三級毒品愷他命時，其中附",
+      "rule_score": 0.5,
+      "bert_score": 0.9996861219406128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、關於警方所查獲如附表編號1至2所示之物，先前係如何進行",
+      "rule_score": 0.5,
+      "bert_score": 0.999792754650116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、本案行動電話備忘錄內雖載有「1小」及「1大」等文字，已",
+      "rule_score": 0.5,
+      "bert_score": 0.9997715353965759,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、經警方檢視本案行動電話後，其內存有被告與證人汪文傑間",
+      "rule_score": 0.5,
+      "bert_score": 0.9997109770774841,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、證人汪文傑於本院審理中證稱：我與被告係在被告就讀國小",
+      "rule_score": 0.5,
+      "bert_score": 0.9998014569282532,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、針對上揭通訊軟體對話紀錄內、被告所傳送「可是　靶機很",
+      "rule_score": 0.5,
+      "bert_score": 0.9998063445091248,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "３",
+      "unicode_code": "U+FF13",
+      "category": "全形數字",
+      "content": "３、至關於證人汪文傑向被告傳送「今天要給5差太多天了　下班",
+      "rule_score": 0.5,
+      "bert_score": 0.9998019337654114,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 235,
+      "symbol": "４",
+      "unicode_code": "U+FF14",
+      "category": "全形數字",
+      "content": "４、依上而論，自難逕以本案行動電話內所存被告與證人汪文傑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997747540473938,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 238,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、綜參上揭各情，本院認依據現存卷證資料，尚難認被告主觀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997283816337585,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 243,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、綜上，本案事證明確，被告上開犯行堪以認定，應予依法論",
+      "rule_score": 0.5,
+      "bert_score": 0.9997952580451965,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 245,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 246,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、論罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9998094439506531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 247,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯毒品危害防制條例第11條第5項之持有第三",
+      "rule_score": 0.5,
+      "bert_score": 0.9997072815895081,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 257,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告於112年7月7日4時59分許為警查獲持有部分數量第三級",
+      "rule_score": 0.5,
+      "bert_score": 0.9997058510780334,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 262,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、按犯第4條至第8條、第10條或第11條之罪，供出毒品來源，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997071623802185,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 286,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、爰以行為人之責任為基礎，審酌毒品對於人體身體健康之危",
+      "rule_score": 0.5,
+      "bert_score": 0.9998230338096619,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 300,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 301,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、宣告沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998047947883606,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 302,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按違禁物，不問屬於犯罪行為人與否，沒收之，刑法第38條",
+      "rule_score": 0.5,
+      "bert_score": 0.999679446220398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 312,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、扣案如附表編號1至3所示之物，經送請交通部民用航空局航",
+      "rule_score": 0.5,
+      "bert_score": 0.9996793270111084,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 325,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、不予宣告沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 326,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、扣案如附表編號4所示之物，經送請交通部民用航空局航空醫",
+      "rule_score": 0.5,
+      "bert_score": 0.9996939897537231,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 342,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、扣案如附表編號5所示之物，為被告所有等節，雖業據被告坦",
+      "rule_score": 0.5,
+      "bert_score": 0.9996601343154907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 347,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、扣案如附表編號6所示之物，為被告所有等情，雖亦據被告供",
+      "rule_score": 0.5,
+      "bert_score": 0.9996694326400757,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

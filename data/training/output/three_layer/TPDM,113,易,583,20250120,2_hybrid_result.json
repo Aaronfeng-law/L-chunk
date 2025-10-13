@@ -1,0 +1,316 @@
+{
+  "source_file": "data/filted/TPDM,113,易,583,20250120,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:30.484975",
+  "processing_time": 0.07291960716247559,
+  "statistics": {
+    "total_lines": 196,
+    "candidate_lines": 28,
+    "bert_processed_lines": 28,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 196,
+    "positive_predictions": 24,
+    "positive_ratio": 0.12244897959183673,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 162,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 28,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "大寫中文數字": 3,
+      "圍字數字": 9,
+      "全形數字": 4,
+      "括號數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8575592396082357,
+      "std": 0.3474377831001206,
+      "min": 0.0028480656910687685,
+      "max": 0.9998133778572083,
+      "count": 28
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王國州、凌偉華、石智盛（上2人經本院判決有罪確定）共",
+      "rule_score": 0.5,
+      "bert_score": 0.9997987151145935,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經傅承緯、陳緯倫訴由臺北市政府警察局萬華分局報告臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998133778572083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告與同案被告凌偉華、石智盛共3人於112年2月8日12時4",
+      "rule_score": 0.5,
+      "bert_score": 0.9997252821922302,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告確與同案被告凌偉華、石智盛一同至本案房屋並以事",
+      "rule_score": 0.5,
+      "bert_score": 0.9996991157531738,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、證人即同案被告凌偉華就其個人部分已經坦承（Ｄ卷㈠第3",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、證人即同案被告石智盛就其個人部分已經坦承（Ｄ卷㈠第3",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "３",
+      "unicode_code": "U+FF13",
+      "category": "全形數字",
+      "content": "３、參以本案監視器畫面擷圖所示，當時同案被告石智盛行",
+      "rule_score": 0.5,
+      "bert_score": 0.9997813105583191,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "４",
+      "unicode_code": "U+FF14",
+      "category": "全形數字",
+      "content": "４、被告雖辯稱：伊進入本案公寓後就在玩手機遊戲，沒注",
+      "rule_score": 0.5,
+      "bert_score": 0.9997760653495789,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴、被告於偵訊時供稱：伊至本案房屋係跟同案被告石智",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵、同案被告凌偉華、石智盛均已坦承犯行，且同案石智",
+      "rule_score": 0.5,
+      "bert_score": 0.9997749924659729,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶、被告又稱與同案被告凌偉華、石智盛均有仇隙，惟本",
+      "rule_score": 0.5,
+      "bert_score": 0.999783456325531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、綜上，被告前開所辯，均不足採，本案事證明確，被告犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9996721744537354,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按毀壞門鎖而行竊，應視該鎖之性質而論以毀壞安全設備",
+      "rule_score": 0.5,
+      "bert_score": 0.9996856451034546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告與同案被告凌偉華、石智盛為竊得財物，先由被告石",
+      "rule_score": 0.5,
+      "bert_score": 0.9996961355209351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 143,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、被告與同案被告凌偉華、石智盛就本案犯行，有犯意聯絡",
+      "rule_score": 0.5,
+      "bert_score": 0.9996919631958008,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、爰以行為人之責任為基礎，審酌被告不思以己力合法賺取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997355341911316,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參以被告有諸多財產犯罪前科，有臺灣高等法院被告前案",
+      "rule_score": 0.5,
+      "bert_score": 0.9910455346107483,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 156,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、又按二人以上共同犯罪，關於犯罪所得之沒收、追繳或追",
+      "rule_score": 0.5,
+      "bert_score": 0.9997332692146301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、查被告與同案被告凌偉華、石智盛侵入本案房屋，進入告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997164607048035,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,2427,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:07.752965",
+  "processing_time": 0.10377669334411621,
+  "statistics": {
+    "total_lines": 282,
+    "candidate_lines": 33,
+    "bert_processed_lines": 33,
+    "total_markers": 29,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 29,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 282,
+    "positive_predictions": 29,
+    "positive_ratio": 0.10283687943262411,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 237,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 12,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 33,
+        "positive": 29
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 14,
+      "圍字數字": 15
+    },
+    "bert_score_stats": {
+      "mean": 0.8790169863778194,
+      "std": 0.32514834116930275,
+      "min": 0.0028974900487810373,
+      "max": 0.999819815158844,
+      "count": 33
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案之犯罪事實及證據，除下列更正與補充外，其餘均引用",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠附表二編號1、2、4、5、6提領金額欄「2萬0,005元、2萬0,0",
+      "rule_score": 0.5,
+      "bert_score": 0.9997606873512268,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪事實欄第一段倒數第2至3行「並交予林建翔，以此方式",
+      "rule_score": 0.5,
+      "bert_score": 0.9997699856758118,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢證據增列「被告林日申、李庭豪於本院審理中之自白」。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997479319572449,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣理由部分補充：",
+      "rule_score": 0.5,
+      "bert_score": 0.999763548374176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997621178627014,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告林日申就起訴書附表一編號1所示告訴人被害部分，係",
+      "rule_score": 0.5,
+      "bert_score": 0.9997391104698181,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢核被告李庭豪就起訴書附表一編號2所示告訴人被害部分，係",
+      "rule_score": 0.5,
+      "bert_score": 0.9997348189353943,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告林日申於起訴書附表二編號1至3所示時、地，數次提領",
+      "rule_score": 0.5,
+      "bert_score": 0.999747097492218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告李庭豪於起訴書附表二編號4至6所示時、地，數次提領",
+      "rule_score": 0.5,
+      "bert_score": 0.9997397065162659,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告2人所犯三人以上共同詐欺取財罪、洗錢罪間之犯行具有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997377991676331,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦被告李庭豪於偵查及本院審理中均自白本案犯行，且查無獲",
+      "rule_score": 0.5,
+      "bert_score": 0.9997522234916687,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧爰以行為人之責任為基礎，審酌被告2人明知現今社會詐欺集",
+      "rule_score": 0.5,
+      "bert_score": 0.9997822642326355,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯詐欺犯罪，其供犯罪所用之物，不問屬於犯罪行為人與",
+      "rule_score": 0.5,
+      "bert_score": 0.9997174143791199,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪所得：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997721314430237,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 169,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按修正後洗錢防制法第25條第1項規定：「犯第19條、第20條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第273條之1第1項、第299條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 202,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 203,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 204,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 206,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 229,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、林日申、李庭豪、林建翔(林建翔所涉詐欺等罪嫌，另由警",
+      "rule_score": 0.5,
+      "bert_score": 0.9997918009757996,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 243,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經陳俊宏、陳亞君訴由臺北市政府警察局中山分局報告偵",
+      "rule_score": 0.5,
+      "bert_score": 0.9998111128807068,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 246,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 248,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按行為後法律有變更者，適用行為時之法律，但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 264,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告林日申、李庭豪所為，均係犯刑法第339條之4第1項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 272,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

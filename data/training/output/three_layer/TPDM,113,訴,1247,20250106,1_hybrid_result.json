@@ -1,0 +1,126 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1247,20250106,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:46.767996",
+  "processing_time": 0.026548147201538086,
+  "statistics": {
+    "total_lines": 136,
+    "candidate_lines": 7,
+    "bert_processed_lines": 7,
+    "total_markers": 7,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 7,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 136,
+    "positive_predictions": 7,
+    "positive_ratio": 0.051470588235294115,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 126,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 7,
+        "positive": 7
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.999781208378928,
+      "std": 2.8655566086658797e-05,
+      "min": 0.9997426867485046,
+      "max": 0.999816358089447,
+      "count": 7
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、追加起訴意旨略以：被告洪聖欽於民國112年11月24日前某",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按起訴之程序違背規定者，應諭知不受理之判決，並得不經",
+      "rule_score": 0.5,
+      "bert_score": 0.999816358089447,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997962117195129,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠另案被告陳尊旖於112年3月11日某時，將其所申辦之臺企銀",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡前案一與本件追加起訴書附表編號1、2所示被告涉嫌詐騙被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997426867485046,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢至本院113年訴字第1121號案件，為檢察官以113年度偵字第5",
+      "rule_score": 0.5,
+      "bert_score": 0.9997554421424866,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜上所述，檢察官追加起訴書附表編號1、2部分，與刑事訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

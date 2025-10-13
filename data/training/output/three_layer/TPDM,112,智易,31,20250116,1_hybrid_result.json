@@ -1,0 +1,92 @@
+{
+  "source_file": "data/filted/TPDM,112,智易,31,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:05.147937",
+  "processing_time": 0.023975372314453125,
+  "statistics": {
+    "total_lines": 79,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 4,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 4,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 79,
+    "positive_predictions": 4,
+    "positive_ratio": 0.05063291139240506,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 67,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 4
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8010340736247599,
+      "std": 0.39753625676950866,
+      "min": 0.005961560178548098,
+      "max": 0.999811589717865,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 23,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略稱：被告陳勝鴻係被告雅逸文化事業股份有限公",
+      "rule_score": 0.5,
+      "bert_score": 0.999811589717865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前得撤回其告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本件公訴意旨認被告陳勝鴻及張世文共同涉犯著作權法第91",
+      "rule_score": 0.5,
+      "bert_score": 0.9997943043708801,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第303條第3款、第307條，判決",
+      "rule_score": 0.5,
+      "bert_score": 0.9997974038124084,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,241,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.142181",
+  "processing_time": 0.03679156303405762,
+  "statistics": {
+    "total_lines": 136,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 136,
+    "positive_predictions": 13,
+    "positive_ratio": 0.09558823529411764,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 119,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13
+    },
+    "bert_score_stats": {
+      "mean": 0.9286669773781406,
+      "std": 0.2564794435861256,
+      "min": 0.003917193505913019,
+      "max": 0.999818742275238,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經審理結果，認第一審判決被告「江鶴文犯恐嚇危害安",
+      "rule_score": 0.5,
+      "bert_score": 0.9998119473457336,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告江鶴文雖提出上訴，但並未表明不服原審之理由與範圍",
+      "rule_score": 0.5,
+      "bert_score": 0.9998181462287903,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告經合法傳喚，無正當理由，未於本院指定之審判期日11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998006224632263,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，均引用檢察官聲請簡易判決處刑書之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第449條第1項前段、第3項、第454條第2項，",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、本案經檢察官陳品妤聲請以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997825026512146,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應於判決送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997753500938416,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、江鶴文係江○○之○○，2人屬家庭暴力防治法第3條第4款之家",
+      "rule_score": 0.5,
+      "bert_score": 0.999818742275238,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經江○○訴由臺北市政府警察局中山分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告江鶴文於偵查中坦承不諱，核與告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第305條之恐嚇危害安全罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997960925102234,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,185,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.009980",
+  "processing_time": 0.049869537353515625,
+  "statistics": {
+    "total_lines": 204,
+    "candidate_lines": 23,
+    "bert_processed_lines": 23,
+    "total_markers": 20,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 20,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 204,
+    "positive_predictions": 20,
+    "positive_ratio": 0.09803921568627451,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 172,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 9,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 23,
+        "positive": 20
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 16,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8704549211036899,
+      "std": 0.3339421405979311,
+      "min": 0.003126518800854683,
+      "max": 0.9998201727867126,
+      "count": 23
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經審理結果，認原審以被告羅鈞犯毒品危害防制條例第",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告上訴意旨略以：我承認扣到的菸盒是我的，但這個煙盒",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查，被告雖以前詞置辯，然觀被告於民國113年3月7日警",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、另按刑之量定，係實體法上賦予法院得為自由裁量之事項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997854828834534,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、末查，被告固未曾因故意犯罪受有期徒刑以上刑之宣告，有",
+      "rule_score": 0.5,
+      "bert_score": 0.999788224697113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，原審就被告所為犯行業已認定明確，所處刑度亦",
+      "rule_score": 0.5,
+      "bert_score": 0.9997764229774475,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據均引用檢察官聲請簡易判決處刑書之記",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按大麻為毒品危害防制條例第2條第2項第2款規定之第二級毒",
+      "rule_score": 0.5,
+      "bert_score": 0.9997517466545105,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告明知大麻屬毒品危害防",
+      "rule_score": 0.5,
+      "bert_score": 0.9997772574424744,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按查獲之第一級、第二級毒品及專供製造或施用第一級、第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997379183769226,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡查扣案如附表所示之物，經鑑驗檢出第二級毒品大麻成分乙",
+      "rule_score": 0.5,
+      "bert_score": 0.9996919631958008,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項、第3項、第454條第2項、第450",
+      "rule_score": 0.5,
+      "bert_score": 0.9997847676277161,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 158,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、羅鈞知悉大麻為第二級毒品，依毒品危害防制條例之規定，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998201727867126,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局士林分局報告偵辦偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998138546943665,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告羅鈞於偵訊中坦承不諱，且扣案菸",
+      "rule_score": 0.5,
+      "bert_score": 0.9997949004173279,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯毒品危害防制條例第11條第2項持有第二",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 176,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

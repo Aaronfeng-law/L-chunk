@@ -1,0 +1,103 @@
+{
+  "source_file": "data/filted/TPDM,114,審簡上附民,6,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:09.746744",
+  "processing_time": 0.02022719383239746,
+  "statistics": {
+    "total_lines": 39,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 39,
+    "positive_predictions": 5,
+    "positive_ratio": 0.1282051282051282,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 31,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9997966408729553,
+      "std": 1.1990961357274881e-05,
+      "min": 0.9997804760932922,
+      "max": 0.9998108744621277,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告主張如「刑事附帶民事訴訟起訴狀」所載（如附件）。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998014569282532,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 14,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告未為任何聲明或陳述，亦未提出任何書狀。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998058676719666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 15,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按法院認為原告之訴不合法或無理由者，應以判決駁回之，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998108744621277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、經查，原告前已具狀向被告就其被訴違反洗錢防制法等案件",
+      "rule_score": 0.5,
+      "bert_score": 0.999784529209137,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第502條第1項，判決如主文。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997804760932922,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

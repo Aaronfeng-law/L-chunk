@@ -1,0 +1,147 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,262,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:12.546153",
+  "processing_time": 0.24930214881896973,
+  "statistics": {
+    "total_lines": 106,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 106,
+    "positive_predictions": 9,
+    "positive_ratio": 0.08490566037735849,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 94,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9998016489876641,
+      "std": 1.6506930449560644e-05,
+      "min": 0.9997730851173401,
+      "max": 0.9998314380645752,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、事實：被告林鄧安依其智識及一般社會生活通常經驗，可預見將金融機構帳戶之存摺、提款卡及密碼提供予他人使用，他人可能利用帳戶資料遂行詐欺及逃避刑事追訴，移轉特定犯罪所得而隱匿去向洗錢之犯罪行為，竟出於縱令幫助詐欺取財、洗錢亦不違反其本意之不確定故意，於民國112年8月26日前某時將中國信託商業銀行帳號(000)000000000000號帳戶（下稱帳戶Ａ）之金融卡、網路銀行帳號及密碼等資料交予詐欺集團之不詳成員。嗣由同集團不詳成員共同意圖為自己不法所有而基於詐欺取財、洗錢之犯意聯絡，以如附表一編號1至6所示方式向各該被害人施用詐術，致各該被害人陷於錯誤，分別匯款至帳戶Ａ，再經同集團不詳成員轉匯款項至其他帳戶，藉此製造金流斷點，因而掩飾、隱匿該犯罪所得之去向、所在。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998314380645752,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、前揭事實，業據被告林鄧安於本院審理中坦承不諱（見訴卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按行為後法律有變更者，適用行為時之法律。但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、核被告所為，係犯刑法第30條、第339條第1項之幫助詐欺取財罪，刑法第30條、修正前洗錢防制法第14條第1項之幫助犯一般洗錢罪。被告以一提供金融機構帳戶之行為同時觸犯數幫助詐欺取財罪及幫助洗錢罪，屬想像競合犯，應依刑法第55條規定，從一重之幫助洗錢罪處斷。被告於偵查及審理中俱自白，依修正前洗錢防制法第16條第2項減輕其刑；復以幫助他人犯罪意思參與犯罪構成要件以外之行為，為詐欺取財及洗錢罪之幫助犯，依刑法第30條第2項之規定，遞減其刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998094439506531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、爰審酌被告原無刑事前科而素行良好，有臺灣高等法院被告前案紀錄表可稽，其自述因欲與網路結識之中國人共同經營生意而依其指示提供金融機構帳戶，致幫助遂行詐欺取財及洗錢行為，自己並未獲取利益，惟致使如附表一編號1至6所示之被害人俱財產法益受損、犯罪贓款去向遭到掩飾，所為實無足取，兼衡及被告於犯後尚能坦承犯行、與全部被害人俱已達成和解並已賠付部分之犯後態度及被害人所受損害程度，暨其犯罪之動機、目的、手段、參與程度，暨其自述之智識程度、生活及家庭經濟狀況（詳訴卷53頁）等一切情狀，量處如主文所示之刑，並諭知易科罰金及易服勞役之折算標準。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、末查被告之素行良好，前未曾因故意犯罪受有期徒刑以上刑之宣告，有臺灣高等法院被告前案紀錄表可稽，其因一時失慮，偶罹刑典，犯罪後已向被害人表達悔意，均和解並徵得諒解，參酌犯罪之情節非重，堪信被告經此偵審程序及刑之宣告後，應知警惕，信無再犯之虞，本院因認其所宣告之刑以暫不執行為當，爰依刑法第74條第1項第1款規定併予宣告緩刑二年，以啟自新。惟為使被告能彌補過錯，依其承諾補償被害人之損失，並於緩刑期間內知所戒惕，且導正其行為與法治之觀念，併依刑法第74條第2項第3款規定，命其應依調解筆錄內容，如附表二編號1至5所示向被害人支付損害賠償，此部分依刑法第74條第4項規定得為民事強制執行名義。倘若被告不履行上開負擔，且情節重大足認原宣告之緩刑難收其預期效果，而有執行刑罰之必要者，依刑法第75條之1第1項第4款之規定，得撤銷其緩刑宣告，併此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本件並無證據證明被告有因提供帳戶而獲得報酬，無法認定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997730851173401,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997949004173279,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、如不服本判決，應於判決送達後20日內，向本庭提出上訴狀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997859597206116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

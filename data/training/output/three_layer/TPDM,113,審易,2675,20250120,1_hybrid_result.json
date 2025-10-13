@@ -1,0 +1,136 @@
+{
+  "source_file": "data/filted/TPDM,113,審易,2675,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:29.855204",
+  "processing_time": 0.025041818618774414,
+  "statistics": {
+    "total_lines": 78,
+    "candidate_lines": 8,
+    "bert_processed_lines": 8,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 78,
+    "positive_predictions": 8,
+    "positive_ratio": 0.10256410256410256,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 64,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 8,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9998021721839905,
+      "std": 1.2246687742579296e-05,
+      "min": 0.9997742772102356,
+      "max": 0.9998199343681335,
+      "count": 8
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨如附件起訴書所載。",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查，本件被告莊博仰、劉晉嘉因傷害案件，均經檢察官提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997742772102356,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、莊博仰與劉晉嘉原為同事關係，雙方因有細故，竟均基於傷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998095631599426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經莊博仰、劉晉嘉訴由臺北市政府警察局文山第一分局報",
+      "rule_score": 0.5,
+      "bert_score": 0.9998199343681335,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告莊博仰、劉晉嘉所為，均係犯刑法第277條第1項之傷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998038411140442,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

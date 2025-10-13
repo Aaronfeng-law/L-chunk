@@ -1,0 +1,103 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1080,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.281883",
+  "processing_time": 0.021810054779052734,
+  "statistics": {
+    "total_lines": 178,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 178,
+    "positive_predictions": 5,
+    "positive_ratio": 0.028089887640449437,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 169,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9997986912727356,
+      "std": 1.7916866720199587e-05,
+      "min": 0.9997740387916565,
+      "max": 0.9998171925544739,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 24,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、不爭執之事實：被告APRIANTO於112年8月31日下午3時48分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998095631599426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告之辯解",
+      "rule_score": 0.5,
+      "bert_score": 0.9998171925544739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本院之判斷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998125433921814,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997740387916565,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告已賠償告訴人損失，業如前述，是被告本案犯罪所得形",
+      "rule_score": 0.5,
+      "bert_score": 0.9997801184654236,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

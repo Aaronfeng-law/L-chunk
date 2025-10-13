@@ -1,0 +1,633 @@
+{
+  "source_file": "data/filted/TPDM,112,審訴,2433,20250123,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:04.916840",
+  "processing_time": 2.3680403232574463,
+  "statistics": {
+    "total_lines": 300,
+    "candidate_lines": 58,
+    "bert_processed_lines": 58,
+    "total_markers": 53,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 53,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 300,
+    "positive_predictions": 53,
+    "positive_ratio": 0.17666666666666667,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 230,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 12,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 58,
+        "positive": 53
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 44,
+      "大寫中文數字": 3,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9138775014695872,
+      "std": 0.2794053419378181,
+      "min": 0.003517428645864129,
+      "max": 0.9998384714126587,
+      "count": 58
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、甲○○犯三人以上共同詐欺取財罪，處有期徒刑貳年捌月。未",
+      "rule_score": 0.5,
+      "bert_score": 0.999833345413208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、丁○○犯三人以上共同詐欺取財罪，處有期徒刑貳年拾月。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998294115066528,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、本案依刑事訴訟法第310條之2準用同法第454條第2項規定，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實，應予更正如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據部分另應補充增列如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998196959495544,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告甲○○、丁○○於本院準備程序中及審理時之自白（【被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997597336769104,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡同案被告丙○○於本院訊問中、準備程序中及審理時之自白（",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、論罪科刑之依據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：按行為後法律有變更者，適用行為時之法律，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998098015785217,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二。又有期徒刑之減輕，應就其最高度及最低度同減輕之，",
+      "rule_score": 0.5,
+      "bert_score": 0.9947202205657959,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告甲○○、丁○○行為後，洗錢防制法先於民國112年6月14日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997592568397522,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告二人行為時，修正前洗錢防制法第14條第1項規定：「有",
+      "rule_score": 0.5,
+      "bert_score": 0.9996817111968994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢又關於自白減刑之規定，被告二人行為時法即112年6月14日修正前洗錢防制法第16條第2項係規定：「犯前2條之罪，在偵查或審判中自白者，減輕其刑。」；中間時法即112年6月14日修正後、113年7月31日修正前同法第16條第2項則規定：「犯前4條之罪，在偵查及歷次審判中均自白者，減輕其刑。」；裁判時法即113年7月31日修正後則移列為同法第23條第3項前段並增訂同條項後段規定：「犯前4條之罪，在偵查及歷次審判中均自白者，如有所得並自動繳交全部所得財物者，減輕其刑；並因而使司法警察機關或檢察官得以扣押全部洗錢之財物或財產上利益，或查獲其他正犯或共犯者，減輕或免除其刑。」。若無犯罪所得者，當無是否自動繳交全部所得財物之問題，祗要在偵查及歷次審判中均自白，即應認有修正後同法第23條第3項前段規定之適用。另洗錢防制法第23條第3項後段規定之查獲其他正犯或共犯，係指因被告自白而使調查或偵查犯罪之公務員知悉而對之發動調查或偵查，並據以破獲者而言。亦即被告「供出之人」，與調查或偵查犯罪之公務員對之發動調查或偵查並進而破獲之間，須具有先後及相當因果關係始足當之，非謂被告一有自白、指認之人，即得依上開規定予以減刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997064471244812,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997534155845642,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告甲○○就附表編號1至2所為；被告丁○○就附表編號3所",
+      "rule_score": 0.5,
+      "bert_score": 0.999805748462677,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告甲○○就附表編號1至2部分，與李振復、少年楊○安及其他真實姓名年籍不詳之本案詐欺集團其他成員間；被告丁○○就附表編號3部分與葉凱均、同案被告丙○○、「黃冠諭」及其他真實姓名年籍不詳之本案詐欺集團其他成員間，具犯意聯絡及行為分擔，應論以共同正犯。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告甲○○先後於附表編號1、2所示時地，向告訴人乙○○收取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997984766960144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告甲○○就附表編號1至2所為；被告丁○○就附表編號3所為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997599720954895,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、被告二人行為後，詐欺犯罪危害防制條例業於113年7月31日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997891783714294,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、爰以行為人之責任為基礎，審酌被告二人分別於本案擔任車手、收水，漠視他人財產權，對社會治安造成相當之影響，應予非難；併參以渠等犯後均坦承犯行；被告丁○○就附表編號3所示之洗錢犯行部分，已於偵查中、本院準備程序中及審理時均自白在卷，且無犯罪所得，依前揭罪數說明，其上開犯行從一重論處三人以上共同詐欺取財罪，然就此部分想像競合輕罪得依洗錢防制法第23條第3項前段規定減刑部分，依刑法第57條併予審酌之；另考量被告丁○○於本院審理時供稱：我有誠心悔改。我很希望可以跟被害人和解，但是他沒有到庭等語（見本院卷第272至273頁），渠等迄今均未與告訴人洽談和解、予以賠償（見本院卷第73頁）；暨被告甲○○於本院準備程序中供稱：我雖然有心，但是無法繳交，家裡也沒有人可以幫忙等語（見本院卷第305頁），是其迄今尚未繳交犯罪所得之犯後態度；兼衡渠等於本案詐欺集團擔任角色之涉案程度，犯罪所生損害；再審酌被告丁○○自述高職畢業之智識程度，入監前從事傢俱工作，月收入約2萬2,000元至3萬元，未婚，需撫養父親跟快90歲之阿嬤之家庭生活經濟狀況（見本院卷第272頁）；被告甲○○自述高職肄業之智識程度，入監前為防水工，月收入4萬多元，未婚，無扶養對象之家庭生活經濟狀況（見本院卷第316頁）暨被告二人犯罪之動機、目的及手段等一切情狀，爰分別量處如主文所示之刑，以示懲儆。",
+      "rule_score": 0.5,
+      "bert_score": 0.999816358089447,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、沒收部分：按沒收適用裁判時之法律；本法總則於其他法律",
+      "rule_score": 0.5,
+      "bert_score": 0.9997698664665222,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告甲○○就附表編號1、2所示犯行分別自面交款項中抽取5,000元、5,000元（共1萬元）作為其報酬等節，業據被告甲○○於偵查中、本院準備程序中供述在卷（見少連偵字卷第352頁，本院卷第305頁），乃其犯罪所得，此部分款項迄今尚未自動繳交，既未扣案亦未實際合法發還告訴人，復無過苛調節條款之適用餘地，爰依刑法第38條之1第1項前段、第3項規定沒收，並於全部或一部不能沒收或不宜執行沒收時，追徵其價額。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998384714126587,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告丁○○並未因附表編號3所示犯行而獲報酬一節，業據被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至被告甲○○向告訴人收取之如附表編號1至2所示、經扣除報酬後之餘額；被告丁○○向取款車手所收取如附表編號3所示之受騙款項，固均為洗錢之財物，惟已由被告二人分別交予如附表編號1至3所示收水成員等節，業據渠等於警詢及偵查中供承在卷（【被告甲○○部分】：見少連偵字卷第15至17頁、第352頁；【被告丁○○部分】：見少連偵字卷第65頁、第386頁）；卷內復無證據證明被告二人就上開洗錢之財物有何事實上管領處分權限，如對渠等宣告沒收容有過苛之虞，爰依刑法第38條之2第2項規定均不予宣告沒收。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998264908790588,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、另未扣案供被告甲○○本案詐欺犯罪所用之免用發票收據（見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997832179069519,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 169,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 171,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、甲○○、丙○○、丁○○均明知葉凱均（所涉詐欺取財等罪嫌部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998121857643127,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經乙○○訴由臺北市政府警察局文山第一分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998220801353455,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 221,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告甲○○、丙○○、丁○○所為，均係犯刑法第339條之4第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 236,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 257,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 258,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 259,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 265,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、意圖掩飾或隱匿特定犯罪所得來源，或使他人逃避刑事追訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997990727424622,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 267,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、掩飾或隱匿特定犯罪所得之本質、來源、去向、所在、所有",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 269,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、收受、持有或使用他人之特定犯罪所得。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 273,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、最輕本刑為 6 月以上有期徒刑以上之刑之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998098015785217,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 274,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、刑法第 121 條第 1 項、第 123 條、第 201 條之 1 第 2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997994303703308,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 277,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、懲治走私條例第 2 條第 1 項、第 3 條第 1 項之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997910857200623,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 278,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、破產法第 154 條、第 155 條之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997748732566833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 279,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、商標法第 95 條、第 96 條之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997606873512268,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、廢棄物清理法第 45 條第 1 項後段、第 47 條之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997716546058655,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 281,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、稅捐稽徵法第 41 條、第 42 條及第 43 條第 1 項、第 2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997867941856384,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 283,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、政府採購法第 87 條第 3 項、第 5 項、第 6 項、第 89",
+      "rule_score": 0.5,
+      "bert_score": 0.9997804760932922,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 285,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、電子支付機構管理條例第 44 條第 2 項、第 3 項、第 45",
+      "rule_score": 0.5,
+      "bert_score": 0.9997937083244324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 287,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十、證券交易法第 172 條第 1 項、第 2 項之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997634291648865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 288,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十一、期貨交易法第 113 條第 1 項、第 2 項之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997804760932922,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 289,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十二、資恐防制法第 8 條、第 9 條之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997740387916565,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 290,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十三、本法第 14 條之罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997754693031311,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

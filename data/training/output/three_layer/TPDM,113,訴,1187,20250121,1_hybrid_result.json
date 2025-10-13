@@ -1,0 +1,281 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1187,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:43.866852",
+  "processing_time": 0.07484292984008789,
+  "statistics": {
+    "total_lines": 356,
+    "candidate_lines": 25,
+    "bert_processed_lines": 25,
+    "total_markers": 21,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 21,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 356,
+    "positive_predictions": 21,
+    "positive_ratio": 0.05898876404494382,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 327,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 25,
+        "positive": 21
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "大寫中文數字": 2,
+      "圍字數字": 13
+    },
+    "bert_score_stats": {
+      "mean": 0.8403640812914819,
+      "std": 0.36524639041844914,
+      "min": 0.0032639848068356514,
+      "max": 0.9998383522033691,
+      "count": 25
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、乙○○可預見詐欺集團經常利用他人之存款帳戶轉帳、提款，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998383522033691,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經丁○○、丙○○、甲○○訴由臺北市政府警察局信義分局報告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998244643211365,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告固坦承，其為辦理貸款而找上代辦公司「林易德」",
+      "rule_score": 0.5,
+      "bert_score": 0.9998223185539246,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告先透過「林易德」認識「林志明」，之後即依「林志明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997518658638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡次查，被告固提出其與「林志明」之LINE對話紀錄，欲證明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997664093971252,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢又被告與「林志明」素未謀面，亦不知其姓名、電話(見偵卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997487664222717,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣而被告自承高中肄業，於本案發生時已為37歲之成年人，有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997299313545227,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上，本件事證已明，被告犯行堪以認定，應予依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997100234031677,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、應適用之法律及科刑審酌事由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997984766960144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：按行為後法律有變更者，適用行為時之法律，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997650980949402,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 226,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、掩飾或隱匿特定犯罪所得之本質、來源、去向、所在、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998050332069397,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 269,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告就附表編號1至3所為，均係犯刑法第339條之4第1項第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997401833534241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 277,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按成年人教唆、幫助或利用兒童及少年犯罪或與之共同實施",
+      "rule_score": 0.5,
+      "bert_score": 0.9997630715370178,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 284,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告於偵查時及本院準備、審理程序中，就本案所為犯行，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997172951698303,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 287,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌被告不思尋求正當途徑借貸",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 299,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 300,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠洗錢之財物",
+      "rule_score": 0.5,
+      "bert_score": 0.9997575879096985,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 324,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪所得部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997430443763733,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 339,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢另扣案之存摺5本、金融卡5張及行動電話1支，均係被告所有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997343420982361,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

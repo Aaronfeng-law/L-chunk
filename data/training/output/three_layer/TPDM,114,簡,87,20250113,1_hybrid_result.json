@@ -1,0 +1,224 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,87,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:13.759289",
+  "processing_time": 0.049559593200683594,
+  "statistics": {
+    "total_lines": 368,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 368,
+    "positive_predictions": 16,
+    "positive_ratio": 0.043478260869565216,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 343,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 16
+    },
+    "bert_score_stats": {
+      "mean": 0.8893445722448329,
+      "std": 0.3124176983033238,
+      "min": 0.005283784586936235,
+      "max": 0.9998151659965515,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實：黃美惠係廣圳建設有限公司（下稱廣圳公司，登",
+      "rule_score": 0.5,
+      "bert_score": 0.9998151659965515,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本件證據部分補充「被告黃美惠、楊水勝於本院審理時之自",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、不另為無罪諭知部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997811913490295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、應依刑事訴訟法第449 條第2 項、第3 項、第454 條第2 項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997933506965637,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 266,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、邱宸惟係久實科技有限公司（下稱久實公司）實際負責人、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998007416725159,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 306,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經本署檢察官簽分及法務部調查局基隆市調查站移送偵辦",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 309,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 311,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告邱宸惟、劉承傳、張嘉榮、李義成、黃美惠、胡珹瑞",
+      "rule_score": 0.5,
+      "bert_score": 0.9997990727424622,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 321,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按一人犯數罪、數人共犯一罪或數罪者為相牽連案件；於第一",
+      "rule_score": 0.5,
+      "bert_score": 0.9998064637184143,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 329,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第265條第1項追加起訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997854828834534,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 355,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、以明知為不實之事項，而填製會計憑證或記入帳冊。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 356,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、故意使應保存之會計憑證、會計帳簿報表滅失毀損。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998133778572083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 357,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、偽造或變造會計憑證、會計帳簿報表內容或毀損其頁數。",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 358,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、故意遺漏會計事項不為記錄，致使財務報表發生不實之結果",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 360,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、其他利用不正當方法，致使會計事項或財務報表發生不實之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

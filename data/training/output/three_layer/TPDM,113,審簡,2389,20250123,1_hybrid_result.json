@@ -1,0 +1,148 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2389,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:35.041392",
+  "processing_time": 0.03229117393493652,
+  "statistics": {
+    "total_lines": 113,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 113,
+    "positive_predictions": 9,
+    "positive_ratio": 0.07964601769911504,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 99,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9997964898745219,
+      "std": 2.1113696892786394e-05,
+      "min": 0.9997461438179016,
+      "max": 0.9998148083686829,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，均引用附件檢察官起訴書之記載外，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998095631599426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠海洛因係毒品危害防制條例第2條第2項第1款所稱之第一級毒",
+      "rule_score": 0.5,
+      "bert_score": 0.9997735619544983,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡毒品危害防制條例認施用毒品者具「病患性犯人」之特質，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997461438179016,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、徐淑媛前於民國104年間，因施用毒品案件，經臺灣板橋地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998123049736023,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局文山第二分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998148083686829,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯毒品危害防制條例第10條第1項、第2項之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998050332069397,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

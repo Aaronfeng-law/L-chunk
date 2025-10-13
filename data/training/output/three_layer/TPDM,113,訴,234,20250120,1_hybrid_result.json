@@ -1,0 +1,237 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,234,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:51.716917",
+  "processing_time": 0.049738407135009766,
+  "statistics": {
+    "total_lines": 207,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 207,
+    "positive_predictions": 17,
+    "positive_ratio": 0.0821256038647343,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 183,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "大寫中文數字": 2,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9443821241277166,
+      "std": 0.22828979151973341,
+      "min": 0.0031192239839583635,
+      "max": 0.9998162388801575,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、姜佳君與漢海國際企業有限公司（後更名為漢海生醫企業有",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺灣新北地方檢察署檢察官簽分呈請臺灣高等檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告與漢海公司負責人孫震宇原係男女朋友關係，陳崑海",
+      "rule_score": 0.5,
+      "bert_score": 0.9996969699859619,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、證人孫震宇於審理時證稱：伊跟被告當時在交往，伊本身",
+      "rule_score": 0.5,
+      "bert_score": 0.999729573726654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、綜上所述，被告犯行洵堪認定，應予依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996439218521118,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、公司法第9條雖於107年8月1日經總統修正公布，並於同年0",
+      "rule_score": 0.5,
+      "bert_score": 0.9997257590293884,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、按公司之設立、變更、解散登記或其他登記事項，於90年1",
+      "rule_score": 0.5,
+      "bert_score": 0.9996848106384277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、被告雖非公司負責人或商業負責人，惟其與有此身分之證",
+      "rule_score": 0.5,
+      "bert_score": 0.9997205138206482,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、被告未繳納股款、利用不正當方法致使財務報表發生不實",
+      "rule_score": 0.5,
+      "bert_score": 0.9997088313102722,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、依現有卷證，被告負責媒介共犯陳崑海，證人孫震宇則配",
+      "rule_score": 0.5,
+      "bert_score": 0.9997017979621887,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、爰以行為人之責任為基礎，審酌被告所為已妨礙國家就公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997320771217346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、緩刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、其他利用不正當方法，致使會計事項或財務報表發生不實之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

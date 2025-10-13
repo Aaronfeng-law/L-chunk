@@ -1,0 +1,180 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,34,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:13.122692",
+  "processing_time": 0.20339179039001465,
+  "statistics": {
+    "total_lines": 154,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 154,
+    "positive_predictions": 12,
+    "positive_ratio": 0.07792207792207792,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 138,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12
+    },
+    "bert_score_stats": {
+      "mean": 0.8575701177053686,
+      "std": 0.3483816322104598,
+      "min": 0.0040453639812767506,
+      "max": 0.9998264908790588,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，均引用檢察官聲請簡易判決處刑書之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告陳順益前因施用毒品案件，經本院以112年度毒聲字第422號裁定送觀察、勒戒後，認無繼續施用傾向，於民國112年12月18日執行完畢釋放出所，經臺灣臺北地方檢察署檢察官以112年度毒偵字第1299號為不起訴處分確定等情，有前揭裁定、不起訴處分書及臺灣高等法院被告前案紀錄表在卷可稽。是被告於113年9月16日22時許至21時許間所為本案施用毒品犯行，核屬3年內再犯，自應予追訴、處罰。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998264908790588,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收部分:",
+      "rule_score": 0.5,
+      "bert_score": 0.9997736811637878,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第3項、第450條第1項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，得自收受送達之日起20日內向本院提出上訴",
+      "rule_score": 0.5,
+      "bert_score": 0.999782145023346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本案經檢察官謝承勳聲請以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997701048851013,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳順益前因施用毒品案件，經依法院裁定送觀察、勒戒後，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告陳順益坦承不諱，並有自願受採尿",
+      "rule_score": 0.5,
+      "bert_score": 0.9997935891151428,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯毒品危害防制條例第10條第2項之施用第",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依毒品危害防制條例第23條第2項、刑事訴訟法第451條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,163,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:11.355158",
+  "processing_time": 0.031319379806518555,
+  "statistics": {
+    "total_lines": 112,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 7,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 7,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 112,
+    "positive_predictions": 7,
+    "positive_ratio": 0.0625,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 99,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 7
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.7786027498336302,
+      "std": 0.413813434614699,
+      "min": 0.0034249965101480484,
+      "max": 0.999816358089447,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實：許朝信知悉亞太電信股份有限公司（現已與遠傳",
+      "rule_score": 0.5,
+      "bert_score": 0.999816358089447,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據名稱：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告行為後，詐欺犯罪危害防制條例雖於113年7月31日修正",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告固於警詢時自承：邱錦德給我現金2至3千元等語（見同",
+      "rule_score": 0.5,
+      "bert_score": 0.9997902512550354,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、依刑事訴訟法第449條第2項、第454條第1項、第300條，逕",
+      "rule_score": 0.5,
+      "bert_score": 0.9997864365577698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、如不服本判決，應於判決送達後20日內，向本院提出上訴狀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997850060462952,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

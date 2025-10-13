@@ -1,0 +1,236 @@
+{
+  "source_file": "data/filted/TPDM,114,智簡,2,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:10.115968",
+  "processing_time": 0.04822564125061035,
+  "statistics": {
+    "total_lines": 270,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 270,
+    "positive_predictions": 17,
+    "positive_ratio": 0.06296296296296296,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 245,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.8950069186302196,
+      "std": 0.3054508797669274,
+      "min": 0.003651621052995324,
+      "max": 0.999823272228241,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 26,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實、證據，除證據部分補充「被告兼代表人楊婷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997994303703308,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按著作權法所規定之重製，係指以印刷、複印、錄音、錄影",
+      "rule_score": 0.5,
+      "bert_score": 0.9997501969337463,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡是被告楊婷喻、林志峰擅自重製並公開傳輸本案杏美公司之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997501969337463,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢核被告楊婷喻、林志峰所為，均係犯醫療器材管理法61條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997401833534241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告楊婷喻、林志峰間所為上開犯行，有犯意聯絡與行為分擔",
+      "rule_score": 0.5,
+      "bert_score": 0.9997021555900574,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告楊婷喻、林志峰就起訴書犯罪事實欄所載之犯行，係基",
+      "rule_score": 0.5,
+      "bert_score": 0.9997246861457825,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥爰以行為人責任為基礎，審酌被告楊婷喻、林志峰未經核准",
+      "rule_score": 0.5,
+      "bert_score": 0.9997709393501282,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦被告楊婷喻、林志峰前均未曾因故意犯罪受有期徒刑以上刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997465014457703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本件判決，應於判決書送達之日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997808337211609,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、楊婷喻係慧視生技股份有限公司（下稱慧視公司）之負責人",
+      "rule_score": 0.5,
+      "bert_score": 0.999821126461029,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 183,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經杏美公司訴由臺北市政府警察局萬華分局報告、本署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.999823272228241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 186,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998062252998352,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告楊婷喻、林志峰所為，均係犯違反醫療器材管理法第",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 198,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至告訴意旨認被告楊婷喻在上開網路賣場所刊登如附表所示",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

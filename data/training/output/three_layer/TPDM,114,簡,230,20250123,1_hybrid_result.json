@@ -1,0 +1,247 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,230,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:12.065751",
+  "processing_time": 0.04766440391540527,
+  "statistics": {
+    "total_lines": 109,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 109,
+    "positive_predictions": 18,
+    "positive_ratio": 0.1651376146788991,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 85,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 12
+    },
+    "bert_score_stats": {
+      "mean": 0.9473222401973448,
+      "std": 0.22244040367329576,
+      "min": 0.003587547689676285,
+      "max": 0.9998192191123962,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王沐夏意圖為自己不法所有，基於竊盜之犯意，分別為下列",
+      "rule_score": 0.5,
+      "bert_score": 0.9998192191123962,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠於民國113年6月28日10時11分起迄同日10時35分，在臺北市○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997251629829407,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡於113年6月29日11時26分起至同日11時34分，在前揭藥妝店",
+      "rule_score": 0.5,
+      "bert_score": 0.9997493624687195,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告王沐夏於警詢及本院準備程序中之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997355341911316,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人即告訴代理人黃歆雅於警詢中之指述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997709393501282,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢屈臣氏公司所製庫存檢核明細表、意外事故報告、監視錄影畫",
+      "rule_score": 0.5,
+      "bert_score": 0.9997513890266418,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，均係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997052550315857,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告所為2次竊盜犯行，均係在同一地點，於密切之時間內先",
+      "rule_score": 0.5,
+      "bert_score": 0.9997186064720154,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告所為2次竊盜犯行，犯意各別，行為互殊，應予分論併罰",
+      "rule_score": 0.5,
+      "bert_score": 0.9996942281723022,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣本件檢察官於聲請簡易判決處刑書主張被告構成累犯，並請",
+      "rule_score": 0.5,
+      "bert_score": 0.9997321963310242,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰審酌被告已有多次竊盜之前案紀錄，素行非佳，仍不思以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之；於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9996833801269531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告竊得如附表一、二所示之物，為其本案犯罪所得，未經",
+      "rule_score": 0.5,
+      "bert_score": 0.9997064471244812,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項、第3項、第450條第1項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應自判決送達之日起20日內，向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997792840003967,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

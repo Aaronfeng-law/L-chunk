@@ -1,0 +1,248 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1279,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.952487",
+  "processing_time": 0.05028939247131348,
+  "statistics": {
+    "total_lines": 209,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 209,
+    "positive_predictions": 18,
+    "positive_ratio": 0.0861244019138756,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 185,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "大寫中文數字": 2,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9005415610154159,
+      "std": 0.29770809526021985,
+      "min": 0.0032274846453219652,
+      "max": 0.9998189806938171,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、楊美淑意圖為自己不法之所有，基於竊盜之犯意，於民國11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經蘇詠展訴由臺北市政府警察局信義分局報告臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998189806938171,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、至於所引非供述證據部分，與本案事實具自然關聯性，且非",
+      "rule_score": 0.5,
+      "bert_score": 0.9998001456260681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、又上開各項證據，已經本院於審理時合法踐行調查程序，自",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於上開時、地，拿取本案商品放置於攤販提供之透明塑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997227787971497,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡次查，就被告當時結帳經過，業據證人即告訴人蘇詠展於警",
+      "rule_score": 0.5,
+      "bert_score": 0.9997442364692688,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢復經本院當庭勘驗當時攤販之監視錄影畫面檔案「IMG_2254.",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣是由上揭監視錄影畫面可證，被告至告訴人攤位右端前，原",
+      "rule_score": 0.5,
+      "bert_score": 0.9997676014900208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤至被告雖辯稱其並無竊盜犯意，其當時有將蝦子及蔬菜都拿",
+      "rule_score": 0.5,
+      "bert_score": 0.9997499585151672,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 169,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥綜上所述，被告所辯難以採信，本案事證明確，被告之犯行",
+      "rule_score": 0.5,
+      "bert_score": 0.9996895790100098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 171,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997056126594543,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告僅因一時貪欲，竊取本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997736811637878,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告竊取之蝦子17隻，固為其犯罪所得，惟業經告訴人領回",
+      "rule_score": 0.5,
+      "bert_score": 0.9998028874397278,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

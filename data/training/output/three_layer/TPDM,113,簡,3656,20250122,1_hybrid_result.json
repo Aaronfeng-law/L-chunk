@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,3656,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:34.901042",
+  "processing_time": 0.04071950912475586,
+  "statistics": {
+    "total_lines": 174,
+    "candidate_lines": 15,
+    "bert_processed_lines": 15,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 174,
+    "positive_predictions": 14,
+    "positive_ratio": 0.08045977011494253,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 152,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 15,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.933337373053655,
+      "std": 0.2486273686515554,
+      "min": 0.003058947855606675,
+      "max": 0.9998202919960022,
+      "count": 15
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除事實欄附表「地點」、「商店」欄",
+      "rule_score": 0.5,
+      "bert_score": 0.9997971653938293,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告謝敏翔所為，係犯刑法第337條之侵占遺失物罪、刑法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997343420982361,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告如附表所示之盜刷信用卡之詐欺取財行為，核屬密切接",
+      "rule_score": 0.5,
+      "bert_score": 0.999734103679657,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人之責任為基礎，審酌被告本件侵占遺失物、詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣至聲請簡易判決處刑意旨雖敘明被告構成累犯，並請求參照",
+      "rule_score": 0.5,
+      "bert_score": 0.9997501969337463,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：查如附表所示之新臺幣4,463元之消費，屬被告詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998202919960022,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項、第3項、第454條第2項、第450",
+      "rule_score": 0.5,
+      "bert_score": 0.9997847676277161,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、謝敏翔前曾因毒品危害防制條例案件，經臺灣士林地方法院",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經吳志光訴由臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998130202293396,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告謝敏翔於警詢與偵訊時坦承不諱，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997996687889099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第337條侵占遺失物、第339條第1項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

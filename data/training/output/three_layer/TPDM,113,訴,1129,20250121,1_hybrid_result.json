@@ -1,0 +1,326 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1129,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:43.276991",
+  "processing_time": 0.08259081840515137,
+  "statistics": {
+    "total_lines": 303,
+    "candidate_lines": 30,
+    "bert_processed_lines": 30,
+    "total_markers": 25,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 25,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 303,
+    "positive_predictions": 25,
+    "positive_ratio": 0.08250825082508251,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 267,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 30,
+        "positive": 25
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "大寫中文數字": 2,
+      "圍字數字": 12,
+      "括號數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.8225835905487959,
+      "std": 0.3704883629563098,
+      "min": 0.0031903882045298815,
+      "max": 0.9998212456703186,
+      "count": 30
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳啓國知悉海洛因係毒品危害防制條例第2條第2項第1款所",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、陳啓國另基於持有第一級毒品、第二級毒品之犯意，於不詳",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、陳啓國另基於施用第二級毒品之犯意，於113年4月24日2時",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按觀察、勒戒或強制戒治執行完畢釋放後，3年內再犯第10",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、檢察官、被告及辯護人對於本判決所引用被告以外之人於審",
+      "rule_score": 0.5,
+      "bert_score": 0.9998026490211487,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998100399971008,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠前開犯罪事實，業據被告於偵訊、本院審理時坦承不諱，核",
+      "rule_score": 0.5,
+      "bert_score": 0.9997219443321228,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三〉第141頁至142頁、臺灣新北地方檢察署113年度毒偵字第",
+      "rule_score": 0.5,
+      "bert_score": 0.6541683673858643,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪事實一部分，被告主觀上具有藉由販賣第一級毒品營利",
+      "rule_score": 0.5,
+      "bert_score": 0.9997307658195496,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上所述，本案事證明確，被告之犯行洵堪認定，應予依法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997033476829529,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠罪名：",
+      "rule_score": 0.5,
+      "bert_score": 0.999754011631012,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡罪數：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢就犯罪事實一部分，刑之減輕事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997281432151794,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴刑法第59條所規定之酌量減輕其刑，係裁判上之減輕，必",
+      "rule_score": 0.5,
+      "bert_score": 0.9998212456703186,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵被告為犯罪事實一所示販賣第一級毒品海洛因之犯行，固",
+      "rule_score": 0.5,
+      "bert_score": 0.9997853636741638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣臺灣新北地方檢察署檢察官113年度毒偵字第3381號併辦意旨",
+      "rule_score": 0.5,
+      "bert_score": 0.9997639060020447,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤量刑暨定應執行刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠毒品沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997407793998718,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 238,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡供犯罪所用之物沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997250437736511,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 248,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢犯罪所得沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.99974125623703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 273,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣不予宣告沒收之物：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997499585151672,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

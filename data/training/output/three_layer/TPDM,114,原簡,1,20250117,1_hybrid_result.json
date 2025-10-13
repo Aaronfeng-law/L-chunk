@@ -1,0 +1,192 @@
+{
+  "source_file": "data/filted/TPDM,114,原簡,1,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:05.603587",
+  "processing_time": 0.03899073600769043,
+  "statistics": {
+    "total_lines": 105,
+    "candidate_lines": 15,
+    "bert_processed_lines": 15,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 105,
+    "positive_predictions": 13,
+    "positive_ratio": 0.12380952380952381,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 86,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 15,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.8670346402252714,
+      "std": 0.3384635776005291,
+      "min": 0.003969739191234112,
+      "max": 0.9998168349266052,
+      "count": 15
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，均引用檢察官聲請簡易判決處刑書之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告陳志豪前因施用毒品案件，經本院以院111年度毒聲字",
+      "rule_score": 0.5,
+      "bert_score": 0.9998114705085754,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告就聲請簡易判決處刑書犯罪事實欄所為，係犯毒品危",
+      "rule_score": 0.5,
+      "bert_score": 0.9997215867042542,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告明知甲基安非他命為第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997852444648743,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第450條第1項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997822642326355,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之日起20日內向本院提出上訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997807145118713,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本案經檢察官謝承勳聲請以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997712969779968,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳志豪前因施用毒品案件，經法院裁定送觀察、勒戒後，認",
+      "rule_score": 0.5,
+      "bert_score": 0.9998019337654114,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局大同分局報告臺灣士林地方檢察署呈",
+      "rule_score": 0.5,
+      "bert_score": 0.9998168349266052,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告陳志豪對上開犯行坦承不諱，復有台灣尖端先進生技",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、所犯法條：被告所為係犯毒品危害防制條例第10條第2項之施",
+      "rule_score": 0.5,
+      "bert_score": 0.9998052716255188,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

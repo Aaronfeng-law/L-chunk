@@ -1,0 +1,192 @@
+{
+  "source_file": "data/filted/TPDM,114,交易,14,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:03.068264",
+  "processing_time": 0.03802919387817383,
+  "statistics": {
+    "total_lines": 85,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 85,
+    "positive_predictions": 13,
+    "positive_ratio": 0.15294117647058825,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 68,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9289368078378695,
+      "std": 0.25547240282302813,
+      "min": 0.007817963138222694,
+      "max": 0.999812662601471,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、聲請簡易判決處刑書意旨詳如附件所載。",
+      "rule_score": 0.5,
+      "bert_score": 0.999812662601471,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 14,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查被告歐文珍涉犯刑法第284條前段之過失傷害罪嫌，依同",
+      "rule_score": 0.5,
+      "bert_score": 0.9998114705085754,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第303條第3款、第307條、第452",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、歐文珍於民國113年1月1日下午3時41分許，駕駛車牌號碼00",
+      "rule_score": 0.5,
+      "bert_score": 0.999797523021698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經溫兆煜告訴及臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告歐文珍之供述。",
+      "rule_score": 0.5,
+      "bert_score": 0.999757707118988,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡告訴人溫兆煜之指訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997875094413757,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢臺北市政府警察局道路交通事故初步分析研判表、道路交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997501969337463,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣臺北市立聯合醫院(和平院區)診斷證明書。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997549653053284,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係涉犯刑法第284條前段之過失傷害罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997989535331726,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

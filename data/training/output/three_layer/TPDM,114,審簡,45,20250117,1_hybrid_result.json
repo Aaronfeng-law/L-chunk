@@ -1,0 +1,158 @@
+{
+  "source_file": "data/filted/TPDM,114,審簡,45,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:08.803450",
+  "processing_time": 0.034551382064819336,
+  "statistics": {
+    "total_lines": 79,
+    "candidate_lines": 10,
+    "bert_processed_lines": 10,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 79,
+    "positive_predictions": 10,
+    "positive_ratio": 0.12658227848101267,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 67,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 10,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.9998026728630066,
+      "std": 1.2336612226366637e-05,
+      "min": 0.999775230884552,
+      "max": 0.999821126461029,
+      "count": 10
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據部分補充「被告吳昱萱於本院",
+      "rule_score": 0.5,
+      "bert_score": 0.9998114705085754,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第354條之毀損他人物品罪。被告先",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告酒後無故損壞告訴人阮婕湄所有之物，致告訴人",
+      "rule_score": 0.5,
+      "bert_score": 0.999821126461029,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吳昱萱於民國112年11月30日凌晨4時20分許，前往阮婕湄所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經阮婕湄訴由臺北市政府警察局大安分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第354條之毀損器物罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997929930686951,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,3984,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:36.002579",
+  "processing_time": 0.8674049377441406,
+  "statistics": {
+    "total_lines": 234,
+    "candidate_lines": 26,
+    "bert_processed_lines": 26,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 234,
+    "positive_predictions": 24,
+    "positive_ratio": 0.10256410256410256,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 206,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 26,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 3,
+      "中文數字": 13,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9234561204122236,
+      "std": 0.2643766026362586,
+      "min": 0.003958301618695259,
+      "max": 0.9998241066932678,
+      "count": 26
+    }
+  },
+  "markers": [
+    {
+      "line_number": 54,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、得心證之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上開犯罪事實，業據被告趙高翊於本院準備程序時坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案事證明確，應依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告行為後，洗錢防制法先於112年6月14日修正公布第16條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997432827949524,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告行為時，修正前洗錢防制法第14條第1項規定：「有第2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997214674949646,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢惟按法律變更之比較，應就罪刑有關之法定加減原因與加減",
+      "rule_score": 0.5,
+      "bert_score": 0.9997802376747131,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣又關於自白減刑之規定，被告行為時法即112年6月14日修正",
+      "rule_score": 0.5,
+      "bert_score": 0.9997225403785706,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤經查，被告幫助洗錢之財物未達1億元，其於本院準備程序中",
+      "rule_score": 0.5,
+      "bert_score": 0.9996956586837769,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、詐欺集團利用被告本案帳戶資料受領詐欺犯罪所得，已著手於洗錢之行為，惟就告訴人施漢嘉遭詐騙部分（即附表編號41部分），款項尚未提領，金流上仍屬透明易查，未生掩飾、隱匿特定犯罪所得之結果，應論以洗錢未遂。是核被告所為，就附表編號1至40、42至54部分，係犯刑法第30條第1項前段、第339條第1項之幫助詐欺取財罪，及刑法第30條第1項前段、修正前洗錢防制法第14條第1項之幫助洗錢罪；就附表編號41部分，係犯刑法第30條第1項前段、第339條第1項之幫助詐欺取財罪及刑法第30條第1項前段、修正前洗錢防制法第14條第2項、第1項之之幫助洗錢未遂罪。至起訴書所犯法條欄雖記載被告涉犯刑法第339條之4第1項第2款三人以上共犯詐欺取財、洗錢防制法第14條第1項一般洗錢等罪嫌等語，然被告除有提供本案帳戶資料外，並無事證足認被告有為三人以上詐欺取財、洗錢罪之構成要件行為，起訴意旨容有誤會，且此部分業經檢察官以補充理由書更正，另起訴書雖認附表編號41部分為洗錢既遂罪，惟既、未遂行為態樣未涉及罪名之變更，自不生變更起訴法條問題，附此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998241066932678,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告以一交付本案帳戶資料之行為觸犯上開罪名，為想像競",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、刑之減輕：",
+      "rule_score": 0.5,
+      "bert_score": 0.999797523021698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告基於幫助洗錢之不確定故意，參與構成要件以外之行為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997122883796692,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於本院準備程序中自白洗錢犯行，爰依112年6月14日修",
+      "rule_score": 0.5,
+      "bert_score": 0.999742329120636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢至附表編號41所示幫助洗錢未遂部分，另符合刑法第25條第2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997256398200989,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、臺灣臺北地方檢察署檢察官113年度偵字第18936號（即附表",
+      "rule_score": 0.5,
+      "bert_score": 0.9997996687889099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、爰以行為人之責任為基礎，審酌近年來詐欺案件頻傳，行騙",
+      "rule_score": 0.5,
+      "bert_score": 0.9997918009757996,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997510313987732,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 169,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告於本院準備程序時供稱：我提供本案帳戶資料沒有獲利",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告於本院準備程序時供稱：我和真實姓名年籍不詳之人討",
+      "rule_score": 0.5,
+      "bert_score": 0.9998095631599426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、附表編號41告訴人施漢嘉匯入本案臺企銀行帳戶之1萬6,888",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第450條第1項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 198,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

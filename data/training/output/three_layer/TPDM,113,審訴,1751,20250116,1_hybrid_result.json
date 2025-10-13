@@ -1,0 +1,225 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,1751,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:50.337848",
+  "processing_time": 0.040534019470214844,
+  "statistics": {
+    "total_lines": 165,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 165,
+    "positive_predictions": 16,
+    "positive_ratio": 0.09696969696969697,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 144,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.9411699412774075,
+      "std": 0.23445063471527014,
+      "min": 0.003367409575730562,
+      "max": 0.999819815158844,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、洪尉庭明知其無演唱會門票可供其販售，且無履約交付演場",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠基於意圖為自己不法所有以網際網路對公眾散布詐欺取財之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997380375862122,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡基於意圖為自己不法所有詐欺取財之犯意，於附表一編號2所",
+      "rule_score": 0.5,
+      "bert_score": 0.999743640422821,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經附表一各被害人訴由臺北市政府警察局中正第二分局報",
+      "rule_score": 0.5,
+      "bert_score": 0.9998180270195007,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件被告洪尉庭所犯均係死刑、無期徒刑、最輕本刑為3年",
+      "rule_score": 0.5,
+      "bert_score": 0.9998038411140442,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、首揭犯罪事實，業據被告於警詢、偵訊及本院審理時坦承不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑法第339條之4加重詐欺罪，關於第1項第3款「以廣播電",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告本案於犯罪事實「一、㈠」所為，均係犯刑法第339條",
+      "rule_score": 0.5,
+      "bert_score": 0.999737560749054,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡」所為係構成刑法第339條之4第1項第3款之罪，依前揭說",
+      "rule_score": 0.5,
+      "bert_score": 0.9997879862785339,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告於犯罪事實「一、㈠」行為後，總統於113年7月31日以華",
+      "rule_score": 0.5,
+      "bert_score": 0.9997567534446716,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰審酌近年我國治安飽受詐騙案件威脅，民眾受騙案甚多，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997887015342712,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 156,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 158,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1113,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:43.088178",
+  "processing_time": 0.07324743270874023,
+  "statistics": {
+    "total_lines": 282,
+    "candidate_lines": 25,
+    "bert_processed_lines": 25,
+    "total_markers": 21,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 21,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 282,
+    "positive_predictions": 21,
+    "positive_ratio": 0.07446808510638298,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 253,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 25,
+        "positive": 21
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 10,
+      "大寫中文數字": 2,
+      "括號數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.840468622930348,
+      "std": 0.36495944348358295,
+      "min": 0.0034960035700351,
+      "max": 0.9998145699501038,
+      "count": 25
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、劉祖源（通訊軟體LINE暱稱「老黑」，下稱「老黑」）明知",
+      "rule_score": 0.5,
+      "bert_score": 0.9997979998588562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、劉祖源為牟取不法利益，與通訊軟體Telegram暱稱「少女純",
+      "rule_score": 0.5,
+      "bert_score": 0.9997079968452454,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、劉祖源基於意圖販賣而持有第三級毒品之犯意，先於113年5",
+      "rule_score": 0.5,
+      "bert_score": 0.9997060894966125,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經北檢檢察官指揮臺北市政府警察局中山分局報告偵查後",
+      "rule_score": 0.5,
+      "bert_score": 0.9998034834861755,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告劉祖源以外之人於審判外所為之陳述，經檢",
+      "rule_score": 0.5,
+      "bert_score": 0.99980229139328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案認定事實所引用之非供述證據，無證據證明係公務員違",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、上揭犯罪事實，業據被告於警詢、偵查、本院準備程序及審",
+      "rule_score": 0.5,
+      "bert_score": 0.9996896982192993,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、按販賣毒品者主觀上是否具有營利之意圖，係潛藏在其個人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997149109840393,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按毒品危害防制條例第9條第3項所稱之混合，係指將二種以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997177720069885,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 136,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、核被告所為，就事實欄一、㈠部分，係犯毒品危害防制條例第",
+      "rule_score": 0.5,
+      "bert_score": 0.9996833801269531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、刑之加重事由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997232556343079,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、刑之減輕事由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997175335884094,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、行為人之責任為基礎，審酌被告明知混有多種毒品成分的毒",
+      "rule_score": 0.5,
+      "bert_score": 0.9996793270111084,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997316002845764,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴就附表一編號1、2之毒品即溶包及彩虹菸部分，就附表一編",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵就附表二編號1彩虹菸部分，就其中菸身有不規則棕色斑點之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997753500938416,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 228,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶此外，就附表一編號1、2及附表二編號1所示之物，因其等外",
+      "rule_score": 0.5,
+      "bert_score": 0.9996979236602783,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

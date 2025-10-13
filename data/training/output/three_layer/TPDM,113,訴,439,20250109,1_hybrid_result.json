@@ -1,0 +1,181 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,439,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:52.736749",
+  "processing_time": 0.4893953800201416,
+  "statistics": {
+    "total_lines": 118,
+    "candidate_lines": 13,
+    "bert_processed_lines": 13,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 118,
+    "positive_predictions": 12,
+    "positive_ratio": 0.1016949152542373,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 103,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 13,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9231034902533373,
+      "std": 0.265559696516044,
+      "min": 0.0031777264084666967,
+      "max": 0.9998055100440979,
+      "count": 13
+    }
+  },
+  "markers": [
+    {
+      "line_number": 26,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告林煒盛固坦承有於112年6月8日凌晨5時許，在臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告有於上開時、地，與證人王聖輔見面等情，業據證人王",
+      "rule_score": 0.5,
+      "bert_score": 0.9997197985649109,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人王聖輔於偵查中證稱：被告在交友軟體上有打說他在這",
+      "rule_score": 0.5,
+      "bert_score": 0.9997355341911316,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢再參以被告與證人王聖輔Grindr社群軟體對話紀錄截圖，證人：「有在出嗎」、16/5 now即被告：「嗯嗯？」、證人：「3是多少」、被告：「84」、證人：「嗯嗯、怎麼拿」、被告：「找我拿啊」、證人：「直接敲你門喔」有前揭對話紀錄截圖（他字卷第43至46頁)，在卷可參。另依謙匯普樂室行旅住房紀錄、監視器畫面截圖（他字卷第47至49頁）以觀，證人與被告相約見面，證人於進入案發旅館房間後約12分鐘即離去，可見被告與證人係為特定目的見面，並於達成目的後迅速離開，亦核與證人上開所述若合符節，足資作為補強證據，從而，證人前揭證詞，應屬可信。據上，堪認被告確於上開時、地，以8,400元之價格，販賣甲基安非他命3公克予證人無訛。被告之辯護人辯稱本案僅有證人之單一證述，無其他補強證據，亦屬無據。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998024106025696,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告固辯稱本案有與證人見面，然係因販賣證人潤滑液等語，惟按買賣毒品係非法交易，具隱密及特殊信賴關係，而販賣毒品復係政府嚴予查緝之違法行為，偵查機關時以依法核發之通訊監察作為偵查手段，毒品交易者，為免遭查緝風險，常以買賣雙方始知或隱晦不明之用語，替代毒品交易之重要訊息（如種類、數量、金額），甚至因事前已有約定或默契，故僅約定見面，即能進行毒品交易，此與社會大眾一般認知無違，故對通訊軟體對話內容之評價，尚須綜合相關供述而為判斷。又一般合法物品之交易，買賣雙方於電話或通訊軟體聯繫之間，固會就標的物、價金、交付方式等事項為約定；然有關毒品之交易，誠難期待買賣雙方以同樣標準為聯繫，尤其，在現行通訊監察制度之下，若於通話間言明具體之標的物或以暗語代之，無異自曝於被查獲之風險中。觀諸被告與證人之前揭對話紀錄截圖，其等間雖未明確指出交易毒品之種類，然被告及證人於對話中「有在出嗎」、「嗯嗯？」、「3是多少」、「84」、「嗯嗯、怎麼拿」、「找我拿啊」等模糊、隱晦之話語，被告即對其所述事情有所知悉而開始討論交易標的之價格，顯見被告就與證人見面所為何事，知之甚明，亦與現今毒品交易者為降低查獲風險，盡可能不在對話中提及具體情事，而僅以相約見面或彼此間心知肚明之話語溝通之毒品交易實務吻合，足認被告與證人前揭對談時，早已明瞭證人所指係要向被告購買第二級毒品甲基安非他命，縱於對話中未提及毒品交易之內容，亦不影響雙方本次交易毒品之情事。從而，依證人與被告之前揭對話內容，不僅與毒品交易中常見之術語相符合，亦與證人上開證述內容相符。況衡情，倘被告與證人欲交易之標的僅係價值84元之3瓶潤滑液，當無選擇半夜搭乘計程車前往交易之理，是以被告辯稱本案有與證人見面，然係因販賣證人潤滑液云云，自屬臨訟卸責之詞，不可採信。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤從而，本案事證明確，被告犯行堪以認定，應依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997649788856506,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯毒品危害防制條例第4條第2項之販賣第二",
+      "rule_score": 0.5,
+      "bert_score": 0.9997472167015076,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告無視國家防制毒品危害",
+      "rule_score": 0.5,
+      "bert_score": 0.9997833371162415,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之，於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9996681213378906,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡至扣得第二級毒品甲基安非他命共5包，屬臺灣臺北地方檢察",
+      "rule_score": 0.5,
+      "bert_score": 0.9997485280036926,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

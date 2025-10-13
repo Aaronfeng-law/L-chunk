@@ -1,0 +1,192 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,3977,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:35.134423",
+  "processing_time": 0.04055976867675781,
+  "statistics": {
+    "total_lines": 88,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 88,
+    "positive_predictions": 13,
+    "positive_ratio": 0.14772727272727273,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 68,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9287868897829737,
+      "std": 0.2558623428376113,
+      "min": 0.006262108683586121,
+      "max": 0.9998062252998352,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實：潘淑玲意圖為自己不法之所有，基於竊盜之犯意",
+      "rule_score": 0.5,
+      "bert_score": 0.9998062252998352,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據名稱：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告潘淑玲於警詢、偵查中之供述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997099041938782,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、告訴人蔡羽宣於警詢中之指訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997103810310364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、監視錄影畫面截圖。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996739625930786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.999657154083252,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告前因竊盜案件，經臺灣基隆地方法院以107年度基簡字第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997231364250183,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、爰審酌被告不思以己力正當賺取財物，恣意竊取他人財物，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997460246086121,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第454條第1項、第450條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997857213020325,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本案經檢察官呂俊儒聲請以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997748732566833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、如不服本判決，應於判決送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.999782383441925,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

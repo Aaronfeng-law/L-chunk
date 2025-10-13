@@ -1,0 +1,260 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,989,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:59.379676",
+  "processing_time": 0.0748291015625,
+  "statistics": {
+    "total_lines": 256,
+    "candidate_lines": 25,
+    "bert_processed_lines": 25,
+    "total_markers": 19,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 19,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 256,
+    "positive_predictions": 19,
+    "positive_ratio": 0.07421875,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 225,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 25,
+        "positive": 19
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "大寫中文數字": 2,
+      "圍字數字": 10,
+      "括號數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.7612179410364479,
+      "std": 0.4245235406692651,
+      "min": 0.003129549091681838,
+      "max": 0.9998170733451843,
+      "count": 25
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吳承恩明知甲基安非他命為毒品危害防制條例第2條第2項第2",
+      "rule_score": 0.5,
+      "bert_score": 0.9998020529747009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局中正第一分局報告臺灣臺北地方檢察",
+      "rule_score": 0.5,
+      "bert_score": 0.9998170733451843,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998108744621277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告就上開犯罪事實，於偵查及本院準備、審理程序中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997652173042297,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又買賣毒品為我國所禁止之犯罪行為，既係非可公然為之之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997578263282776,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上，本件事實既明，被告如附表編號1至8所示之犯行，堪",
+      "rule_score": 0.5,
+      "bert_score": 0.9997135996818542,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按甲基安非他命係毒品危害防制條例第2條第2項第2款所規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997634291648865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡刑之減輕事由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴刑法第62條部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵毒品危害防制條例第17條第1項部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997790455818176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人責任為基礎，審酌被告知悉國家杜絕毒品犯罪之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997877478599548,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收、追徵其價額部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997996687889099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按查獲之第一級、第二級毒品及專供製造或施用第一級、第",
+      "rule_score": 0.5,
+      "bert_score": 0.9997379183769226,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又犯第4條至第9條、第12條、第13條或第14條第1項、第2項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢犯罪所得，屬於犯罪行為人者，沒收之。前二項之沒收，於",
+      "rule_score": 0.5,
+      "bert_score": 0.9997358918190002,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 223,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣至本案扣案之針筒、殘渣袋、另1支行動電話，因與本案犯罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

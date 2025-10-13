@@ -1,0 +1,258 @@
+{
+  "source_file": "data/filted/TPDM,114,交簡,63,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:04.187902",
+  "processing_time": 0.04914069175720215,
+  "statistics": {
+    "total_lines": 117,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 19,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 19,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 117,
+    "positive_predictions": 19,
+    "positive_ratio": 0.1623931623931624,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 94,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 19
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 17,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9500486762495711,
+      "std": 0.21684521875540874,
+      "min": 0.004842283669859171,
+      "max": 0.9998131394386292,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除犯罪事實欄關於「啤酒」之記載，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997945427894592,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告劉倚均所為，係犯刑法第185條之3第1項第1款之吐氣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997413754463196,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告漠視法紀，無視政府致",
+      "rule_score": 0.5,
+      "bert_score": 0.9997801184654236,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、據上論斷，應依刑事訴訟法第449條第1項前段、第3項、第4",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，應於判決送達後20日內，向本院提出上訴書",
+      "rule_score": 0.5,
+      "bert_score": 0.9997884631156921,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吐氣所含酒精濃度達每公升零點二五毫克或血液中酒精濃度",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、有前款以外之其他情事足認服用酒類或其他相類之物，致不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、尿液或血液所含毒品、麻醉藥品或其他相類之物或其代謝物",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、有前款以外之其他情事足認施用毒品、麻醉藥品或其他相類",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、劉倚均自民國113年12月23日下午8時許至翌日上午1時30分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998131394386292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告劉倚均於警詢及偵訊中均坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997968077659607,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第185條之3第1項第1款之違背安全駕",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吐氣所含酒精濃度達每公升零點二五毫克或血液中酒精濃度",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、有前款以外之其他情事足認服用酒類或其他相類之物，致不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、尿液或血液所含毒品、麻醉藥品或其他相類之物或其代謝物",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、有前款以外之其他情事足認施用毒品、麻醉藥品或其他相類",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

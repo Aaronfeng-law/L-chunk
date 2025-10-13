@@ -1,0 +1,237 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1234,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.757855",
+  "processing_time": 0.048830509185791016,
+  "statistics": {
+    "total_lines": 274,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 274,
+    "positive_predictions": 17,
+    "positive_ratio": 0.06204379562043796,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 253,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "天干": 2,
+      "大寫中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9444725413729126,
+      "std": 0.22812671783021723,
+      "min": 0.003881990211084485,
+      "max": 0.99982750415802,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、邱宇蒂與錢○儀(民國00年0月生，於本件發生時為少年，真",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經錢○儀訴由臺北市政府警察局中正第一分局報告臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.99982750415802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、至本判決認定事實所引用之其餘文書證據及非供述證物，與",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定犯罪事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告固坦承有於事實欄所載之時、地，與告訴人即少年",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、綜上，本案事證明確，被告前開所辯要屬臨訟卸責之詞，不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 162,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、論罪：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、不另為無罪部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998038411140442,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 202,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告同時基於毀損之犯意，於事實欄所載之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 207,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 220,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告涉有此部分犯嫌，無非係以錢○儀於警詢及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997943043708801,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 225,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、經查，審諸錢○儀於警詢中係指陳以：被告用手抓傷我的臉",
+      "rule_score": 0.5,
+      "bert_score": 0.999789297580719,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，公訴意旨此部分所指除錢○儀之單一指訴外，卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997552037239075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

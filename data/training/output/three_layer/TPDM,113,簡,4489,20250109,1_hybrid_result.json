@@ -1,0 +1,126 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4489,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:38.449465",
+  "processing_time": 0.024592161178588867,
+  "statistics": {
+    "total_lines": 52,
+    "candidate_lines": 7,
+    "bert_processed_lines": 7,
+    "total_markers": 7,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 7,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 52,
+    "positive_predictions": 7,
+    "positive_ratio": 0.1346153846153846,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 42,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 7,
+        "positive": 7
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9997781770569938,
+      "std": 3.116820380621316e-05,
+      "min": 0.9997056126594543,
+      "max": 0.9998072981834412,
+      "count": 7
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本院認定被告林俊良之犯罪事實及證據，均與檢察官聲請簡",
+      "rule_score": 0.5,
+      "bert_score": 0.9998072981834412,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997056126594543,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰審酌被告正值壯年，不思以己身之力，循正當途徑獲取所",
+      "rule_score": 0.5,
+      "bert_score": 0.9997884631156921,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按宣告前二條之沒收或追徵，有過苛之虞、欠缺刑法上之重",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第454條第2項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997841715812683,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得於判決書送達之日起20日內，以書狀敘述",
+      "rule_score": 0.5,
+      "bert_score": 0.9997732043266296,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

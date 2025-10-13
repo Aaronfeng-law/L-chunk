@@ -1,0 +1,401 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2763,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:39.356867",
+  "processing_time": 0.09453177452087402,
+  "statistics": {
+    "total_lines": 221,
+    "candidate_lines": 35,
+    "bert_processed_lines": 35,
+    "total_markers": 32,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 32,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 221,
+    "positive_predictions": 32,
+    "positive_ratio": 0.14479638009049775,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 182,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 35,
+        "positive": 32
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 22,
+      "圍字數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.9145690888432519,
+      "std": 0.278308880056643,
+      "min": 0.0040113902650773525,
+      "max": 0.9998202919960022,
+      "count": 35
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除下列補充、更正外，其餘均引用如",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠起訴書犯罪事實欄一第5至6行「竟基於幫助填製不實會計憑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997581839561462,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡起訴書附表編號1「登記負責人」欄所載「陳妤姍、陳建志、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997543692588806,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢起訴書附表合計「張數」欄「40」更正為「34」、「銷售額",
+      "rule_score": 0.5,
+      "bert_score": 0.9997541308403015,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣證據部分，補充「被告游士億於本院準備程序中之自白」。",
+      "rule_score": 0.5,
+      "bert_score": 0.999750554561615,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997937083244324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯修正前稅捐稽徵法第43條第1項之幫助逃漏",
+      "rule_score": 0.5,
+      "bert_score": 0.9997318387031555,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告與真實姓名、年籍不詳之成年男子間，有犯意聯絡及行",
+      "rule_score": 0.5,
+      "bert_score": 0.9997323155403137,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告於107年6月至同年8月間，多次填製不實會計憑證、幫助",
+      "rule_score": 0.5,
+      "bert_score": 0.9997263550758362,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣再被告係以一行為觸犯商業會計法第71條第1款之填製不實會",
+      "rule_score": 0.5,
+      "bert_score": 0.9997500777244568,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰審酌被告可預見提供個人證件資料擔任公司之掛名負責人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997829794883728,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥查被告前未曾因故意犯罪受有期徒刑以上刑之宣告，此有臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997290968894958,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、以明知為不實之事項，而填製會計憑證或記入帳冊。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、故意使應保存之會計憑證、會計帳簿報表滅失毀損。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998133778572083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、偽造或變造會計憑證、會計帳簿報表內容或毀損其頁數。",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、故意遺漏會計事項不為記錄，致使財務報表發生不實之結果",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、其他利用不正當方法，致使會計事項或財務報表發生不實之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、游士億明知自己並無經營或投資公司之真意，且依其智識程",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 154,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經財政部臺北國稅局移送偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998202919960022,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 156,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 158,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按統一發票乃證明事項之經過而為造具記帳憑證所根據之原",
+      "rule_score": 0.5,
+      "bert_score": 0.9998109936714172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按行為後法律有變更者，適用行為時之法律；但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、核被告所為，係犯商業會計法第71條第1款之填製不實會計",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 193,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997732043266296,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、以明知為不實之事項，而填製會計憑證或記入帳冊。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 214,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、故意使應保存之會計憑證、會計帳簿報表滅失毀損。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998133778572083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、偽造或變造會計憑證、會計帳簿報表內容或毀損其頁數。",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、故意遺漏會計事項不為記錄，致使財務報表發生不實之結果",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、其他利用不正當方法，致使會計事項或財務報表發生不實之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

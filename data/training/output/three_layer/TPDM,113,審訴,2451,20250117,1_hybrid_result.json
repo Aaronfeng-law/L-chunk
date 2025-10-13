@@ -1,0 +1,379 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,2451,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:10.637658",
+  "processing_time": 1.0921630859375,
+  "statistics": {
+    "total_lines": 276,
+    "candidate_lines": 33,
+    "bert_processed_lines": 33,
+    "total_markers": 30,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 30,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 276,
+    "positive_predictions": 30,
+    "positive_ratio": 0.10869565217391304,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 234,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 9,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 33,
+        "positive": 30
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 14,
+      "圍字數字": 16
+    },
+    "bert_score_stats": {
+      "mean": 0.9092152037051027,
+      "std": 0.286360825666809,
+      "min": 0.003174494719132781,
+      "max": 0.999819815158844,
+      "count": 33
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除下列更正與補充外，其餘均引用檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠犯罪事實欄第一段第1行「張伯鑫於民國112年12月20日前不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997599720954895,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪事實第一段第4至5行「基於三人以上共同詐欺取財、偽",
+      "rule_score": 0.5,
+      "bert_score": 0.9997705817222595,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢犯罪事實欄第一段倒數第11至12行「向何玉娘佯稱為慶霙投",
+      "rule_score": 0.5,
+      "bert_score": 0.9997515082359314,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣證據項目增列「被告張伯鑫於本院審理中之自白」。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997428059577942,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤理由部分補充：",
+      "rule_score": 0.5,
+      "bert_score": 0.999763548374176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997621178627014,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告所為，係犯刑法第339條之4第1項第2款三人以上共同",
+      "rule_score": 0.5,
+      "bert_score": 0.9997392296791077,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告所犯三人以上共同詐欺取財罪、行使偽造特種文書罪、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997182488441467,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告雖於偵查及本院審理中均坦承涉有加重詐欺取財犯行，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997192025184631,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌被告明知現今社會詐欺集團橫行，集團分工式之詐欺行為往往侵害相當多被害人之財產法益，對社會治安產生重大危害，竟因私利而與詐欺集團合流，造成告訴人財產損失及社會治安之重大危害，所為應予非難；並考量被告於偵、審中均坦承犯罪，並與告訴人何玉娘調解成立（惟依調解條件目前尚未到履行期，調解筆錄見本院卷第65頁）；兼衡被告於本案詐欺集團之角色地位及分工情形、犯罪所造成之損害、高職畢業之智識程度、自述現無業、無需扶養之人、勉持之家庭經濟狀況（見本院卷第46頁）及其素行等一切情狀，就其所犯量處如主文所示之刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997859597206116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯詐欺犯罪，其供犯罪所用之物，不問屬於犯罪行為人與",
+      "rule_score": 0.5,
+      "bert_score": 0.9997174143791199,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於收款時使用之偽造工作證1張並未扣案，據被告稱其業",
+      "rule_score": 0.5,
+      "bert_score": 0.9996919631958008,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按犯罪所得，屬於犯罪行為人者，沒收之；前二項之沒收，於全部或一部不能沒收或不宜執行沒收時，追徵其價額，刑法第38條之1第1項前段、第3項定有明文。另刑法沒收新制目的在於澈底剝奪犯罪行為人之犯罪所得，使其不能坐享犯罪成果，以杜絕犯罪誘因，性質上屬類似不當得利之衡平措施。而考量避免雙重剝奪，犯罪所得如已實際發還或賠償被害人者，始不予宣告沒收或追徵。故倘若犯罪行為人雖與被害人達成民事賠償和解，惟實際上並未將和解賠償之金額給付被害人，或實際犯罪所得高於民事賠償和解金額者，法院對於未給付之和解金額或犯罪所得扣除和解金額之差額部分等未實際賠償之犯罪所得，自仍應諭知沒收或追徵，始符合沒收新制之立法本旨（最高法院109年度台上字第55號判決意旨參照）。查被告因本案犯行獲有車資、餐費、住宿費用等合計5,000元一節，業據被告於偵查及本院審理中坦承不諱（見偵卷第80頁；本院卷第45頁），是被告本案犯罪所得應認定為5,000元。此犯罪所得未經扣案，應依前揭規定宣告沒收，於全部或一部不能沒收或不宜執行沒收時，追徵其價額。至被告雖與告訴人調解成立，然調解筆錄僅生與確定判決同一效力之民事執行名義效果；且依前揭調解筆錄所訂之條件，迄本判決宣判日止，尚無需履行賠償，是並無犯罪所得已實際合法發還告訴人之情事，無從認為被告之犯罪所得已遭剝奪，再予宣告沒收追徵有雙重剝奪之過苛情事。至被告若確有依上開調解筆錄內容按期履行，自得向執行檢察官主張扣除此部分數額之犯罪所得，是亦無使被告遭受雙重剝奪之虞。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997811913490295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣按修正後洗錢防制法第25條第1項規定：「犯第19條、第20條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第273條之1第1項、第299條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 180,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 205,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、張伯鑫於民國112年12月20日前不詳時間，加入暱稱「阿誠",
+      "rule_score": 0.5,
+      "bert_score": 0.9998161196708679,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 222,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經何玉娘訴由臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998169541358948,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 224,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 226,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997937083244324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告行為後，洗錢防制法於113年7月31日修正公布，同年0月",
+      "rule_score": 0.5,
+      "bert_score": 0.9997407793998718,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 246,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡再修正前洗錢防制法第14條第1項規定「有第2條各款所列洗",
+      "rule_score": 0.5,
+      "bert_score": 0.9997342228889465,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 259,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告張伯鑫所為，係犯刑法第339條之4第1項第2款加重詐",
+      "rule_score": 0.5,
+      "bert_score": 0.9997898936271667,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 272,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

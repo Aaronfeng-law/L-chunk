@@ -1,0 +1,224 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2227,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:32.205851",
+  "processing_time": 0.04928898811340332,
+  "statistics": {
+    "total_lines": 293,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 293,
+    "positive_predictions": 16,
+    "positive_ratio": 0.05460750853242321,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 272,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 16
+    },
+    "bert_score_stats": {
+      "mean": 0.8007032055407762,
+      "std": 0.3981969896309226,
+      "min": 0.003124649403616786,
+      "max": 0.9998160004615784,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據名稱除引用如附件一起訴書、附件二併",
+      "rule_score": 0.5,
+      "bert_score": 0.9998026490211487,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998038411140442,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第454條第2項、第450條第1項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997828602790833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，得自判決送達之日起20日內，向本庭提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997771382331848,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、李金月曾於民國111年5月間，因提供其個人街口帳戶給不詳",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 204,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經葉庭松、葉書成、葉婉綾、魏旭宏、許毓馨告訴暨臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.9998127818107605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 207,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998062252998352,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第30條第1項前段、第339條第1項之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 250,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、李金月曾於民國111年5月間，因提供其個人街口帳戶給不詳",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 269,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經林祉吟訴由新北市政府警察局永和分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 271,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 279,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、所犯法條：刑法第30條第1項前段、第339條第1項之幫助詐",
+      "rule_score": 0.5,
+      "bert_score": 0.999797523021698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 282,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、併案理由：被告前因違反洗錢防制法等案件，經本署檢察官",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

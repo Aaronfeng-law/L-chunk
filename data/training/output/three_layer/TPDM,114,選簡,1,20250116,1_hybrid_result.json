@@ -1,0 +1,214 @@
+{
+  "source_file": "data/filted/TPDM,114,選簡,1,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:13.996746",
+  "processing_time": 0.045337677001953125,
+  "statistics": {
+    "total_lines": 139,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 139,
+    "positive_predictions": 15,
+    "positive_ratio": 0.1079136690647482,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 121,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9374985477043083,
+      "std": 0.2412196427465582,
+      "min": 0.003258893033489585,
+      "max": 0.9998088479042053,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、緣余玄名（關於余玄名所涉犯行，由本院另行審結）與Tele",
+      "rule_score": 0.5,
+      "bert_score": 0.9998088479042053,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上開事實，業據被告陳郁翔於本院準備程序中坦承不諱（見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997900128364563,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係違反個人資料保護法第20條第1項規定，而犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9997017979621887,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告不思他人資訊隱私之保",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997785687446594,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第450條第1項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於收受本判決送達之翌日起20日內，向本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、法律明文規定。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997983574867249,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、為增進公共利益所必要。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、為免除當事人之生命、身體、自由或財產上之危險。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、為防止他人權益之重大危害。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、公務機關或學術研究機構基於公共利益為統計或學術研究而",
+      "rule_score": 0.5,
+      "bert_score": 0.9997833371162415,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、經當事人同意。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997698664665222,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、有利於當事人權益。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

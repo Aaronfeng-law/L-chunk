@@ -1,0 +1,213 @@
+{
+  "source_file": "data/filted/TPDM,113,交簡,1715,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:13.358357",
+  "processing_time": 0.040062665939331055,
+  "statistics": {
+    "total_lines": 104,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 104,
+    "positive_predictions": 15,
+    "positive_ratio": 0.14423076923076922,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 84,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 15
+    },
+    "bert_score_stats": {
+      "mean": 0.9375227930140682,
+      "std": 0.2411983494122221,
+      "min": 0.0033656032755970955,
+      "max": 0.9998183846473694,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、廖定國於民國113年12月8日19時至21時許，在新北市○○區○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局萬華分局報告臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998183846473694,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告廖定國於警詢及偵查中坦承不諱，",
+      "rule_score": 0.5,
+      "bert_score": 0.999790608882904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、據上論斷，依刑事訴訟法第449條第1項前段、第3項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998099207878113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，得自收受判決書送達之翌日起20日內，向本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997867941856384,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吐氣所含酒精濃度達每公升零點二五毫克或血液中酒精濃度",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、有前款以外之其他情事足認服用酒類或其他相類之物，致不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、尿液或血液所含毒品、麻醉藥品或其他相類之物或其代謝物",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、有前款以外之其他情事足認施用毒品、麻醉藥品或其他相類",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、廖定國於民國113年12月8日19時許，在新北市○○區○○路0段0",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：（一）被告廖定國於警詢及偵查中之自白，（二）臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998006224632263,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、所犯法條：被告所為係犯刑法185條之3第1項第1款之罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998034834861755,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

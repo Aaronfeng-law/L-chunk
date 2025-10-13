@@ -1,0 +1,237 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,888,20250102,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:58.230103",
+  "processing_time": 0.05105471611022949,
+  "statistics": {
+    "total_lines": 277,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 277,
+    "positive_predictions": 17,
+    "positive_ratio": 0.061371841155234655,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 254,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "大寫中文數字": 3,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.8952276971019608,
+      "std": 0.30481298590908235,
+      "min": 0.003491901094093919,
+      "max": 0.9998262524604797,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳建安係臺北市○○區○○路0段00○00○00號大樓(下稱本案大樓",
+      "rule_score": 0.5,
+      "bert_score": 0.9998158812522888,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經李光宗訴由臺北市政府警察局文山第二分局報告臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998216032981873,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定犯罪事實之理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、不爭執事實",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本件爭點",
+      "rule_score": 0.5,
+      "bert_score": 0.9998123049736023,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、違反個人資料保護法部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997864365577698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠個人資料保護法所指之「個人資料」，係指自然人之姓名、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按個人資料之蒐集、處理或利用，應尊重當事人之權益，依",
+      "rule_score": 0.5,
+      "bert_score": 0.9997473359107971,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢上開載有告訴人因偽造文書，於何時入監，何時因假釋出監",
+      "rule_score": 0.5,
+      "bert_score": 0.9997468590736389,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告主觀上具有損害告訴人利益之意圖",
+      "rule_score": 0.5,
+      "bert_score": 0.9997403025627136,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 179,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、無不法意圖而違反本法相關規定，原則以民事損害賠償",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 243,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上所述，本件事證明確，被告犯行堪以認定。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996803998947144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 244,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9997623562812805,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 245,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、核被告所為，係犯個人資料保護法第41條之違反同法第6條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998030066490173,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 248,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一，顯係基於單一犯意所為，為接續犯，應論以一罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996974468231201,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、爰以行為人之責任為基礎，審酌被告因與告訴人間之糾紛，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998262524604797,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

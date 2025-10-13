@@ -1,0 +1,679 @@
+{
+  "source_file": "data/filted/TPDM,112,原訴,24,20250108,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:02.171236",
+  "processing_time": 0.16138625144958496,
+  "statistics": {
+    "total_lines": 762,
+    "candidate_lines": 66,
+    "bert_processed_lines": 66,
+    "total_markers": 57,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 57,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 762,
+    "positive_predictions": 57,
+    "positive_ratio": 0.07480314960629922,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 689,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 66,
+        "positive": 57
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 19,
+      "圍字數字": 27,
+      "天干": 3,
+      "大寫中文數字": 2,
+      "括號數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.8646065319648407,
+      "std": 0.3401580017694603,
+      "min": 0.003573597874492407,
+      "max": 0.9998182654380798,
+      "count": 66
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃利威（由本院通緝中）、林峻葳（由本院另行處理）、吳",
+      "rule_score": 0.5,
+      "bert_score": 0.9998099207878113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠黃利威等3人之分工方式係先由本案詐欺集團不詳成員透過網",
+      "rule_score": 0.5,
+      "bert_score": 0.9997511506080627,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡林若蘋、楊玉萍（均已由本院另行審結）則依社會生活通常",
+      "rule_score": 0.5,
+      "bert_score": 0.9997716546058655,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢嗣本案詐欺集團成員於如附表二「詐欺集團成員之詐欺方式",
+      "rule_score": 0.5,
+      "bert_score": 0.9997971653938293,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣本案詐欺集團成員於如附表三「詐欺集團成員之詐欺方式」",
+      "rule_score": 0.5,
+      "bert_score": 0.9997716546058655,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤前開匯入附表一編號1至5所示帳戶內之款項，旋遭詐欺集團",
+      "rule_score": 0.5,
+      "bert_score": 0.9997511506080627,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經顏克峰等人訴由新北市政府警察局金山分局報告臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998182654380798,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、組織犯罪防制條例第12條第1項中段明定「訊問證人之筆錄",
+      "rule_score": 0.5,
+      "bert_score": 0.99980229139328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、「被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本案其餘認定犯罪事實之非供述證據，查無違反法定程序取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997814297676086,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠Telegram暱稱「李志力」、「皮老闆」及其餘真實姓名年籍",
+      "rule_score": 0.5,
+      "bert_score": 0.9997319579124451,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 143,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又犯罪事實欄一、㈢至㈤所載之犯罪事實，亦為檢察官、被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997718930244446,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 147,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告雖以前詞置辯，惟查被告確有接應林若蘋、楊玉萍至旅",
+      "rule_score": 0.5,
+      "bert_score": 0.9997337460517883,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告為三人以上共同詐欺取財、洗錢之共同正犯：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997391104698181,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 266,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告確有加入本案詐欺集團：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997333884239197,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 286,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告辯詞不予採信之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997585415840149,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 302,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦綜上所述，本案事證明確，被告犯行均堪認定，應依法論科",
+      "rule_score": 0.5,
+      "bert_score": 0.9997881054878235,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 304,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 305,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較",
+      "rule_score": 0.5,
+      "bert_score": 0.9997588992118835,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 307,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴刑法第339條之4雖於112年5月31日修正公布，並於同年0",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 335,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵詐欺犯罪危害防制條例第47條規定：「犯詐欺犯罪，在",
+      "rule_score": 0.5,
+      "bert_score": 0.9997265934944153,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 348,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴關於想像競合犯之新舊法比較孰於行為人有利，應先就",
+      "rule_score": 0.5,
+      "bert_score": 0.999808132648468,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 362,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵113年7月31日修正公布前洗錢防制法第14條原規定：「",
+      "rule_score": 0.5,
+      "bert_score": 0.9996192455291748,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 373,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶112年6月14日修正前洗錢防制法第16條第2項規定：「犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9995948672294617,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 383,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷查被告於本案所犯一般洗錢罪，其洗錢之財物均未達1億",
+      "rule_score": 0.5,
+      "bert_score": 0.9997395873069763,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 400,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡本案起訴係於112年1月18日繫屬於本院，有本院收文戳在卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997444748878479,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 413,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢罪名",
+      "rule_score": 0.5,
+      "bert_score": 0.9997712969779968,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 441,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣共犯關係",
+      "rule_score": 0.5,
+      "bert_score": 0.999761164188385,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 445,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤罪數關係",
+      "rule_score": 0.5,
+      "bert_score": 0.9997598528862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 473,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥臺灣士林地方檢察署（下稱士林地檢署）檢察官移送併辦（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997686743736267,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 478,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦科刑部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9995144605636597,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 502,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 503,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠扣案之iphone 11 Pro手機（門號：0000000000號；IMEI：00",
+      "rule_score": 0.5,
+      "bert_score": 0.9997413754463196,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 508,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告並未因本案犯行而獲報酬一節，業據其於陳述在卷（見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997389912605286,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 511,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢關於犯罪所得部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997361302375793,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 532,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、無罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 533,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告吳嘉齡與黃利威、林峻葳及本案詐欺集",
+      "rule_score": 0.5,
+      "bert_score": 0.999813973903656,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 557,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、檢察官認被告涉犯上開罪嫌，無非係以被告之供述、同案被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 560,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、訊據被告堅詞否認有何刑法第339條之4第1項第2款之3人以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997993111610413,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 567,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠林峻葳提供如附表一編號6所示金融帳戶，張啓文於111年8月",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 583,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡同案被告黃利威於警詢時陳稱：吳嘉齡原本也是賣帳戶的人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997153878211975,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 605,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜上所述，卷內並未有何證據足資證明被告就同案被告林峻",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 609,
+      "symbol": "丙",
+      "unicode_code": "U+4E19",
+      "category": "天干",
+      "content": "丙、退併辦部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 610,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、關於併辦意旨如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 611,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠士林地檢署檢察官111年度偵字第25277號、112年度偵字第21",
+      "rule_score": 0.5,
+      "bert_score": 0.9997485280036926,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 633,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡士林地檢署112年度偵字第13319號併辦意旨略以：被告吳嘉",
+      "rule_score": 0.5,
+      "bert_score": 0.9997475743293762,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 658,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢士林地檢署112年度偵字第24580號併辦意旨略以：被告吳嘉",
+      "rule_score": 0.5,
+      "bert_score": 0.9997472167015076,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 684,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按案件起訴後，檢察官認有裁判上一罪關係之他部事實，函",
+      "rule_score": 0.5,
+      "bert_score": 0.9997991919517517,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 691,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查本件被告所犯既係一般洗錢罪、加重詐欺取財罪之共同正",
+      "rule_score": 0.5,
+      "bert_score": 0.9997969269752502,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 733,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 734,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、3人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 735,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 737,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,285,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.735002",
+  "processing_time": 0.04838681221008301,
+  "statistics": {
+    "total_lines": 175,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 175,
+    "positive_predictions": 16,
+    "positive_ratio": 0.09142857142857143,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 155,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9412205110249274,
+      "std": 0.23429034676477606,
+      "min": 0.004059129394590855,
+      "max": 0.9998160004615784,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案審理範圍:按上訴得明示僅就判決之刑、沒收或保安處",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、檢察官上訴意旨略以：被告以不雅文字辱罵告訴人，造成告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、駁回上訴之理由按量刑之輕重，係事實審法院得依職權自由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998088479042053,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、查原審簡易判決已審酌被告僅因與告訴人廖美惠之男友產生",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除犯罪事實欄一第3至5行之「在廖美",
+      "rule_score": 0.5,
+      "bert_score": 0.9997987151145935,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告黃禎泰所為，係犯刑法第310條第2項之散布文字誹謗",
+      "rule_score": 0.5,
+      "bert_score": 0.9997264742851257,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告為聲請簡易判決處刑書犯罪事實欄所載以文字誹謗告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997288584709167,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人之責任為基礎，審酌被告僅因與告訴人廖美惠之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997839331626892,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、據上論斷，依刑事訴訟法第449條第1項前段、第3項、第454",
+      "rule_score": 0.5,
+      "bert_score": 0.9998050332069397,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，應於判決送達後20日內，向本院提出上訴狀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃禎泰因與廖美惠之男友郭銘豐在工程合作上發生爭議，意",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經廖美惠訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998062252998352,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 154,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告黃禎泰所為，係犯刑法第310條第2項加重誹謗罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 155,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

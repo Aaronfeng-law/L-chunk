@@ -1,0 +1,148 @@
+{
+  "source_file": "data/filted/TPDM,113,易,980,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:32.940910",
+  "processing_time": 0.03263497352600098,
+  "statistics": {
+    "total_lines": 135,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 135,
+    "positive_predictions": 9,
+    "positive_ratio": 0.06666666666666667,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 125,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9997721778021919,
+      "std": 4.360612677837776e-05,
+      "min": 0.9996856451034546,
+      "max": 0.9998263716697693,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 11,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略為：被告楊苡菁係「彡角國際有限公司（址設臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998263716697693,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告涉犯上開罪嫌，無非係以被告之供述、證人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告固坦承其無律師資格，而於花蓮地院112年度花簡",
+      "rule_score": 0.5,
+      "bert_score": 0.9998001456260681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、本院之判斷：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997909665107727,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告係彡角公司負責人，未取得律師資格、無律師證書，亦",
+      "rule_score": 0.5,
+      "bert_score": 0.9996856451034546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、按律師法第127條第1項所定無律師證書，意圖營利而辦理訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997280240058899,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、公訴人於本院準備程序中雖聲請傳喚陳映和到庭作證（見本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997339844703674,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，本案依檢察官所舉事證，尚未達於通常一般之人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997765421867371,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

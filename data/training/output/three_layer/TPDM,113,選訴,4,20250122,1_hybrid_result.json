@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,113,選訴,4,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:01.323491",
+  "processing_time": 0.6837785243988037,
+  "statistics": {
+    "total_lines": 433,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 433,
+    "positive_predictions": 14,
+    "positive_ratio": 0.03233256351039261,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 403,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 10,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "括號數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.7018427193630487,
+      "std": 0.45509360837428314,
+      "min": 0.004064552020281553,
+      "max": 0.9998158812522888,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 31,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告周時雄於民國112年9月間起協助總統、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998158812522888,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告4人涉犯上開總統副總統選舉罷免法第87條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告4人固均於本院為認罪之意思表示，惟認定事實、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人袁永蘭於警詢及偵查中證述：我於112年10月30日下午",
+      "rule_score": 0.5,
+      "bert_score": 0.9997860789299011,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 160,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人江宛蓁於警詢及偵查中證述：我於112年10月27日大約",
+      "rule_score": 0.5,
+      "bert_score": 0.999745786190033,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶證人楊麗琴於112年11月1日警詢及偵查中證述：我於112年",
+      "rule_score": 0.5,
+      "bert_score": 0.9997299313545227,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 191,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷證人羅昇雲於調查局詢問時證述：我本來就有計畫要去連",
+      "rule_score": 0.5,
+      "bert_score": 0.9997054934501648,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "⑸證人張智惠於調查局詢問時證述：我是在112年10月30日下",
+      "rule_score": 0.5,
+      "bert_score": 0.9997696280479431,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "⑹",
+      "unicode_code": "U+2479",
+      "category": "括號數字",
+      "content": "⑹證人姜濟宗於調查局詢問時證述：我大約於10月底到本案連署站連署。當時是在新店中正路上準備吃午餐前，看到有連署站，就一時起意進去幫忙連署。我認為多一位總統候選人參與選舉對臺灣沒有不好。因為我本身政黨屬性偏藍，且當時國民黨總統候選人也非常混亂，藍白也在討論是否合作，我不排斥郭台銘出來競選總統，且郭台銘實力強，有一定的選票，所以我才會去幫他連署。我簽完連署書後，工作人員有送我一瓶米酒，當時我覺得很麻煩，所以還把米酒放回車上才去吃飯，而且這瓶米酒不是我主動要的，是工作人員發放的。我一開始沒有看到連署站有以米酒當作連署完後的報酬，我也確實不知道連署完畢會送米酒，連署站人員沒有以送米酒或其他禮品的方式，增加我連署的動機。我認為有各種行銷手法可以吸引不同種人，以送米酒或其他文宣品作為宣傳，當作連署報酬，很難避免貪小便宜的人出現，所有的行銷都是一樣的，所有的行銷手法都會以免費的文宣品吸引大家參與連署等語（見113選偵19卷第593至597頁）。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997522234916687,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "⑺",
+      "unicode_code": "U+247A",
+      "category": "括號數字",
+      "content": "⑺證人呂素青於警詢時證述：我於112年10月15日下午前往臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997492432594299,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 251,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人范國樑於警詢及偵查中係證述：我聽朋友說郭台銘連",
+      "rule_score": 0.5,
+      "bert_score": 0.9997820258140564,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 275,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵至於證人張珉瑄雖於警詢及偵查中證述：我於112年10月20",
+      "rule_score": 0.5,
+      "bert_score": 0.9997609257698059,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 415,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，公訴人所執之前揭證據，均不足使法院達於通常",
+      "rule_score": 0.5,
+      "bert_score": 0.9997848868370056,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

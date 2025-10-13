@@ -1,0 +1,125 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,579,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:55.109326",
+  "processing_time": 0.035643577575683594,
+  "statistics": {
+    "total_lines": 330,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 7,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 7,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 330,
+    "positive_predictions": 7,
+    "positive_ratio": 0.021212121212121213,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 314,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 7
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.6387674485079267,
+      "std": 0.4775927341149838,
+      "min": 0.005505884066224098,
+      "max": 0.9998193383216858,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告賴彥辰及被告羅玟雯均明知4-甲基甲基",
+      "rule_score": 0.5,
+      "bert_score": 0.9998193383216858,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定其犯罪事實；",
+      "rule_score": 0.5,
+      "bert_score": 0.9998025298118591,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴人認被告2人涉有上揭犯行，無非係以被告賴彥辰之供",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告賴彥辰坦承與購毒者約定好以每包140元之對價販",
+      "rule_score": 0.5,
+      "bert_score": 0.9997825026512146,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 282,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、依據上開最高法院就陷害教唆之法律效果及刑事訴訟法第15",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 294,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997768998146057,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1378,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:47.514879",
+  "processing_time": 0.08681774139404297,
+  "statistics": {
+    "total_lines": 330,
+    "candidate_lines": 33,
+    "bert_processed_lines": 33,
+    "total_markers": 31,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 31,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 330,
+    "positive_predictions": 31,
+    "positive_ratio": 0.09393939393939393,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 291,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 33,
+        "positive": 31
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 2,
+      "中文數字": 12,
+      "圍字數字": 12,
+      "括號數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.939521273421688,
+      "std": 0.23721070147109455,
+      "min": 0.0035679766442626715,
+      "max": 0.999819815158844,
+      "count": 33
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除下列事項應予補充、更正外，餘均",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠起訴書犯罪事實欄一補充、更正為「黃士育與Telegram通訊",
+      "rule_score": 0.5,
+      "bert_score": 0.9997614026069641,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡起訴書附表二編號5之被害人「卜世佳」應更正為「卜佳世」",
+      "rule_score": 0.5,
+      "bert_score": 0.9997156262397766,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢起訴書附表二編號6之匯款時間與金額補充「18時34分許、2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997624754905701,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣證據補充「被告於本院審理時之自白」。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997535347938538,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997621178627014,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴洗錢防制法於113年7月31日修正公布，修正前洗錢防制法第",
+      "rule_score": 0.5,
+      "bert_score": 0.9998089671134949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵關於自白減刑之規定，於112年6月14日洗錢防制法修正前，",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴修正前洗錢防制法第14條第1項規定：「有第二條各款所列洗",
+      "rule_score": 0.5,
+      "bert_score": 0.9997187256813049,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵112年6月14日修正前洗錢防制法第16條第2項規定：「犯前二",
+      "rule_score": 0.5,
+      "bert_score": 0.9996618032455444,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶揆諸前揭說明，因上揭洗錢防制法之減刑規定屬必減規定，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997501969337463,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 147,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡罪名：",
+      "rule_score": 0.5,
+      "bert_score": 0.999754011631012,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 174,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢罪數：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣刑之減輕事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997709393501282,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤量刑暨定應執行刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 220,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠犯罪所得之沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.999748170375824,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡如附表一編號1至3所示告訴人受騙帳戶之提款卡，係由被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997414946556091,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 234,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢至附表二編號1至9所示告訴人受騙款項，固係被告洗錢之財",
+      "rule_score": 0.5,
+      "bert_score": 0.9997480511665344,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 262,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 263,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 264,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 266,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 285,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃士育於民國112年3月17日前某時，與「W」及所屬詐欺集",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 301,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經許妙君、尤易威、歐兆傑、何炳龍、嚴如玉訴由臺北市",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 305,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 307,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，就詐欺告訴人許妙君、尤易威、薛友銘部分所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 326,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

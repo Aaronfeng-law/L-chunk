@@ -1,0 +1,314 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,2547,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:11.512938",
+  "processing_time": 0.08484220504760742,
+  "statistics": {
+    "total_lines": 341,
+    "candidate_lines": 30,
+    "bert_processed_lines": 30,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 341,
+    "positive_predictions": 24,
+    "positive_ratio": 0.07038123167155426,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 300,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 11,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 30,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "天干": 2,
+      "中文數字": 20,
+      "括號數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.7998495805465305,
+      "std": 0.39787074676057965,
+      "min": 0.0031074804719537497,
+      "max": 0.9998296499252319,
+      "count": 30
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "戊",
+      "unicode_code": "U+620A",
+      "category": "天干",
+      "content": "戊○犯如附表編號一、三「宣告刑」欄所示之罪，各處如附表編",
+      "rule_score": 0.5,
+      "bert_score": 0.9755693674087524,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據部分補充「被告戊○及丙○○於",
+      "rule_score": 0.5,
+      "bert_score": 0.9998075366020203,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴被告戊○於偵訊時供稱其拿到提領款項總額的0.02％(應為2％之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵被告丙○○洗錢之財物未達新臺幣(下同)1億元，經比較新舊法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997817873954773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告2人不思循正當管道獲取財物，竟加入詐欺集團",
+      "rule_score": 0.5,
+      "bert_score": 0.9998263716697693,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997785687446594,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、公訴不受理部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997655749320984,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 183,
+      "symbol": "戊",
+      "unicode_code": "U+620A",
+      "category": "天干",
+      "content": "戊○本案被訴如附表編號二所示部分，所涉告訴人及其遭騙",
+      "rule_score": 0.5,
+      "bert_score": 0.9993923902511597,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 193,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本件判決，得自收受送達之翌日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997836947441101,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 220,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 222,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 253,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、戊○於民國113年5月間某日，丙○○於113年6月22日，加入真實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998273253440857,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經己○○、丁○○、乙○○告訴及臺北市政府警察局松山分局報",
+      "rule_score": 0.5,
+      "bert_score": 0.9998296499252319,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 283,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 285,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按行為後法律有變更者，適用行為時之法律，但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 304,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告戊○、丙○○所為，均係犯刑法第339條之4第1項第2款",
+      "rule_score": 0.5,
+      "bert_score": 0.9997898936271667,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 314,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 327,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 328,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 329,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 331,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

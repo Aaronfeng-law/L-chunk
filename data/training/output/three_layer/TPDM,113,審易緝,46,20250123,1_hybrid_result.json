@@ -1,0 +1,136 @@
+{
+  "source_file": "data/filted/TPDM,113,審易緝,46,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:30.916997",
+  "processing_time": 0.02523016929626465,
+  "statistics": {
+    "total_lines": 76,
+    "candidate_lines": 8,
+    "bert_processed_lines": 8,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 76,
+    "positive_predictions": 8,
+    "positive_ratio": 0.10526315789473684,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 65,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 8,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9998043179512024,
+      "std": 5.2920735000549976e-06,
+      "min": 0.9997988343238831,
+      "max": 0.9998158812522888,
+      "count": 8
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨如附件起訴書所載。",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 14,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查被告陳韋安因傷害案件，經檢察官提起公訴，認其係涉犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9997991919517517,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳韋安（所涉竊盜罪嫌部分另為不起訴處分）前因施用毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經鄭慶權訴由臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998158812522888,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第277條第1項傷害罪嫌。被告前有如",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

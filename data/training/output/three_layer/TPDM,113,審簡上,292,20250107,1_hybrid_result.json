@@ -1,0 +1,115 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上,292,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:42.484856",
+  "processing_time": 0.02954888343811035,
+  "statistics": {
+    "total_lines": 67,
+    "candidate_lines": 6,
+    "bert_processed_lines": 6,
+    "total_markers": 6,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 6,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 67,
+    "positive_predictions": 6,
+    "positive_ratio": 0.08955223880597014,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 55,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 6,
+        "positive": 6
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 2,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.999756395816803,
+      "std": 3.6984285837397734e-05,
+      "min": 0.9997188448905945,
+      "max": 0.9998193383216858,
+      "count": 6
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、審理範圍：本案僅被告楊立興提起上訴，檢察官並未上訴，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997937083244324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、駁回上訴之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998193383216858,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告上訴意旨略以：因家裡經濟狀況不好無法繳納罰金，若",
+      "rule_score": 0.5,
+      "bert_score": 0.9997439980506897,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡原審審酌被告與告訴人林聖龍前有糾紛而相約，被告持刀與",
+      "rule_score": 0.5,
+      "bert_score": 0.9997346997261047,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢原判決雖僅就被告目前從事保險，需扶養祖母之量刑因子予",
+      "rule_score": 0.5,
+      "bert_score": 0.9997188448905945,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣綜上，原審判決量刑尚屬妥適，難認有何裁量權濫用、違反",
+      "rule_score": 0.5,
+      "bert_score": 0.9997277855873108,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,780 @@
+{
+  "input_file": "data/sample/TPDM,111,金重訴,34,20250114,1.json",
+  "file_name": "TPDM,111,金重訴,34,20250114,1.json",
+  "processing_time": 0.003420114517211914,
+  "detection_method": "ultra_strict_format",
+  "ultra_strict_rules": [
+    "必須以 \\r\\n 開頭",
+    "只能是單個 Unicode 字符",
+    "必須緊跟 、(頓號)",
+    "字符必須在預定義範圍內（含PUA）",
+    "層級符號行不得以4個空格開頭",
+    "零例外，零妥協"
+  ],
+  "total_lines": 1981,
+  "total_markers": 27,
+  "pua_markers": 0,
+  "newline_compliance": 0,
+  "markers": [
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "鍾榮吉自民國97年9月17日迄101年5月31日，擔任台灣肥料\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "案經臺灣臺北地方檢察署檢察官指揮法務部調查局臺北市調\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "證據能力部分：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "證人即共同被告劉奕鐘於法務部調查局臺北市調查處之陳述\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "證人即共同被告劉奕鐘於110年11月11日、同年12月27日偵\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "其餘經本院用以認定被告犯罪事實之證據，檢察官、被告等\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "認定犯罪事實所憑之證據及理由：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "訊據被告鍾榮吉、周偉馨及劉奕鐘均坦承於事實欄所載之時\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 639,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "經查：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1695,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "論罪科刑之法律適用：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1810,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "沒收部分：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1830,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "不另為無罪之諭知部分：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1898,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "違反第20條第1項、第2項、第155條第1項、第2項、第157條\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1900,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "已依本法發行有價證券公司之董事、監察人、經理人或受僱\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1903,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "已依本法發行有價證券公司之董事、監察人或經理人，意圖\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1934,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "於依第 30 條、第 44 條第 1 項至第 3 項、第 93 條、第\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1937,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "對有價證券之行情或認募核准之重要事項為虛偽之記載而散\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1939,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "發行人或其負責人、職員有第 32 條第 1 項之情事，而無\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1941,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "發行人、公開收購人或其關係人、證券商或其委託人、證券\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1945,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "發行人、公開收購人、證券商、證券商同業公會、證券交易\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1949,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "於前款之財務報告上簽章之經理人或會計主管，為財務報告\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1953,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "就發行人或特定有價證券之交易，依據不實之資料，作投資\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1956,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "發行人之董事、經理人或受僱人違反法令、章程或逾越董事\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1959,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "意圖妨礙主管機關檢查或司法機關調查，偽造、變造、湮滅\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1963,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "律師對公司、外國公司有關證券募集、發行或買賣之契約、\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1965,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "會計師對公司、外國公司申報或公告之財務報告、文件或資\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1970,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "違反第 22 條第 1 項至第 3 項規定。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    }
+  ],
+  "analysis": {
+    "total_markers": 27,
+    "by_category": {
+      "中文數字": [
+        {
+          "line": 32,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 122,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 126,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 173,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 213,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 219,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 639,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1695,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1810,
+          "symbol": "四",
+          "unicode": "U+56DB",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1830,
+          "symbol": "五",
+          "unicode": "U+4E94",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1898,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1900,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1903,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1934,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1937,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1939,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1941,
+          "symbol": "四",
+          "unicode": "U+56DB",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1945,
+          "symbol": "五",
+          "unicode": "U+4E94",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1949,
+          "symbol": "六",
+          "unicode": "U+516D",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1953,
+          "symbol": "七",
+          "unicode": "U+4E03",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1956,
+          "symbol": "八",
+          "unicode": "U+516B",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1959,
+          "symbol": "九",
+          "unicode": "U+4E5D",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1963,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1965,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1970,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "大寫中文數字": [
+        {
+          "line": 125,
+          "symbol": "壹",
+          "unicode": "U+58F9",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 218,
+          "symbol": "貳",
+          "unicode": "U+8CB3",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ]
+    },
+    "by_pua_group": {},
+    "by_format_type": {},
+    "by_level": {
+      "1": 27
+    },
+    "pua_count": 0,
+    "unicode_distribution": {
+      "U+4E00": 6,
+      "U+4E8C": 6,
+      "U+58F9": 1,
+      "U+4E09": 5,
+      "U+8CB3": 1,
+      "U+56DB": 2,
+      "U+4E94": 2,
+      "U+516D": 1,
+      "U+4E03": 1,
+      "U+516B": 1,
+      "U+4E5D": 1
+    },
+    "newline_compliance": 0,
+    "structure": [
+      {
+        "line": 32,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "鍾榮吉自民國97年9月17日迄101年5月31日，擔任台灣肥料\r",
+        "newline_ok": false
+      },
+      {
+        "line": 122,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "案經臺灣臺北地方檢察署檢察官指揮法務部調查局臺北市調\r",
+        "newline_ok": false
+      },
+      {
+        "line": 125,
+        "level": 1,
+        "symbol": "壹",
+        "unicode": "U+58F9",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證據能力部分：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 126,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證人即共同被告劉奕鐘於法務部調查局臺北市調查處之陳述\r",
+        "newline_ok": false
+      },
+      {
+        "line": 173,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證人即共同被告劉奕鐘於110年11月11日、同年12月27日偵\r",
+        "newline_ok": false
+      },
+      {
+        "line": 213,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "其餘經本院用以認定被告犯罪事實之證據，檢察官、被告等\r",
+        "newline_ok": false
+      },
+      {
+        "line": 218,
+        "level": 1,
+        "symbol": "貳",
+        "unicode": "U+8CB3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "認定犯罪事實所憑之證據及理由：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 219,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "訊據被告鍾榮吉、周偉馨及劉奕鐘均坦承於事實欄所載之時\r",
+        "newline_ok": false
+      },
+      {
+        "line": 639,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "經查：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1695,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "論罪科刑之法律適用：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1810,
+        "level": 1,
+        "symbol": "四",
+        "unicode": "U+56DB",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "沒收部分：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1830,
+        "level": 1,
+        "symbol": "五",
+        "unicode": "U+4E94",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "不另為無罪之諭知部分：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1898,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "違反第20條第1項、第2項、第155條第1項、第2項、第157條\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1900,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "已依本法發行有價證券公司之董事、監察人、經理人或受僱\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1903,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "已依本法發行有價證券公司之董事、監察人或經理人，意圖\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1934,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "於依第 30 條、第 44 條第 1 項至第 3 項、第 93 條、第\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1937,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "對有價證券之行情或認募核准之重要事項為虛偽之記載而散\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1939,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "發行人或其負責人、職員有第 32 條第 1 項之情事，而無\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1941,
+        "level": 1,
+        "symbol": "四",
+        "unicode": "U+56DB",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "發行人、公開收購人或其關係人、證券商或其委託人、證券\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1945,
+        "level": 1,
+        "symbol": "五",
+        "unicode": "U+4E94",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "發行人、公開收購人、證券商、證券商同業公會、證券交易\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1949,
+        "level": 1,
+        "symbol": "六",
+        "unicode": "U+516D",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "於前款之財務報告上簽章之經理人或會計主管，為財務報告\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1953,
+        "level": 1,
+        "symbol": "七",
+        "unicode": "U+4E03",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "就發行人或特定有價證券之交易，依據不實之資料，作投資\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1956,
+        "level": 1,
+        "symbol": "八",
+        "unicode": "U+516B",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "發行人之董事、經理人或受僱人違反法令、章程或逾越董事\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1959,
+        "level": 1,
+        "symbol": "九",
+        "unicode": "U+4E5D",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "意圖妨礙主管機關檢查或司法機關調查，偽造、變造、湮滅\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1963,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "律師對公司、外國公司有關證券募集、發行或買賣之契約、\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1965,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "會計師對公司、外國公司申報或公告之財務報告、文件或資\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1970,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "違反第 22 條第 1 項至第 3 項規定。\r",
+        "newline_ok": false
+      }
+    ]
+  }
+}

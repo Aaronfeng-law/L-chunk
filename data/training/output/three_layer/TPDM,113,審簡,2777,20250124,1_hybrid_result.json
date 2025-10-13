@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2777,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:39.630774",
+  "processing_time": 0.03873705863952637,
+  "statistics": {
+    "total_lines": 95,
+    "candidate_lines": 15,
+    "bert_processed_lines": 15,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 95,
+    "positive_predictions": 14,
+    "positive_ratio": 0.14736842105263157,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 77,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 15,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.9333159913464139,
+      "std": 0.24866005903644456,
+      "min": 0.002915248041972518,
+      "max": 0.9998055100440979,
+      "count": 15
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實要旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、下列證據足證上開犯罪事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠證人即告訴人馮元昱於警詢及本院訊問時之指述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997609257698059,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡訂單資訊及訂單照片。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997710585594177,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢門號0000000000號行動電話之通聯調閱查詢單1份。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997560381889343,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告林祐霆於本院訊問時之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997499585151672,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑法第339條之4加重詐欺罪，關於第1項第3款「以廣播電",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告所為，係犯刑法第339條第1項之詐欺取財罪。起訴書",
+      "rule_score": 0.5,
+      "bert_score": 0.9997398257255554,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌被告不思以正當途徑賺取所需，因缺錢花用，以上揭",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、應依刑事訴訟法第449條第2項、第3項、第450條第1項，逕",
+      "rule_score": 0.5,
+      "bert_score": 0.9997947812080383,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於收受送達判決之日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997826218605042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本案經檢察官黃振城提起公訴，檢察官黃惠欣到庭執行職務",
+      "rule_score": 0.5,
+      "bert_score": 0.9997743964195251,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

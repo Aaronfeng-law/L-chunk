@@ -1,0 +1,103 @@
+{
+  "source_file": "data/filted/TPDM,114,審簡上附民,11,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:09.653052",
+  "processing_time": 0.03430891036987305,
+  "statistics": {
+    "total_lines": 44,
+    "candidate_lines": 6,
+    "bert_processed_lines": 6,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 44,
+    "positive_predictions": 5,
+    "positive_ratio": 0.11363636363636363,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 34,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 6,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.8345277261299392,
+      "std": 0.36957907733871653,
+      "min": 0.008123786188662052,
+      "max": 0.9998148083686829,
+      "count": 6
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告方面：訴之聲明及陳述，詳如附件刑事附帶民事訴訟起",
+      "rule_score": 0.5,
+      "bert_score": 0.9998099207878113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告方面：被告未為任何聲明或陳述，亦未提出任何書狀。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998148083686829,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按當事人不得就已起訴之事件，於訴訟繫屬中更行起訴；又",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、查，原告前已就與本件主張相同之訴訟標的及其原因事實，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第502條第1項，判決如主文。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

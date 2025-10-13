@@ -1,0 +1,237 @@
+{
+  "source_file": "data/filted/TPDM,113,交易,110,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:11.283126",
+  "processing_time": 0.0469663143157959,
+  "statistics": {
+    "total_lines": 202,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 202,
+    "positive_predictions": 17,
+    "positive_ratio": 0.08415841584158416,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 181,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "大寫中文數字": 2,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9443990859953273,
+      "std": 0.22826764582070172,
+      "min": 0.0032274846453219652,
+      "max": 0.9998167157173157,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、龔張淑真於民國111年6月27日下午3時40分許，騎乘自行車",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經楊為聰訴由臺北市政府警察局萬華分局函送臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998164772987366,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、「被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997780919075012,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案其餘認定犯罪事實之非供述證據，查無違反法定程序取",
+      "rule_score": 0.5,
+      "bert_score": 0.999790370464325,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於111年6月27日下午3時40分許，騎乘自行車沿臺北市萬",
+      "rule_score": 0.5,
+      "bert_score": 0.9997230172157288,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告確有於本案交岔路口騎乘自行車之情事：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997212290763855,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢本案交通事故迭經數次鑑定，茲析述如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997356534004211,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣告訴人於111年6月27日就醫，經醫生檢視治療，診斷為頭部",
+      "rule_score": 0.5,
+      "bert_score": 0.9997485280036926,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上，本案事證明確，被告犯行洵堪認定，應依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997187256813049,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 162,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第284條前段之過失傷害罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996964931488037,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於肇事後，報案人或勤指中心轉來資料未報明肇事人姓",
+      "rule_score": 0.5,
+      "bert_score": 0.9997077584266663,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 170,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢又被告為本件行為時為年滿80歲之人，有個人戶籍資料在卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997351765632629,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰以行為人責任為基礎，審酌被告騎乘自行車，疏未注意應",
+      "rule_score": 0.5,
+      "bert_score": 0.9997809529304504,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

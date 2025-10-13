@@ -1,0 +1,170 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1010,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.206993",
+  "processing_time": 0.04004049301147461,
+  "statistics": {
+    "total_lines": 307,
+    "candidate_lines": 13,
+    "bert_processed_lines": 13,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 307,
+    "positive_predictions": 11,
+    "positive_ratio": 0.035830618892508145,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 290,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 13,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8468685394081359,
+      "std": 0.3586190021046375,
+      "min": 0.004976141732186079,
+      "max": 0.9998255372047424,
+      "count": 13
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告劉茉莉（原名詳卷）與彭麗慎均為臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.9998255372047424,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按有罪之判決書應於理由內記載認定犯罪事實所憑之證據及",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998080134391785,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、次按刑法第310條第1項、第2項誹謗罪成立，須對於具體「",
+      "rule_score": 0.5,
+      "bert_score": 0.9997971653938293,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、公訴人認被告涉有上開罪嫌，無非係以被告於偵查中之陳述",
+      "rule_score": 0.5,
+      "bert_score": 0.9997809529304504,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於事實欄所示時間，以通訊軟體LINE傳送如起訴書所載",
+      "rule_score": 0.5,
+      "bert_score": 0.9997523427009583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人即前「基泰之星」住戶兼副主委王立功於審理中證稱：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997588992118835,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡再者，依告訴人自述於96年買基泰之星預售屋，基泰之星在9",
+      "rule_score": 0.5,
+      "bert_score": 0.9997332692146301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 244,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢再依公訴意旨認被告傳送之訊息「十幾年來，彭麗慎護航包租公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997788071632385,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 270,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，檢察官所提事證，尚有合理懷疑空間存在，不足",
+      "rule_score": 0.5,
+      "bert_score": 0.999779999256134,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 275,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、移送併辦意旨略以：被告與告訴人均為臺北市○○區○○街0號",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

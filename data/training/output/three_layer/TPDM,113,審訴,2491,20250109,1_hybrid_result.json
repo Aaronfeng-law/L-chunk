@@ -1,0 +1,357 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,2491,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:10.964451",
+  "processing_time": 0.09541440010070801,
+  "statistics": {
+    "total_lines": 311,
+    "candidate_lines": 36,
+    "bert_processed_lines": 36,
+    "total_markers": 28,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 28,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 311,
+    "positive_predictions": 28,
+    "positive_ratio": 0.09003215434083602,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 264,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 11,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 36,
+        "positive": 28
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 24,
+      "括號數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.7786310832404221,
+      "std": 0.41376495617011394,
+      "min": 0.003117640968412161,
+      "max": 0.9998270869255066,
+      "count": 36
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除起訴書犯罪事實一倒數第6行所載『",
+      "rule_score": 0.5,
+      "bert_score": 0.9997935891151428,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴按行為後法律有變更者，適用行為時之法律，但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998074173927307,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵被告行為後，詐欺犯罪危害防制條例於113年7月31日經總統",
+      "rule_score": 0.5,
+      "bert_score": 0.9997739195823669,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告不思循正當管道獲取財物，竟加入詐欺集團分工",
+      "rule_score": 0.5,
+      "bert_score": 0.9998270869255066,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997785687446594,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴偽造印文、署押部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.999811589717865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵未扣案之工作證1張，雖為被告及其共犯所有供犯本案犯行所",
+      "rule_score": 0.5,
+      "bert_score": 0.9997676014900208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、不予驅逐出境之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997746348381042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本件判決，得自收受送達之翌日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997836947441101,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 195,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 197,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 221,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、丘以諾與真實姓名、年籍不詳之成年人共組詐欺集團，分工",
+      "rule_score": 0.5,
+      "bert_score": 0.9998171925544739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 238,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經曾莉雯訴由臺北市政府警察局松山分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998165965080261,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 240,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單暨待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998015761375427,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 242,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按行為後法律有變更者，適用行為時之法律，但行為後之法",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 258,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告所為，係犯刑法第339條之4第1項第2款之3人以上共",
+      "rule_score": 0.5,
+      "bert_score": 0.9997957348823547,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 270,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 290,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 291,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 292,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 294,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 300,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、隱匿特定犯罪所得或掩飾其來源。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998007416725159,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 301,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、妨礙或危害國家對於特定犯罪所得之調查、發現、保全、沒",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 303,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、收受、持有或使用他人之特定犯罪所得。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 304,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、使用自己之特定犯罪所得與他人進行交易。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997723698616028,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

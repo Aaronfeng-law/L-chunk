@@ -1,0 +1,115 @@
+{
+  "source_file": "data/filted/TPDM,113,訴緝,76,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:59.876900",
+  "processing_time": 0.030330181121826172,
+  "statistics": {
+    "total_lines": 130,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 6,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 6,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 130,
+    "positive_predictions": 6,
+    "positive_ratio": 0.046153846153846156,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 117,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 6
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.66800317248433,
+      "std": 0.4692090812601637,
+      "min": 0.0032606995664536953,
+      "max": 0.9998161196708679,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件公訴意旨略以：被告魏志軒明知愷他命係屬毒品危害防",
+      "rule_score": 0.5,
+      "bert_score": 0.9998161196708679,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按案件曾經判決確定者，應諭知免訴之判決，刑事訴訟法第",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴人認定被告涉有販賣第三級毒品未遂罪嫌，無非以被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998052716255188,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告前因於102年7月22日22時3分30秒與李正和通話結束起至",
+      "rule_score": 0.5,
+      "bert_score": 0.9997296929359436,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡就被告於前案中遭警方查扣之第三級毒品愷他命6包（毛重59",
+      "rule_score": 0.5,
+      "bert_score": 0.9997615218162537,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997760653495789,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

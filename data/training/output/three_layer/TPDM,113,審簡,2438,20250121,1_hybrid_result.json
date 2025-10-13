@@ -1,0 +1,147 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2438,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:35.306614",
+  "processing_time": 0.03153395652770996,
+  "statistics": {
+    "total_lines": 79,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 79,
+    "positive_predictions": 9,
+    "positive_ratio": 0.11392405063291139,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 68,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9998021721839905,
+      "std": 8.565758686680661e-06,
+      "min": 0.9997897744178772,
+      "max": 0.9998106360435486,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據名稱除引用如附件起訴書之記載外，並",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑:",
+      "rule_score": 0.5,
+      "bert_score": 0.9997904896736145,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第449條第2項、第454條第2項，逕以簡易判決",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，應於判決送達後之翌日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997897744178772,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳嘉文與林筠靜為前男女朋友關係，雙方因有債務問題，且",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經林筠靜訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單暨待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告陳嘉文所為，係犯刑法第305條恐嚇罪嫌。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1083,20250120,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:42.786347",
+  "processing_time": 0.09464144706726074,
+  "statistics": {
+    "total_lines": 402,
+    "candidate_lines": 36,
+    "bert_processed_lines": 36,
+    "total_markers": 32,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 32,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 402,
+    "positive_predictions": 32,
+    "positive_ratio": 0.07960199004975124,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 362,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 36,
+        "positive": 32
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "圍字數字": 15,
+      "大寫中文數字": 2,
+      "括號數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.8892929878590318,
+      "std": 0.3124725654940982,
+      "min": 0.003697511972859502,
+      "max": 0.9998167157173157,
+      "count": 36
+    }
+  },
+  "markers": [
+    {
+      "line_number": 24,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、何秉桔、真實姓名年籍不詳之「趙建軍」(大陸地區人民，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997695088386536,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、何秉桔為販賣址設臺北市○○區○○○路0段00號5樓之和雲行動",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠何秉桔與「趙建軍」、鍾尚瑋、江旭龍意圖供冒用身分使用",
+      "rule_score": 0.5,
+      "bert_score": 0.9997798800468445,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡何秉桔與鍾尚瑋、江宗諺基於行使偽造準私文書之犯意，先",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢何秉桔前開行為，足以生損害於附表二編號1至17「遭冒用個",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、案經臺灣臺北地方檢察署（下稱臺北地檢署）檢察官指揮臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按除被告所犯為死刑、無期徒刑、最輕本刑為3年以上有期",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案所引非供述證據部分，並無證據證明係公務員違背法定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠關於犯罪事實一部分，業據被告於警詢、偵訊、本院準備程",
+      "rule_score": 0.5,
+      "bert_score": 0.9997370839118958,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡關於犯罪事實二部分，業據被告於警詢、偵訊、本院準備程",
+      "rule_score": 0.5,
+      "bert_score": 0.9997397065162659,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上所述，本件事證明確，被告犯行均堪認定，均應依法論",
+      "rule_score": 0.5,
+      "bert_score": 0.9996860027313232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠法律適用之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997430443763733,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡罪名與罪數",
+      "rule_score": 0.5,
+      "bert_score": 0.9997518658638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴核被告就犯罪事實一部分所為，係犯戶籍法第75條第1項",
+      "rule_score": 0.5,
+      "bert_score": 0.999796450138092,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 234,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵核被告就犯罪事實二、㈠部分所為，係犯刑法第218條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997788071632385,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 242,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶核被告就犯罪事實二、㈡部分所為，係犯刑法第210條、2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997639060020447,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴被告就犯罪事實一部分，其主觀上係基於偽造國民身分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 255,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵被告就犯罪事實二、㈠及㈡部分，其主觀上係基於為販賣i",
+      "rule_score": 0.5,
+      "bert_score": 0.999757707118988,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 272,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴就犯罪事實一部分，被告以一行為同時觸犯偽造國民身",
+      "rule_score": 0.5,
+      "bert_score": 0.9997938275337219,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 275,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵就犯罪事實二部分，被告係以一行為同時觸犯行使偽造",
+      "rule_score": 0.5,
+      "bert_score": 0.9997871518135071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 286,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢科刑部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997515082359314,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 312,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 313,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠未扣案如附表三編號1至10所示之偽造國民身分證，被告均已",
+      "rule_score": 0.5,
+      "bert_score": 0.99972003698349,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 317,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡係按供犯罪所用、犯罪預備之物或犯罪所生之物，屬於犯罪",
+      "rule_score": 0.5,
+      "bert_score": 0.999769389629364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 325,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢未扣案如附表三編號12至35所示之偽造國民身證或駕駛執照",
+      "rule_score": 0.5,
+      "bert_score": 0.9997401833534241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 332,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣扣案如附表三編號37、49之手機2支，係被告用來與共犯聯繫",
+      "rule_score": 0.5,
+      "bert_score": 0.9997052550315857,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 337,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤扣案如附表三編號47、48所示之物，尚無積極證據證明與本",
+      "rule_score": 0.5,
+      "bert_score": 0.9996930360794067,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 343,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥查被告於警詢時陳稱：我用郵局帳戶收錢，大約收了5萬多元",
+      "rule_score": 0.5,
+      "bert_score": 0.9997382760047913,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

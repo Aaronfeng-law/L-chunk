@@ -1,0 +1,148 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,1090,20250114,5.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:06.635574",
+  "processing_time": 0.047043561935424805,
+  "statistics": {
+    "total_lines": 247,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 247,
+    "positive_predictions": 9,
+    "positive_ratio": 0.03643724696356275,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 225,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "帶圈數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.5020714768907055,
+      "std": 0.49771735847851994,
+      "min": 0.003254198469221592,
+      "max": 0.9998167157173157,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、林博涵明知可發射子彈具殺傷力之非制式手槍及具有殺傷力",
+      "rule_score": 0.5,
+      "bert_score": 0.999808132648468,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局中山分局報告臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據能力：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上開事實，業據被告於偵查、本院準備程序及審理中均坦承",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "①查被告行為後，槍砲彈藥刀械管制條例於113年1月3日修正公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997887015342712,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "②本案被告固於偵查、本院準備程序及審判中均自白犯行，並",
+      "rule_score": 0.5,
+      "bert_score": 0.999755322933197,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "③辯護人固為被告辯護稱：被告已具體指名而供出槍彈來源，",
+      "rule_score": 0.5,
+      "bert_score": 0.999752938747406,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4661,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:40.016346",
+  "processing_time": 0.17811822891235352,
+  "statistics": {
+    "total_lines": 120,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 120,
+    "positive_predictions": 17,
+    "positive_ratio": 0.14166666666666666,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 94,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.8948765192793584,
+      "std": 0.3058504129544353,
+      "min": 0.003126518800854683,
+      "max": 0.9998204112052917,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除下列文字外，其餘均引用檢察官聲",
+      "rule_score": 0.5,
+      "bert_score": 0.999796450138092,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠犯罪事實欄一、第6行「受有右下肢前側擦傷，右下肢後側挫",
+      "rule_score": 0.5,
+      "bert_score": 0.9997745156288147,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證據部分增列「被告張龍章於本院準備程序之自白」。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997498393058777,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第284條前段之過失傷害罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996964931488037,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告任職保全公司，負責停",
+      "rule_score": 0.5,
+      "bert_score": 0.9997825026512146,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本案未諭知緩刑之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.999792754650116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按宣告緩刑，除應具備刑法第74條所定條件外，法院應就被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997443556785583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，被告雖未曾因故意犯罪受有期徒刑以上刑之宣告，有其臺灣高等法院被告前案紀錄表（見本院卷第451至452頁）在卷可按。惟本院審酌被告本案過失情形、告訴人所受傷勢、被告與告訴人並未成立調解等情，揆諸前揭說明，認本案所處被告之刑不宜宣告緩刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997768998146057,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告固稱其工作需要良民證等語。惟依據警察刑事紀錄證明核發條例第6條第3款規定，警察刑事紀錄證明不予記載受拘役之宣告者，則本案既為宣告應處拘役之刑，難謂對被告申請警察刑事紀錄證明有影響，被告自得於本案執行完畢後，向警察局申請之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997766613960266,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第454條第2項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997841715812683,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得於判決送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.999779999256134,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、張龍章為安橋綜合設施管理服務之保全，派駐至臺北市○○區",
+      "rule_score": 0.5,
+      "bert_score": 0.9998204112052917,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經謝政諭訴由臺北市政府警察局大安分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998133778572083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、所犯法條：核被告所為，涉犯刑法第284條前段之過失傷害",
+      "rule_score": 0.5,
+      "bert_score": 0.9998013377189636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 102,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

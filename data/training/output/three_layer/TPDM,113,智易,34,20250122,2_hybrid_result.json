@@ -1,0 +1,414 @@
+{
+  "source_file": "data/filted/TPDM,113,智易,34,20250122,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:33.329118",
+  "processing_time": 0.11083412170410156,
+  "statistics": {
+    "total_lines": 428,
+    "candidate_lines": 42,
+    "bert_processed_lines": 42,
+    "total_markers": 33,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 33,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 428,
+    "positive_predictions": 33,
+    "positive_ratio": 0.07710280373831775,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 379,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 42,
+        "positive": 33
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "大寫中文數字": 3,
+      "圍字數字": 12,
+      "括號數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.7868101485073566,
+      "std": 0.4077885123391827,
+      "min": 0.0037338165566325188,
+      "max": 0.9998317956924438,
+      "count": 42
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳秀碧於民國95年至109年3月27日間，於躍鑫企業有限公司",
+      "rule_score": 0.5,
+      "bert_score": 0.9998133778572083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經躍鑫公司訴由內政部政署保安警察第二總隊移送臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998317956924438,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告陳秀碧於95年至109年3月27日間任職在躍鑫公司，負責",
+      "rule_score": 0.5,
+      "bert_score": 0.9997240900993347,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於任職躍鑫公司期間，即以「陳美琪」之名義代表小品",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告於任職躍鑫公司期間以「陳美琪」之化名，聯繫中青公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997158646583557,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人即中青公司採購人員莊麗錦於本院審理時到庭具結證述",
+      "rule_score": 0.5,
+      "bert_score": 0.9997949004173279,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵是以，被告於任職躍鑫公司期間先向中青公司轉介至小品公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人即亞瑟公司經理許瑋真於本院審理時到庭結證稱：我從9",
+      "rule_score": 0.5,
+      "bert_score": 0.9997889399528503,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵細觀上開被告以「陳美琪」名義寄予亞瑟公司之電子郵件及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997727274894714,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人顏清輝於本院審理時具結證述：我於112年11月21日從產",
+      "rule_score": 0.5,
+      "bert_score": 0.9997685551643372,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵是於產晶公司與小品公司成立第一筆訂單之108年7月時，即",
+      "rule_score": 0.5,
+      "bert_score": 0.9997499585151672,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人即天方公司之採購人員吳芝祺於本院審理時到庭證稱：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵故被告於任職躍鑫公司期間之108年5月間，即以「陳美琪」",
+      "rule_score": 0.5,
+      "bert_score": 0.9997914433479309,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 239,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告於任職於躍鑫公司期間，卻偽以「陳美琪」名義代表小",
+      "rule_score": 0.5,
+      "bert_score": 0.9997045397758484,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 274,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上，被告及辯護人所辯各節，均無足採，本件事證已臻明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997283816337585,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 276,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 277,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第342條之背信罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997023940086365,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 278,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告基於單一犯意，於任職躍鑫公司之108年5月至109年3月",
+      "rule_score": 0.5,
+      "bert_score": 0.999725878238678,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 290,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢本院審酌被告斯時任職於躍鑫公司，卻於接收中青公司、亞",
+      "rule_score": 0.5,
+      "bert_score": 0.9997511506080627,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 301,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997925162315369,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 302,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之。但有特別規定者",
+      "rule_score": 0.5,
+      "bert_score": 0.9997021555900574,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 317,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡查本件公訴意旨雖未主張被告因本件犯行而獲利，無從對被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997064471244812,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 335,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、不另為無罪之諭知部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997500777244568,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 336,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告於95年至109年3月27日間於躍鑫公司擔",
+      "rule_score": 0.5,
+      "bert_score": 0.9998231530189514,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 351,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、公訴意旨認被告涉犯前開犯行，無非係以被告之供述、證人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997993111610413,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 355,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告與於95年至109年3月27日間任職在躍鑫公司，負責業務",
+      "rule_score": 0.5,
+      "bert_score": 0.9998021721839905,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 369,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997790455818176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 370,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠告訴人所提出之員工保證書規約固有關於洩漏業務上或技術",
+      "rule_score": 0.5,
+      "bert_score": 0.9997815489768982,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 379,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又宏海微公司及祥達公司雖分別於如附表二編號1、3交易日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997795224189758,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 391,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，依檢察官所舉卷內事證尚不足以使本院形成被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997941851615906,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

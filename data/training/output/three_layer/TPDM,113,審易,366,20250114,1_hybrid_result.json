@@ -1,0 +1,205 @@
+{
+  "source_file": "data/filted/TPDM,113,審易,366,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:30.844804",
+  "processing_time": 0.17226433753967285,
+  "statistics": {
+    "total_lines": 106,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 106,
+    "positive_predictions": 14,
+    "positive_ratio": 0.1320754716981132,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 89,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "天干": 2,
+      "大寫中文數字": 2,
+      "中文數字": 5,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9997756268296923,
+      "std": 4.181731825312045e-05,
+      "min": 0.9996846914291382,
+      "max": 0.999815046787262,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、得心證之理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997898936271667,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告對其於上開時間與告訴人邱振源均在福德宮內，惟",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於112年8月11日上午11時45分許，在新北市○○區○○路000號之福德宮內與告訴人邱振源有對話並有發生衝突等節，為被告所不爭執（見本院卷第70至71頁、第74頁、第119頁、第134頁），且經證人即告訴人邱振源、證人即在場之人薛夷君分別證述明確（見偵卷第56、58頁；調偵卷第21至22頁；本院卷第65至73頁），並有道路監視錄影畫面在卷可稽（見偵卷第27頁），是此部分事實首堪認定。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997407793998718,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告雖辯稱其沒有恐嚇告訴人邱振源，惟：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997361302375793,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告雖以「台語」為由，辯稱伊無恐嚇之意，惟證人邱振源",
+      "rule_score": 0.5,
+      "bert_score": 0.9997190833091736,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣綜據上情，被告確有為上開恐嚇行為，事證明確，其犯行足",
+      "rule_score": 0.5,
+      "bert_score": 0.9996846914291382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告雖聲請傳喚證人洪聰明以證明其所辯為真，惟被告未能",
+      "rule_score": 0.5,
+      "bert_score": 0.9997321963310242,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、公訴不受理部分",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告於上開時地，基於傷害之犯意，朝告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.999815046787262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前得撤回其告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告涉犯之傷害罪，依刑法第287條前段規定，須告訴乃論",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

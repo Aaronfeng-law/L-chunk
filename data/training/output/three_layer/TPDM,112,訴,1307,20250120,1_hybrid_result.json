@@ -1,0 +1,270 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,1307,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:06.683633",
+  "processing_time": 0.04758501052856445,
+  "statistics": {
+    "total_lines": 361,
+    "candidate_lines": 23,
+    "bert_processed_lines": 23,
+    "total_markers": 20,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 20,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 361,
+    "positive_predictions": 20,
+    "positive_ratio": 0.055401662049861494,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 336,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 23,
+        "positive": 20
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "大寫中文數字": 2,
+      "圍字數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.8705885522877392,
+      "std": 0.33352819259198707,
+      "min": 0.0039526838809251785,
+      "max": 0.9998179078102112,
+      "count": 23
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王行德與曾江山之女曾薇如前為男女朋友關係，其於民國11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經曾江山訴由臺北市政府警察局大安分局報告臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998179078102112,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告以外之人於審判外所為之陳述，悉經當事人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案資以認定被告犯罪事實之非供述證據，查無違反法定程",
+      "rule_score": 0.5,
+      "bert_score": 0.9998016953468323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據與理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998117089271545,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告與曾薇如前為男女朋友關係，於111年10月13日15時30分",
+      "rule_score": 0.5,
+      "bert_score": 0.9996914863586426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告確實基於傷害之犯意，徒手推倒告訴人，並以手肘頂告",
+      "rule_score": 0.5,
+      "bert_score": 0.9996998310089111,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 149,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、被告確實基於毀損之犯意，將陶瓷茶壺砸毀致不堪使用，足",
+      "rule_score": 0.5,
+      "bert_score": 0.9996782541275024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、被告雖辯稱：我沒有推倒告訴人，也沒有頂告訴人的胸口，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997157454490662,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、辯護人固為被告辯護：告訴人就其如何跌倒一事前後說法不",
+      "rule_score": 0.5,
+      "bert_score": 0.999724805355072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 239,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、末按當事人、代理人、辯護人或輔佐人聲請調查之證據，法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997045397758484,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 272,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦、綜上所述，本案事證明確，被告及其辯護人前開所辯均不足",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 274,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 275,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯刑法第277條第1項之傷害罪、刑法第354條",
+      "rule_score": 0.5,
+      "bert_score": 0.999697208404541,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 279,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、爰以行為人之責任為基礎，審酌被告係與曾薇如因感情糾紛",
+      "rule_score": 0.5,
+      "bert_score": 0.9997401833534241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 293,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、數罪併罰之定應執行之刑係一種特別的量刑過程，相較於刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9996979236602783,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 309,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告與曾薇如前為男女朋友關係，其於111",
+      "rule_score": 0.5,
+      "bert_score": 0.9998123049736023,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 316,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、經查，曾薇如於本院審理時證稱：電風扇摔往牆壁後就躺在",
+      "rule_score": 0.5,
+      "bert_score": 0.9998050332069397,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

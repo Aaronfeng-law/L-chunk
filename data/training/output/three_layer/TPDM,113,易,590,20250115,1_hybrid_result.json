@@ -1,0 +1,193 @@
+{
+  "source_file": "data/filted/TPDM,113,易,590,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:30.533021",
+  "processing_time": 0.04583549499511719,
+  "statistics": {
+    "total_lines": 117,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 117,
+    "positive_predictions": 13,
+    "positive_ratio": 0.1111111111111111,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 101,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "大寫中文數字": 4,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9288352178077081,
+      "std": 0.25582199482618795,
+      "min": 0.00645590340718627,
+      "max": 0.9998244643211365,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃若玫於民國112年7月28日18時25分許，至臺北市○○區○○路",
+      "rule_score": 0.5,
+      "bert_score": 0.9998138546943665,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經徐丹薇訴由臺北巿政府警察局中正第一分局報告臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998244643211365,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、關於證據能力之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定事實所憑之理由及證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9997933506965637,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告於本院審理時固坦承有於上開時地購買背包等事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠告訴人徐丹薇所有之本案黑色皮包於前揭時間、地點失竊之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997530579566956,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經本院勘驗卷附本案服飾店內監視器錄影畫面，可見：被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997492432594299,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告固以前詞置辯，然證人即告訴人偵詢時證稱：被告只有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997361302375793,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、綜上所述，本案事證明確，被告犯行堪以認定，應予依法論",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、罪名：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997989535331726,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、量刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、被告竊取之本案黑色皮包為被告之犯罪所得，惟扣案後已發",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1519,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:50.884916",
+  "processing_time": 0.641305685043335,
+  "statistics": {
+    "total_lines": 307,
+    "candidate_lines": 33,
+    "bert_processed_lines": 33,
+    "total_markers": 32,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 32,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 307,
+    "positive_predictions": 32,
+    "positive_ratio": 0.10423452768729642,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 270,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 33,
+        "positive": 32
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 15,
+      "大寫中文數字": 2,
+      "圍字數字": 11,
+      "括號數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9696433728589027,
+      "std": 0.17047401738318138,
+      "min": 0.00529671972617507,
+      "max": 0.9998201727867126,
+      "count": 33
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、曹祐凱基於參與組織犯罪之犯意，於民國113年7月9日前某",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經何信鎮訴由新北市政府警察局新店分局報告臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998201727867126,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分：查本案被告曹祐凱所犯均非死刑、無期徒刑、最",
+      "rule_score": 0.5,
+      "bert_score": 0.9998087286949158,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上開犯罪事實，業據被告於偵查、審理中坦承不諱（偵字卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998024106025696,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.99977046251297,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴查被告本案行為後，詐欺犯罪危害防制條例於113年7月31日制訂公布，並自同年8月2日起生效施行。詐欺犯罪危害防制條例第44條第1項第1款規定：「犯刑法第339條之4第1項第2款之罪，有下列情形之一者，依該條項規定加重其刑二分之一：一、並犯同條項第1款、第3款或第4款之1。」，係就刑法第339條之4之罪，於有各該條之加重處罰事由時，予以加重處罰，係成立另一獨立之罪名，屬刑法分則加重之性質，此乃被告行為時所無之處罰，自無新舊法比較之問題，而應依刑法第1條罪刑法定原則，無溯及既往予以適用之餘地，合先敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997414946556091,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵詐欺犯罪危害防制條例第47條規定：「在偵查及歷次審判中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997243285179138,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴查被告本案行為後，洗錢防制法已於113年7月31日修正公布",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵而查，被告本案所犯洗錢犯行之財物或財產上利益未達1億元",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡是核被告所為，係犯刑法第339條之4第1項第1款、第2款之三",
+      "rule_score": 0.5,
+      "bert_score": 0.9997593760490417,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢罪數之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.999765932559967,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣犯罪事實擴張之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997630715370178,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤刑之減輕之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997655749320984,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 187,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥爰以行為人之責任為基礎，審酌被告本案所犯之三人以上共",
+      "rule_score": 0.5,
+      "bert_score": 0.9997811913490295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 214,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠經查，扣案如附表三編號一至三所示之物，均係本案用以施",
+      "rule_score": 0.5,
+      "bert_score": 0.9997027516365051,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 221,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡如附表三編號一所示之物，業經本院宣告沒收如前，無庸再",
+      "rule_score": 0.5,
+      "bert_score": 0.9997604489326477,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告自述因本案載送李駿前往向被害人取款、提領款項而獲",
+      "rule_score": 0.5,
+      "bert_score": 0.9997203946113586,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 235,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣其餘扣案物品，無證據證明與本案被告三人以上共同冒用公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997043013572693,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 237,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤末查被告與共犯李駿收受及提領告訴人之贓款、本案提款卡",
+      "rule_score": 0.5,
+      "bert_score": 0.9997512698173523,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 259,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 260,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 261,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 263,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 292,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、出售財產、商業組織之出資或股份或放棄經營權。",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 293,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、配合辦理都市更新重建之處理程序。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 294,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、購買商品或支付勞務報酬。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 295,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、履行債務或接受債務協商之內容。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997861981391907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 298,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、使人行無義務之事或妨害其行使權利。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998109936714172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 299,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、在公共場所或公眾得出入之場所聚集三人以上，已受該管公",
+      "rule_score": 0.5,
+      "bert_score": 0.9998016953468323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

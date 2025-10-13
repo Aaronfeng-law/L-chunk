@@ -1,0 +1,248 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1394,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:47.600826",
+  "processing_time": 0.08489084243774414,
+  "statistics": {
+    "total_lines": 255,
+    "candidate_lines": 32,
+    "bert_processed_lines": 32,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 255,
+    "positive_predictions": 18,
+    "positive_ratio": 0.07058823529411765,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 216,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 32,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "大寫中文數字": 2,
+      "圍字數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.5643090402663802,
+      "std": 0.49376817183979954,
+      "min": 0.0029353229328989983,
+      "max": 0.9998182654380798,
+      "count": 32
+    }
+  },
+  "markers": [
+    {
+      "line_number": 26,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、乙○○明知非制式手槍及子彈，均屬槍砲彈藥刀械管制條例所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998152852058411,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局刑事警察大隊報告臺灣臺北地方檢察",
+      "rule_score": 0.5,
+      "bert_score": 0.9998182654380798,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本院以下所引用非供述證據部分，並無證據證明係公務員違",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠上開犯罪事實，業據被告二人於偵查、本院準備程序及審理",
+      "rule_score": 0.5,
+      "bert_score": 0.9997343420982361,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡扣案之手槍1支（槍枝管制編號0000000000）及子彈7顆，經",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上，本案事證明確，被告二人上揭犯行洵堪認定，均應予",
+      "rule_score": 0.5,
+      "bert_score": 0.9997363686561584,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告二人所為，均係犯槍砲彈藥刀械管制條例第7條第4項",
+      "rule_score": 0.5,
+      "bert_score": 0.999722421169281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又按非法持有槍砲彈藥刀械等違禁物，所侵害者為社會法益",
+      "rule_score": 0.5,
+      "bert_score": 0.9997721314430237,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢再按槍砲彈藥刀械管制條例第18條第4項前段明定：犯本條例",
+      "rule_score": 0.5,
+      "bert_score": 0.9997711777687073,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣本案不得適用刑法第59條規定酌減其刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997428059577942,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌近來非法槍彈氾濫，於公共",
+      "rule_score": 0.5,
+      "bert_score": 0.9997883439064026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 203,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥至被告二人之辯護人雖請求緩刑之宣告云云。惟本案就乙○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997677206993103,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9996557235717773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

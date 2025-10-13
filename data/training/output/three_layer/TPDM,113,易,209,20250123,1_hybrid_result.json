@@ -1,0 +1,92 @@
+{
+  "source_file": "data/filted/TPDM,113,易,209,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.878155",
+  "processing_time": 0.022258996963500977,
+  "statistics": {
+    "total_lines": 65,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 4,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 4,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 65,
+    "positive_predictions": 4,
+    "positive_ratio": 0.06153846153846154,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 54,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 4
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8008592368103564,
+      "std": 0.3978866457042643,
+      "min": 0.0050859455950558186,
+      "max": 0.9998155236244202,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告黃信行、翁貴盈2人分別為達和環保服",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本案告訴人告訴被告2人過失重傷害案件，經檢察官提起公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997900128364563,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，依刑事訴訟法第303條第3款、第307條，判決如",
+      "rule_score": 0.5,
+      "bert_score": 0.9997969269752502,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

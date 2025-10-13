@@ -1,0 +1,104 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1466,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.418994",
+  "processing_time": 0.023597002029418945,
+  "statistics": {
+    "total_lines": 62,
+    "candidate_lines": 7,
+    "bert_processed_lines": 7,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 62,
+    "positive_predictions": 5,
+    "positive_ratio": 0.08064516129032258,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 52,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 7,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.7152095607016236,
+      "std": 0.4499448739029572,
+      "min": 0.0032054909970611334,
+      "max": 0.9998021721839905,
+      "count": 7
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、前開犯罪事實，已經被告徐國倫於本院審理中坦白承認（本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997922778129578,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠罪名：",
+      "rule_score": 0.5,
+      "bert_score": 0.999754011631012,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡量刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.999754011631012,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998021721839905,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

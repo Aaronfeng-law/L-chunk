@@ -1,0 +1,180 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4219,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:37.061379",
+  "processing_time": 0.04253220558166504,
+  "statistics": {
+    "total_lines": 130,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 130,
+    "positive_predictions": 12,
+    "positive_ratio": 0.09230769230769231,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 111,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12
+    },
+    "bert_score_stats": {
+      "mean": 0.7512549152888823,
+      "std": 0.4304858370962921,
+      "min": 0.003446942428126931,
+      "max": 0.9998254179954529,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除證據部分增列「本院113年度聲搜",
+      "rule_score": 0.5,
+      "bert_score": 0.9998171925544739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按觀察、勒戒或強制戒治執行完畢釋放後，三年內再犯第十",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、扣案吸食器1組，經送驗後檢出海洛因、安非他命、甲基安",
+      "rule_score": 0.5,
+      "bert_score": 0.9997518658638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第3項、第450條第1項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本案經檢察官姜長志聲請以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.999769389629364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、如不服本判決，應於判決送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.999782383441925,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、甲○○前因施用毒品案件，經法院裁定送觀察勒戒，於民國11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局中正第二分局、新北市政府警察局新",
+      "rule_score": 0.5,
+      "bert_score": 0.9998254179954529,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、前揭犯罪事實，業據被告甲○○於警詢及偵查中坦認不諱，且",
+      "rule_score": 0.5,
+      "bert_score": 0.9998038411140442,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯毒品危害防制條例第10條第1、2項之施用",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依毒品危害防制條例第20條第3項、刑事訴訟法第451條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998064637184143,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

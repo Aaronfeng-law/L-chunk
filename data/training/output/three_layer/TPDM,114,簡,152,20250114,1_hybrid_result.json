@@ -1,0 +1,159 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,152,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:11.048394",
+  "processing_time": 0.032808780670166016,
+  "statistics": {
+    "total_lines": 89,
+    "candidate_lines": 10,
+    "bert_processed_lines": 10,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 89,
+    "positive_predictions": 10,
+    "positive_ratio": 0.11235955056179775,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 77,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 10,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9997726321220398,
+      "std": 2.9706887984468217e-05,
+      "min": 0.9997056126594543,
+      "max": 0.9998106360435486,
+      "count": 10
+    }
+  },
+  "markers": [
+    {
+      "line_number": 13,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鄭建添意圖為自己不法所有，基於竊盜之犯意，於民國113",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上開事實，業據被告鄭建添於警詢時坦承不諱(見偵卷第12",
+      "rule_score": 0.5,
+      "bert_score": 0.9997938275337219,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997056126594543,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告前因竊盜案件，經本院以111年度審易字第821號判決處",
+      "rule_score": 0.5,
+      "bert_score": 0.9997325539588928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按成年人教唆、幫助或利用兒童及少年犯罪或與之共同實施",
+      "rule_score": 0.5,
+      "bert_score": 0.9997630715370178,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰以行為人之責任為基礎，審酌被告本案竊取他人財物，造",
+      "rule_score": 0.5,
+      "bert_score": 0.9997779726982117,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、不予沒收或追徵之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997877478599548,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項、第3項，逕以簡易判決處刑如",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，得自收受送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,18,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:08.469396",
+  "processing_time": 0.07460880279541016,
+  "statistics": {
+    "total_lines": 273,
+    "candidate_lines": 27,
+    "bert_processed_lines": 27,
+    "total_markers": 25,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 25,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 273,
+    "positive_predictions": 25,
+    "positive_ratio": 0.09157509157509157,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 240,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 27,
+        "positive": 25
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 4,
+      "括號數字": 14,
+      "大寫中文數字": 1
+    },
+    "bert_score_stats": {
+      "mean": 0.926143411219258,
+      "std": 0.2602334685211475,
+      "min": 0.005702827125787735,
+      "max": 0.9998145699501038,
+      "count": 27
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告陳冠宇（綽號黑龍）、周定騏明知真實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；又",
+      "rule_score": 0.5,
+      "bert_score": 0.99980229139328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告2人涉犯刑法第30條第1項、第339條之4第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、本案不爭執事實及爭點：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997778534889221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告陳冠宇對於本案公訴意旨所述事實均予坦承；被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997596144676208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告周定騏否認有何幫助詐欺取財之行為，並辯稱：被告陳",
+      "rule_score": 0.5,
+      "bert_score": 0.9997274279594421,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠本案證人陳維星、王膺嘉等人對於由何人介紹邀集而加入詐",
+      "rule_score": 0.5,
+      "bert_score": 0.9996820688247681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴於109年4月18日警詢時供稱：我是在109年4月11日於臉書求",
+      "rule_score": 0.5,
+      "bert_score": 0.9997686743736267,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵復於109年5月20日於偵查中具結證稱：因為緊張、害怕，所",
+      "rule_score": 0.5,
+      "bert_score": 0.9997720122337341,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶嗣於111年5月2日於偵查中再次具結表示：我會認識這個詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997032284736633,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 136,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷於113年11月13日本院審理時具結證稱：109年4月間我跟被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9996533393859863,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 147,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "⑸依上述證人陳維星之供述，於案發時109年間均指稱係透過臉",
+      "rule_score": 0.5,
+      "bert_score": 0.9997748732566833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人廖亭瑋於109年6月19日警詢時供承：我是在IN HOUSE1間",
+      "rule_score": 0.5,
+      "bert_score": 0.9997861981391907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵於109年7月6日警詢時則供稱：我前1次警詢稱被告周定騏介",
+      "rule_score": 0.5,
+      "bert_score": 0.9996938705444336,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶嗣於109年7月6日於偵查中具結稱：我會加入詐欺集團是被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997056126594543,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷證人廖亭瑋於109年6月19日警詢中自始未提及被告周定騏之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997009038925171,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 177,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴於109年4月16日警詢時先供承：在109年4月初有1個叫「李尋",
+      "rule_score": 0.5,
+      "bert_score": 0.9997685551643372,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 187,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵於109年7月2日警詢時復表示：在109年3月底、4月初時，我",
+      "rule_score": 0.5,
+      "bert_score": 0.9997631907463074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶復於109年7月13日偵查時具結證稱：我會去做詐欺工作是因",
+      "rule_score": 0.5,
+      "bert_score": 0.999729335308075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷嗣於113年11月13日本院審理時具結證稱：被告陳冠宇介紹我",
+      "rule_score": 0.5,
+      "bert_score": 0.9996811151504517,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "⑸證人王膺嘉先於警詢中稱係由「李尋歡」介紹本案詐欺集團",
+      "rule_score": 0.5,
+      "bert_score": 0.9997596144676208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡除上述證人之供述外，並無其他證據可茲補強：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997420907020569,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 244,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、公訴意旨雖於犯罪事實提及被告2人招募陳維星、廖亭瑋、",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 253,
+      "symbol": "陸",
+      "unicode_code": "U+9678",
+      "category": "大寫中文數字",
+      "content": "陸、綜上所述，本案綜合卷內公訴人所提出之各項事證後，尚無",
+      "rule_score": 0.5,
+      "bert_score": 0.999796450138092,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

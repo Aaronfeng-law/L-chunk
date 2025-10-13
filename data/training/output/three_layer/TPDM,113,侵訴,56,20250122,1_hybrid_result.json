@@ -1,0 +1,535 @@
+{
+  "source_file": "data/filted/TPDM,113,侵訴,56,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:18.210796",
+  "processing_time": 2.1304383277893066,
+  "statistics": {
+    "total_lines": 623,
+    "candidate_lines": 52,
+    "bert_processed_lines": 52,
+    "total_markers": 44,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 44,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 623,
+    "positive_predictions": 44,
+    "positive_ratio": 0.07062600321027288,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 563,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 52,
+        "positive": 44
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 20,
+      "圍字數字": 18,
+      "大寫中文數字": 5,
+      "天干": 1
+    },
+    "bert_score_stats": {
+      "mean": 0.8468391213772031,
+      "std": 0.3586769282140566,
+      "min": 0.0031264028511941433,
+      "max": 0.9998193383216858,
+      "count": 52
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、江承昱於民國104年7月間，因參加反高中課綱微調運動（下",
+      "rule_score": 0.5,
+      "bert_score": 0.9998013377189636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠江承昱基於拍攝少年性影像之犯意，於104年8月21日，在其",
+      "rule_score": 0.5,
+      "bert_score": 0.9997726082801819,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡拍攝前開照片後，江承昱另基於對14歲以上未滿16歲之人為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997281432151794,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢江承昱基於與14歲以上未滿16歲之人為性交之犯意，於104年",
+      "rule_score": 0.5,
+      "bert_score": 0.9997701048851013,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣江承昱基於與14歲以上未滿16歲之人為性交之犯意，於前開",
+      "rule_score": 0.5,
+      "bert_score": 0.9997748732566833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經A女 訴由臺灣臺北地方檢察署（下稱臺北地檢署）檢察",
+      "rule_score": 0.5,
+      "bert_score": 0.9998192191123962,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、性侵害犯罪防治法第12條第2項規定：「行政機關、司法機",
+      "rule_score": 0.5,
+      "bert_score": 0.9998193383216858,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、證據能力：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997891783714294,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、A女 於偵查中之證述及與被告之對質內容、A女 施測之112",
+      "rule_score": 0.5,
+      "bert_score": 0.9998080134391785,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至於所引非供述證據部分，與本案事實具自然關聯性，且非",
+      "rule_score": 0.5,
+      "bert_score": 0.9997943043708801,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、又上開各項證據，已經本院於審理時合法踐行調查程序，自",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、實體方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、認定犯罪事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告因於104年間參加反課綱運動而認識A女 並互加臉書好",
+      "rule_score": 0.5,
+      "bert_score": 0.9998140931129456,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、A女 就事實欄一、㈠被告所為拍攝少年性影像，及就事實欄",
+      "rule_score": 0.5,
+      "bert_score": 0.9997883439064026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、㈡㈢㈣被告所為對於14歲以上未滿16歲之人性交犯行，於",
+      "rule_score": 0.5,
+      "bert_score": 0.9997979998588562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠就被告與A女 於反課綱運動之認識經過，及被告知悉A女 當",
+      "rule_score": 0.5,
+      "bert_score": 0.999742329120636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡就A女 遭被告拍攝裸照之經過證稱：（本院卷二第152至155",
+      "rule_score": 0.5,
+      "bert_score": 0.9997847676277161,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢就被告與A女 為合意性交行為部分證稱：（本院卷二第152頁",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 290,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、A女 所為前開證述有下列證據可以補強，堪信為真：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 291,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠證人許〇〇（真實姓名詳卷）之偵訊證述：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997790455818176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 315,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告所提其與A女 均在其中之「馬習會」telergram群組訊息",
+      "rule_score": 0.5,
+      "bert_score": 0.9997281432151794,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 335,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢A女 所提其與被告之104年8月2日臉書訊息對話擷圖內容：（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997466206550598,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 362,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣證人莊○○及潘○○於113年12月24日審理中具結證述：（本院卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997517466545105,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 389,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤A女 所提與被告臉書首頁「Chiang Do」之111年4月20日、21",
+      "rule_score": 0.5,
+      "bert_score": 0.9997649788856506,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 440,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、由上所述，足認A女 當時確與被告發展為類似情侶關係，而",
+      "rule_score": 0.5,
+      "bert_score": 0.9997888207435608,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 450,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告其餘辯解不可採之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997814297676086,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 451,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告辯以就被告持以拍攝手機之型號部分，A女 於偵訊中供",
+      "rule_score": 0.5,
+      "bert_score": 0.9997536540031433,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 469,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告復辯以E房租屋處當時對面，即為證人林○○與被告同居之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997677206993103,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 485,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告末辯以A女 並無從明確證述被告有何身體隱私特徵，難",
+      "rule_score": 0.5,
+      "bert_score": 0.9997279047966003,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 510,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，被告前揭所辯，顯係卸責之詞，均不足採，本案",
+      "rule_score": 0.5,
+      "bert_score": 0.9997782111167908,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 512,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 513,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 514,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑法第2條第1項規定：「行為後法律有變更者，適用行為",
+      "rule_score": 0.5,
+      "bert_score": 0.9996985197067261,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 526,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告行為後，刑法第10條第8項於112年2月8日增定公布「性",
+      "rule_score": 0.5,
+      "bert_score": 0.9997511506080627,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 531,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告行為前，原「兒童及少年性交易防制條例」於104年2月4日經修正公布全文，名稱改為「兒童及少年性剝削防制條例」，並於被告行為後之106年1月1日施行。兒童及少年性交易防制條例第27條第1項「拍攝、製造未滿18歲之人為性交或猥褻行為之圖畫、錄影帶、影片、光碟、電子訊號或其他物品者，處6個月以上5年以下有期徒刑，得併科新臺幣（下同）50萬元以下罰金」之規定，變更條次及修正文字為兒童及少年性剝削防制條例第36條第1項之「拍攝、製造兒童或少年為性交或猥褻行為之圖畫、照片、影片、影帶、光碟、電子訊號或其他物品，處6個月以上5年以下有期徒刑，得併科50萬元以下罰金」，至於罪刑之構成要件及法定刑度則無不同，非屬刑法第2條第1項所指之法律變更，依一般法律適用原則，逕按更名後之兒童及少年性剝削防制條例第36條第1項之規定論處（最高法院100年度台上字第1616號判決意旨參照）。嗣兒童及少年性剝削防制條例第36條第1項又歷經數次修正：①於106年11月29日修正公布，定於107年7月1日施行，修正後上開條文之法定刑度，已提高為「處1年以上7年以下有期徒刑，得併科100萬元以下罰金」；②於112年2月15日修正公布（自同年月00日生效施行），該次修正係配合刑法第10條增訂第8項「性影像」之定義，修正、調整部分文字內容，屬條文用語之修正，法定刑度並無不同，且被告本案係拍攝A女 全身照等裸照數位照片，並非拍攝聲音，該等數位照片仍為修正後「性影像」所涵蓋，不生有利或不利被告之情形，非屬法律變更；③於113年8月7日修正公布（自同年月0日生效施行），本次修正新增「無故重製」之行為態樣，並提高得併科罰金刑之下限，由得併科「100萬元以下罰金」，提高為得併科「10萬元以上100萬元以下罰金」，足見修正後之規定顯較不利於被告，爰依刑法第2條第1項規定，適用修正前（即104年2月4日修正公布，於106年1月1日施行）兒童及少年性剝削防制條例第36條第1項之規定論處。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997441172599792,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 532,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、查被告行為時為成年人，而A女 則為14歲以上未滿16歲之少",
+      "rule_score": 0.5,
+      "bert_score": 0.9997994303703308,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 546,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告就上開犯行間，犯意各別，行為互殊，應予分論併罰。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998021721839905,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 547,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、按刑法分則之加重，係就犯罪類型變更之個別犯罪行為予以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997802376747131,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 559,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、爰審酌被告江承昱與A女 當時為類似情侶交往關係，竟為滿",
+      "rule_score": 0.5,
+      "bert_score": 0.999798595905304,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 577,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997650980949402,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 582,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、如附表編號1所示未扣案之Apple廠牌iPhone型號不詳手機1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 588,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、如附表編號2所示A女 遭被告拍攝之性影像，雖未扣案，然",
+      "rule_score": 0.5,
+      "bert_score": 0.9998121857643127,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

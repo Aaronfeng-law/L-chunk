@@ -1,0 +1,182 @@
+{
+  "source_file": "data/filted/TPDM,113,智附民,12,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:33.504502",
+  "processing_time": 0.038533687591552734,
+  "statistics": {
+    "total_lines": 174,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 174,
+    "positive_predictions": 12,
+    "positive_ratio": 0.06896551724137931,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 156,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 2,
+      "括號數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8575772883237472,
+      "std": 0.34829901097547206,
+      "min": 0.004399542696774006,
+      "max": 0.9998273849487305,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告主張：被告明知「00000000」之「鍋隱」商標圖樣，係",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告則以：被告之商標與系爭商標中文寫法不同，英文名字",
+      "rule_score": 0.5,
+      "bert_score": 0.9998273849487305,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、得心證之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按因犯罪而受損害之人，於刑事訴訟程序得附帶提起民事訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997450709342957,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡關於原告請求賠償方法及範圍：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997598528862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴本件原告主張被告侵害商標權，被告自承其使用「鍋癮」GOI",
+      "rule_score": 0.5,
+      "bert_score": 0.9997957348823547,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵又觀諸商標法第71條第1項、第2項之規範體系架構，侵害商",
+      "rule_score": 0.5,
+      "bert_score": 0.9997910857200623,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴原告雖請求：被告應除去或銷毀鍋癮麵食館之招牌、店內裝",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵原告雖又請求：「被告不得使用近似『鍋隱Goin Hot Pot』文",
+      "rule_score": 0.5,
+      "bert_score": 0.9995762705802917,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜上所述，原告依商標法第69條第3項、第71條第1項，請求",
+      "rule_score": 0.5,
+      "bert_score": 0.9997919201850891,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、本件事證已明，兩造其餘主張，經本院斟酌後，認為均於判",
+      "rule_score": 0.5,
+      "bert_score": 0.9997720122337341,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本件為刑事附帶民事訴訟，依法無庸繳納裁判費，且訴訟程",
+      "rule_score": 0.5,
+      "bert_score": 0.9997779726982117,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

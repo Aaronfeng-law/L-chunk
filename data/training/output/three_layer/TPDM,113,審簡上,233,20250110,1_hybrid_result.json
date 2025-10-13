@@ -1,0 +1,335 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上,233,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:41.337640",
+  "processing_time": 0.07358193397521973,
+  "statistics": {
+    "total_lines": 261,
+    "candidate_lines": 28,
+    "bert_processed_lines": 28,
+    "total_markers": 26,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 26,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 261,
+    "positive_predictions": 26,
+    "positive_ratio": 0.09961685823754789,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 230,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 28,
+        "positive": 26
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 24,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9286938718952504,
+      "std": 0.25634993128415595,
+      "min": 0.004214719403535128,
+      "max": 0.99982088804245,
+      "count": 28
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經本院管轄第二審之合議庭審理結果，認原審以被告鍾",
+      "rule_score": 0.5,
+      "bert_score": 0.9998121857643127,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上訴意旨略以：被告利用每月製作人事支出費用明細表並保",
+      "rule_score": 0.5,
+      "bert_score": 0.99982088804245,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、駁回上訴之理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、經查，被告與其母親陳素婉於起訴書附表三所示之時間，匯",
+      "rule_score": 0.5,
+      "bert_score": 0.9996798038482666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、按量刑之輕重，係屬事實審法院得依職權自由裁量之事項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9996674060821533,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、至於被告及辯護人請求給予緩刑部分，查被告雖未曾因故意",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據部分補充「被告鍾翔宇於本院",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告於如起訴書附表所示之期間內，於汎思公司會計",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、末按緩刑屬於刑罰權作用之一環，具有刑罰權之具體效應，",
+      "rule_score": 0.5,
+      "bert_score": 0.999789297580719,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應自收受判決書送達之翌日起20日內，向本",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、故意登錄或輸入不實資料。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997876286506653,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、故意毀損、滅失、塗改貯存體之會計資料，致使財務報表發",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 166,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、故意遺漏會計事項不為登錄，致使財務報表發生不實之結果",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、其他利用不正當方法，致使會計事項或財務報表發生不實之",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鍾翔宇(涉嫌業務侵占等罪嫌，另為不起訴處分)自民國103",
+      "rule_score": 0.5,
+      "bert_score": 0.9998098015785217,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經汎思公司訴由臺北市政府警察局大安分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998173117637634,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 203,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告鍾翔宇所為，係犯違反商業會計法第72條第1款之使",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、告訴意旨另認被告涉嫌詐欺取財罪嫌之部分，經查：被告於",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 236,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、故意登錄或輸入不實資料。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997876286506653,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 250,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、故意毀損、滅失、塗改貯存體之會計資料，致使財務報表發",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 252,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、故意遺漏會計事項不為登錄，致使財務報表發生不實之結果",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 254,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、其他利用不正當方法，致使會計事項或財務報表發生不實之",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

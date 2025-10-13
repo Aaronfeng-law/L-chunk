@@ -1,0 +1,269 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4552,20250102,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:38.713797",
+  "processing_time": 0.04972195625305176,
+  "statistics": {
+    "total_lines": 161,
+    "candidate_lines": 20,
+    "bert_processed_lines": 20,
+    "total_markers": 20,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 20,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 161,
+    "positive_predictions": 20,
+    "positive_ratio": 0.12422360248447205,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 134,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 20,
+        "positive": 20
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9997741848230361,
+      "std": 3.9542902255738806e-05,
+      "min": 0.9996521472930908,
+      "max": 0.9998167157173157,
+      "count": 20
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除犯罪事實欄一、第3、4行所載「並",
+      "rule_score": 0.5,
+      "bert_score": 0.9997987151145935,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告黃鼎峰因違反毒品危害防制條例案件，經本院以111年",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、詢據被告矢口否認有何上揭犯行，辯稱：我沒有施用毒品等",
+      "rule_score": 0.5,
+      "bert_score": 0.9998087286949158,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於113年9月29日11時55分許為警採集之尿液，經送台灣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997205138206482,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡綜上所述，被告所辯，無非事後卸責之詞，自不足採。本案",
+      "rule_score": 0.5,
+      "bert_score": 0.9996521472930908,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按甲基安非他命為毒品危害防制條例第2條第2項第2款所定之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997592568397522,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告前因施用毒品案件，經本院以111年度毒聲字第206號裁",
+      "rule_score": 0.5,
+      "bert_score": 0.9997381567955017,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人責任為基礎，審酌被告前因施用毒品經執行觀察",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、沒收部分：扣案如附表編號1至2所示之物，經送驗後，均檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9997833371162415,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、依刑事訴訟法第449條第1項前段、第3項、第450條第1項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997770190238953,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、如不服本判決，得自收受送達之日起20日內向本院提出上訴",
+      "rule_score": 0.5,
+      "bert_score": 0.999785840511322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃鼎峰前因施用毒品案件，經依法院裁定送觀察、勒戒後，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局大安分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998107552528381,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告黃鼎峰之供述。",
+      "rule_score": 0.5,
+      "bert_score": 0.99977046251297,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡第二級毒品甲基安非他命1包及含甲基安非他命成分之吸食器",
+      "rule_score": 0.5,
+      "bert_score": 0.9997358918190002,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢臺灣臺北地方檢察署鑑定許可書、職務報告、臺北市政府警",
+      "rule_score": 0.5,
+      "bert_score": 0.9997437596321106,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯毒品危害防制條例第10條第2項之施用第二",
+      "rule_score": 0.5,
+      "bert_score": 0.9998058676719666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依毒品危害防制條例第23條第2項、刑事訴訟法第451條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

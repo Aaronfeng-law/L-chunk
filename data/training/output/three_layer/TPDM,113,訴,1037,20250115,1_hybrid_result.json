@@ -1,0 +1,390 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1037,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:42.554798",
+  "processing_time": 0.09490251541137695,
+  "statistics": {
+    "total_lines": 496,
+    "candidate_lines": 34,
+    "bert_processed_lines": 34,
+    "total_markers": 31,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 31,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 496,
+    "positive_predictions": 31,
+    "positive_ratio": 0.0625,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 456,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 34,
+        "positive": 31
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 14,
+      "圍字數字": 17
+    },
+    "bert_score_stats": {
+      "mean": 0.9209502845975187,
+      "std": 0.25637825014204957,
+      "min": 0.0031474283896386623,
+      "max": 0.9998249411582947,
+      "count": 34
+    }
+  },
+  "markers": [
+    {
+      "line_number": 28,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鄭慶權（原名張慶權）基於詐欺取財之犯意，先以其申辦之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998249411582947,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、鄭慶權與詐欺集團不詳成員共同基於詐欺得利之犯意聯絡，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998117089271545,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、鄭慶權與楊智凱（由本院另行審結）共同意圖為自己不法或",
+      "rule_score": 0.5,
+      "bert_score": 0.9998181462287903,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、鄭慶權與不詳詐欺集團成員共同基於詐欺取財及洗錢之犯意",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、鄭慶權並無販售商品之真意，竟意圖為自己不法之所有，基",
+      "rule_score": 0.5,
+      "bert_score": 0.9997724890708923,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、鄭慶權積欠黃加升債務7,000元，黃加升則積欠范哲維債務7",
+      "rule_score": 0.5,
+      "bert_score": 0.999772846698761,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本院引用被告以外之人於審判外之陳述經本院審理時逐項提",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998113512992859,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠關於犯罪事實一：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997628331184387,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡關於犯罪事實二：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997623562812805,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 224,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢關於犯罪事實三：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997605681419373,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣關於犯罪事實四：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997593760490417,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 284,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤關於犯罪事實五：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997560381889343,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 299,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥關於犯罪事實六：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997509121894836,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 323,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 324,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠洗錢防制法之新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997643828392029,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 360,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告就犯罪事實一所為，係犯刑法第339條第1項之詐欺取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997363686561584,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 368,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢起訴書就犯罪事實二所犯法條原記載刑法第339條第1項之詐",
+      "rule_score": 0.5,
+      "bert_score": 0.9997120499610901,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 376,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣附表一編號7關於告訴人陳沁妤被詐騙而於112年3月9日購買",
+      "rule_score": 0.5,
+      "bert_score": 0.999757707118988,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 383,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤按共同實行犯罪行為之人，在合同意思範圍以内，各自分擔",
+      "rule_score": 0.5,
+      "bert_score": 0.9997300505638123,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 390,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告就犯罪事實四所為，係一行為觸犯詐欺取財及洗錢2罪，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997134804725647,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 393,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦按關於詐欺取財罪、洗錢罪罪數之計算，原則上應依被害人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997853636741638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 396,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧被告就犯罪事實四之洗錢犯行，於本院審理中自白，應依112",
+      "rule_score": 0.5,
+      "bert_score": 0.9997362494468689,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 398,
+      "symbol": "㈨",
+      "unicode_code": "U+3228",
+      "category": "圍字數字",
+      "content": "㈨爰審酌被告正值青壯，不思以正當方式獲取金錢，竟對告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.999790608882904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 413,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 414,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠扣案物：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997606873512268,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 421,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪所得：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997721314430237,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 475,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 476,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 477,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 479,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "source_file": "data/filted/TPDM,112,易,745,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:04.984761",
+  "processing_time": 0.04543876647949219,
+  "statistics": {
+    "total_lines": 267,
+    "candidate_lines": 22,
+    "bert_processed_lines": 22,
+    "total_markers": 19,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 19,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 267,
+    "positive_predictions": 19,
+    "positive_ratio": 0.07116104868913857,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 238,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 22,
+        "positive": 19
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "圍字數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.8639163877603344,
+      "std": 0.34191087022584615,
+      "min": 0.003124649403616786,
+      "max": 0.9998210072517395,
+      "count": 22
+    }
+  },
+  "markers": [
+    {
+      "line_number": 10,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、劉輝犯詐欺取財罪，處有期徒刑貳年。又犯詐欺取財罪，處",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 12,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、未扣案之犯罪所得新臺幣伍佰玖拾壹萬元均沒收，於全部或",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、劉輝於民國107年間因多次搭乘林文翔所駕駛之計程車而結",
+      "rule_score": 0.5,
+      "bert_score": 0.999815046787262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠劉輝意圖為自己不法之所有，基於詐欺取財之犯意，於108年",
+      "rule_score": 0.5,
+      "bert_score": 0.9997460246086121,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡後於109年12月18日，劉輝並未遵期歸還本金及給付獲利，為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997815489768982,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢嗣劉輝遲未依約定給付投資獲利，林文翔多次催促無著，始",
+      "rule_score": 0.5,
+      "bert_score": 0.9997673630714417,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經林文翔訴由臺灣臺北地方檢察署檢察官偵查起訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998171925544739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決下述所引用被告劉輝以外之人於審判外之陳述，檢察",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、訊據被告固坦承附表一所示金融帳戶均為其所申設、使用，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998210072517395,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告有於事實欄一、㈠、㈡所示之時間，分別向告訴人告以若",
+      "rule_score": 0.5,
+      "bert_score": 0.9997552037239075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告雖以前詞置辯。然查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997429251670837,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 180,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三所示款項之前、後，被告並無正常之收入，且個人財",
+      "rule_score": 0.5,
+      "bert_score": 0.9998154044151306,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 198,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上所述，本案事證明確，被告犯行均堪認定，皆應依法論",
+      "rule_score": 0.5,
+      "bert_score": 0.9996843338012695,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告就事實欄一、㈠、㈡所為，各係犯刑法第339條第1項之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997466206550598,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 203,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告對告訴人各施以如事實欄一、㈠、㈡所示之詐術，致使告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997677206993103,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 210,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告就事實欄一、㈠、㈡所犯詐欺取財罪，犯意各別，行為互",
+      "rule_score": 0.5,
+      "bert_score": 0.9997429251670837,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰以行為人責任為基礎，本院審酌被告不思以正當途徑獲取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997738003730774,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 229,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、按犯罪所得，屬於犯罪行為人者，沒收之；沒收，於全部或",
+      "rule_score": 0.5,
+      "bert_score": 0.99979168176651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

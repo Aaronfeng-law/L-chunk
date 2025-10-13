@@ -1,0 +1,48 @@
+{
+  "input_directory": "data/sample",
+  "output_directory": "output/sample",
+  "total_files": 4,
+  "successful_files": 4,
+  "failed_files": 0,
+  "total_processing_time": 0.009645700454711914,
+  "total_markers": 195,
+  "total_pua_markers": 4,
+  "files": [
+    {
+      "file_name": "TPDM,111,金重訴,34,20250114,1.json",
+      "success": true,
+      "processing_time": 0.003420114517211914,
+      "total_markers": 27,
+      "pua_markers": 0,
+      "error_message": ""
+    },
+    {
+      "file_name": "TPDM,111,侵訴,89,20250115,1.json",
+      "success": true,
+      "processing_time": 0.0010230541229248047,
+      "total_markers": 18,
+      "pua_markers": 0,
+      "error_message": ""
+    },
+    {
+      "file_name": "TPDM,111,易,564,20250113,1.json",
+      "success": true,
+      "processing_time": 0.003927469253540039,
+      "total_markers": 121,
+      "pua_markers": 4,
+      "error_message": ""
+    },
+    {
+      "file_name": "TPDM,109,易,187,20250116,1.json",
+      "success": true,
+      "processing_time": 0.0012750625610351562,
+      "total_markers": 29,
+      "pua_markers": 0,
+      "error_message": ""
+    }
+  ],
+  "batch_total_time": 0.0202634334564209,
+  "avg_processing_time": 0.0024114251136779785,
+  "success_rate": 100.0,
+  "generated_at": "2025-10-10T12:21:10.380098"
+}

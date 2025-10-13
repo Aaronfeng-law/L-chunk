@@ -1,0 +1,171 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1257,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.901586",
+  "processing_time": 0.046392202377319336,
+  "statistics": {
+    "total_lines": 158,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 158,
+    "positive_predictions": 11,
+    "positive_ratio": 0.06962025316455696,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 137,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "大寫中文數字": 2,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.6129738052711926,
+      "std": 0.48490245454091896,
+      "min": 0.0030879389960318804,
+      "max": 0.9998243451118469,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鍾秉翰明知並無所謂有客戶要向他人購買生命禮儀商品之情",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經胡嘉倫訴由臺北市政府警察局松山分局報告臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998193383216858,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、「訊問被告應出以懇切之態度，不得用強暴、脅迫、利誘、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997612833976746,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、次按被告以外之人於審判外之陳述，雖不符刑事訴訟法第15",
+      "rule_score": 0.5,
+      "bert_score": 0.99982088804245,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告雖坦承於111年3月23日在臺北市松山區八德路4段1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998058676719666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第339條第1項之詐欺取財罪。爰審酌",
+      "rule_score": 0.5,
+      "bert_score": 0.9998243451118469,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告出具之本案收據，雖為犯本案所用之物，但已交付胡嘉",
+      "rule_score": 0.5,
+      "bert_score": 0.9996868371963501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡末按，「犯罪所得，屬於犯罪行為人者，沒收之。」、「前",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

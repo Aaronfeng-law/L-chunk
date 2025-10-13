@@ -1,0 +1,192 @@
+{
+  "source_file": "data/filted/TPDM,114,審交簡,8,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:05.833910",
+  "processing_time": 0.039736032485961914,
+  "statistics": {
+    "total_lines": 74,
+    "candidate_lines": 14,
+    "bert_processed_lines": 14,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 74,
+    "positive_predictions": 13,
+    "positive_ratio": 0.17567567567567569,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 59,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 14,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.9285785253159702,
+      "std": 0.25667897343962487,
+      "min": 0.003109329380095005,
+      "max": 0.9998041987419128,
+      "count": 14
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實要旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上開犯罪事實有下列證據可證：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠證人花瑾瑜於警詢、偵訊及本院訊問時之指述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997636675834656,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡臺北市立萬方醫院委託臺北醫學大學辦理診斷證明書。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997628331184387,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢道路交通事故現場圖、道路交通事故談話紀錄表、道路交通",
+      "rule_score": 0.5,
+      "bert_score": 0.9997360110282898,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告羅瀚於偵訊及本院訊問時之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997391104698181,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第185條之4第1項前段之肇事致人傷害",
+      "rule_score": 0.5,
+      "bert_score": 0.999734103679657,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰審酌被告駕車未注意車前狀況，致被害人受有首揭傷害，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997736811637878,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告於此之前未曾因故意犯罪受有期徒刑以上刑之宣告，有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997332692146301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、應依刑事訴訟法第449條第2項、第3項，逕以簡易判決處刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997989535331726,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應於收受送達判決之日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本案經檢察官李蕙如提起公訴，檢察官黃惠欣到庭執行職務",
+      "rule_score": 0.5,
+      "bert_score": 0.999774158000946,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

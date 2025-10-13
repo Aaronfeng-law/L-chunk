@@ -1,0 +1,81 @@
+{
+  "source_file": "data/filted/TPDM,112,交易,186,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:01.859360",
+  "processing_time": 0.03175950050354004,
+  "statistics": {
+    "total_lines": 63,
+    "candidate_lines": 3,
+    "bert_processed_lines": 3,
+    "total_markers": 3,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 3,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 63,
+    "positive_predictions": 3,
+    "positive_ratio": 0.047619047619047616,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 54,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 3,
+        "positive": 3
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9998059074083964,
+      "std": 1.0546410805199503e-05,
+      "min": 0.9997921586036682,
+      "max": 0.9998177886009216,
+      "count": 3
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告王清奇於民國111年3月10日下午6時25",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查，本件告訴人林容琦告訴被告王清奇過失傷害，及告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

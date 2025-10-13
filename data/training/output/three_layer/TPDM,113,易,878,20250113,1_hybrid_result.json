@@ -1,0 +1,160 @@
+{
+  "source_file": "data/filted/TPDM,113,易,878,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:32.079074",
+  "processing_time": 0.0347900390625,
+  "statistics": {
+    "total_lines": 160,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 160,
+    "positive_predictions": 10,
+    "positive_ratio": 0.0625,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 145,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 4,
+      "中文數字": 4,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9093012231910094,
+      "std": 0.2861111931411253,
+      "min": 0.004538198467344046,
+      "max": 0.9998102784156799,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、得心證之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998072981834412,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、刑法第19條第2項適用之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本件並無刑法第59條、第61條第2款規定之適用：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997982382774353,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠刑法第59條規定：「犯罪之情狀顯可憫恕，認科以最低度刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997034668922424,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，本件被告任意竊取本案腳踏車，業已侵害他人財產法",
+      "rule_score": 0.5,
+      "bert_score": 0.9996798038482666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、爰以行為人之責任為基礎，審酌被告已有多次相類罪質之竊",
+      "rule_score": 0.5,
+      "bert_score": 0.9998034834861755,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、被告是否施以監護之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、不予沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997926354408264,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,42,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:13.183991",
+  "processing_time": 0.026329755783081055,
+  "statistics": {
+    "total_lines": 66,
+    "candidate_lines": 8,
+    "bert_processed_lines": 8,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 66,
+    "positive_predictions": 8,
+    "positive_ratio": 0.12121212121212122,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 55,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 8,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9997963905334473,
+      "std": 1.7053387825275405e-05,
+      "min": 0.9997724890708923,
+      "max": 0.9998226761817932,
+      "count": 8
+    }
+  },
+  "markers": [
+    {
+      "line_number": 10,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳榮吉犯竊盜罪，處罰金新臺幣5,000元，如易服勞役，以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998226761817932,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 12,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、未扣案之犯罪所得安全帽1頂沒收，如全部或一部不能沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除犯罪事實欄一、第1行「8月18日晚",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告陳榮吉所為，係犯刑法第320條第1項之竊盜罪。又被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰以行為人之責任為基礎，本院審酌被告不循正當途徑獲取",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、按犯罪所得，屬於犯罪行為人者，沒收之，於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997876286506653,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第3項、第450條第1項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於判決送達之翌日起20日內，以書狀敘述",
+      "rule_score": 0.5,
+      "bert_score": 0.9997724890708923,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

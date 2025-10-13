@@ -1,0 +1,204 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,992,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:59.430445",
+  "processing_time": 0.049924373626708984,
+  "statistics": {
+    "total_lines": 370,
+    "candidate_lines": 21,
+    "bert_processed_lines": 21,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 370,
+    "positive_predictions": 14,
+    "positive_ratio": 0.03783783783783784,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 345,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 21,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "大寫中文數字": 2,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.667829556058028,
+      "std": 0.46945116689995686,
+      "min": 0.0030476637184619904,
+      "max": 0.9998148083686829,
+      "count": 21
+    }
+  },
+  "markers": [
+    {
+      "line_number": 23,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王俊皓前於民國110年間，因施用毒品案件，經臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998148083686829,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、王俊皓明知甲基安非他命屬毒品危害防制條例第2條第2項第",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、王俊皓取得上開毒品後，與真實年籍姓名不詳之通訊軟體SI",
+      "rule_score": 0.5,
+      "bert_score": 0.9997853636741638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、案經臺北市政府警察局大安分局及臺北市政府警察局信義分",
+      "rule_score": 0.5,
+      "bert_score": 0.99980229139328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠上揭犯罪事實，業據被告於偵查中及本院審理時均坦承不諱(",
+      "rule_score": 0.5,
+      "bert_score": 0.9997352957725525,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按非法販賣毒品係政府嚴予查緝之違法行為，非可公然為之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997480511665344,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上所述，本案事證明確，被告犯行堪以認定，應依法論科",
+      "rule_score": 0.5,
+      "bert_score": 0.999688982963562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 285,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.999769389629364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 290,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、四級毒品而言；倘屬同條例相關法條明文規定處罰之犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 294,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、四級毒品之沒收，並無特別規定，如其行為已構成犯罪",
+      "rule_score": 0.5,
+      "bert_score": 0.999790370464325,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "source_file": "data/filted/TPDM,114,附民,91,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:14.207717",
+  "processing_time": 0.023607730865478516,
+  "statistics": {
+    "total_lines": 51,
+    "candidate_lines": 4,
+    "bert_processed_lines": 4,
+    "total_markers": 4,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 4,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 51,
+    "positive_predictions": 4,
+    "positive_ratio": 0.0784313725490196,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 39,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 4,
+        "positive": 4
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9997976124286652,
+      "std": 1.1478615074444062e-05,
+      "min": 0.9997856020927429,
+      "max": 0.9998106360435486,
+      "count": 4
+    }
+  },
+  "markers": [
+    {
+      "line_number": 23,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告訴之聲明及陳述：詳如刑事附帶民事起訴狀所載。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998074173927307,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、因犯罪而受損害之人，於刑事訴訟程序得附帶提起民事訴訟",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本件被告許獻中、林上紘、張其元、楊鳳珠、林裕國、戴雨",
+      "rule_score": 0.5,
+      "bert_score": 0.9997856020927429,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第488條但書、第502條第1項，判決如主文。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997867941856384,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

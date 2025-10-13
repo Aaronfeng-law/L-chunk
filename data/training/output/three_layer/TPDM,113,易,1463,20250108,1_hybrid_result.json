@@ -1,0 +1,136 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1463,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.394854",
+  "processing_time": 0.02802419662475586,
+  "statistics": {
+    "total_lines": 78,
+    "candidate_lines": 8,
+    "bert_processed_lines": 8,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 78,
+    "positive_predictions": 8,
+    "positive_ratio": 0.10256410256410256,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 59,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 11,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 8,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9998071491718292,
+      "std": 6.988183887847542e-06,
+      "min": 0.9997968077659607,
+      "max": 0.9998162388801575,
+      "count": 8
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、聲請簡易判決處刑意旨詳如附件所示。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本件被告苑策、吳子豪因傷害案件，經檢察官聲請以簡易判",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吳子豪與苑策素不相識，因細故而生齟齬，竟均基於傷害之",
+      "rule_score": 0.5,
+      "bert_score": 0.999812662601471,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經吳子豪、苑策均訴由臺北市政府警察局信義分局報告偵",
+      "rule_score": 0.5,
+      "bert_score": 0.9998154044151306,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告吳子豪於警詢中均坦承不諱，被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997968077659607,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告吳子豪、苑策所為，均係犯刑法第277條第1項之傷害",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

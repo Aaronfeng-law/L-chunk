@@ -1,0 +1,158 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,168,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:11.506431",
+  "processing_time": 0.03170418739318848,
+  "statistics": {
+    "total_lines": 96,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 96,
+    "positive_predictions": 10,
+    "positive_ratio": 0.10416666666666667,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 82,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.9091784283942119,
+      "std": 0.2865754050092931,
+      "min": 0.002947427798062563,
+      "max": 0.9998167157173157,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，均引用檢察官聲請簡易判決處刑書（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997979998588562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告王建輝所為，係犯刑法第320條第1項之竊盜罪。爰以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查被告前未曾因故意犯罪受有期徒刑以上刑之宣告，此有臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998065829277039,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，依刑事訴訟法第449條第1項前段、第3項、第454",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之日起20日內向本院提出上訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997807145118713,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王建輝於民國113年12月19日8時5分許，在小北百貨康定店（",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經文泫生活館有限公司訴由臺北市政府警察局萬華分局報告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上開犯罪事實，業據被告王建輝於警詢及偵查中均坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997875094413757,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第320條第1項之竊盜罪嫌。而被告前",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

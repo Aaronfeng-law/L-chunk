@@ -1,0 +1,291 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,125,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:10.588978",
+  "processing_time": 0.051773786544799805,
+  "statistics": {
+    "total_lines": 160,
+    "candidate_lines": 22,
+    "bert_processed_lines": 22,
+    "total_markers": 22,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 22,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 160,
+    "positive_predictions": 22,
+    "positive_ratio": 0.1375,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 128,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 10,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 22,
+        "positive": 22
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 16,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9997763416983865,
+      "std": 3.634158982618457e-05,
+      "min": 0.9996979236602783,
+      "max": 0.9998205304145813,
+      "count": 22
+    }
+  },
+  "markers": [
+    {
+      "line_number": 25,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實、證據及應適用之法條，除證據部分補充被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997994303703308,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告2人所為，均係犯刑法第321條第2項、第1項第3款之攜",
+      "rule_score": 0.5,
+      "bert_score": 0.9997197985649109,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告2人就上開犯行，有犯意聯絡及行為分擔，應論以共同正",
+      "rule_score": 0.5,
+      "bert_score": 0.9996979236602783,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告2人均係以一行為同時觸犯上開2罪名，為想像競合犯，",
+      "rule_score": 0.5,
+      "bert_score": 0.9996999502182007,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告2人雖已著手於竊盜行為之實行，惟未生竊得財物之結果",
+      "rule_score": 0.5,
+      "bert_score": 0.9997333884239197,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤本件檢察官於聲請簡易判決處刑書主張被告林金樺構成累犯",
+      "rule_score": 0.5,
+      "bert_score": 0.999727189540863,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥爰審酌被告2人前已有多次竊盜前科，仍不思以正當合法方式",
+      "rule_score": 0.5,
+      "bert_score": 0.9997637867927551,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至被告2人本案犯行所持用之千斤頂，雖係供其等犯罪所用",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第454條第2項，逕以",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自判決送達之日起20日內，向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、林金樺於民國109年間㈠因竊盜案件，經臺灣基隆地方法院以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998205304145813,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經洪武雄訴由臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998148083686829,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告林金樺、沈柔均所為，均犯刑法第321條第2項、第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998058676719666,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 149,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、侵入住宅或有人居住之建築物、船艦或隱匿其內而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、毀越門窗、牆垣或其他安全設備而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、攜帶兇器而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997901320457458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、結夥三人以上而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、乘火災、水災或其他災害之際而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997791647911072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 154,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、在車站、港埠、航空站或其他供水、陸、空公眾運輸之舟、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

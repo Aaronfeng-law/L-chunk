@@ -1,0 +1,81 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1614,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.757580",
+  "processing_time": 0.021294116973876953,
+  "statistics": {
+    "total_lines": 44,
+    "candidate_lines": 3,
+    "bert_processed_lines": 3,
+    "total_markers": 3,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 3,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 44,
+    "positive_predictions": 3,
+    "positive_ratio": 0.06818181818181818,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 37,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 3,
+        "positive": 3
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9998096823692322,
+      "std": 6.564092587440588e-06,
+      "min": 0.9998027682304382,
+      "max": 0.9998185038566589,
+      "count": 3
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、聲請簡易判決處刑意旨略以：被告陳清江於民國112年8月5",
+      "rule_score": 0.5,
+      "bert_score": 0.9998185038566589,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本案檢察官認被告所涉犯之刑法第309條第1項之公然侮辱罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "source_file": "data/filted/TPDM,113,交易,482,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:11.669718",
+  "processing_time": 0.0299222469329834,
+  "statistics": {
+    "total_lines": 81,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 81,
+    "positive_predictions": 9,
+    "positive_ratio": 0.1111111111111111,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 68,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9998036026954651,
+      "std": 9.617201174040377e-06,
+      "min": 0.9997877478599548,
+      "max": 0.9998195767402649,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨如檢察官聲請簡易判決處刑書所載（如附件）。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前，得撤回其告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查本件告訴人林楷峻告訴被告鄭郁達過失傷害案件，聲請簡",
+      "rule_score": 0.5,
+      "bert_score": 0.9997877478599548,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，依刑事訴訟法第452條、第303條第1款、第307條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鄭郁達於民國113年3月13日上午10時40分許，騎乘車牌號碼",
+      "rule_score": 0.5,
+      "bert_score": 0.9998095631599426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經林楷峻訴請臺北市政府警察局大安分局報告偵辨。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998131394386292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告鄭郁達於本署偵查中固坦承於犯罪事實所載時、地，自",
+      "rule_score": 0.5,
+      "bert_score": 0.9998195767402649,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告鄭郁達所為，係犯刑法第284條前段之過失傷害罪嫌",
+      "rule_score": 0.5,
+      "bert_score": 0.9998025298118591,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

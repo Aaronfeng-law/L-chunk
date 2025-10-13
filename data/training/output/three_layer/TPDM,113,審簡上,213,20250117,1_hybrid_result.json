@@ -1,0 +1,434 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上,213,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:41.238146",
+  "processing_time": 0.10445165634155273,
+  "statistics": {
+    "total_lines": 438,
+    "candidate_lines": 39,
+    "bert_processed_lines": 39,
+    "total_markers": 35,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 35,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 438,
+    "positive_predictions": 35,
+    "positive_ratio": 0.07990867579908675,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 395,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 39,
+        "positive": 35
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 22,
+      "圍字數字": 13
+    },
+    "bert_score_stats": {
+      "mean": 0.8976750372407528,
+      "std": 0.3020134930579804,
+      "min": 0.0031930766999721527,
+      "max": 0.9998162388801575,
+      "count": 39
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按上訴得明示僅就判決之刑、沒收或保安處分一部為之，刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9998008608818054,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案犯罪事實、證據及論罪理由部分，除證據部分補充被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、檢察官上訴意旨略以：被告未積極賠償全部被害人所受損害",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、上訴駁回之部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997867941856384,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、洗錢防制法雖於本案上訴後之民國113年7月31日修正公布，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997065663337708,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、次按量刑之輕重，係屬事實審法院得依職權自由裁量之事項",
+      "rule_score": 0.5,
+      "bert_score": 0.9996864795684814,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、查本案原審量刑時已審酌被告為取得其所需款項，任意將其",
+      "rule_score": 0.5,
+      "bert_score": 0.9996809959411621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、撤銷改判部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997703433036804,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、原審依刑法第74條第1項第1款、第2項第8款規定為法治教育",
+      "rule_score": 0.5,
+      "bert_score": 0.9997251629829407,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、是經本院審酌被告前未曾因故意犯罪受有期徒刑以上刑之宣",
+      "rule_score": 0.5,
+      "bert_score": 0.999745786190033,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據名稱除引用如附件起訴書、併辦意旨書",
+      "rule_score": 0.5,
+      "bert_score": 0.9998131394386292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 176,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 244,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、不諭知沒收之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 251,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第454條第2項，逕以簡易判決",
+      "rule_score": 0.5,
+      "bert_score": 0.9997941851615906,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 253,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997794032096863,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 294,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、林芳如明知依一般社會生活之通常經驗，一般人無故取得他",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 316,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經蘇宇彥訴由新北市政府警察局中和分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 318,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 320,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法30條第1項、第339條第1項幫助詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998016953468323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 323,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 340,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997929930686951,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 356,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 357,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告林芳如於偵查時之供述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997422099113464,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 358,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被害人彭成諺、謝毅俊於警詢時之指訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.999757707118988,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 359,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被害人彭成諺網路轉帳交易結果通知、詐騙集團成員來電紀",
+      "rule_score": 0.5,
+      "bert_score": 0.9997172951698303,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 361,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被害人謝毅俊ATM轉帳交易明細。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997602105140686,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 362,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤中信帳戶開戶基本資料及交易明細各1份、112年3月21日辦理",
+      "rule_score": 0.5,
+      "bert_score": 0.9997522234916687,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 364,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、所犯法條：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997890591621399,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 372,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、併案理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.999785840511322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 413,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、出席職員如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 417,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、到場調解關係人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997910857200623,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 420,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、兩造達成調解內容如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 421,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠相對人願給付聲請人新臺幣（下同）玖萬元，給付方式如下",
+      "rule_score": 0.5,
+      "bert_score": 0.9997649788856506,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 426,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡聲請人對相對人其餘請求均拋棄，並保留對其他共犯之損害",
+      "rule_score": 0.5,
+      "bert_score": 0.9997549653053284,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 428,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢聲請費用各自負擔。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997417330741882,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

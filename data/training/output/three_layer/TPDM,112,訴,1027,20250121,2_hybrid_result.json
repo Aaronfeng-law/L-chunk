@@ -1,0 +1,591 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,1027,20250121,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:06.538573",
+  "processing_time": 0.13976216316223145,
+  "statistics": {
+    "total_lines": 517,
+    "candidate_lines": 57,
+    "bert_processed_lines": 57,
+    "total_markers": 49,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 49,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 517,
+    "positive_predictions": 49,
+    "positive_ratio": 0.09477756286266925,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 449,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 11,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 57,
+        "positive": 49
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "圍字數字": 21,
+      "大寫中文數字": 2,
+      "括號數字": 11,
+      "帶圈數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8600795136666611,
+      "std": 0.34569492177310995,
+      "min": 0.003196228761225939,
+      "max": 0.9998188614845276,
+      "count": 57
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鄧自立與林宜安於民國110年11月間透過網路交友而認識，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998118281364441,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠於111年1月14日6時27分許，以林宜安之姓名、國民身分證統",
+      "rule_score": 0.5,
+      "bert_score": 0.999748170375824,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡於111年1月14日10時1分許，以林宜安之姓名、國民身分證統",
+      "rule_score": 0.5,
+      "bert_score": 0.9997487664222717,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢於111年1月14日10時43分許，以林宜安之姓名、國民身分證",
+      "rule_score": 0.5,
+      "bert_score": 0.9997581839561462,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、鄧自立意圖為自己不法之所有，基於詐欺得利之犯意，於11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、鄧自立可預見他人無正當理由收取金融帳戶之存摺、提款卡",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998188614845276,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、就犯罪事實一部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠辯護人爭執證人即告訴人林宜安於警詢中陳述之證據能力【",
+      "rule_score": 0.5,
+      "bert_score": 0.9997817873954773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡辯護人另爭執證人林宜安於偵訊中證述之證據能力（見本院",
+      "rule_score": 0.5,
+      "bert_score": 0.9997331500053406,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢本案所引用其餘供述及非供述證據，檢察官、被告及辯護人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997175335884094,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、就犯罪事實二、三部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997926354408264,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、就犯罪事實一部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告矢口否認有何詐欺得利、行使偽造準私文書及違反",
+      "rule_score": 0.5,
+      "bert_score": 0.9997794032096863,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997534155845642,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴111年1月14日6時27分許，街口支付用戶編號「00000000",
+      "rule_score": 0.5,
+      "bert_score": 0.9997723698616028,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人林哲民於警詢中證稱：其於111年1、2月間經朋友介",
+      "rule_score": 0.5,
+      "bert_score": 0.9997352957725525,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶佐以街口公司會員帳號「000000000」之交易明細所示，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997275471687317,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 155,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷依此而觀，若上開街口支付帳戶非被告所掌控使用，當",
+      "rule_score": 0.5,
+      "bert_score": 0.9997465014457703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 158,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴於111年1月14日10時1分許，會員編號「00000000000000",
+      "rule_score": 0.5,
+      "bert_score": 0.9997900128364563,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人即告訴人林宜安於本院審理中具結證稱：其發現無",
+      "rule_score": 0.5,
+      "bert_score": 0.9997667670249939,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 171,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶被告雖否認其有LINE暱稱「お尻ちゃん」（下稱「お尻ちゃん」",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "①告訴人林宜安於本院審理中已證稱：當時其發現無法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 179,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "②依告訴人林宜安提出之LINE對話紀錄翻拍照片所示（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997747540473938,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "③「0000000000」雖與註冊悠遊付之行動電話「0000000",
+      "rule_score": 0.5,
+      "bert_score": 0.9997525811195374,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "④",
+      "unicode_code": "U+2463",
+      "category": "帶圈數字",
+      "content": "④再者，依告訴人林宜安所提出之截圖畫面（見北檢111",
+      "rule_score": 0.5,
+      "bert_score": 0.9997010827064514,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 198,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷綜上以觀，被告確有於111年1月14日以告訴人林宜安之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997337460517883,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 203,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴111年1月14日10時43分許，橘子支會員帳號「wsx3942qa",
+      "rule_score": 0.5,
+      "bert_score": 0.9997294545173645,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵行動電話門號0000-000000號為被告所申登使用（見北檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9997230172157288,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶被告申請上開橘子支帳號後，接續於如附表Ｂ所示之時間",
+      "rule_score": 0.5,
+      "bert_score": 0.9997548460960388,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 254,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、就犯罪事實二、三部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997926354408264,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 270,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、綜上所述，本案事證明確，被告前揭犯行洵堪認定，應予依",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 272,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 273,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997621178627014,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 346,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按在紙上或物品上之文字、符號、圖畫、照像，依習慣或特",
+      "rule_score": 0.5,
+      "bert_score": 0.9997525811195374,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 354,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢核被告就犯罪事實一㈠、㈡所為，均係犯個人資料保護法第41",
+      "rule_score": 0.5,
+      "bert_score": 0.9997286200523376,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 377,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告就犯罪事實二所為，係犯刑法第339條第2項之詐欺得利",
+      "rule_score": 0.5,
+      "bert_score": 0.9997602105140686,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 379,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告就犯罪事實三所為，係犯刑法第30條第1項、第339條第1",
+      "rule_score": 0.5,
+      "bert_score": 0.999739944934845,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 394,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥臺灣臺北地方檢察署檢察官以111年度偵字第26842號、112年",
+      "rule_score": 0.5,
+      "bert_score": 0.9997707009315491,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 397,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦被告就犯罪事實一、二、三所為，其犯意各別，行為互殊，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997817873954773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 399,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧犯罪事實三部分，被告未實際參與本案詐騙犯行之實行，僅",
+      "rule_score": 0.5,
+      "bert_score": 0.999700665473938,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 402,
+      "symbol": "㈨",
+      "unicode_code": "U+3228",
+      "category": "圍字數字",
+      "content": "㈨爰以行為人之責任為基礎，審酌被告冒用前女友之身分及其",
+      "rule_score": 0.5,
+      "bert_score": 0.9997772574424744,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 423,
+      "symbol": "㈩",
+      "unicode_code": "U+3229",
+      "category": "圍字數字",
+      "content": "㈩就附表Ａ編號1部分所處之刑不得易科罰金，就附表Ａ編號3部",
+      "rule_score": 0.5,
+      "bert_score": 0.9997370839118958,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 431,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、沒收部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997686743736267,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 432,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之。於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9996881484985352,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 435,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告就犯罪事實一部分，取得如附表Ｂ所示共計15萬元之不法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997451901435852,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 439,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢犯罪事實三部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997444748878479,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 458,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、據上論斷，應依刑事訴訟法第299條第1項前段，判決如主文",
+      "rule_score": 0.5,
+      "bert_score": 0.9997817873954773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

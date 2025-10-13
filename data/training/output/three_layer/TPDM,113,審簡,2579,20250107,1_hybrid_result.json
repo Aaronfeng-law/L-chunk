@@ -1,0 +1,313 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2579,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:35.988875",
+  "processing_time": 0.07219362258911133,
+  "statistics": {
+    "total_lines": 147,
+    "candidate_lines": 26,
+    "bert_processed_lines": 26,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 147,
+    "positive_predictions": 24,
+    "positive_ratio": 0.16326530612244897,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 119,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 26,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 22,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9232941049580964,
+      "std": 0.2649946488599902,
+      "min": 0.004108262713998556,
+      "max": 0.9998125433921814,
+      "count": 26
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，除證據部分另應補充增列「被告洪緯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998026490211487,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑之依據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告洪緯明所為，係犯刑法第321條第1項第1款之侵入住宅",
+      "rule_score": 0.5,
+      "bert_score": 0.9997487664222717,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告有詐欺、偽造文書及多",
+      "rule_score": 0.5,
+      "bert_score": 0.9997860789299011,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分：未扣案如附表編號1、2「贓物名稱與數量」欄所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項、第450條第1項、第454",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997794032096863,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、侵入住宅或有人居住之建築物、船艦或隱匿其內而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、毀越門窗、牆垣或其他安全設備而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、攜帶兇器而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997901320457458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、結夥三人以上而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、乘火災、水災或其他災害之際而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997791647911072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、在車站、港埠、航空站或其他供水、陸、空公眾運輸之舟、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、洪緯明【綽號十三(閩南語)】與張吉勝及蔡智潔2人並不熟",
+      "rule_score": 0.5,
+      "bert_score": 0.9998125433921814,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經張吉勝告訴及蔡智潔訴請新北市政府警察局新店分局報",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告洪緯明於本署偵查中坦承不諱，核與告訴人張吉勝",
+      "rule_score": 0.5,
+      "bert_score": 0.9998006224632263,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告洪緯明所為，係犯刑法第321條第1項第1款之加重竊",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、侵入住宅或有人居住之建築物、船艦或隱匿其內而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、毀越門窗、牆垣或其他安全設備而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、攜帶兇器而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997901320457458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 143,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、結夥三人以上而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、乘火災、水災或其他災害之際而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997791647911072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、在車站、港埠、航空站或其他供水、陸、空公眾運輸之舟、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

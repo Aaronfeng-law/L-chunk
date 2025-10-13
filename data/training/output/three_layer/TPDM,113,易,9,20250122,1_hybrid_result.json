@@ -1,0 +1,524 @@
+{
+  "source_file": "data/filted/TPDM,113,易,9,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:32.201665",
+  "processing_time": 0.1219637393951416,
+  "statistics": {
+    "total_lines": 456,
+    "candidate_lines": 48,
+    "bert_processed_lines": 48,
+    "total_markers": 43,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 43,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 456,
+    "positive_predictions": 43,
+    "positive_ratio": 0.09429824561403509,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 402,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 48,
+        "positive": 43
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 14,
+      "大寫中文數字": 2,
+      "括號數字": 21
+    },
+    "bert_score_stats": {
+      "mean": 0.8964143308015385,
+      "std": 0.3030713839975327,
+      "min": 0.004842283669859171,
+      "max": 0.9998164772987366,
+      "count": 48
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、孫天賞與代號AD000-H112278號之成年女子（下稱A女，姓名",
+      "rule_score": 0.5,
+      "bert_score": 0.9998074173927307,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠於112年5月18日上午9時35分許，在新北市新店區三民路00巷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997178912162781,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡於同日中午12時56分許，騎乘車牌號碼000-0000號普通重型",
+      "rule_score": 0.5,
+      "bert_score": 0.9997473359107971,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢於112年9月7日上午6時20分許，在新北市新店區三民路2號旁",
+      "rule_score": 0.5,
+      "bert_score": 0.999722421169281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經A女、B女、C女訴由新北市政府警察局新店分局報告臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998164772987366,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告孫天賞以外之人於審判外所為之陳述，悉經",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案資以認定被告犯罪事實之非供述證據，查無違反法定程",
+      "rule_score": 0.5,
+      "bert_score": 0.9998016953468323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠事實欄一、㈠部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997624754905701,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人A女於警詢時證稱：我於112年5月18日上午9時35到45分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997853636741638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人A女於偵訊時證稱：我不認識被告，但我之前看過他；11",
+      "rule_score": 0.5,
+      "bert_score": 0.9997523427009583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶證人A女於本院審理時證稱：112年5月18日上午9時35分在新",
+      "rule_score": 0.5,
+      "bert_score": 0.9997368454933167,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷衡以證人A女於警詢、偵訊及本院審理時所為之證述，就案發",
+      "rule_score": 0.5,
+      "bert_score": 0.9996911287307739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人王森於警詢時證稱：當時我去新店區三民路00巷00號送",
+      "rule_score": 0.5,
+      "bert_score": 0.9997685551643372,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵由證人王森上開證詞，可見A女於案發後有神態緊張、快要哭",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴被告於本院審理時辯稱：我太太不讓我出門，我不可能出門",
+      "rule_score": 0.5,
+      "bert_score": 0.9997871518135071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵辯護人辯稱：於起訴意旨指稱之犯罪時間，被告騎乘之本案",
+      "rule_score": 0.5,
+      "bert_score": 0.999751627445221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶證人王森於案發時騎乘機車之行車紀錄器並未攝錄到被告身",
+      "rule_score": 0.5,
+      "bert_score": 0.9997591376304626,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡事實欄一、㈡部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997624754905701,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 171,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人B女於警詢時證稱：於112年5月18日中午12時50分許，我",
+      "rule_score": 0.5,
+      "bert_score": 0.9997891783714294,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人B女於偵訊時證稱：我要告被告性騷擾；於112年5月18日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997602105140686,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶證人B女於本院審理時證稱：於112年5月18日中午12時56分在",
+      "rule_score": 0.5,
+      "bert_score": 0.9997233748435974,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 204,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷衡以證人B女於警詢、偵訊及本院審理時所為之證述，就案發",
+      "rule_score": 0.5,
+      "bert_score": 0.9996911287307739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴經本院勘驗案發時監視器錄影檔案，顯示：於112年5月18日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 231,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵被告於警詢時供稱：監視器畫面截圖編號01中，騎乘本案機",
+      "rule_score": 0.5,
+      "bert_score": 0.9997743964195251,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 250,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢事實欄一、㈢部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997624754905701,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 255,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人C女於112年9月7日警詢時證稱：於112年9月7日上午6時2",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 263,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵證人C女於112年12月4日偵訊時證稱：我要告被告性騷擾；大",
+      "rule_score": 0.5,
+      "bert_score": 0.999748170375824,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶證人C女於113年12月25日本院審理時證稱：於112年9月7日上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997418522834778,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 288,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷衡以證人C女於警詢、偵訊及本院審理時所為之證述，就案發",
+      "rule_score": 0.5,
+      "bert_score": 0.9996911287307739,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 297,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴證人陳智秋於警詢時證稱：112年9月7日早上6點左右，我在",
+      "rule_score": 0.5,
+      "bert_score": 0.9997795224189758,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 306,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵依被告於警詢時供稱：監視器影像內穿著白色上衣、黑色長",
+      "rule_score": 0.5,
+      "bert_score": 0.9997783303260803,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 321,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告辯稱：本案性騷擾A女、B女、C女之犯嫌為住在新北市新",
+      "rule_score": 0.5,
+      "bert_score": 0.9997363686561584,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 342,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤按性騷擾防治法第25條第1項規定，係以意圖性騷擾，乘人不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997349381446838,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 371,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥綜上所述，本案事證明確，被告犯行堪以認定，應依法論科",
+      "rule_score": 0.5,
+      "bert_score": 0.999688982963562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 373,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 374,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告為事實欄一、㈠、㈡之行為後，性騷擾防治法第25條第1項",
+      "rule_score": 0.5,
+      "bert_score": 0.999755322933197,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 388,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按成年人教唆、幫助或利用兒童及少年犯罪或與之共同實施",
+      "rule_score": 0.5,
+      "bert_score": 0.9997630715370178,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 397,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢核被告就事實欄一、㈠及㈡部分所為，均係犯修正前性騷擾防",
+      "rule_score": 0.5,
+      "bert_score": 0.999729573726654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 403,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告所犯上開3罪，犯意各別，行為互殊，應予分論併罰。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997082352638245,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 404,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌被告為逞一己私慾，不思尊",
+      "rule_score": 0.5,
+      "bert_score": 0.9997920393943787,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

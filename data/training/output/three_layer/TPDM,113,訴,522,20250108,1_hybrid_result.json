@@ -1,0 +1,215 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,522,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:54.972949",
+  "processing_time": 0.681438684463501,
+  "statistics": {
+    "total_lines": 154,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 154,
+    "positive_predictions": 15,
+    "positive_ratio": 0.09740259740259741,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 130,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "大寫中文數字": 2,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.8338003903109994,
+      "std": 0.37111868899832406,
+      "min": 0.003484424203634262,
+      "max": 0.9998292922973633,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、田正俊知悉中央銀行發行之新臺幣為國幣，且面額新臺幣（",
+      "rule_score": 0.5,
+      "bert_score": 0.9998248219490051,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺灣臺北地方檢察署檢察官指揮內政部警政署刑事警察",
+      "rule_score": 0.5,
+      "bert_score": 0.9998220801353455,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998170733451843,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告對於上開犯罪事實坦承不諱，核與證人洪緯明於警詢及偵查（見偵字第31073號卷第315至319頁、第333至335頁）、證人潘進華於警詢及偵查（見偵字第31073號卷第483至488頁、第203至204頁)、證人游雅婷於警詢及偵查（見偵字第31073號卷第473至477頁、第223至224頁）、證人曾玉憲於警詢（見偵字第31073號卷第461至465頁）所述相符，復有内政部警政署刑事警察局鑑識報告一份（見偵字第31073號卷第39至41頁）、搜索現場錄影畫面擷圖暨譯文、監視器畫面擷圖（見偵字第31073號卷第43至45頁）、臺北地院112聲搜1540號搜索票、內政部警政署刑事警察局搜索扣押筆錄、扣押物品目錄表（見偵字第31073號卷第47至63頁）、内政部警政署刑事警察局112年7月20日刑紋字第1120099542號鑑定書-洪緯明、潘進華指紋（見偵字第31073號卷第105至116頁）、中央銀行發行局112年5月22日台央發字第1120019107號函（見偵字第31073號卷第585至604頁）、112.08.15扣案之偽鈔成品等照片、本案偽鈔工廠扣押物照片（見偵字第31073號卷第119至127頁）、内政部警政署刑事警察局112年2月6日刑鑑字第1120012008號鑑定書暨扣案偽鈔成品照片（見偵字第31073號卷第539至541頁）、内政部警政署刑事警察局112年11月16日數位採證分析報告（見偵字第31073號卷第555至575頁）、内政部警政署刑事警察局鑑識報告、中央印製廠113年3月22日中印發字第1130001127號函暨鑑定報告（見偵字第31073號卷第577至579頁）在卷可稽。另有附表所示之物扣案可佐，足認被告任意性自白與事實相符，本案事證明確，被告犯行堪以認定，應依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998292922973633,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按依中央銀行法第13條第1項及中央銀行發行新臺幣辦法第2",
+      "rule_score": 0.5,
+      "bert_score": 0.99977046251297,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又按妨害國幣懲治條例第3條第1項偽造幣券罪，並不以所偽",
+      "rule_score": 0.5,
+      "bert_score": 0.9997753500938416,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告本件犯行，相較大量行使偽造貨幣、紙幣或常態性藉此",
+      "rule_score": 0.5,
+      "bert_score": 0.9996523857116699,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰以行為人之責任為基礎，並審酌被告以上開方式偽造幣券",
+      "rule_score": 0.5,
+      "bert_score": 0.9997945427894592,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠另按刑法施行法第10條之3第2項規定：「105年7月1日前施行",
+      "rule_score": 0.5,
+      "bert_score": 0.99974125623703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡查扣案如附表所示之物，均係被告所有供犯本罪所用之物，",
+      "rule_score": 0.5,
+      "bert_score": 0.9996752738952637,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢另扣案如附表1-1所示之物，被告亦事後否認其為供本案犯罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9997469782829285,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣又本案未扣得被告之犯罪所得，被告亦否認本件有何犯罪所",
+      "rule_score": 0.5,
+      "bert_score": 0.9997344613075256,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

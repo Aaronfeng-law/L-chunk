@@ -1,0 +1,103 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,253,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.262805",
+  "processing_time": 0.020772218704223633,
+  "statistics": {
+    "total_lines": 116,
+    "candidate_lines": 6,
+    "bert_processed_lines": 6,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 116,
+    "positive_predictions": 5,
+    "positive_ratio": 0.04310344827586207,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 104,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 6,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.8339816383862247,
+      "std": 0.370795955045394,
+      "min": 0.004856677260249853,
+      "max": 0.9998162388801575,
+      "count": 6
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按宣傳品、出版品、廣播、電視、網際網路或其他媒體，不",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、又上訴得明示僅就判決之刑、沒收或保安處分一部為之，刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告上訴意旨略以：伊誤以為告訴人已在通訊軟體LINE上對",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、按刑事審判之量刑，在於實現刑罰權之分配的正義，故法院",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、至被告雖另辯稱：被告僅傳送11個字之訊息，卻遭判處有期",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

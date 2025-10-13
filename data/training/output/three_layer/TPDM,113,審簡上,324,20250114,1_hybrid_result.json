@@ -1,0 +1,313 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上,324,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:42.629002",
+  "processing_time": 0.08939123153686523,
+  "statistics": {
+    "total_lines": 295,
+    "candidate_lines": 30,
+    "bert_processed_lines": 30,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 295,
+    "positive_predictions": 24,
+    "positive_ratio": 0.08135593220338982,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 257,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 30,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.8011533305592214,
+      "std": 0.39725270728429457,
+      "min": 0.0034854442346841097,
+      "max": 0.9998071789741516,
+      "count": 30
+    }
+  },
+  "markers": [
+    {
+      "line_number": 25,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經本院審理結果，認第一審判決認事用法均無違誤，量",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、新舊法比較部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997963309288025,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告行為後，洗錢防制法於民國113年7月31日修正公布，同",
+      "rule_score": 0.5,
+      "bert_score": 0.9997394680976868,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告行為後，洗錢防制法第16條第2項先於112年6月14日修正",
+      "rule_score": 0.5,
+      "bert_score": 0.9997474551200867,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜合上述條文修正前、後規定，依法律變更比較適用所應遵",
+      "rule_score": 0.5,
+      "bert_score": 0.9997443556785583,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、洗錢之財物沒收與否之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜上所述，原審認事用法及量刑均無不當，縱未及比較新舊",
+      "rule_score": 0.5,
+      "bert_score": 0.9997852444648743,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實要旨：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997959733009338,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上列犯罪事實，有下列證據可證：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998000264167786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠附表二各被害人於警詢、本院時之指述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997596144676208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡附表二各被害人所提報案及匯款證明等資料（具體證據名稱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997715353965759,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 154,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢附表一所示帳戶之開戶資料及歷史交易明細表各1份。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997485280036926,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 155,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告於本院訊問時之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.999744713306427,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 156,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997621178627014,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 207,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按刑法上之幫助犯，係對於犯罪與正犯有共同之認識，而以",
+      "rule_score": 0.5,
+      "bert_score": 0.999736487865448,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 242,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌被告明知國內詐騙案件盛行，而將個人申辦之金融機",
+      "rule_score": 0.5,
+      "bert_score": 0.9997817873954773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 252,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣卷內無證據足認被告確實取得何犯罪所得，自無庸宣告沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997438788414001,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 254,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第2項、第3項，逕以簡易判決處刑如",
+      "rule_score": 0.5,
+      "bert_score": 0.999792754650116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 256,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應於收受送達判決之日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 258,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本件經檢察官黃珮瑜提起公訴及移送併辦、檢察官李毓珮、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997804760932922,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 279,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、意圖掩飾或隱匿特定犯罪所得來源，或使他人逃避刑事追訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997990727424622,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 281,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、掩飾或隱匿特定犯罪所得之本質、來源、去向、所在、所有",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 283,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、收受、持有或使用他人之特定犯罪所得。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

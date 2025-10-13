@@ -1,0 +1,346 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡,2674,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:36.978302",
+  "processing_time": 0.07336139678955078,
+  "statistics": {
+    "total_lines": 170,
+    "candidate_lines": 28,
+    "bert_processed_lines": 28,
+    "total_markers": 27,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 27,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 170,
+    "positive_predictions": 27,
+    "positive_ratio": 0.1588235294117647,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 139,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 28,
+        "positive": 27
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 25,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.96419526702292,
+      "std": 0.1849345408502832,
+      "min": 0.0032472198363393545,
+      "max": 0.999823272228241,
+      "count": 28
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除犯罪事實欄一第8行「鉛筆刀」補",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第321條第1項第3款之攜帶兇器竊盜",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按刑法第47條累犯規定，依司法院大法官解釋釋字第775號",
+      "rule_score": 0.5,
+      "bert_score": 0.9998025298118591,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、另按刑事審判旨在實現刑罰權之分配的正義，故法院對有罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9998001456260681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、爰以行為人之責任為基礎，審酌被告上揭攜帶鉛筆刀竊盜之",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997531771659851,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按犯罪所得，屬於犯罪行為人者，沒收之，於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.999658465385437,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、另被告供本案犯行所用之鉛筆刀，未經扣案，且無證據足認",
+      "rule_score": 0.5,
+      "bert_score": 0.9997091889381409,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、依刑事訴訟法第449條第2項、第3項、第450條第1項、第454",
+      "rule_score": 0.5,
+      "bert_score": 0.9997853636741638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、如不服本件判決，得自收受送達之日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997902512550354,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、侵入住宅或有人居住之建築物、船艦或隱匿其內而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、毀越門窗、牆垣或其他安全設備而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、攜帶兇器而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997901320457458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、結夥三人以上而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、乘火災、水災或其他災害之際而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997791647911072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、在車站、港埠、航空站或其他供水、陸、空公眾運輸之舟、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王森福前因施用毒品案件，經臺灣臺北地方法院以109年度",
+      "rule_score": 0.5,
+      "bert_score": 0.999823272228241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經陳世耀訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單暨待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第321條第1項第3款之攜帶兇器竊盜",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、侵入住宅或有人居住之建築物、船艦或隱匿其內而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 160,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、毀越門窗、牆垣或其他安全設備而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、攜帶兇器而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997901320457458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 162,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、結夥三人以上而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、乘火災、水災或其他災害之際而犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997791647911072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、在車站、港埠、航空站或其他供水、陸、空公眾運輸之舟、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

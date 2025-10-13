@@ -1,0 +1,325 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,805,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:56.705967",
+  "processing_time": 0.10594463348388672,
+  "statistics": {
+    "total_lines": 365,
+    "candidate_lines": 37,
+    "bert_processed_lines": 37,
+    "total_markers": 25,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 25,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 365,
+    "positive_predictions": 25,
+    "positive_ratio": 0.0684931506849315,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 320,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 37,
+        "positive": 25
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "圍字數字": 13,
+      "大寫中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.6770968926453812,
+      "std": 0.46575466205361976,
+      "min": 0.002911084797233343,
+      "max": 0.9998400211334229,
+      "count": 37
+    }
+  },
+  "markers": [
+    {
+      "line_number": 29,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、丙○○為址設臺北市○○區○○○路000巷00號地下1樓「好友歌友",
+      "rule_score": 0.5,
+      "bert_score": 0.9998400211334229,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠於113年2月10日晚上6時20分許前，由許黃飛從店內櫃台取出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997619986534119,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡於113年3月8日23時13分許至翌(9)日凌晨0時25分許，由許黃",
+      "rule_score": 0.5,
+      "bert_score": 0.9997615218162537,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠嗣警方循線於113年3月10日凌晨1時5分，在「好友歌友會」",
+      "rule_score": 0.5,
+      "bert_score": 0.9997770190238953,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺灣臺北地方檢察署檢察官指揮臺北市政府警察局刑事",
+      "rule_score": 0.5,
+      "bert_score": 0.9998213648796082,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998108744621277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告2人就上開犯罪事實，於偵查及審理中均坦承不諱（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997696280479431,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 147,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡又買賣毒品為我國所禁止之犯罪行為，既係非可公然為之之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997578263282776,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上，本件事實既明，被告二人之前揭犯行，堪予認定，均",
+      "rule_score": 0.5,
+      "bert_score": 0.9997285008430481,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 186,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 187,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按毒品危害防制條例第9條第3項規定「犯前五條之罪而混合",
+      "rule_score": 0.5,
+      "bert_score": 0.9997673630714417,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告二人，就事實欄一㈠㈡所為，均有犯意聯絡與行為分擔，",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告二人就事實欄一㈠㈡所犯各罪，因犯意各別，行為互殊，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997270703315735,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣刑之加重及減輕事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997827410697937,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 262,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人責任為基礎，審酌被告二人雖係於越南出生成長",
+      "rule_score": 0.5,
+      "bert_score": 0.9997666478157043,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 276,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥又按數罪併罰之定應執行之刑，係出於刑罰經濟與責罰相當",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 292,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦另被告許黃飛係越南籍之外國人，於112年3月27日持觀光簽",
+      "rule_score": 0.5,
+      "bert_score": 0.9997697472572327,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 300,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997736811637878,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 301,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、扣案如附表編號1至4所示之毒品咖啡包及編號5、6所示之愷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997987151145935,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 310,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、扣案如附表編號7至9所示之物，為供被告二人共同販賣及預",
+      "rule_score": 0.5,
+      "bert_score": 0.9998080134391785,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 314,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、扣案如附表編號10、11所示之行動電話，分別係被告丙○○、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 321,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、又被告二人各次犯行之毒品價金分別為5,000元(即5包毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.9998030066490173,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 330,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、至本案其餘扣案物品因與本案犯罪並無關連，此業據被告二",
+      "rule_score": 0.5,
+      "bert_score": 0.9997662901878357,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

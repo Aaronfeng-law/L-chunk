@@ -1,0 +1,137 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,269,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.658183",
+  "processing_time": 0.3454718589782715,
+  "statistics": {
+    "total_lines": 123,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 123,
+    "positive_predictions": 8,
+    "positive_ratio": 0.06504065040650407,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 109,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.7282262860628014,
+      "std": 0.4434186953420719,
+      "min": 0.003022837219759822,
+      "max": 0.9998125433921814,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案審理範圍",
+      "rule_score": 0.5,
+      "bert_score": 0.9997915625572205,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、維持原審宣告刑之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠原審以行為人之責任為基礎，被告明知役齡男子本有依法服",
+      "rule_score": 0.5,
+      "bert_score": 0.9997150301933289,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡事實審法院之量刑輕重，甚或是否宣告緩刑，均為實體法賦",
+      "rule_score": 0.5,
+      "bert_score": 0.99973064661026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告固主張其固定薪資（Base Pay Increase）約為每年美金",
+      "rule_score": 0.5,
+      "bert_score": 0.999742329120636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、撤銷改判（緩刑附負擔部分）之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998125433921814,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠原審以被告未曾因故意犯罪而受有期徒刑以上刑之宣告，有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997403025627136,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於本院審理中方提出被告2024年薪資明細表（Compensation Statement）明確說明其薪資收入年收入約美金9萬7,492元情形，而與被告於原審所陳明年收入美金12萬元有別，原審未及審酌，然本院考量被告為避免前開㈢⒉所述役齡男子不得出境之規定而在未返國數年間，已取得綠卡，並結婚工作生活數年，此即屬被告未依法服兵役並拖延至除役年齡所獲取之社會經驗與生活閱歷，其雖上訴陳稱有妻小需要扶養、於美國當地收入偏低、積蓄不多等節，然被告選擇逃避服役之際，即可預見日後有相應之國家處罰（刑責或緩刑之負擔等），為彰顯兵役制度之公平性，就原審所諭知附負擔之數額新臺幣150萬元部分，認無不當，然諭知供被告籌措、處理緩刑附負擔公益金之期間略嫌不足，尚有未洽。從而，被告上訴指摘原判決緩刑附負擔不當部分，為有理由，自應就緩刑附負擔部分予以撤銷，並諭知應於本判決確定之日起1年內向公庫支付新臺幣150萬元。倘被告違反上開應負擔之事項且情節重大者，依刑法第75條之1第1項第4款之規定，檢察官得向本院聲請撤銷緩刑之宣告。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997655749320984,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

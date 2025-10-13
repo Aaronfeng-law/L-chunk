@@ -1,0 +1,104 @@
+{
+  "source_file": "data/filted/TPDM,113,訴緝,74,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:59.846188",
+  "processing_time": 0.02204108238220215,
+  "statistics": {
+    "total_lines": 114,
+    "candidate_lines": 6,
+    "bert_processed_lines": 6,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 114,
+    "positive_predictions": 5,
+    "positive_ratio": 0.043859649122807015,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 97,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 11,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 6,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.8338542831285546,
+      "std": 0.3709631276854127,
+      "min": 0.004355521406978369,
+      "max": 0.9998121857643127,
+      "count": 6
+    }
+  },
+  "markers": [
+    {
+      "line_number": 25,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略稱：被告楊清海明知未經中央主管機關許可，不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998121857643127,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按被告死亡者，應諭知不受理之判決，刑事訴訟法第303條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998080134391785,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按違禁物，不問屬於犯罪行為人與否，沒收之，刑法第38條",
+      "rule_score": 0.5,
+      "bert_score": 0.999679446220398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、經查，檢察官於起訴書內就被告遭扣案如附表二編號1至5所",
+      "rule_score": 0.5,
+      "bert_score": 0.99968421459198,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

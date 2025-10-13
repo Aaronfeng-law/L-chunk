@@ -1,0 +1,258 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,2627,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:34.188628",
+  "processing_time": 0.6485857963562012,
+  "statistics": {
+    "total_lines": 143,
+    "candidate_lines": 21,
+    "bert_processed_lines": 21,
+    "total_markers": 19,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 19,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 143,
+    "positive_predictions": 19,
+    "positive_ratio": 0.13286713286713286,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 118,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 21,
+        "positive": 19
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.90537956161868,
+      "std": 0.29097760594876343,
+      "min": 0.008526349440217018,
+      "max": 0.9998160004615784,
+      "count": 21
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據均引用檢察官聲請簡易判決處刑書之記",
+      "rule_score": 0.5,
+      "bert_score": 0.9998012185096741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告吳玥慶所為，係犯刑法第319條之1第1項之無故攝錄他",
+      "rule_score": 0.5,
+      "bert_score": 0.9997379183769226,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡至聲請簡易判決處刑意旨固認被告係以一行為係同時犯刑法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997532963752747,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人之責任為基礎，審酌被告本件無故攝錄他人性影像犯行，造成被害人性隱私法益受損，身心受創非輕，實有不該，值得非難。又審酌被告與被害人素不相識，為滿足自己私欲，見被害人站立於捷運站出口手扶梯上方，即趁機以扣案手機拍攝被害人裙底部位之犯罪動機、目的、手段等犯罪情節，可見被告嚴重欠缺尊重他人身體隱私之觀念。再考慮被告犯後坦承犯行，與被害人達成調解並賠償完畢，此有本院調解筆錄在卷可稽（本院卷第71頁），堪認被告犯後態度非差，及考慮被告自述為碩士畢業、擔任研究助理、家庭經濟狀況勉持（偵字卷第17頁） 等一切情狀，量處如主文所示之刑，並諭知易科罰金之折算標準。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997851252555847,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣又本院審酌被告前未曾因故意犯罪受有期徒刑以上刑之宣告，此有臺灣高等法院被告前案紀錄表在卷可稽（本院卷第11頁），符合刑法第74條第1項第1款之要件，堪認被告素行、品行非差。被告雖因一時失慮致犯本案之罪，然考量被告犯後始終坦承犯行，與被害人達成調解並賠償完畢，業如前述，非無悔意，堪認被告歷經此次偵、審程序及科刑之教訓，理當有所警惕，迷途知返，為使被告有效回歸社會，重新開啟正向人生，認對於被告宣告之刑，以暫不執行為適當，爰依刑法第74條第1項第1款宣告緩刑2年。又為使被告深切反省，牢記本案教訓，另依刑法第74條第2項第8款規定，命被告於緩刑期間接受法治教育課程3場次，使其建立正確法治觀念，謹慎其行，並依同法第93條第1項第2款規定，於緩刑期間內付保護管束。若被告不履行此等負擔，且情節重大，足認原宣告之緩刑難收其預期效果，而有執行刑罰之必要者，檢察官得依刑事訴訟法第476條、刑法第75條之1第1項第4款規定，聲請撤銷前開緩刑之宣告，併此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997550845146179,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑法第319條之1至刑法第319條之4之性影像之附著物及物",
+      "rule_score": 0.5,
+      "bert_score": 0.9997758269309998,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡扣案如附表所示之手機係被告本案用以竊錄被害人性影像之",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項、第3項、第454條第2項、第450",
+      "rule_score": 0.5,
+      "bert_score": 0.9997847676277161,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得自收受送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吳玥慶與AW000-B113306（真實姓名年籍均詳卷，下稱A女）",
+      "rule_score": 0.5,
+      "bert_score": 0.9997979998588562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經A女訴由臺北市政府警察局中正第一分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、前揭犯罪事實，業據被告吳玥慶於警詢及偵查中均坦承不諱",
+      "rule_score": 0.5,
+      "bert_score": 0.9997920393943787,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第315條之1第2款之無故以拍照竊錄他",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至告訴暨報告意旨認被告觸碰告訴人小腿部分，亦涉犯性騷",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 114,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997878670692444,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、無故利用工具或設備窺視、竊聽他人非公開之活動、言論、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997979998588562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、無故以錄音、照相、錄影或電磁紀錄竊錄他人非公開之活動",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

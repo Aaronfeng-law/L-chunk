@@ -1,0 +1,400 @@
+{
+  "source_file": "data/filted/TPDM,114,審原交簡,1,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:05.920074",
+  "processing_time": 0.08523154258728027,
+  "statistics": {
+    "total_lines": 149,
+    "candidate_lines": 32,
+    "bert_processed_lines": 32,
+    "total_markers": 32,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 32,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 149,
+    "positive_predictions": 32,
+    "positive_ratio": 0.21476510067114093,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 114,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 32,
+        "positive": 32
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 32
+    },
+    "bert_score_stats": {
+      "mean": 0.9997749328613281,
+      "std": 2.090730094724274e-05,
+      "min": 0.99974125623703,
+      "max": 0.9998117089271545,
+      "count": 32
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除犯罪事實欄一第7行「適羅治成自",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯道路交通管理處罰條例第86條第1項第1款",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本院審酌被告過失情節、所生危害及加重其法定最低本刑亦",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、又被告於肇事後於員警前往現場處理時在場，並當場承認為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997925162315369,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、爰以行為人之責任為基礎，審酌被告未領有駕駛執照駕駛普",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、依刑事訴訟法第449條第2項、第3項、第454條第2項，道路",
+      "rule_score": 0.5,
+      "bert_score": 0.9997811913490295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、如不服本件判決，得自收受送達之日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、未領有駕駛執照駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997859597206116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、駕駛執照經吊銷、註銷或吊扣期間駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、酒醉駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、吸食毒品、迷幻藥、麻醉藥品或其相類似之管制藥品駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997615218162537,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、行駛人行道、行近行人穿越道或其他依法可供行人穿越之交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997667670249939,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、行車速度，超過規定之最高時速四十公里以上。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997451901435852,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、任意以迫近、驟然變換車道或其他不當方式，迫使他車讓道",
+      "rule_score": 0.5,
+      "bert_score": 0.9997538924217224,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、非遇突發狀況，在行駛途中任意驟然減速、煞車或於車道中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997546076774597,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、二輛以上之汽車在道路上競駛、競技。",
+      "rule_score": 0.5,
+      "bert_score": 0.999769389629364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十、連續闖紅燈併有超速行為。",
+      "rule_score": 0.5,
+      "bert_score": 0.99974125623703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王和謙未領有駕駛執照，於民國112年12月8日18時56分許，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經羅治成訴由新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998117089271545,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯道路交通管理處罰條例第86條第1項第1款",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 118,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、未領有駕駛執照駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997859597206116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、駕駛執照經吊銷、註銷或吊扣期間駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、酒醉駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、吸食毒品、迷幻藥、麻醉藥品或其相類似之管制藥品駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997615218162537,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、行駛人行道、行近行人穿越道或其他依法可供行人穿越之交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997667670249939,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 136,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、行車速度，超過規定之最高時速四十公里以上。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997451901435852,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、任意以迫近、驟然變換車道或其他不當方式，迫使他車讓道",
+      "rule_score": 0.5,
+      "bert_score": 0.9997538924217224,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、非遇突發狀況，在行駛途中任意驟然減速、煞車或於車道中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997546076774597,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、二輛以上之汽車在道路上競駛、競技。",
+      "rule_score": 0.5,
+      "bert_score": 0.999769389629364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十、連續闖紅燈併有超速行為。",
+      "rule_score": 0.5,
+      "bert_score": 0.99974125623703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,165,20250106,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:40.850441",
+  "processing_time": 0.03836512565612793,
+  "statistics": {
+    "total_lines": 159,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 159,
+    "positive_predictions": 16,
+    "positive_ratio": 0.10062893081761007,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 140,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 7,
+      "括號數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9997760578989983,
+      "std": 3.377284246723523e-05,
+      "min": 0.9997060894966125,
+      "max": 0.999818742275238,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳伊瑋意圖為自己不法之所有，基於竊盜之犯意，分別為以",
+      "rule_score": 0.5,
+      "bert_score": 0.9998161196708679,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠於民國112年9月23日中午12時58分許，在址設臺北市○○區○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997581839561462,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡於112年9月25日下午4時12分許，在上址店內，見貨架上之如",
+      "rule_score": 0.5,
+      "bert_score": 0.9997461438179016,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經家福股份有限公司訴由臺北市政府警察局松山分局報告",
+      "rule_score": 0.5,
+      "bert_score": 0.999818742275238,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998113512992859,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告矢口否認有何竊盜犯行，辯稱：我當時有急性壓力",
+      "rule_score": 0.5,
+      "bert_score": 0.9997425675392151,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，被告於前揭犯罪事實欄一㈠、㈡所示時間，在前揭店內",
+      "rule_score": 0.5,
+      "bert_score": 0.9997203946113586,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告雖辯稱有急性壓力反應，睡眠不足才會發生此事云云；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997584223747253,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴犯罪事實欄㈠部分：被告拿取如附表編號1、2所示之商品後，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵犯罪事實欄㈡部分：被告拿取如附表編號3至6所示之商品後，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶由上揭證據資料顯示，被告至自助結帳櫃檯結帳時，就其購",
+      "rule_score": 0.5,
+      "bert_score": 0.9997761845588684,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣至被告及辯護人雖聲請將被告送請專業醫療機構鑑定案發時",
+      "rule_score": 0.5,
+      "bert_score": 0.999765932559967,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤綜上，被告所辯，認屬臨訟卸責之詞，無足採信。本案事證",
+      "rule_score": 0.5,
+      "bert_score": 0.9997060894966125,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告所為，係犯刑法第320條第1項之竊盜罪（共2罪）。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997920393943787,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、駁回上訴之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

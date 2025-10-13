@@ -1,0 +1,325 @@
+{
+  "source_file": "data/filted/TPDM,113,易,823,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:31.931569",
+  "processing_time": 1.0521106719970703,
+  "statistics": {
+    "total_lines": 179,
+    "candidate_lines": 28,
+    "bert_processed_lines": 28,
+    "total_markers": 25,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 25,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 179,
+    "positive_predictions": 25,
+    "positive_ratio": 0.13966480446927373,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 142,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 9,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 28,
+        "positive": 25
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "大寫中文數字": 3,
+      "圍字數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.8931530939132374,
+      "std": 0.307821455446471,
+      "min": 0.0029952360782772303,
+      "max": 0.9998345375061035,
+      "count": 28
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、丁○○與乙○○為母子，曾同居在臺北市松山區民權東路3段106巷21弄9號1樓（下稱本案房屋），屬家庭暴力防治法第3條第2款、第3款所定之家庭成員。丁○○於民國112年3月18上午某時許，因乙○○在本案房屋之房間內播放佛號音量過大，企圖闔上該房門數次卻為乙○○所阻，竟基於傷害直系血親尊親屬之犯意，接續於乙○○欲打開房門時，先徒手拽拉乙○○右手、緊扣乙○○右手腕，並同時作勢關閉房門，乙○○為掙脫遭扣住的右手，以左手掌撐住牆壁之姿後退，丁○○於乙○○掙脫、後退時，再抓住乙○○右手前臂，乙○○則因後退的力道而後倒，致右手上臂碰撞物品，因而受有右手上臂5×0.1公分發紅、右手前臂1×1公分瘀青、右手背5×6公分瘀青之傷害。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998317956924438,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經乙○○訴由臺北市政府警察局松山分局報告臺灣臺北地方",
+      "rule_score": 0.5,
+      "bert_score": 0.9998230338096619,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 20,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證人即被告丁○○之胞弟暨告訴人乙○○之子丙○○與證人即社工",
+      "rule_score": 0.5,
+      "bert_score": 0.9998267292976379,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡辯護人固辯稱證人丙○○、甲○○於本院審理之證述均為聽聞告訴人所述而為傳聞證據，應無證據能力等語（見易字卷第141頁）。惟查，本判決所引用證人丙○○、甲○○證述關於其等親自見聞之告訴人案發後狀況部分，及其等建議告訴人如何為事後處置等節，均為其等於審判中之陳述，且屬其等就親身見聞之事實而為陳述，並非轉述第三人之陳述內容，揆諸前揭說明，自非屬傳聞證據。是辯護人爭執上開證述為傳聞證據而無證據能力，要難採認。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997897744178772,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、其餘認定本案犯罪事實之非供述證據，查無違反法定程序取",
+      "rule_score": 0.5,
+      "bert_score": 0.9997878670692444,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998001456260681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告固坦承與告訴人為母子，於本案發生時同住本案房屋1樓等情，惟否認有何傷害直系血親尊親屬之犯行，辯稱：本案發生時，告訴人在自己的房間播放佛經，其房間門呈現半開狀，我嘗試把告訴人的房間門關小一點，告訴人可能不高興就打我的手臂3下，我並沒有打告訴人，也沒有因為關門夾到告訴人的手；後來告訴人旋即打電話給我的胞弟丙○○稱我打告訴人，但丙○○不在場，對本案應不清楚等語；辯護人則為被告辯護稱：本案發生日期係112年3月18日，然告訴人指訴被告為傷害犯行之後，告訴人身體並無異樣，且仍與被告同住，直至同年8月10日始報警，倘若被告確實有本案傷害犯行，何以告訴人仍無異樣的與被告同住，且告訴人如果因為所訴被告傷害犯行很激動，為何不於本案發生時旋即報警提告，不符常情；依據告訴人指訴內容，倘若告訴人的房門的門把在左側且告訴人使用右手關門，當時被告既與告訴人面對面，應如何用右手拉住告訴人的右手？且告訴人稱被告以右手拉住告訴人的右手，當時告訴人的右手既然在門把上，依照身體力學，被告與告訴人應呈現反方向而非面對面，且被告如果要拉的話，應該是拉告訴人扶在門旁牆壁的左手比較方便；如果用右手的話，告訴人的身體立即反旋倒臥，而不是以背後向下之姿勢後倒，是告訴人所述均不符合常理等語。經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998345375061035,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠上揭被告坦認之事實，業據被告坦認在卷，核與告訴人於本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997292160987854,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡惟查，告訴人於本院審理時證稱：本案發生日早上我起床後",
+      "rule_score": 0.5,
+      "bert_score": 0.9997416138648987,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢次觀證人丙○○於本院審理時證稱：112年3月18日早上，告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997784495353699,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣復觀證人甲○○於本院審理時證稱：我任職在臺北市家庭暴力",
+      "rule_score": 0.5,
+      "bert_score": 0.999774158000946,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤再觀諸基督復臨安息日會醫療財團法人臺安醫院（下稱臺安",
+      "rule_score": 0.5,
+      "bert_score": 0.9997864365577698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥是從前揭證據可悉，證人即告訴人證稱遭被告傷害行為、受",
+      "rule_score": 0.5,
+      "bert_score": 0.9997599720954895,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告及辯護人所辯不可採之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告有為本案傷害犯行，已如前述，是被告前開所辯，要屬",
+      "rule_score": 0.5,
+      "bert_score": 0.999704897403717,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡辯護人辯稱告訴人所述被告傷害犯行不合常理等語。惟查，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997357726097107,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢辯護人辯稱倘若被告有傷害犯行，告訴人為何仍無異樣與被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997636675834656,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、綜上所述，本案事證明確，被告上開犯行堪以認定，應予依",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、次查，被告與告訴人為直系血親且斯時具有同居關係，而具有家庭暴力防治法第3條第2款、第3款所定之家庭成員關係，是被告所為屬於對家庭成員故意實施身體不法侵害之行為，該當家庭暴力防治法所稱之家庭暴力罪，惟因家庭暴力防治法對於家庭暴力罪並無科處刑罰之規定，是僅依刑法之規定予以論罪科刑。是核被告所為，係犯刑法第280條、第277條第1項之傷害直系血親尊親屬罪，並依刑法第280條規定加重其刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998243451118469,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告係在密切之時間、同一地點，侵害同一告訴人之身體法",
+      "rule_score": 0.5,
+      "bert_score": 0.999808132648468,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 142,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、爰以行為人之責任為基礎，審酌被告與告訴人因居住習慣而",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

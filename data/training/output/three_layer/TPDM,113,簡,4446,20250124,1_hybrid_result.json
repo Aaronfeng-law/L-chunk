@@ -1,0 +1,291 @@
+{
+  "source_file": "data/filted/TPDM,113,簡,4446,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:38.350905",
+  "processing_time": 0.04674339294433594,
+  "statistics": {
+    "total_lines": 98,
+    "candidate_lines": 22,
+    "bert_processed_lines": 22,
+    "total_markers": 22,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 22,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 98,
+    "positive_predictions": 22,
+    "positive_ratio": 0.22448979591836735,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 72,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 22,
+        "positive": 22
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.999767701734196,
+      "std": 3.476013151379709e-05,
+      "min": 0.9996985197067261,
+      "max": 0.9998120665550232,
+      "count": 22
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳世烜係民國00年00月0日出生之男子，於年滿18歲之翌年1",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府函送臺灣臺北地方檢察署檢察官偵查後聲請",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據名稱",
+      "rule_score": 0.5,
+      "bert_score": 0.9998065829277039,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告陳世烜於偵查中之自白（臺灣臺北地方檢察署113年度偵",
+      "rule_score": 0.5,
+      "bert_score": 0.9997591376304626,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告兵籍表（一）（臺灣臺北地方檢察署113年度偵字第2878",
+      "rule_score": 0.5,
+      "bert_score": 0.9997503161430359,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、被告歷次入出境紀錄、入出境資訊連結作業查詢結果（偵卷",
+      "rule_score": 0.5,
+      "bert_score": 0.999704897403717,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、臺北市大安區公所108年10月29日北市安兵字第1086029689A",
+      "rule_score": 0.5,
+      "bert_score": 0.9997401833534241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、臺北市大安區公所109年7月27日北市安兵字第1096017298號",
+      "rule_score": 0.5,
+      "bert_score": 0.9997280240058899,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、臺北市立聯合醫院陽明院區徵兵檢查醫院名冊（偵卷第46之1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997403025627136,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦、移民署114年1月10日移署北北服字第1140006150號函（本院1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997883439064026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯妨害兵役治罪條例第3條第7款之妨害役男",
+      "rule_score": 0.5,
+      "bert_score": 0.9996985197067261,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、爰以行為人責任為基礎，審酌被告知悉役齡男子皆有依法服",
+      "rule_score": 0.5,
+      "bert_score": 0.9997101426124573,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第449條第1項、第3項，逕以簡易判決處刑如",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如不服本判決，得自收受送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997896552085876,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、徵兵及齡男子隱匿不報，或為不實之申報者。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998118281364441,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、對於兵籍調查無故不依規定辦理者。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997925162315369,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、徵兵檢查無故不到者。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、毀傷身體或以其他方法變更體位者。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997758269309998,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、居住處所遷移，無故不申報，致未能接受徵兵處理者。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997697472572327,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、未經核准而出境，致未能接受徵兵處理者。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997634291648865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、核准出境後，屆期未歸，經催告仍未返國，致未能接受徵兵",
+      "rule_score": 0.5,
+      "bert_score": 0.9997552037239075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

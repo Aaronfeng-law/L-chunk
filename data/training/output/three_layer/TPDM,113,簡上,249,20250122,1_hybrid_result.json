@@ -1,0 +1,291 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,249,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.241126",
+  "processing_time": 0.04947185516357422,
+  "statistics": {
+    "total_lines": 138,
+    "candidate_lines": 23,
+    "bert_processed_lines": 23,
+    "total_markers": 22,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 22,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 138,
+    "positive_predictions": 22,
+    "positive_ratio": 0.15942028985507245,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 113,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 23,
+        "positive": 22
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "圍字數字": 13
+    },
+    "bert_score_stats": {
+      "mean": 0.956434749259168,
+      "std": 0.20322337595150727,
+      "min": 0.003232639981433749,
+      "max": 0.9998165965080261,
+      "count": 23
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告經本院合法傳喚，於民國114年1月10日審理程序中無正",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本院審理範圍：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告上訴理由略以：緣被告蔡宗佑因出手過重，此僅為推人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998165965080261,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、上訴駁回之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998014569282532,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按量刑輕重，屬為裁判之法院得依職權自由裁量之事項，苟",
+      "rule_score": 0.5,
+      "bert_score": 0.9997263550758362,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡原判決關於被告科刑部分，係審酌被告為智識成熟之成年人",
+      "rule_score": 0.5,
+      "bert_score": 0.99969482421875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢另本件已依被告所請排定調解，而被告與告訴人間未能達成",
+      "rule_score": 0.5,
+      "bert_score": 0.9997321963310242,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣綜上所述，被告提起上訴，以前詞指摘原審量刑過重，經核",
+      "rule_score": 0.5,
+      "bert_score": 0.9996739625930786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、犯罪事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997929930686951,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠蔡宗佑於民國112年4月7日凌晨4時14分許，在臺北市○○區○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997599720954895,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡案經龔彥竹訴由臺北市政府警察局信義分局報告臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.999751627445221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據名稱：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告蔡宗佑於警詢及偵查中之供述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997326731681824,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人即告訴人龔彥竹於警詢及偵查中之證述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997541308403015,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢監視器畫面截圖、監視器畫面光碟。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997525811195374,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣臺灣臺北地方檢察署勘驗報告。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997624754905701,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤臺北醫學大學附設醫院診斷證明書（乙種）。",
+      "rule_score": 0.5,
+      "bert_score": 0.999764621257782,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第277條第1項之傷害罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.999701201915741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告為智識成熟之成年人，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997833371162415,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第454條第1項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，得於判決送達之翌日起20日內，向本院提出",
+      "rule_score": 0.5,
+      "bert_score": 0.999779999256134,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

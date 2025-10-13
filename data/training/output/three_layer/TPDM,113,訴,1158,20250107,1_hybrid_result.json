@@ -1,0 +1,226 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1158,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:43.658646",
+  "processing_time": 0.052280426025390625,
+  "statistics": {
+    "total_lines": 294,
+    "candidate_lines": 23,
+    "bert_processed_lines": 23,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 294,
+    "positive_predictions": 16,
+    "positive_ratio": 0.05442176870748299,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 266,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 5,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 23,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "大寫中文數字": 2,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.697341225059379,
+      "std": 0.4572172444980558,
+      "min": 0.0031752989161759615,
+      "max": 0.9998145699501038,
+      "count": 23
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、蔡王翔明知愷他命屬毒品危害防制條例第2條第2項第3款規",
+      "rule_score": 0.5,
+      "bert_score": 0.9997993111610413,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、蔡王翔知悉4-甲基甲基卡西酮為毒品危害防制條例第2條第2",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、案經臺北市警察信義分局報請臺灣臺北地方檢察署(下稱北",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引用被告蔡王翔以外之人於審判外所為之陳述，經",
+      "rule_score": 0.5,
+      "bert_score": 0.9998064637184143,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案認定事實所引用之非供述證據，無證據證明係公務員違",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、上揭犯罪事實，業據被告於警詢、偵查、本院準備程序及審",
+      "rule_score": 0.5,
+      "bert_score": 0.9996896982192993,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、又販賣毒品者主觀上是否具有營利之意圖，係潛藏在其個人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997192025184631,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、綜上，本案事證明確，被告犯行堪以認定，自應依法論科。",
+      "rule_score": 0.5,
+      "bert_score": 0.999671459197998,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，就事實欄一部分(即附表一編號1、2），均係犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9996391534805298,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、刑之減輕事由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997175335884094,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、爰以行為人責任為基礎，本院審酌被告明知毒品殘害國人身",
+      "rule_score": 0.5,
+      "bert_score": 0.9997434020042419,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997091889381409,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

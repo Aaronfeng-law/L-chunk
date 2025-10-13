@@ -1,0 +1,170 @@
+{
+  "source_file": "data/filted/TPDM,113,附民,1076,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:02.159588",
+  "processing_time": 0.0337982177734375,
+  "statistics": {
+    "total_lines": 118,
+    "candidate_lines": 12,
+    "bert_processed_lines": 12,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 118,
+    "positive_predictions": 11,
+    "positive_ratio": 0.09322033898305085,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 105,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 12,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9177456739513824,
+      "std": 0.272050571470338,
+      "min": 0.015456012450158596,
+      "max": 0.9998248219490051,
+      "count": 12
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告主張：被告與真實姓名年籍不詳通訊軟體LINE暱稱「劉",
+      "rule_score": 0.5,
+      "bert_score": 0.9998088479042053,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告則以：我不知道「蘇念」、「劉莠玲」、「Ryan-Yi」",
+      "rule_score": 0.5,
+      "bert_score": 0.9998248219490051,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本院之判斷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998125433921814,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按因犯罪而受損害之人，於刑事訴訟程序得附帶提起民事訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997450709342957,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，被告基於縱其所提供之金融帳戶被作為詐欺取財犯罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9996840953826904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢是以，被告共同以詐欺之手段侵害原告之財產權，並以轉帳",
+      "rule_score": 0.5,
+      "bert_score": 0.9997754693031311,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣原告得向被告請求之上開賠償金額，屬無確定期限之給付，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997424483299255,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜上所述，原告依侵權行為之法律關係即民法第184條第1項",
+      "rule_score": 0.5,
+      "bert_score": 0.9997919201850891,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、本案係詐欺犯罪被害人依民事訴訟程序向依法應負賠償責任",
+      "rule_score": 0.5,
+      "bert_score": 0.999782383441925,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本件事證已臻明確，兩造其餘攻擊防禦方法及所提之證據，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997568726539612,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本件為刑事附帶民事訴訟，依法免納裁判費，兩造於本件訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997676014900208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

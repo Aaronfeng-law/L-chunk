@@ -1,0 +1,248 @@
+{
+  "source_file": "data/filted/TPDM,113,智易,24,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:33.157755",
+  "processing_time": 0.048470258712768555,
+  "statistics": {
+    "total_lines": 154,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 154,
+    "positive_predictions": 18,
+    "positive_ratio": 0.11688311688311688,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 133,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 9,
+      "大寫中文數字": 1,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9473978731487143,
+      "std": 0.2215245987051672,
+      "min": 0.007550916634500027,
+      "max": 0.9998226761817932,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、劉玟希明如註冊審定號00000000號，名稱「帥哥圖」之商標",
+      "rule_score": 0.5,
+      "bert_score": 0.9998026490211487,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經乖乖公司訴由內政部警政署刑事警察局移送臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998226761817932,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告就前揭犯行坦承不諱（北檢113年度偵字第10533號",
+      "rule_score": 0.5,
+      "bert_score": 0.9997920393943787,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參（偵卷第53頁至第65頁、第69頁至第90頁、第91頁至第13",
+      "rule_score": 0.5,
+      "bert_score": 0.999237060546875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按商標之使用，指為行銷之目的，而有下列情形之一，並足",
+      "rule_score": 0.5,
+      "bert_score": 0.9997054934501648,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、爰以行為人責任為基礎，審酌被告未經乖乖公司授權，而違",
+      "rule_score": 0.5,
+      "bert_score": 0.9997109770774841,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、又被告前無犯罪紀錄，且犯後坦承犯行，並已與乖乖公司調",
+      "rule_score": 0.5,
+      "bert_score": 0.9997236132621765,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、按犯罪所得之沒收，於全部或一部不能沒收或不宜執行沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9996914863586426,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、末按侵害商標權、證明標章權或團體商標權之物品或文書，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997193217277527,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、不另為不受理之諭知部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、公訴意旨另略以：被告明如附件所示之商標圖樣為乖乖公司",
+      "rule_score": 0.5,
+      "bert_score": 0.9997339844703674,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、按告訴乃論之罪，告訴人於第一審辯論終結前得撤回其告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9996998310089111,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、查被告所涉違反著作權法第91條第1 項之擅自重製侵害他人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997321963310242,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一，處三年以下有期徒刑、拘役或科或併科新臺幣二十萬元以下",
+      "rule_score": 0.5,
+      "bert_score": 0.9975950121879578,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、於同一商品或服務，使用相同於註冊商標或團體商標之商標",
+      "rule_score": 0.5,
+      "bert_score": 0.9998216032981873,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 148,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、於類似之商品或服務，使用相同於註冊商標或團體商標之商",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、於同一或類似之商品或服務，使用近似於註冊商標或團體商",
+      "rule_score": 0.5,
+      "bert_score": 0.9998121857643127,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

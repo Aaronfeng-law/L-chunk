@@ -1,0 +1,3394 @@
+{
+  "input_file": "data/sample/TPDM,111,易,564,20250113,1.json",
+  "file_name": "TPDM,111,易,564,20250113,1.json",
+  "processing_time": 0.003927469253540039,
+  "detection_method": "ultra_strict_format",
+  "ultra_strict_rules": [
+    "必須以 \\r\\n 開頭",
+    "只能是單個 Unicode 字符",
+    "必須緊跟 、(頓號)",
+    "字符必須在預定義範圍內（含PUA）",
+    "層級符號行不得以4個空格開頭",
+    "零例外，零妥協"
+  ],
+  "total_lines": 1518,
+  "total_markers": 121,
+  "pua_markers": 4,
+  "newline_compliance": 0,
+  "markers": [
+    {
+      "line_number": 50,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "緣大牛科技有限公司（案發時址設臺北市○○區○○○路0段00號\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "詎丙○○、丁○○、乙○○及戊○○均知悉大牛公司係以協助境外賭\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "案經臺北市政府警察局中山分局報告臺灣臺北地方檢察署檢\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "有罪部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "程序事項\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "我國法院對於本案具有刑事審判權\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "按本法於在中華民國領域內犯罪者，適用之；犯罪之行為或\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "被告乙○○之辯護人雖質以我國法院對於本案不具刑事審判權\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "至警方前往大牛公司執行搜索時，雖發現大牛公司內部文件\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "又檢察官雖未指明大牛公司協助境外賭博網站營運時，其所\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 136,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "證據能力\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "供述證據\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159條\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "本判決所引用被告以外之人於審判外之陳述，被告丁○○及其\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "非供述證據\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 154,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "內政部刑事警察局偵查第九大隊偵查報告內所附BBO網站頁面\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "按文書證據，如係以文書內容所「陳述之事實」作為證據資\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "被告丙○○、丁○○、乙○○及戊○○之辯護人雖均爭執卷附內政部\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "其餘卷內所存經本院引用為證據之非供述證據，與本案待證\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "認定犯罪事實所憑之證據及理由\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 183,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "訊據被告丙○○、丁○○、乙○○及戊○○固均坦承大牛公司經「Vi\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "被告丙○○辯稱：我在大牛公司任職期間僅從事遊戲研發，而大牛公司所研發之遊戲畫面中，均無出入金按鍵之設計，由此可見玩家參與大牛公司所研發之遊戲時，完全無法賭博財物，至於遊戲商向大牛公司購買遊戲後係如何運作，我並不清楚；警方至大牛公司搜索時雖有於在場人員之電腦內發現網頁開發之頁面，但網頁開發之業務係由另名主管負責，與我無關；我先前曾在設立星城Online網站之網銀國際股份有限公司（下稱網銀公司）任職，大牛公司所從事之營業項目與網銀公司相同，我不知道為何我之前在網銀公司服務時並無違法問題，我於大牛公司工作就會被認為觸犯刑事法律；倘若大牛公司確實係以協助他人從事賭博犯罪為業，則衡情大牛公司員工於任職期間應將領取相當可觀之薪資，然依照警方執行搜索時所扣得之帳冊資料可知，任職於大牛公司之員工均係領取固定薪資，並無獲取高額獎金或分紅，於此情形下，大家根本無須鋌而走險選擇於大牛公司任職等語；辯護人則為被告丙○○辯護稱：大牛公司係受歐洲遊戲發行公司Pragmatic Play（下稱PP公司）之委託而從事捕魚遊戲之開發，大牛公司所從事之遊戲開發不包含遊戲之儲值功能，大牛公司亦未參與任何現實金錢之得喪交易，且大牛公司並無從得知PP公司取得大牛公司協助研發之遊戲後究竟係如何運用該遊戲，亦無從得知遊戲商之金流運作，是大牛公司僅係單純從事遊戲開發，被告丙○○於大牛公司任職之行為自不得以賭博罪責相繩；大牛公司將研發完成之遊戲提供予PP公司後，僅會為維護遊戲之平衡性及正常運作等目的而協助PP公司處理遊戲失靈之情形，或是為研發新遊戲而分析PP公司所提供之玩家數據，然大牛公司所負責之業務並不包含遊戲或玩家之後臺管理，故被告丙○○於大牛公司任職之行為自與圖利聚眾賭博罪及圖利供給賭博場所罪之構成要件未合；警方至大牛公司執行搜索後，雖曾於在場人員之電腦內發現相關遊戲畫面有標註各國貨幣幣別之代號，或是出現「我的錢包」、「轉帳報表」等畫面，部分大牛公司員工之通訊軟體對話紀錄亦曾出現「輸錢」或「贏錢」等詞語，然PP公司有可能係以各地玩家熟悉之貨幣作為遊戲幣代號，而「轉帳」可能係指不同遊戲商間之遊戲幣轉帳功能，所謂「輸錢」或「贏錢」則係遊戲產業內對於玩家輸贏遊戲幣之代稱，自無從以上揭證據認定大牛公司所設計之遊戲具有出入金功能，況捕魚遊戲內有關各國貨幣幣別之代號非大牛公司所設定，被告丙○○並不知悉該等代號之實際意義，尚難認被告丙○○曾參與圖利聚眾賭博罪及圖利供給賭博場所罪之遂行；我國知名之娛樂遊戲場所湯姆熊育樂世界、上櫃電子遊戲公司鈊象電子股份有限公司（下稱鈊象公司）及星城Online網站所放置或開發之產品中，部分遊戲均類似於大牛公司所設計之捕魚遊戲，足見大牛公司之業務均與賭博犯罪無涉；本案檢警機關並未扣押相關銀行帳戶，足證大牛公司僅從事捕魚遊戲之設計，並未處理與遊戲有關之金流；BBO網站僅係供大牛公司內部進行測試使用，完全未對外營運，自無可能於該網站上放置賭博遊戲供賭客遊玩，公訴意旨認BBO網站係實際可供他人參與賭博之網站，顯有誤會，況大牛公司有關BBO網站之測試業務亦與被告丙○○無關等語。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "被告丁○○辯稱：大牛公司僅係單純從事遊戲軟體之開發，至於大牛公司將遊戲提供予客戶後，客戶是否會讓玩家透過遊戲從事賭博，我並不清楚；大牛公司內關於BBO網站之業務不是由我負責等語；辯護人則為被告丁○○辯護稱：大牛公司僅係單純受PP公司委託而開發捕魚遊戲及從事後續之軟體維護作業，PP公司將大牛公司所開發之捕魚遊戲提供予遊戲營運商後，遊戲營運商如何經營或如何透過捕魚遊戲獲利，被告丁○○均無從知悉，更未有參與，且一般娛樂遊戲與賭博遊戲之關鍵差異在於是否有以遊戲決定財物之得喪輸贏，然卷內均無任何證據資料顯示大牛公司所研發之捕魚遊戲具有可入出金之畫面，或是可於遊戲後出金之具體事證，故被告丁○○於大牛公司任職之行為自與圖利聚眾賭博罪及圖利供給賭博場所罪之構成要件未合；警方至大牛公司執行搜索後，雖曾於在場人員之電腦內發現「轉帳報表」或「錢包」等畫面，然此僅為PP公司要求大牛公司必須於捕魚遊戲內設置該等欄位，至於PP公司後續將串接何等應用程式，均非被告丁○○所得知悉及控制之範圍，而自大牛公司職員之電腦內所擷取之統計報表，雖亦有名稱為「currency」之欄位，然大牛公司僅係應PP公司之要求而設計該欄位，至於該欄位內所記載之「CNY」等文字則係PP公司自行回傳，況上揭「轉帳報表」、「錢包」等畫面僅係呈現遊戲內之遊戲幣數據，卷內亦無任何例如帳冊或轉帳證明等證據可證明前開畫面或上揭名稱為「currency」之欄位係代表現實之金錢流向，而被告丁○○及其他被告所參與之通訊軟體對話群組內，部分群組成員雖有提及「萬」、「輸錢」、「贏錢」及「人民幣」等詞語，但此等詞語僅係代表遊戲幣之輸贏，並非代表真實世界之金錢，故被告丁○○於大牛公司任職之行為，自無從以圖利聚眾賭博罪及圖利供給賭博場所罪相繩；大牛公司僅係受客戶委託而協助修復BBO網站，BBO網站並非實際可遊玩遊戲、甚至出入金之網站，故公訴意旨認BBO網站係由大牛公司實際營運之賭博網站，顯非事實，況大牛公司有關BBO網站之維修業務亦與被告丁○○無關；縱使大牛公司所研發之遊戲係可供他人賭博之遊戲，然被告丁○○僅係自大牛公司領取固定薪資，而依照目前實務見解，圖利聚眾賭博罪及圖利供給賭博場所罪之營利意圖，必須附麗於供給賭博場所等行為，故被告丁○○任職於大牛公司之行為顯與上開罪名之構成要件未合等語。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 202,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "被告乙○○辯稱：大牛公司僅係從事遊戲開發，並沒有經營賭博網站等語；辯護人則為被告乙○○辯護稱：大牛公司係受PP公司委託代工製作及維護捕魚遊戲，此均屬未涉及任何不法之中性行為，至於大牛公司將捕魚遊戲提供予PP公司、PP公司再將捕魚遊戲交予遊戲營運商後，遊戲營運商欲將該遊戲軟體進行合法或非法之使用，被告乙○○並不知悉，亦無從置喙，由此可知被告乙○○客觀上並無任何聚眾賭博及供給賭博場所之行為，主觀上亦無遂行賭博犯罪之犯意，自與圖利聚眾賭博罪及圖利供給賭博場所罪之構成要件未合；大牛公司研發之捕魚遊戲實際運作後所產生之數據資料，其中載有「VDN」及「VDN2」等文字，由此即可明瞭該等數據資料所記載之內容並非代表現實世界之金錢流向，否則上開數據資料內當無可能存有「VDN2」等文字；被告乙○○任職於大牛公司期間僅係領取固定薪資，此與圖利聚眾賭博罪及圖利供給賭博場所罪所稱之營利意圖，須自聚眾賭博及提供賭博場所之直接對價而來相去甚遠，顯見被告乙○○於大牛公司任職之行為，自無從構成前開各罪；大牛公司僅係受客戶委託而協助維修並測試BBO網站，BBO網站實際上並未對外營運，更遑論有實際入出金之功能，故公訴意旨認BBO網站係大牛公司所經營之賭博網站，顯有誤會，況被告乙○○任職於大牛公司期間並無經手維修BBO網站之業務等語。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 203,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "被告戊○○辯稱：我於大牛公司任職期間係負責人力資源，至\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 234,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "經查：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 235,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "大牛公司經「Vic」、「Lucky」及「Justin」出資籌設後，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 332,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "從而，本案應審究者即為：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 333,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "大牛公司是否係以協助境外賭博網站營運為業，負責協助境\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 339,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "若上揭事實堪以認定，則被告丙○○、丁○○、乙○○及戊○○是否\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 343,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "茲就前揭事項之認定結果分敘如下：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 344,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "大牛公司係以協助境外賭博網站營運為業，負責協助境外賭\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 350,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "證人廖家頫於警詢中證稱：我係於大牛公司設計部任職，負\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 366,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "觀諸自大牛公司職員電腦內所擷取之捕魚遊戲頁面，可見該\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 393,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "警方於執行搜索當日在大牛公司當時之登記設立地址扣得洪\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 447,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "據上可知，無論大牛公司研發捕魚遊戲時所製作之遊戲介紹\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 461,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "警方於執行搜索當日自大牛公司職員電腦內所擷取、名稱為\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 502,
+      "symbol": "⑹",
+      "unicode_code": "U+2479",
+      "category": "括號數字",
+      "content": "參諸警方執行搜索當日於大牛公司職員電腦內所擷取、載有\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 534,
+      "symbol": "⑺",
+      "unicode_code": "U+247A",
+      "category": "括號數字",
+      "content": "警方前往大牛公司執行搜索當日，曾於在場人員之行動電話\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 541,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "被告丁○○曾於該群組內傳送「客戶那邊多了一隻API……異常單\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 549,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "被告丙○○曾於前揭群組內傳送「要追回那1%，我們還要再賺8\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 587,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "從而，綜參上揭各情，堪認大牛公司所協助開發、於交付產\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 590,
+      "symbol": "⑻",
+      "unicode_code": "U+247B",
+      "category": "括號數字",
+      "content": "按刑法上所稱之賭博行為，係指以偶然事實之成就與否，決\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 596,
+      "symbol": "⑼",
+      "unicode_code": "U+247C",
+      "category": "括號數字",
+      "content": "被告丁○○於警詢、偵查及本院審理中已供稱：某位大牛公司之投資者曾交辦BBO網站業務，委請大牛公司員工協助修補BBO網站之漏洞等語（偵36557號卷二第72頁、偵23882號卷九第109至111頁、本院卷二第42頁），且BBO網站係架設於大牛公司所申設之本案IP位址，已如前述，而被告乙○○於警詢及本院審理中亦供稱：BBO網站所使用之本案IP位址係大牛公司用以放置測試用之網頁等語（偵36557號卷二第183至184頁、本院卷二第62至63頁、本院卷三第210至211頁），足見BBO網站之維護及測試，均為大牛公司之業務範圍無訛。又參諸警方執行網路巡邏時所擷取之BBO網站頁面擷取圖片（他12706號卷第6頁），可知BBO網站頁面載有多種遊戲，遊戲圖片內並含有「……贏得70,000元現金！」、「1.8%高額返水……」等文字，而該網站之「個人中心」頁面，並載有「存款」、「取款」、「轉帳」及「交易紀錄」等圖示，顯見BBO網站之網頁外觀，完全與一般可供玩家下注參與遊戲以贏取賭金之賭博網站相契合。且警方於執行搜索當日曾自大牛公司職員電腦內擷取名稱為「BBO管理後臺」及「BBO……代理中心」之網頁圖片（偵36557號卷七第201至224頁），此業據證人甲○○於本院審理中證述明確（本院卷三第131頁），其中「BBO管理後臺」之網頁圖片，左側包含「投注紀錄」及「存提紀錄」等項目（偵36557號卷七第201頁），而「BBO……代理中心」之網頁圖片，則可開啟「會員明細」之子項目，該子項目項下並載有「總存款金額」、「最後存款時間」、「總提款金額」、「最後提款時間」及「存提手續費」等欄位（偵36557號卷七第207頁），由此可見上開BBO網站頁面已載有「存款」及「提款」等表示玩家可投入金錢參與遊戲並提領所贏款項之欄位設計，且前揭BBO網站頁面所載「存提手續費」等文字，益證建置BBO網站之目的係為使至BBO網站參與遊戲之玩家，最終可將於遊戲內所贏得之數額兌換為現實生活中之金錢提領而出，否則倘若於BBO網站參與遊戲之玩家，其所贏取之數額僅係代表遊戲幣或點數，而所謂提款欄位亦僅代表遊戲幣或點數，則於提取遊戲幣或點數之過程中，何須需要收取一般存匯金錢時始將衍生之交易手續費？故綜參上述各情，堪認大牛公司協助維護及測試之BBO網站，其性質當屬日後可供人賭博財物之賭博網站，殆無疑義。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 597,
+      "symbol": "⑽",
+      "unicode_code": "U+247D",
+      "category": "括號數字",
+      "content": "綜上，大牛公司係以協助境外賭博網站營運為業，負責協助\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 603,
+      "symbol": "⑾",
+      "unicode_code": "U+247E",
+      "category": "括號數字",
+      "content": "至公訴意旨雖認大牛公司之經營模式，係將通過測試之捕魚\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 606,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "大牛公司所使用之網際網路服務係向中華電信股份有限公司\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 640,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "證人甲○○於本院審理中證稱：雖然當時是由警方於執行網路\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 648,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "至證人甲○○於本院審理中雖復證稱：關於大牛公司所使用之\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 666,
+      "symbol": "④",
+      "unicode_code": "U+2463",
+      "category": "帶圈數字",
+      "content": "從而，卷內既查無其他資料足資證明大牛公司所研發之捕魚\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 674,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "被告丙○○、丁○○、乙○○及戊○○均知悉大牛公司係以協助境外\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 677,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "洪庭萱及郭語喬均為大牛公司企劃部職員，業據證人洪庭萱\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 698,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "警方前往大牛公司執行搜索當日，曾於在場人員之行動電話\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 706,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "警方執行搜索當日另曾於被告乙○○之行動電話內擷取被告乙○\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 720,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "至被告戊○○雖非「專案管理群」群組之成員，此業據被告戊○\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 722,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "被告戊○○為大牛公司之管理部主管，其英文名為James等情，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 746,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "警方至大牛公司執行搜索當日，曾於大牛公司職員電腦內發\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 770,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "按共同實行犯罪行為之人，在共同意思範圍以內，各自分擔\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 783,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "大牛公司雖係以協助境外賭博網站營運為業，而未實際架設\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 808,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "被告丙○○、丁○○、乙○○及戊○○任職大牛公司期間，均領有薪\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 815,
+      "symbol": "⑹",
+      "unicode_code": "U+2479",
+      "category": "括號數字",
+      "content": "綜上所述，堪認被告丙○○、丁○○、乙○○及戊○○均知悉大牛公\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 819,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "被告辯解及辯護人辯護意旨不予採信之理由\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 820,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "被告丙○○雖辯稱：我在大牛公司任職期間僅從事遊戲研發，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 860,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "被告丙○○雖復辯稱：警方至大牛公司搜索時雖有於在場人員\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 876,
+      "symbol": "３",
+      "unicode_code": "U+FF13",
+      "category": "全形數字",
+      "content": "被告丙○○雖又辯稱：我先前曾在設立星城Online網站之網銀\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 884,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "觀諸星城Online網站所刊登之遊戲管理規章可知，星城Onlin\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 897,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "依上可知，玩家進入星城Online網站參與遊戲時，雖須以現\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 908,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "至辯護人雖稱大牛公司所研發之捕魚遊戲，另與鈊象公司所\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 918,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "從而，前揭被告丙○○所辯及辯護人辯護意旨，均無足採取。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 919,
+      "symbol": "４",
+      "unicode_code": "U+FF14",
+      "category": "全形數字",
+      "content": "被告丙○○雖再辯稱：倘若大牛公司確實係以協助他人從事賭\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 942,
+      "symbol": "５",
+      "unicode_code": "U+FF15",
+      "category": "全形數字",
+      "content": "辯護人雖另為被告丙○○辯護稱：大牛公司將研發完成之遊戲\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 957,
+      "symbol": "６",
+      "unicode_code": "U+FF16",
+      "category": "全形數字",
+      "content": "辯護人雖又為被告丙○○辯護稱：警方至大牛公司執行搜索後\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 985,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "本院前已說明何以認定被告丙○○、丁○○及乙○○所參與之「專\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 988,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "再者，證人甲○○曾針對郭語喬所使用之電腦製成郭語喬電腦\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1007,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "又本院前既已認定被告丙○○及丁○○於「專案管理群」群組內\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1016,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "至警方於本案偵查過程中，雖未查獲大牛公司將研發完成之\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1024,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "從而，辯護人以上開情詞為被告丙○○、丁○○辯護，皆屬臨訟\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1026,
+      "symbol": "７",
+      "unicode_code": "U+FF17",
+      "category": "全形數字",
+      "content": "辯護人雖另為被告乙○○辯護稱：大牛公司研發之捕魚遊戲實\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1031,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "警方至大牛公司執行搜索扣押後，證人甲○○曾針對庚○所使用\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1037,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "故由上開表格之記載內容及各欄位相互換算之結果可知，大\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1045,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "從而，辯護人以前詞為被告乙○○辯護，並無可採。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1046,
+      "symbol": "８",
+      "unicode_code": "U+FF18",
+      "category": "全形數字",
+      "content": "被告乙○○雖辯稱：大牛公司僅係從事遊戲開發，並沒有經營\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1071,
+      "symbol": "９",
+      "unicode_code": "U+FF19",
+      "category": "全形數字",
+      "content": "辯護人雖另為被告丁○○辯護稱：縱使大牛公司所研發之遊戲\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1099,
+      "symbol": "",
+      "unicode_code": "U+F643",
+      "category": "PUA_全形阿拉伯數字_原數字",
+      "content": "被告戊○○雖辯稱：我於大牛公司任職期間係負責人力資源，\r",
+      "is_pua": true,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1118,
+      "symbol": "",
+      "unicode_code": "U+F642",
+      "category": "PUA_全形阿拉伯數字_原數字",
+      "content": "辯護人雖為被告戊○○辯護稱：公訴意旨雖認被告戊○○係擔任\r",
+      "is_pua": true,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1139,
+      "symbol": "",
+      "unicode_code": "U+F641",
+      "category": "PUA_全形阿拉伯數字_原數字",
+      "content": "辯護人雖另為被告戊○○辯護稱：縱認本案其他被告涉犯圖利\r",
+      "is_pua": true,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1150,
+      "symbol": "",
+      "unicode_code": "U+F640",
+      "category": "PUA_全形阿拉伯數字_原數字",
+      "content": "辯護人雖再為被告戊○○辯護稱：公訴意旨雖以被告戊○○之電\r",
+      "is_pua": true,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1167,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "綜上，本案事證明確，被告丙○○、丁○○、乙○○及戊○○上開犯\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1169,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "論罪科刑\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1170,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "論罪\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1171,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "被告丙○○、丁○○及乙○○各自於附表一所示之時間開始任職於\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1183,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "是核被告丙○○、丁○○、乙○○及戊○○所為，均係犯刑法第268條\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1186,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "被告丙○○、丁○○、乙○○、戊○○與「Vic」、「Lucky」、「Jus\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1198,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "被告丙○○、丁○○、乙○○及戊○○自附表一所示時間開始任職於\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1207,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "爰以行為人之責任為基礎，審酌被告丙○○、丁○○、乙○○及戊\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1220,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "沒收\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1221,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "宣告沒收部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1222,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "按供犯罪所用、犯罪預備之物或犯罪所生之物，屬於犯罪行\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1228,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "扣案如附表二編號31至32、38、40所示之物，依序為被告丁○\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1239,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "扣案如附表二編號49至52所示之物，依序為被告丙○○、丁○○\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1249,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "次按犯罪所得，屬於犯罪行為人者，沒收之；前2項之沒收，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1252,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "被告丙○○、丁○○、乙○○及戊○○於大牛公司任職之月薪依序為1\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1270,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "準此，被告丙○○、丁○○、乙○○及戊○○遂行本案犯行既各自獲\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1275,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "不予宣告沒收部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1276,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "按宣告前2條之沒收或追徵，欠缺刑法上之重要性者，得不宣\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1278,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "扣案如附表二編號1、47至48所示之物，為大牛公司日常營運\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1287,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "扣案如附表二編號2至30、33至37、39、41至46、56至61所示\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1306,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "就扣案如附表二編號53所示之物，被告戊○○於本院審理中供\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1310,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "扣案如附表二編號54至55所示之物，分別為同案被告己○○及\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1316,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "無罪部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1317,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "公訴意旨略以：被告己○○與真實姓名年籍不詳，綽號分別為\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1351,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1364,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "公訴意旨認被告己○○涉犯上開圖利供給賭博場所及圖利聚眾賭博等罪嫌，無非係以被告己○○於警詢及偵查中之供述、證人戊○○於警詢及偵查中之證述、證人丙○○於警詢及偵查中之證述、證人乙○○於警詢及偵查中之證述、證人丁○○於警詢及偵查中之證述、證人郭語喬於警詢及偵查中之證述、證人庚○於警詢及偵查中之證述、證人洪庭萱於警詢及偵查中之陳述、證人區志豪於警詢中之證述、證人林柏宇於警詢及偵查中之證述、證人劉建志於警詢中之證述、證人蔡維哲於警詢中之證述、證人林妍妍於警詢中之證述、證人簡仲儀於警詢及偵查中之證述、證人蘇昱達於警詢及偵查中之證述、證人趙彥淳於警詢及偵查中之證述、遊戲投注輸贏日報表、遊戲管理後臺相關資料、通訊軟體「GaaS-全員逃走中，獵人溝通群」、「啊～報表～」、「GameReport」、「PlayerGameReport」群組對話紀錄擷取圖片、案例編號「0000000000_F3_戊○○」鑑識審查報告、FortiClient VPN安裝檔案、職務報告、案例編號「0000000000_E5_楊禮瑋」鑑識審查報告、「數據風險異常偵測機制」、「我的錢包」、職務報告、趙彥淳所有電腦畫面截圖94張、統計資料等相關資料、「專案管理群」群組對話紀錄擷取圖片、轉帳紀錄、被告丁○○扣案電腦中之檔案資料、員工資料表、大牛公司2021年7月第1次員工發薪明細表、109年6月起至110年8月止各幣別總營收紀錄等證據為其論據。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1365,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "訊據被告己○○固坦承大牛公司經「Vic」、「Lucky」及「Ju\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1399,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "大牛公司經「Vic」、「Lucky」及「Justin」出資籌設後，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1415,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "準此，本院前既已認定大牛公司係以協助境外賭博網站營運\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1424,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "觀諸卷附大牛公司員工資料表（偵36557號卷二第35頁），除\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1443,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "被告己○○於大牛公司內所使用之英文名為「YuYu」，此有大\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1459,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "大牛公司所研發之捕魚遊戲介紹頁面或大牛公司所研發之遊\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1472,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "公訴論告意旨雖稱：於大牛公司企劃部所有職員中，被告己○\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 1488,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "綜上所述，檢察官前揭所舉之各項證據方法，尚不足以使本\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    }
+  ],
+  "analysis": {
+    "total_markers": 121,
+    "by_category": {
+      "中文數字": [
+        {
+          "line": 50,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 60,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 89,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 94,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 136,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 183,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 234,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1167,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1170,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1207,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1221,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1275,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1399,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1415,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "天干": [
+        {
+          "line": 92,
+          "symbol": "甲",
+          "unicode": "U+7532",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1316,
+          "symbol": "乙",
+          "unicode": "U+4E59",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "大寫中文數字": [
+        {
+          "line": 93,
+          "symbol": "壹",
+          "unicode": "U+58F9",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 182,
+          "symbol": "貳",
+          "unicode": "U+8CB3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1169,
+          "symbol": "參",
+          "unicode": "U+53C3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1220,
+          "symbol": "肆",
+          "unicode": "U+8086",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1317,
+          "symbol": "壹",
+          "unicode": "U+58F9",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1351,
+          "symbol": "貳",
+          "unicode": "U+8CB3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1364,
+          "symbol": "參",
+          "unicode": "U+53C3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1365,
+          "symbol": "肆",
+          "unicode": "U+8086",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1488,
+          "symbol": "伍",
+          "unicode": "U+4F0D",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "圍字數字": [
+        {
+          "line": 95,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 101,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 117,
+          "symbol": "㈢",
+          "unicode": "U+3222",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 126,
+          "symbol": "㈣",
+          "unicode": "U+3223",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 137,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 153,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 200,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 201,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 202,
+          "symbol": "㈢",
+          "unicode": "U+3222",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 203,
+          "symbol": "㈣",
+          "unicode": "U+3223",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 235,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 332,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 343,
+          "symbol": "㈢",
+          "unicode": "U+3222",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 819,
+          "symbol": "㈣",
+          "unicode": "U+3223",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1171,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1183,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1186,
+          "symbol": "㈢",
+          "unicode": "U+3222",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1198,
+          "symbol": "㈣",
+          "unicode": "U+3223",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1222,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1249,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1276,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1306,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1310,
+          "symbol": "㈢",
+          "unicode": "U+3222",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1424,
+          "symbol": "㈠",
+          "unicode": "U+3220",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1443,
+          "symbol": "㈡",
+          "unicode": "U+3221",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1459,
+          "symbol": "㈢",
+          "unicode": "U+3222",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1472,
+          "symbol": "㈣",
+          "unicode": "U+3223",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "全形數字": [
+        {
+          "line": 138,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 145,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 154,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 178,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 333,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 339,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 344,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 674,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 820,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 860,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 876,
+          "symbol": "３",
+          "unicode": "U+FF13",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 919,
+          "symbol": "４",
+          "unicode": "U+FF14",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 942,
+          "symbol": "５",
+          "unicode": "U+FF15",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 957,
+          "symbol": "６",
+          "unicode": "U+FF16",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1026,
+          "symbol": "７",
+          "unicode": "U+FF17",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1046,
+          "symbol": "８",
+          "unicode": "U+FF18",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1071,
+          "symbol": "９",
+          "unicode": "U+FF19",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1228,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1239,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1252,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1270,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1278,
+          "symbol": "１",
+          "unicode": "U+FF11",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1287,
+          "symbol": "２",
+          "unicode": "U+FF12",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "括號數字": [
+        {
+          "line": 157,
+          "symbol": "⑴",
+          "unicode": "U+2474",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 163,
+          "symbol": "⑵",
+          "unicode": "U+2475",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 350,
+          "symbol": "⑴",
+          "unicode": "U+2474",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 366,
+          "symbol": "⑵",
+          "unicode": "U+2475",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 393,
+          "symbol": "⑶",
+          "unicode": "U+2476",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 447,
+          "symbol": "⑷",
+          "unicode": "U+2477",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 461,
+          "symbol": "⑸",
+          "unicode": "U+2478",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 502,
+          "symbol": "⑹",
+          "unicode": "U+2479",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 534,
+          "symbol": "⑺",
+          "unicode": "U+247A",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 590,
+          "symbol": "⑻",
+          "unicode": "U+247B",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 596,
+          "symbol": "⑼",
+          "unicode": "U+247C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 597,
+          "symbol": "⑽",
+          "unicode": "U+247D",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 603,
+          "symbol": "⑾",
+          "unicode": "U+247E",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 677,
+          "symbol": "⑴",
+          "unicode": "U+2474",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 698,
+          "symbol": "⑵",
+          "unicode": "U+2475",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 706,
+          "symbol": "⑶",
+          "unicode": "U+2476",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 720,
+          "symbol": "⑷",
+          "unicode": "U+2477",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 770,
+          "symbol": "⑸",
+          "unicode": "U+2478",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 815,
+          "symbol": "⑹",
+          "unicode": "U+2479",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 884,
+          "symbol": "⑴",
+          "unicode": "U+2474",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 897,
+          "symbol": "⑵",
+          "unicode": "U+2475",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 908,
+          "symbol": "⑶",
+          "unicode": "U+2476",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 918,
+          "symbol": "⑷",
+          "unicode": "U+2477",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 985,
+          "symbol": "⑴",
+          "unicode": "U+2474",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 988,
+          "symbol": "⑵",
+          "unicode": "U+2475",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1007,
+          "symbol": "⑶",
+          "unicode": "U+2476",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1016,
+          "symbol": "⑷",
+          "unicode": "U+2477",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1024,
+          "symbol": "⑸",
+          "unicode": "U+2478",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1031,
+          "symbol": "⑴",
+          "unicode": "U+2474",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1037,
+          "symbol": "⑵",
+          "unicode": "U+2475",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1045,
+          "symbol": "⑶",
+          "unicode": "U+2476",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "帶圈數字": [
+        {
+          "line": 541,
+          "symbol": "①",
+          "unicode": "U+2460",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 549,
+          "symbol": "②",
+          "unicode": "U+2461",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 587,
+          "symbol": "③",
+          "unicode": "U+2462",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 606,
+          "symbol": "①",
+          "unicode": "U+2460",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 640,
+          "symbol": "②",
+          "unicode": "U+2461",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 648,
+          "symbol": "③",
+          "unicode": "U+2462",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 666,
+          "symbol": "④",
+          "unicode": "U+2463",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 722,
+          "symbol": "①",
+          "unicode": "U+2460",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 746,
+          "symbol": "②",
+          "unicode": "U+2461",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 783,
+          "symbol": "①",
+          "unicode": "U+2460",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 808,
+          "symbol": "②",
+          "unicode": "U+2461",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "PUA_全形阿拉伯數字_原數字": [
+        {
+          "line": 1099,
+          "symbol": "",
+          "unicode": "U+F643",
+          "is_pua": true,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1118,
+          "symbol": "",
+          "unicode": "U+F642",
+          "is_pua": true,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1139,
+          "symbol": "",
+          "unicode": "U+F641",
+          "is_pua": true,
+          "has_proper_newline": false
+        },
+        {
+          "line": 1150,
+          "symbol": "",
+          "unicode": "U+F640",
+          "is_pua": true,
+          "has_proper_newline": false
+        }
+      ]
+    },
+    "by_pua_group": {
+      "PUA_全形阿拉伯數字_原數字": {
+        "count": 4,
+        "symbols": [
+          {
+            "line": 1099,
+            "symbol": "",
+            "unicode": "U+F643"
+          },
+          {
+            "line": 1118,
+            "symbol": "",
+            "unicode": "U+F642"
+          },
+          {
+            "line": 1139,
+            "symbol": "",
+            "unicode": "U+F641"
+          },
+          {
+            "line": 1150,
+            "symbol": "",
+            "unicode": "U+F640"
+          }
+        ],
+        "description": "全形阿拉伯數字原型",
+        "level": 2,
+        "format_type": "全形數字"
+      }
+    },
+    "by_format_type": {
+      "全形數字": 4
+    },
+    "by_level": {
+      "1": 25,
+      "2": 73,
+      "3": 23
+    },
+    "pua_count": 4,
+    "unicode_distribution": {
+      "U+4E00": 6,
+      "U+4E8C": 6,
+      "U+4E09": 2,
+      "U+7532": 1,
+      "U+58F9": 2,
+      "U+3220": 8,
+      "U+3221": 8,
+      "U+3222": 6,
+      "U+3223": 5,
+      "U+FF11": 8,
+      "U+FF12": 8,
+      "U+2474": 6,
+      "U+2475": 6,
+      "U+8CB3": 2,
+      "U+2476": 5,
+      "U+2477": 4,
+      "U+2478": 3,
+      "U+2479": 2,
+      "U+247A": 1,
+      "U+2460": 4,
+      "U+2461": 4,
+      "U+2462": 2,
+      "U+247B": 1,
+      "U+247C": 1,
+      "U+247D": 1,
+      "U+247E": 1,
+      "U+2463": 1,
+      "U+FF13": 1,
+      "U+FF14": 1,
+      "U+FF15": 1,
+      "U+FF16": 1,
+      "U+FF17": 1,
+      "U+FF18": 1,
+      "U+FF19": 1,
+      "U+F643": 1,
+      "U+F642": 1,
+      "U+F641": 1,
+      "U+F640": 1,
+      "U+53C3": 2,
+      "U+8086": 2,
+      "U+4E59": 1,
+      "U+4F0D": 1
+    },
+    "newline_compliance": 0,
+    "structure": [
+      {
+        "line": 50,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "緣大牛科技有限公司（案發時址設臺北市○○區○○○路0段00號\r",
+        "newline_ok": false
+      },
+      {
+        "line": 60,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "詎丙○○、丁○○、乙○○及戊○○均知悉大牛公司係以協助境外賭\r",
+        "newline_ok": false
+      },
+      {
+        "line": 89,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "案經臺北市政府警察局中山分局報告臺灣臺北地方檢察署檢\r",
+        "newline_ok": false
+      },
+      {
+        "line": 92,
+        "level": 1,
+        "symbol": "甲",
+        "unicode": "U+7532",
+        "category": "天干",
+        "format_type": "",
+        "is_pua": false,
+        "content": "有罪部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 93,
+        "level": 1,
+        "symbol": "壹",
+        "unicode": "U+58F9",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "程序事項\r",
+        "newline_ok": false
+      },
+      {
+        "line": 94,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "我國法院對於本案具有刑事審判權\r",
+        "newline_ok": false
+      },
+      {
+        "line": 95,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按本法於在中華民國領域內犯罪者，適用之；犯罪之行為或\r",
+        "newline_ok": false
+      },
+      {
+        "line": 101,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告乙○○之辯護人雖質以我國法院對於本案不具刑事審判權\r",
+        "newline_ok": false
+      },
+      {
+        "line": 117,
+        "level": 2,
+        "symbol": "㈢",
+        "unicode": "U+3222",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "至警方前往大牛公司執行搜索時，雖發現大牛公司內部文件\r",
+        "newline_ok": false
+      },
+      {
+        "line": 126,
+        "level": 2,
+        "symbol": "㈣",
+        "unicode": "U+3223",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "又檢察官雖未指明大牛公司協助境外賭博網站營運時，其所\r",
+        "newline_ok": false
+      },
+      {
+        "line": 136,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證據能力\r",
+        "newline_ok": false
+      },
+      {
+        "line": 137,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "供述證據\r",
+        "newline_ok": false
+      },
+      {
+        "line": 138,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159條\r",
+        "newline_ok": false
+      },
+      {
+        "line": 145,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "本判決所引用被告以外之人於審判外之陳述，被告丁○○及其\r",
+        "newline_ok": false
+      },
+      {
+        "line": 153,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "非供述證據\r",
+        "newline_ok": false
+      },
+      {
+        "line": 154,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "內政部刑事警察局偵查第九大隊偵查報告內所附BBO網站頁面\r",
+        "newline_ok": false
+      },
+      {
+        "line": 157,
+        "level": 2,
+        "symbol": "⑴",
+        "unicode": "U+2474",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按文書證據，如係以文書內容所「陳述之事實」作為證據資\r",
+        "newline_ok": false
+      },
+      {
+        "line": 163,
+        "level": 2,
+        "symbol": "⑵",
+        "unicode": "U+2475",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○、乙○○及戊○○之辯護人雖均爭執卷附內政部\r",
+        "newline_ok": false
+      },
+      {
+        "line": 178,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "其餘卷內所存經本院引用為證據之非供述證據，與本案待證\r",
+        "newline_ok": false
+      },
+      {
+        "line": 182,
+        "level": 1,
+        "symbol": "貳",
+        "unicode": "U+8CB3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "認定犯罪事實所憑之證據及理由\r",
+        "newline_ok": false
+      },
+      {
+        "line": 183,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "訊據被告丙○○、丁○○、乙○○及戊○○固均坦承大牛公司經「Vi\r",
+        "newline_ok": false
+      },
+      {
+        "line": 200,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○辯稱：我在大牛公司任職期間僅從事遊戲研發，而大牛公司所研發之遊戲畫面中，均無出入金按鍵之設計，由此可見玩家參與大牛公司所研發之遊戲時，完全無法賭博財物...",
+        "newline_ok": false
+      },
+      {
+        "line": 201,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丁○○辯稱：大牛公司僅係單純從事遊戲軟體之開發，至於大牛公司將遊戲提供予客戶後，客戶是否會讓玩家透過遊戲從事賭博，我並不清楚；大牛公司內關於BBO網站之業務...",
+        "newline_ok": false
+      },
+      {
+        "line": 202,
+        "level": 2,
+        "symbol": "㈢",
+        "unicode": "U+3222",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告乙○○辯稱：大牛公司僅係從事遊戲開發，並沒有經營賭博網站等語；辯護人則為被告乙○○辯護稱：大牛公司係受PP公司委託代工製作及維護捕魚遊戲，此均屬未涉及任何不...",
+        "newline_ok": false
+      },
+      {
+        "line": 203,
+        "level": 2,
+        "symbol": "㈣",
+        "unicode": "U+3223",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告戊○○辯稱：我於大牛公司任職期間係負責人力資源，至\r",
+        "newline_ok": false
+      },
+      {
+        "line": 234,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "經查：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 235,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司經「Vic」、「Lucky」及「Justin」出資籌設後，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 332,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，本案應審究者即為：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 333,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司是否係以協助境外賭博網站營運為業，負責協助境\r",
+        "newline_ok": false
+      },
+      {
+        "line": 339,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "若上揭事實堪以認定，則被告丙○○、丁○○、乙○○及戊○○是否\r",
+        "newline_ok": false
+      },
+      {
+        "line": 343,
+        "level": 2,
+        "symbol": "㈢",
+        "unicode": "U+3222",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "茲就前揭事項之認定結果分敘如下：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 344,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司係以協助境外賭博網站營運為業，負責協助境外賭\r",
+        "newline_ok": false
+      },
+      {
+        "line": 350,
+        "level": 2,
+        "symbol": "⑴",
+        "unicode": "U+2474",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證人廖家頫於警詢中證稱：我係於大牛公司設計部任職，負\r",
+        "newline_ok": false
+      },
+      {
+        "line": 366,
+        "level": 2,
+        "symbol": "⑵",
+        "unicode": "U+2475",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "觀諸自大牛公司職員電腦內所擷取之捕魚遊戲頁面，可見該\r",
+        "newline_ok": false
+      },
+      {
+        "line": 393,
+        "level": 2,
+        "symbol": "⑶",
+        "unicode": "U+2476",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方於執行搜索當日在大牛公司當時之登記設立地址扣得洪\r",
+        "newline_ok": false
+      },
+      {
+        "line": 447,
+        "level": 2,
+        "symbol": "⑷",
+        "unicode": "U+2477",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "據上可知，無論大牛公司研發捕魚遊戲時所製作之遊戲介紹\r",
+        "newline_ok": false
+      },
+      {
+        "line": 461,
+        "level": 2,
+        "symbol": "⑸",
+        "unicode": "U+2478",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方於執行搜索當日自大牛公司職員電腦內所擷取、名稱為\r",
+        "newline_ok": false
+      },
+      {
+        "line": 502,
+        "level": 2,
+        "symbol": "⑹",
+        "unicode": "U+2479",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "參諸警方執行搜索當日於大牛公司職員電腦內所擷取、載有\r",
+        "newline_ok": false
+      },
+      {
+        "line": 534,
+        "level": 2,
+        "symbol": "⑺",
+        "unicode": "U+247A",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方前往大牛公司執行搜索當日，曾於在場人員之行動電話\r",
+        "newline_ok": false
+      },
+      {
+        "line": 541,
+        "level": 2,
+        "symbol": "①",
+        "unicode": "U+2460",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丁○○曾於該群組內傳送「客戶那邊多了一隻API……異常單\r",
+        "newline_ok": false
+      },
+      {
+        "line": 549,
+        "level": 2,
+        "symbol": "②",
+        "unicode": "U+2461",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○曾於前揭群組內傳送「要追回那1%，我們還要再賺8\r",
+        "newline_ok": false
+      },
+      {
+        "line": 587,
+        "level": 2,
+        "symbol": "③",
+        "unicode": "U+2462",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，綜參上揭各情，堪認大牛公司所協助開發、於交付產\r",
+        "newline_ok": false
+      },
+      {
+        "line": 590,
+        "level": 2,
+        "symbol": "⑻",
+        "unicode": "U+247B",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按刑法上所稱之賭博行為，係指以偶然事實之成就與否，決\r",
+        "newline_ok": false
+      },
+      {
+        "line": 596,
+        "level": 2,
+        "symbol": "⑼",
+        "unicode": "U+247C",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丁○○於警詢、偵查及本院審理中已供稱：某位大牛公司之投資者曾交辦BBO網站業務，委請大牛公司員工協助修補BBO網站之漏洞等語（偵36557號卷二第72頁、偵...",
+        "newline_ok": false
+      },
+      {
+        "line": 597,
+        "level": 2,
+        "symbol": "⑽",
+        "unicode": "U+247D",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "綜上，大牛公司係以協助境外賭博網站營運為業，負責協助\r",
+        "newline_ok": false
+      },
+      {
+        "line": 603,
+        "level": 2,
+        "symbol": "⑾",
+        "unicode": "U+247E",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "至公訴意旨雖認大牛公司之經營模式，係將通過測試之捕魚\r",
+        "newline_ok": false
+      },
+      {
+        "line": 606,
+        "level": 2,
+        "symbol": "①",
+        "unicode": "U+2460",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司所使用之網際網路服務係向中華電信股份有限公司\r",
+        "newline_ok": false
+      },
+      {
+        "line": 640,
+        "level": 2,
+        "symbol": "②",
+        "unicode": "U+2461",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證人甲○○於本院審理中證稱：雖然當時是由警方於執行網路\r",
+        "newline_ok": false
+      },
+      {
+        "line": 648,
+        "level": 2,
+        "symbol": "③",
+        "unicode": "U+2462",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "至證人甲○○於本院審理中雖復證稱：關於大牛公司所使用之\r",
+        "newline_ok": false
+      },
+      {
+        "line": 666,
+        "level": 2,
+        "symbol": "④",
+        "unicode": "U+2463",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，卷內既查無其他資料足資證明大牛公司所研發之捕魚\r",
+        "newline_ok": false
+      },
+      {
+        "line": 674,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○、乙○○及戊○○均知悉大牛公司係以協助境外\r",
+        "newline_ok": false
+      },
+      {
+        "line": 677,
+        "level": 2,
+        "symbol": "⑴",
+        "unicode": "U+2474",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "洪庭萱及郭語喬均為大牛公司企劃部職員，業據證人洪庭萱\r",
+        "newline_ok": false
+      },
+      {
+        "line": 698,
+        "level": 2,
+        "symbol": "⑵",
+        "unicode": "U+2475",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方前往大牛公司執行搜索當日，曾於在場人員之行動電話\r",
+        "newline_ok": false
+      },
+      {
+        "line": 706,
+        "level": 2,
+        "symbol": "⑶",
+        "unicode": "U+2476",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方執行搜索當日另曾於被告乙○○之行動電話內擷取被告乙○\r",
+        "newline_ok": false
+      },
+      {
+        "line": 720,
+        "level": 2,
+        "symbol": "⑷",
+        "unicode": "U+2477",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "至被告戊○○雖非「專案管理群」群組之成員，此業據被告戊○\r",
+        "newline_ok": false
+      },
+      {
+        "line": 722,
+        "level": 2,
+        "symbol": "①",
+        "unicode": "U+2460",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告戊○○為大牛公司之管理部主管，其英文名為James等情，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 746,
+        "level": 2,
+        "symbol": "②",
+        "unicode": "U+2461",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方至大牛公司執行搜索當日，曾於大牛公司職員電腦內發\r",
+        "newline_ok": false
+      },
+      {
+        "line": 770,
+        "level": 2,
+        "symbol": "⑸",
+        "unicode": "U+2478",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按共同實行犯罪行為之人，在共同意思範圍以內，各自分擔\r",
+        "newline_ok": false
+      },
+      {
+        "line": 783,
+        "level": 2,
+        "symbol": "①",
+        "unicode": "U+2460",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司雖係以協助境外賭博網站營運為業，而未實際架設\r",
+        "newline_ok": false
+      },
+      {
+        "line": 808,
+        "level": 2,
+        "symbol": "②",
+        "unicode": "U+2461",
+        "category": "帶圈數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○、乙○○及戊○○任職大牛公司期間，均領有薪\r",
+        "newline_ok": false
+      },
+      {
+        "line": 815,
+        "level": 2,
+        "symbol": "⑹",
+        "unicode": "U+2479",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "綜上所述，堪認被告丙○○、丁○○、乙○○及戊○○均知悉大牛公\r",
+        "newline_ok": false
+      },
+      {
+        "line": 819,
+        "level": 2,
+        "symbol": "㈣",
+        "unicode": "U+3223",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告辯解及辯護人辯護意旨不予採信之理由\r",
+        "newline_ok": false
+      },
+      {
+        "line": 820,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○雖辯稱：我在大牛公司任職期間僅從事遊戲研發，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 860,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○雖復辯稱：警方至大牛公司搜索時雖有於在場人員\r",
+        "newline_ok": false
+      },
+      {
+        "line": 876,
+        "level": 3,
+        "symbol": "３",
+        "unicode": "U+FF13",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○雖又辯稱：我先前曾在設立星城Online網站之網銀\r",
+        "newline_ok": false
+      },
+      {
+        "line": 884,
+        "level": 2,
+        "symbol": "⑴",
+        "unicode": "U+2474",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "觀諸星城Online網站所刊登之遊戲管理規章可知，星城Onlin\r",
+        "newline_ok": false
+      },
+      {
+        "line": 897,
+        "level": 2,
+        "symbol": "⑵",
+        "unicode": "U+2475",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "依上可知，玩家進入星城Online網站參與遊戲時，雖須以現\r",
+        "newline_ok": false
+      },
+      {
+        "line": 908,
+        "level": 2,
+        "symbol": "⑶",
+        "unicode": "U+2476",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "至辯護人雖稱大牛公司所研發之捕魚遊戲，另與鈊象公司所\r",
+        "newline_ok": false
+      },
+      {
+        "line": 918,
+        "level": 2,
+        "symbol": "⑷",
+        "unicode": "U+2477",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，前揭被告丙○○所辯及辯護人辯護意旨，均無足採取。\r",
+        "newline_ok": false
+      },
+      {
+        "line": 919,
+        "level": 3,
+        "symbol": "４",
+        "unicode": "U+FF14",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○雖再辯稱：倘若大牛公司確實係以協助他人從事賭\r",
+        "newline_ok": false
+      },
+      {
+        "line": 942,
+        "level": 3,
+        "symbol": "５",
+        "unicode": "U+FF15",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "辯護人雖另為被告丙○○辯護稱：大牛公司將研發完成之遊戲\r",
+        "newline_ok": false
+      },
+      {
+        "line": 957,
+        "level": 3,
+        "symbol": "６",
+        "unicode": "U+FF16",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "辯護人雖又為被告丙○○辯護稱：警方至大牛公司執行搜索後\r",
+        "newline_ok": false
+      },
+      {
+        "line": 985,
+        "level": 2,
+        "symbol": "⑴",
+        "unicode": "U+2474",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "本院前已說明何以認定被告丙○○、丁○○及乙○○所參與之「專\r",
+        "newline_ok": false
+      },
+      {
+        "line": 988,
+        "level": 2,
+        "symbol": "⑵",
+        "unicode": "U+2475",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "再者，證人甲○○曾針對郭語喬所使用之電腦製成郭語喬電腦\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1007,
+        "level": 2,
+        "symbol": "⑶",
+        "unicode": "U+2476",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "又本院前既已認定被告丙○○及丁○○於「專案管理群」群組內\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1016,
+        "level": 2,
+        "symbol": "⑷",
+        "unicode": "U+2477",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "至警方於本案偵查過程中，雖未查獲大牛公司將研發完成之\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1024,
+        "level": 2,
+        "symbol": "⑸",
+        "unicode": "U+2478",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，辯護人以上開情詞為被告丙○○、丁○○辯護，皆屬臨訟\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1026,
+        "level": 3,
+        "symbol": "７",
+        "unicode": "U+FF17",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "辯護人雖另為被告乙○○辯護稱：大牛公司研發之捕魚遊戲實\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1031,
+        "level": 2,
+        "symbol": "⑴",
+        "unicode": "U+2474",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "警方至大牛公司執行搜索扣押後，證人甲○○曾針對庚○所使用\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1037,
+        "level": 2,
+        "symbol": "⑵",
+        "unicode": "U+2475",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "故由上開表格之記載內容及各欄位相互換算之結果可知，大\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1045,
+        "level": 2,
+        "symbol": "⑶",
+        "unicode": "U+2476",
+        "category": "括號數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，辯護人以前詞為被告乙○○辯護，並無可採。\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1046,
+        "level": 3,
+        "symbol": "８",
+        "unicode": "U+FF18",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告乙○○雖辯稱：大牛公司僅係從事遊戲開發，並沒有經營\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1071,
+        "level": 3,
+        "symbol": "９",
+        "unicode": "U+FF19",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "辯護人雖另為被告丁○○辯護稱：縱使大牛公司所研發之遊戲\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1099,
+        "level": 2,
+        "symbol": "",
+        "unicode": "U+F643",
+        "category": "PUA_全形阿拉伯數字_原數字",
+        "format_type": "全形數字",
+        "is_pua": true,
+        "content": "被告戊○○雖辯稱：我於大牛公司任職期間係負責人力資源，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1118,
+        "level": 2,
+        "symbol": "",
+        "unicode": "U+F642",
+        "category": "PUA_全形阿拉伯數字_原數字",
+        "format_type": "全形數字",
+        "is_pua": true,
+        "content": "辯護人雖為被告戊○○辯護稱：公訴意旨雖認被告戊○○係擔任\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1139,
+        "level": 2,
+        "symbol": "",
+        "unicode": "U+F641",
+        "category": "PUA_全形阿拉伯數字_原數字",
+        "format_type": "全形數字",
+        "is_pua": true,
+        "content": "辯護人雖另為被告戊○○辯護稱：縱認本案其他被告涉犯圖利\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1150,
+        "level": 2,
+        "symbol": "",
+        "unicode": "U+F640",
+        "category": "PUA_全形阿拉伯數字_原數字",
+        "format_type": "全形數字",
+        "is_pua": true,
+        "content": "辯護人雖再為被告戊○○辯護稱：公訴意旨雖以被告戊○○之電\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1167,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "綜上，本案事證明確，被告丙○○、丁○○、乙○○及戊○○上開犯\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1169,
+        "level": 1,
+        "symbol": "參",
+        "unicode": "U+53C3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "論罪科刑\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1170,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "論罪\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1171,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○及乙○○各自於附表一所示之時間開始任職於\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1183,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "是核被告丙○○、丁○○、乙○○及戊○○所為，均係犯刑法第268條\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1186,
+        "level": 2,
+        "symbol": "㈢",
+        "unicode": "U+3222",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○、乙○○、戊○○與「Vic」、「Lucky」、「Jus\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1198,
+        "level": 2,
+        "symbol": "㈣",
+        "unicode": "U+3223",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○、乙○○及戊○○自附表一所示時間開始任職於\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1207,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "爰以行為人之責任為基礎，審酌被告丙○○、丁○○、乙○○及戊\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1220,
+        "level": 1,
+        "symbol": "肆",
+        "unicode": "U+8086",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "沒收\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1221,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "宣告沒收部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1222,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按供犯罪所用、犯罪預備之物或犯罪所生之物，屬於犯罪行\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1228,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "扣案如附表二編號31至32、38、40所示之物，依序為被告丁○\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1239,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "扣案如附表二編號49至52所示之物，依序為被告丙○○、丁○○\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1249,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "次按犯罪所得，屬於犯罪行為人者，沒收之；前2項之沒收，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1252,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告丙○○、丁○○、乙○○及戊○○於大牛公司任職之月薪依序為1\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1270,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "準此，被告丙○○、丁○○、乙○○及戊○○遂行本案犯行既各自獲\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1275,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "不予宣告沒收部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1276,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按宣告前2條之沒收或追徵，欠缺刑法上之重要性者，得不宣\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1278,
+        "level": 3,
+        "symbol": "１",
+        "unicode": "U+FF11",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "扣案如附表二編號1、47至48所示之物，為大牛公司日常營運\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1287,
+        "level": 3,
+        "symbol": "２",
+        "unicode": "U+FF12",
+        "category": "全形數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "扣案如附表二編號2至30、33至37、39、41至46、56至61所示\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1306,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "就扣案如附表二編號53所示之物，被告戊○○於本院審理中供\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1310,
+        "level": 2,
+        "symbol": "㈢",
+        "unicode": "U+3222",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "扣案如附表二編號54至55所示之物，分別為同案被告己○○及\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1316,
+        "level": 1,
+        "symbol": "乙",
+        "unicode": "U+4E59",
+        "category": "天干",
+        "format_type": "",
+        "is_pua": false,
+        "content": "無罪部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1317,
+        "level": 1,
+        "symbol": "壹",
+        "unicode": "U+58F9",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴意旨略以：被告己○○與真實姓名年籍不詳，綽號分別為\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1351,
+        "level": 1,
+        "symbol": "貳",
+        "unicode": "U+8CB3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1364,
+        "level": 1,
+        "symbol": "參",
+        "unicode": "U+53C3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴意旨認被告己○○涉犯上開圖利供給賭博場所及圖利聚眾賭博等罪嫌，無非係以被告己○○於警詢及偵查中之供述、證人戊○○於警詢及偵查中之證述、證人丙○○於警詢及偵查...",
+        "newline_ok": false
+      },
+      {
+        "line": 1365,
+        "level": 1,
+        "symbol": "肆",
+        "unicode": "U+8086",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "訊據被告己○○固坦承大牛公司經「Vic」、「Lucky」及「Ju\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1399,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司經「Vic」、「Lucky」及「Justin」出資籌設後，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1415,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "準此，本院前既已認定大牛公司係以協助境外賭博網站營運\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1424,
+        "level": 2,
+        "symbol": "㈠",
+        "unicode": "U+3220",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "觀諸卷附大牛公司員工資料表（偵36557號卷二第35頁），除\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1443,
+        "level": 2,
+        "symbol": "㈡",
+        "unicode": "U+3221",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告己○○於大牛公司內所使用之英文名為「YuYu」，此有大\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1459,
+        "level": 2,
+        "symbol": "㈢",
+        "unicode": "U+3222",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "大牛公司所研發之捕魚遊戲介紹頁面或大牛公司所研發之遊\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1472,
+        "level": 2,
+        "symbol": "㈣",
+        "unicode": "U+3223",
+        "category": "圍字數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴論告意旨雖稱：於大牛公司企劃部所有職員中，被告己○\r",
+        "newline_ok": false
+      },
+      {
+        "line": 1488,
+        "level": 1,
+        "symbol": "伍",
+        "unicode": "U+4F0D",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "綜上所述，檢察官前揭所舉之各項證據方法，尚不足以使本\r",
+        "newline_ok": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,599,20250102,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:55.790998",
+  "processing_time": 0.034246206283569336,
+  "statistics": {
+    "total_lines": 199,
+    "candidate_lines": 12,
+    "bert_processed_lines": 12,
+    "total_markers": 12,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 12,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 199,
+    "positive_predictions": 12,
+    "positive_ratio": 0.06030150753768844,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 185,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 12,
+        "positive": 12
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.9997653067111969,
+      "std": 3.0395841376566667e-05,
+      "min": 0.9997116923332214,
+      "max": 0.999816358089447,
+      "count": 12
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告吳侑恩明知四氫大麻酚(起訴書誤載為",
+      "rule_score": 0.5,
+      "bert_score": 0.999816358089447,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告涉犯上開罪嫌，無非係以被告之供述、證人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997966885566711,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告固坦承於112年9月13日下午在簡志寰住處，簡志寰",
+      "rule_score": 0.5,
+      "bert_score": 0.9997820258140564,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於112年9月13日下午5時10分許手持一紙袋至簡志寰住處",
+      "rule_score": 0.5,
+      "bert_score": 0.9997310042381287,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按購買毒品者稱其係向某人購買毒品之供述，因購買毒品者",
+      "rule_score": 0.5,
+      "bert_score": 0.9997404217720032,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢證人簡志寰所稱本案向被告購毒之證述內容，難認無瑕疵",
+      "rule_score": 0.5,
+      "bert_score": 0.9997116923332214,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣依卷附監視器錄影畫面截圖照片，固可認被告於112年9月13",
+      "rule_score": 0.5,
+      "bert_score": 0.9997549653053284,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤簡志寰於112年9月13日下午5時40分許，持其行動電話拍攝一",
+      "rule_score": 0.5,
+      "bert_score": 0.9997519850730896,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥依本案帳戶交易明細，固可證簡志寰曾於112年9月28日轉帳3",
+      "rule_score": 0.5,
+      "bert_score": 0.9997623562812805,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦衡以販賣毒品係政府嚴予查緝之違法行為，且施以重罰不予",
+      "rule_score": 0.5,
+      "bert_score": 0.99977046251297,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 179,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，本案購毒者即證人簡志寰就被告本案販毒之證述",
+      "rule_score": 0.5,
+      "bert_score": 0.9997544884681702,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

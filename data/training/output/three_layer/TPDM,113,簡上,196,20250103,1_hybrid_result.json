@@ -1,0 +1,259 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,196,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.061420",
+  "processing_time": 0.05036425590515137,
+  "statistics": {
+    "total_lines": 214,
+    "candidate_lines": 23,
+    "bert_processed_lines": 23,
+    "total_markers": 19,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 19,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 214,
+    "positive_predictions": 19,
+    "positive_ratio": 0.08878504672897196,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 184,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 23,
+        "positive": 19
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 14,
+      "圍字數字": 4,
+      "大寫中文數字": 1
+    },
+    "bert_score_stats": {
+      "mean": 0.8162617768849367,
+      "std": 0.3758430651971493,
+      "min": 0.002861252287402749,
+      "max": 0.9998149275779724,
+      "count": 23
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、審理範圍：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、經原判決認定之犯罪事實及論罪科刑部分，固均非本院合議",
+      "rule_score": 0.5,
+      "bert_score": 0.999792754650116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、撤銷原判決沒收部分之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠上訴意旨略以：我的犯罪所得並非原審所認定之新臺幣（下",
+      "rule_score": 0.5,
+      "bert_score": 0.9997538924217224,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按犯罪所得，屬於犯罪行為人者，沒收之；於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9996833801269531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢經查，原判決以上訴人訊問時之自白認定上訴人本案犯罪所",
+      "rule_score": 0.5,
+      "bert_score": 0.9996976852416992,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參以上訴人於本案起初偵辦時，即自陳所獲報酬只有性交易",
+      "rule_score": 0.5,
+      "bert_score": 0.7731221914291382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣基此，上訴人供稱自己僅收受4,500元報酬，其餘部分轉交予",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一。",
+      "rule_score": 0.5,
+      "bert_score": 0.9956393241882324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，均引用聲請簡易判決處刑書之記載（",
+      "rule_score": 0.5,
+      "bert_score": 0.9998118281364441,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告甲○○所為，係犯刑法第231條第1項前段之圖利媒介性",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按犯罪所得，屬於犯罪行為人者，沒收之，於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.999792754650116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、據上論斷，應依刑事訴訟法第449條第1項、第3項、第454條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997993111610413,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、甲○○與真實姓名年籍不詳通訊軟體Wechat暱稱「亮亮」、「邱",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局松山分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998099207878113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告甲○○於偵查時坦承不諱，核與證",
+      "rule_score": 0.5,
+      "bert_score": 0.9998052716255188,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯刑法第231 條第1 項前段之圖利媒介性交",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第451條第1項聲請逕以簡易判決處刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一。",
+      "rule_score": 0.5,
+      "bert_score": 0.9956393241882324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

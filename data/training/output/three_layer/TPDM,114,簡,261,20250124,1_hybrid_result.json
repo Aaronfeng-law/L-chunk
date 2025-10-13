@@ -1,0 +1,169 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,261,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:12.296256",
+  "processing_time": 0.03268122673034668,
+  "statistics": {
+    "total_lines": 260,
+    "candidate_lines": 12,
+    "bert_processed_lines": 12,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 260,
+    "positive_predictions": 11,
+    "positive_ratio": 0.04230769230769231,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 229,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 19,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 12,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.9169673477299511,
+      "std": 0.274718985272525,
+      "min": 0.005827551707625389,
+      "max": 0.9998225569725037,
+      "count": 12
+    }
+  },
+  "markers": [
+    {
+      "line_number": 40,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實、證據及應適用之法條，除補充證據「被告顏",
+      "rule_score": 0.5,
+      "bert_score": 0.9998077750205994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、爰以行為人之責任為基礎，審酌被告顏靖如明知賭博具有射",
+      "rule_score": 0.5,
+      "bert_score": 0.9998225569725037,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、扣案如起訴書附表編號1至5所示之物，分別係當場賭博之器",
+      "rule_score": 0.5,
+      "bert_score": 0.9997923970222473,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項前段、第3項、第454條第2項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997803568840027,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本件判決，得自收受送達後20日內，向本院提出上訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997838139533997,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳昱餘、張金前於民國111年1月25日下午2時40分許為警查",
+      "rule_score": 0.5,
+      "bert_score": 0.9998034834861755,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局萬華分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、所犯法條、共犯關係、罪數及刑之減輕事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 239,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

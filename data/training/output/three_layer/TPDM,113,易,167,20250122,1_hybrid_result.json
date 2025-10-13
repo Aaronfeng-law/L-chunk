@@ -1,0 +1,226 @@
+{
+  "source_file": "data/filted/TPDM,113,易,167,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.855131",
+  "processing_time": 0.04697275161743164,
+  "statistics": {
+    "total_lines": 291,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 291,
+    "positive_predictions": 16,
+    "positive_ratio": 0.054982817869415807,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 270,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4,
+      "圍字數字": 6,
+      "全形數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.8891906360448856,
+      "std": 0.31273039609342784,
+      "min": 0.0036052793730050325,
+      "max": 0.9998177886009216,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 41,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、認定犯罪事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、本案核撥之款項是作為許志文公務基金，支應不符合臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997071623802185,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、被告為許志文之秘書，其於110年5月7日以前，事先委由配偶",
+      "rule_score": 0.5,
+      "bert_score": 0.9997915625572205,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、依列支原則第2點規定，需屬與臺灣銀行之產品示範、推廣、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "３",
+      "unicode_code": "U+FF13",
+      "category": "全形數字",
+      "content": "３、再查，被告自承知悉本案發票為鄭世揚與朋友聚餐之發票，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "４",
+      "unicode_code": "U+FF14",
+      "category": "全形數字",
+      "content": "４、被告雖辯稱其不具不法所有之意圖，因其持本案發票申請之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997848868370056,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "５",
+      "unicode_code": "U+FF15",
+      "category": "全形數字",
+      "content": "５、按刑法上所謂「業務」，指公務以外之職業事務而言，亦即",
+      "rule_score": 0.5,
+      "bert_score": 0.9997617602348328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "６",
+      "unicode_code": "U+FF16",
+      "category": "全形數字",
+      "content": "６、綜上所述，被告所辯均無理由，本案事證明確，被告犯行洵",
+      "rule_score": 0.5,
+      "bert_score": 0.9997629523277283,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 229,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 230,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯刑法第339條第1項之詐欺取財罪及同法第2",
+      "rule_score": 0.5,
+      "bert_score": 0.9996935129165649,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 236,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告與許志文就本案犯行，有犯意聯絡及行為分擔，應論以",
+      "rule_score": 0.5,
+      "bert_score": 0.999700665473938,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 238,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、被告以一行為犯同時觸犯上開2罪名，為想像競合犯，應依刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9996569156646729,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 240,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、考量被告為許志文之秘書，且親自取得本案發票，經許志文",
+      "rule_score": 0.5,
+      "bert_score": 0.9997156262397766,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 244,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、爰審酌被告為使臺灣銀行填補許志文不符合核銷規定之支出",
+      "rule_score": 0.5,
+      "bert_score": 0.9997770190238953,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 259,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

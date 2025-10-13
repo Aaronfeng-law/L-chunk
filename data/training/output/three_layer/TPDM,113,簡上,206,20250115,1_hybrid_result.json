@@ -1,0 +1,92 @@
+{
+  "source_file": "data/filted/TPDM,113,簡上,206,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:41.082486",
+  "processing_time": 0.020277738571166992,
+  "statistics": {
+    "total_lines": 69,
+    "candidate_lines": 4,
+    "bert_processed_lines": 4,
+    "total_markers": 4,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 4,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 69,
+    "positive_predictions": 4,
+    "positive_ratio": 0.057971014492753624,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 59,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 6,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 4,
+        "positive": 4
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9997954964637756,
+      "std": 8.609106386096994e-06,
+      "min": 0.9997864365577698,
+      "max": 0.9998061060905457,
+      "count": 4
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經審理結果，認第一審以被告羅凱璜犯刑法第354條毀",
+      "rule_score": 0.5,
+      "bert_score": 0.9998061060905457,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、檢察官上訴意旨略以：被告持滅火器，撞擊、敲打案發地點",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、刑之量定，係實體法上賦予法院得依職權自由裁量之事項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997876286506653,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、原審就被告所犯毀棄損壞罪，係以行為人責任為基礎，審酌",
+      "rule_score": 0.5,
+      "bert_score": 0.9997864365577698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

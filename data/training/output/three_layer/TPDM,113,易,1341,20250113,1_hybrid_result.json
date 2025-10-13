@@ -1,0 +1,226 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1341,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:27.090512",
+  "processing_time": 0.04758095741271973,
+  "statistics": {
+    "total_lines": 233,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 233,
+    "positive_predictions": 16,
+    "positive_ratio": 0.06866952789699571,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 213,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "大寫中文數字": 2,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.9414644193671206,
+      "std": 0.23319729591005303,
+      "min": 0.008675255812704563,
+      "max": 0.9998167157173157,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鄧順恒於民國113年3月5日14時前某時許，與真實姓名年籍",
+      "rule_score": 0.5,
+      "bert_score": 0.9998063445091248,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經廖曬琇訴由臺北市政府警察局信義分局報告臺灣臺北地",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告以外之人於審判外所為之陳述，悉經當事人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案資以認定被告犯罪事實之非供述證據，查無違反法定程",
+      "rule_score": 0.5,
+      "bert_score": 0.9998016953468323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據與理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998117089271545,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告於事實欄所示之時、地先後與告訴人廖曬琇碰面，告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997257590293884,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、證人即告訴人先於警詢時證稱：我在113年3月5日14時59分許",
+      "rule_score": 0.5,
+      "bert_score": 0.9997255206108093,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、被告於本院審理時供稱：我沒有寫借據或簽收單給告訴人，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997277855873108,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 174,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、被告固抗辯我沒有跟告訴人說可以貸款5萬元，我跟告訴人是",
+      "rule_score": 0.5,
+      "bert_score": 0.9997242093086243,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 186,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、綜上所述，本案事證明確，被告前開所辯不足採信，被告犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9996700286865234,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯刑法第339條第1項之詐欺取財罪。被告就",
+      "rule_score": 0.5,
+      "bert_score": 0.9996755123138428,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、爰以行為人責任為基礎，審酌被告不思以正當途徑工作謀生",
+      "rule_score": 0.5,
+      "bert_score": 0.9997270703315735,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "source_file": "data/filted/TPDM,113,易,333,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:28.966946",
+  "processing_time": 0.037082672119140625,
+  "statistics": {
+    "total_lines": 184,
+    "candidate_lines": 10,
+    "bert_processed_lines": 10,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 184,
+    "positive_predictions": 10,
+    "positive_ratio": 0.05434782608695652,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 166,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 8,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 10,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9997657358646392,
+      "std": 3.572547525877401e-05,
+      "min": 0.9996993541717529,
+      "max": 0.9998152852058411,
+      "count": 10
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告余瑞麒、王震傑、吳家宇（下合稱余瑞",
+      "rule_score": 0.5,
+      "bert_score": 0.9998152852058411,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實，又",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認余瑞麒等3人涉有上開罪嫌，主要係以余瑞麒等3",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據余瑞麒等3人均堅詞否認有何恐嚇危安之犯行，余瑞麒",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠告訴人於111年8月18日某時許，搭車前往本案住處，並與余",
+      "rule_score": 0.5,
+      "bert_score": 0.9997428059577942,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡查，證人謝偉宏於警詢時係指稱：其當初有向余瑞麒借貸新",
+      "rule_score": 0.5,
+      "bert_score": 0.9997239708900452,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢又證人李哲豪雖有依告訴人之指示報警，然證人李哲豪於警",
+      "rule_score": 0.5,
+      "bert_score": 0.9997727274894714,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣按被告或共犯之自白，不得作為有罪判決之唯一證據，仍應",
+      "rule_score": 0.5,
+      "bert_score": 0.9996993541717529,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 135,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤查，余瑞麒於警詢時雖曾供稱：當時伊係開玩笑的說要將告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997401833534241,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，本案公訴意旨所提出之證據，就余瑞麒等3人是",
+      "rule_score": 0.5,
+      "bert_score": 0.9997753500938416,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1190,20250113,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:44.329109",
+  "processing_time": 0.32179760932922363,
+  "statistics": {
+    "total_lines": 143,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 17,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 17,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 143,
+    "positive_predictions": 17,
+    "positive_ratio": 0.11888111888111888,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 121,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 17
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "大寫中文數字": 2,
+      "圍字數字": 8
+    },
+    "bert_score_stats": {
+      "mean": 0.9444954680123677,
+      "std": 0.2279291468751731,
+      "min": 0.004719531629234552,
+      "max": 0.9998195767402649,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、許畯傑明知愷他命、3,4亞甲基雙氧甲基卡西酮均係毒品危",
+      "rule_score": 0.5,
+      "bert_score": 0.9998111128807068,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局大安分局報告臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998195767402649,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告以外之人於審判外之陳述，雖不符刑事訴訟法第159條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、其餘所憑認定被告犯罪事實之各項非供述證據，查無違反法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、得心證之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997969269752502,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠上揭犯罪事實，業據被告許畯傑於偵訊時、本院準備程序及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997159838676453,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡綜上所述，本案事證明確，被告犯行洵堪認定，應依法論罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9996912479400635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯毒品危害防制條例第5條第3項之意圖販賣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997373223304749,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡刑之減輕事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997709393501282,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人責任為基礎，審酌被告明知如附表一所示毒品對身心之危害，竟無視國家杜絕毒品犯罪之禁令而為本案犯行，雖毒品未及流入市面前即遭警查獲，尚未對社會治安產生重大實害，然其意圖販賣而持有之第三級毒品數量達156包（如附表一編號1、5所示）、87包（如附表一編號2至4所示），數量非少，一旦販賣流出，將對社會治安及他人健康構成危害，助長毒品泛濫，戕害國民身心健康，破壞社會治安，兼衡被告於審理中自陳大學肄業、從事酒店幹部、需要扶養父親及女兒，以及其犯後均坦承犯行之犯後態度、素行等一切情況，量處如主文第一項所示之刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997931122779846,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 78,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告未曾因故意犯罪受有期徒刑以上之刑之宣告，此有臺灣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997428059577942,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠違禁物：按違禁物，不問屬於犯罪行為人與否，沒收之，刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997451901435852,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡其餘扣案物：檢察官雖就扣案如附表二編號6所示之手機聲請",
+      "rule_score": 0.5,
+      "bert_score": 0.9997746348381042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

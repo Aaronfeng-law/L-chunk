@@ -1,0 +1,341 @@
+{
+  "source_file": "data/filted/TPDM,114,審簡,97,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:09.616635",
+  "processing_time": 0.08538031578063965,
+  "statistics": {
+    "total_lines": 130,
+    "candidate_lines": 29,
+    "bert_processed_lines": 29,
+    "total_markers": 27,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 27,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 130,
+    "positive_predictions": 27,
+    "positive_ratio": 0.2076923076923077,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 101,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 29,
+        "positive": 27
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 27
+    },
+    "bert_score_stats": {
+      "mean": 0.9310831440419987,
+      "std": 0.2524335549805072,
+      "min": 0.002822927199304104,
+      "max": 0.9998202919960022,
+      "count": 29
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據部分補充被告盧曉弘於本院準",
+      "rule_score": 0.5,
+      "bert_score": 0.999804675579071,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 16,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯家庭暴力防治法第61條第1款之違反保護",
+      "rule_score": 0.5,
+      "bert_score": 0.9997958540916443,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰以行為人之責任為基礎，審酌被告未遵守本院通常保護令",
+      "rule_score": 0.5,
+      "bert_score": 0.9998202919960022,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、再被告前未曾因故意犯罪受有期徒刑以上刑之宣告，此有臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第2項、第3項、第454條第2項，家庭",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本件判決，得自收受送達之日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.99978107213974,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、禁止實施家庭暴力。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997908473014832,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、禁止騷擾、接觸、跟蹤、通話、通信或其他非必要之聯絡行",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、遷出住居所。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、遠離住居所、工作場所、學校或其他特定場所。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997686743736267,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 76,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、完成加害人處遇計畫。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997772574424744,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、禁止未經被害人同意，重製、散布、播送、交付、公然陳列",
+      "rule_score": 0.5,
+      "bert_score": 0.9997629523277283,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、交付或刪除所持有之被害人性影像。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997612833976746,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、刪除或向網際網路平臺提供者、網際網路應用服務提供者或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997736811637878,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、盧曉弘與甲○○、盧○竹（真實姓名詳卷）分別係夫妻、父",
+      "rule_score": 0.5,
+      "bert_score": 0.9998124241828918,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經新北市政府警察局新店分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告所為，係犯家庭暴力防治法第61條第1 款、第2 款之",
+      "rule_score": 0.5,
+      "bert_score": 0.999797523021698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 120,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、禁止實施家庭暴力。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997908473014832,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、禁止騷擾、接觸、跟蹤、通話、通信或其他非必要之聯絡行",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 123,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、遷出住居所。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、遠離住居所、工作場所、學校或其他特定場所。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997686743736267,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、完成加害人處遇計畫。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997772574424744,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、禁止未經被害人同意，重製、散布、播送、交付、公然陳列",
+      "rule_score": 0.5,
+      "bert_score": 0.9997629523277283,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、交付或刪除所持有之被害人性影像。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997612833976746,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、刪除或向網際網路平臺提供者、網際網路應用服務提供者或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997736811637878,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "source_file": "data/filted/TPDM,113,交簡上,129,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:13.950393",
+  "processing_time": 0.02517867088317871,
+  "statistics": {
+    "total_lines": 65,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 65,
+    "positive_predictions": 5,
+    "positive_ratio": 0.07692307692307693,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 57,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3,
+      "圍字數字": 2
+    },
+    "bert_score_stats": {
+      "mean": 0.9997783064842224,
+      "std": 4.103608333867599e-05,
+      "min": 0.999724805355072,
+      "max": 0.9998193383216858,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案經本院第二審合議庭審理結果，認原審判決被告楊俊宏",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、駁回上訴之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998193383216858,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告對原判決所認定之事實及適用法律均無爭執，上訴意旨",
+      "rule_score": 0.5,
+      "bert_score": 0.999724805355072,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 25,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡關於刑之量定，原審已依刑法第57條各款所列情狀，審酌被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997321963310242,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、緩刑之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.999811589717865,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

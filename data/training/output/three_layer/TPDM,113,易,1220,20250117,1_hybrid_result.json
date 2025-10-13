@@ -1,0 +1,170 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1220,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.688823",
+  "processing_time": 0.0317072868347168,
+  "statistics": {
+    "total_lines": 94,
+    "candidate_lines": 12,
+    "bert_processed_lines": 12,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 94,
+    "positive_predictions": 11,
+    "positive_ratio": 0.11702127659574468,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 78,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 12,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9167281237896532,
+      "std": 0.27544892777616925,
+      "min": 0.003167388029396534,
+      "max": 0.9998231530189514,
+      "count": 12
+    }
+  },
+  "markers": [
+    {
+      "line_number": 20,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、鄭博安與代號AW000－H113310（真實姓名詳卷，下稱A女），",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠於民國113年3月下旬某日，在甲公司茶水間內，見A女與其言",
+      "rule_score": 0.5,
+      "bert_score": 0.9997468590736389,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡復於同年4月8日下午5時40分許，在甲公司辦公室外走廊，見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997733235359192,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經A女訴由臺北市政府警察局大安分局報告臺灣臺北地方",
+      "rule_score": 0.5,
+      "bert_score": 0.9998231530189514,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告鄭博安以外之人於審判外所為之陳述，悉經",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、上揭事實，業據被告鄭博安於院準備程序及審理時均坦承不",
+      "rule_score": 0.5,
+      "bert_score": 0.999808132648468,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，均係犯性騷擾防治法第25條第1項之性騷擾罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997192025184631,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告就事實欄一㈠、㈡2次犯行，犯意各別，行為互殊，應予分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997286200523376,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰以行為人之責任為基礎，審酌被告乘告訴人不及抗拒而為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997928738594055,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣本案不宜宣告緩刑之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997579455375671,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

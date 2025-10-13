@@ -1,0 +1,103 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1246,20250121,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.854835",
+  "processing_time": 0.02046513557434082,
+  "statistics": {
+    "total_lines": 145,
+    "candidate_lines": 5,
+    "bert_processed_lines": 5,
+    "total_markers": 5,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 5,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 145,
+    "positive_predictions": 5,
+    "positive_ratio": 0.034482758620689655,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 136,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 5,
+        "positive": 5
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.9998005867004395,
+      "std": 2.108669127890037e-05,
+      "min": 0.9997771382331848,
+      "max": 0.9998325109481812,
+      "count": 5
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告NARUSE TAKANORI(中文名：成瀨隆典，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998325109481812,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實，不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、次按對於現在不法之侵害，而出於防衛自己或他人權利之行",
+      "rule_score": 0.5,
+      "bert_score": 0.9998111128807068,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、公訴意旨認被告成瀨隆典涉犯上開罪嫌，無非以被告之供述",
+      "rule_score": 0.5,
+      "bert_score": 0.9997771382331848,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，本案依卷內相關證據，固可認告訴人於公訴意旨",
+      "rule_score": 0.5,
+      "bert_score": 0.999777615070343,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

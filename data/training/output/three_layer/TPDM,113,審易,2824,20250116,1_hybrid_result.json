@@ -1,0 +1,280 @@
+{
+  "source_file": "data/filted/TPDM,113,審易,2824,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:30.324605",
+  "processing_time": 0.09097909927368164,
+  "statistics": {
+    "total_lines": 463,
+    "candidate_lines": 34,
+    "bert_processed_lines": 34,
+    "total_markers": 21,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 21,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 463,
+    "positive_predictions": 21,
+    "positive_ratio": 0.04535637149028078,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 417,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 12,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 34,
+        "positive": 21
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.6189315171967096,
+      "std": 0.4840540161130304,
+      "min": 0.002871305914595723,
+      "max": 0.9998255372047424,
+      "count": 34
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本件犯罪事實及證據，除證據部分補充「被告戊○○於本院審",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告所為實有不該，惟念其犯後坦承犯行，衡以被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998219609260559,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告前未曾因故意犯罪受有期徒刑以上刑之宣告，有臺灣高",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本件判決，得自收受送達之翌日起20日內，向本院提",
+      "rule_score": 0.5,
+      "bert_score": 0.9997836947441101,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 161,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、戊○○（原名：林珮菁）為天主教輔仁大學法律系學士、國立",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠緣立法委員助理陳明生前於立法院工作期間認識戊○○，誤認",
+      "rule_score": 0.5,
+      "bert_score": 0.9997617602348328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 197,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡戊○○於112年間認識午○○後，竟意圖營利，基於無律師資格仍",
+      "rule_score": 0.5,
+      "bert_score": 0.9997535347938538,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢戊○○於111年間透過余孟庭認識有訴訟需求之己○○，知悉己○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997767806053162,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 224,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣戊○○與子○○配偶認識，而於111年間知悉子○○有訴訟需求，竟",
+      "rule_score": 0.5,
+      "bert_score": 0.9997685551643372,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 230,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤壬○○因無力清償債務，擬向新北地院及臺灣士林地方法院聲",
+      "rule_score": 0.5,
+      "bert_score": 0.99978107213974,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 241,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥戊○○於111年間認識有訴訟需求之辰○○，戊○○知悉辰○○誤以為",
+      "rule_score": 0.5,
+      "bert_score": 0.999762237071991,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 308,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧庚○○因投資長江公司受騙，111年間透過乙○○得知該公司業務",
+      "rule_score": 0.5,
+      "bert_score": 0.9997797608375549,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 321,
+      "symbol": "㈨",
+      "unicode_code": "U+3228",
+      "category": "圍字數字",
+      "content": "㈨癸○○為長江案被害人，於112年1月間，透過乙○○得知該公司",
+      "rule_score": 0.5,
+      "bert_score": 0.9997339844703674,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 330,
+      "symbol": "㈩",
+      "unicode_code": "U+3229",
+      "category": "圍字數字",
+      "content": "㈩辛○○為長江案被害人，於112年間透過乙○○得知該公司業務及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997138381004333,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 349,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經酉○○、辰○○、甲○○、寅○○、乙○○、未○○、卯○○、申○○、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998255372047424,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 353,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 355,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告戊○○就犯罪事實（一）至（三）、（五）至（十）所",
+      "rule_score": 0.5,
+      "bert_score": 0.9998016953468323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 375,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至告訴人甲○○另指訴：（一）其另有債清案件支付1萬5,000",
+      "rule_score": 0.5,
+      "bert_score": 0.9998157620429993,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 403,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

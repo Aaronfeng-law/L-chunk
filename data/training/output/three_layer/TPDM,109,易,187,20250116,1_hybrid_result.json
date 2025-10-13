@@ -1,0 +1,590 @@
+{
+  "source_file": "data/filted/TPDM,109,易,187,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:24:47.418167",
+  "processing_time": 0.4897468090057373,
+  "statistics": {
+    "total_lines": 557,
+    "candidate_lines": 58,
+    "bert_processed_lines": 58,
+    "total_markers": 49,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 49,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 557,
+    "positive_predictions": 49,
+    "positive_ratio": 0.08797127468581688,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 487,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 12,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 58,
+        "positive": 49
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 19,
+      "天干": 2,
+      "大寫中文數字": 8,
+      "圍字數字": 20
+    },
+    "bert_score_stats": {
+      "mean": 0.8455425534148475,
+      "std": 0.35988321158358716,
+      "min": 0.002831336809322238,
+      "max": 0.9998249411582947,
+      "count": 58
+    }
+  },
+  "markers": [
+    {
+      "line_number": 31,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、邱創智經梁志遠介紹而結識慶京不動產有限公司(起訴書誤",
+      "rule_score": 0.5,
+      "bert_score": 0.9997983574867249,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經法務部調查局臺北市調查處移送臺灣臺北地方檢察署(",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告以外之人於審判外所為之陳述，悉經當事人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本判決資以認定被告犯罪事實之非供述證據，查無違反法定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998108744621277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告邱創智經梁志遠介紹而結識慶京公司之負責人陳山偉，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997166991233826,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按未取得律師資格，意圖營利而辦理訴訟事件者，嚴重破壞",
+      "rule_score": 0.5,
+      "bert_score": 0.9997261166572571,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告邱創智固辯稱：我不認為起訴書所載的詐欺內容是事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9997221827507019,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣從而，本案事證明確，被告邱創智犯行足堪認定，應依法論",
+      "rule_score": 0.5,
+      "bert_score": 0.9997579455375671,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠新舊法比較之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997472167015076,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告邱創智所為，係犯刑法第339條第1項之詐欺取財罪、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997275471687317,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按刑事訴訟法第95條所為罪名告知義務之規定，旨在使被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997478127479553,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告以一行為同時觸犯上開各罪，為想像競合犯，應從一重",
+      "rule_score": 0.5,
+      "bert_score": 0.9996988773345947,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌被告邱創智未具律師身分，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥不予緩刑之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、無罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、公訴意旨略以：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998160004615784,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 169,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告邱創智明知其未合法取得律師資格，不得設立事務所而",
+      "rule_score": 0.5,
+      "bert_score": 0.9998205304145813,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、嗣因被告邱創智、梁志遠、邱靖貽3人合夥經營宸翰法律事",
+      "rule_score": 0.5,
+      "bert_score": 0.9998249411582947,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.999790608882904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、公訴意旨認被告邱創智、梁志遠、邱靖貽、林延慶涉犯上開",
+      "rule_score": 0.5,
+      "bert_score": 0.9997711777687073,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 264,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、按修正前律師法第50條第1項規定：「未取得律師資格，意",
+      "rule_score": 0.5,
+      "bert_score": 0.9997828602790833,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "伍、關於公訴意旨一之被告邱創智、梁志遠、邱靖貽部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997636675834656,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 311,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告邱創智、梁志遠均未具律師資格，被告邱靖貽領有法務",
+      "rule_score": 0.5,
+      "bert_score": 0.9997984766960144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 331,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、查本案合資契約第2條記載：「甲乙丙(按依序為被告邱創智",
+      "rule_score": 0.5,
+      "bert_score": 0.9998134970664978,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 342,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依卷內現存事證，就被告邱靖貽等3人實際合夥經營「宸翰",
+      "rule_score": 0.5,
+      "bert_score": 0.9997984766960144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 345,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠證人吳甲乙證稱：我記得邱創智公司名稱是宸翰公司等語(見",
+      "rule_score": 0.5,
+      "bert_score": 0.9997647404670715,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 364,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡附表一編號1之案件，係由吳甲乙、被告邱靖貽簽立委任契約",
+      "rule_score": 0.5,
+      "bert_score": 0.999747097492218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 378,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢經本院勘驗現名為「宸翰法律事務所」之臉書粉絲專頁紀錄",
+      "rule_score": 0.5,
+      "bert_score": 0.9997628331184387,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 389,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣依本案合資契約上開條約內容，可見被告邱靖貽等3人約定合",
+      "rule_score": 0.5,
+      "bert_score": 0.9997525811195374,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 394,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤從而，公訴意旨固稱被告邱靖貽等3人於104年7月至105年底",
+      "rule_score": 0.5,
+      "bert_score": 0.9997696280479431,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 398,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、公訴意旨固稱被告邱靖貽等3人以合資經營宸翰公司方式，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997887015342712,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 402,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按各合夥人之出資及其他合夥財產，為合夥人全體之公同共",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 414,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告邱靖貽、梁志遠均曾分別以梁志遠顧問工作室、邱靖貽",
+      "rule_score": 0.5,
+      "bert_score": 0.9997426867485046,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 432,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告邱靖貽固受附表一編號1至6 、8 至10「委託人」欄所",
+      "rule_score": 0.5,
+      "bert_score": 0.999782383441925,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 444,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，本件檢察官起訴所憑之證據，尚未達於通常一般",
+      "rule_score": 0.5,
+      "bert_score": 0.9997761845588684,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 448,
+      "symbol": "陸",
+      "unicode_code": "U+9678",
+      "category": "大寫中文數字",
+      "content": "陸、關於公訴意旨二之被告邱創智、林延慶部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997749924659729,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 459,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告邱創智未具律師資格，被告林延慶領有法務部96臺檢證",
+      "rule_score": 0.5,
+      "bert_score": 0.9998125433921814,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 476,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按稱合夥者，謂二人以上互約出資以經營共同事業之契約，",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 489,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、縱被告邱創智有如公訴意旨所稱對外招攬、參與附表二案件",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 496,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告林延慶等2人間曾透過Line而為如附表四所示對話內容，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997138381004333,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 507,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡倘若被告林延慶等2人係合夥經營宸翰法律事務所，依前揭民",
+      "rule_score": 0.5,
+      "bert_score": 0.999772846698761,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 524,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢至附表二案件之委託人主觀上如何認知、解讀被告林延慶等2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997521042823792,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 530,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、綜上所述，依卷內現有事證，尚難證明被告林延慶等2人確",
+      "rule_score": 0.5,
+      "bert_score": 0.9997904896736145,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

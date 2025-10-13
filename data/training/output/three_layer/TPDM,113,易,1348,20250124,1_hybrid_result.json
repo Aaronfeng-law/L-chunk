@@ -1,0 +1,170 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1348,20250124,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:27.580123",
+  "processing_time": 0.48877763748168945,
+  "statistics": {
+    "total_lines": 112,
+    "candidate_lines": 13,
+    "bert_processed_lines": 13,
+    "total_markers": 11,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 11,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 112,
+    "positive_predictions": 11,
+    "positive_ratio": 0.09821428571428571,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 97,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 13,
+        "positive": 11
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6,
+      "圍字數字": 5
+    },
+    "bert_score_stats": {
+      "mean": 0.8464856905182108,
+      "std": 0.3595036321007019,
+      "min": 0.0031019432935863733,
+      "max": 0.999825656414032,
+      "count": 13
+    }
+  },
+  "markers": [
+    {
+      "line_number": 12,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告乙○○於民國113年1月1日上午3時許，與",
+      "rule_score": 0.5,
+      "bert_score": 0.999825656414032,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 19,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實。又",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告涉有上開傷害犯嫌，無非係以被告乙○○於警",
+      "rule_score": 0.5,
+      "bert_score": 0.9998010993003845,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告矢口否認有何傷害犯行，辯稱：伊與告訴人於112",
+      "rule_score": 0.5,
+      "bert_score": 0.9997929930686951,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告、告訴人、證人楊佩師三人於113年1月1日凌晨3時許，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997389912605286,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡關於被告是否曾在共乘之計程車內徒手毆打告訴人，致告訴 人受有頭部外傷合併鼻子挫傷，疑似鼻骨骨折、上唇擦挫傷等傷害乙節，雖據告訴人於警詢、偵查中指稱：113年1月1日上午3時許，我、被告、楊佩師三人從ATT4FUN信義店搭計程車，預計要返回我的現住地、接著再讓司機載被告及楊佩師回家…我們三人都坐在後座，被告坐在最左邊、我坐中間…因為先前談事情時，被告態度不是很好，所以我在車上生氣說我要丟掉她的手機，我就去拿被告的手機，我拿過來後，她左手試圖取回她的手機，右手一直打我的臉…被告一隻手護著手機，另一隻手攻擊我…因為我們不斷爭執，司機覺得很危險，就停在仁愛圓環那邊把我們趕下車…下車之後被告趕緊離開，當時我想追被告，但楊佩師拉著我等語（見偵卷第13至15頁，調院偵卷第29至31頁），惟嗣於本院審理時則證稱：113年1月1日上午3時許跟被告碰面，是因為那時我們兩個已經一陣子沒碰面，我心有不甘，想質問她為何這樣對我，讓我人生下半年過這麼慘，她卻依然過得很開心，我就是賭氣，想要當面跟她談清楚…我去找被告時，現場人多，她說不要在那邊談，我們就看是要回她家或我家談，便共上一輛計程車，我朋友楊佩師是知道我狀況不放心才跟著…被告先進計程車坐在後座（即司機後方），我坐在後座右方，我朋友楊佩師坐在副駕駛座…我跟被告在仁愛跟敦化北路圓環那邊發生拉扯，我說要拿被告手機，她不讓我拿就推打我的臉，司機覺得危險，就靠路邊趕我們下車…（問：請具體說明被告推打妳哪裡？）主要是臉，但我當下沒感覺，一直到楊佩師送我回到家都沒感覺，天色暗，所以楊佩師也沒發現，等我上廁所時發現臉瘀青、嘴巴腫起來整個都流血，才想說是在計程車上遭被告毆打的…我先去我家附近醫院急診，很不爽，就又聯絡被告，去她家找她等語（見本院易字卷第75至84頁），可知告訴人針對其個人、被告、證人楊佩師三人於共乘一輛計程車上之短短路程期間，彼此相對位置究竟為何，所述已前後迥異。復參以告訴人於113年1月1日上午8時43分傳送「救我」的訊息予被告，被告則於同日下午3時5分許回傳「回家小心，好好養生先別再喝酒了」（見本院簡字卷第85頁之手機訊息擷圖），衡諸常情，果若告訴人確遭被告徒手毆傷，當盡量避免與「加害人」聯繫或見面，焉有主動向對方求助、甚於不到數小時內又自行主動前往被告住家，要求入內甚至留宿數小時才行離去之理？故告訴人之指述是否與事實相符，已孳疑義。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997929930686951,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢復參以告訴人提出之博仁綜合醫院(乙種)診斷證明書1紙上固載告訴人受有「頭部外傷合併鼻子挫傷，疑似鼻骨骨折、上唇擦挫傷」等旨（見偵卷第17頁），然經本院依職權調閱該次急診病歷（見本院易字卷第35至41頁），告訴人實係於「113年1月1日上午7時23分」到院接受診斷，此距離案發當時已逾4小時；而稽諸證人楊佩師於偵查中證稱：我坐在計程車上的副駕駛座…被告與告訴人在後座有爭執，司機就已經靠邊停不想載我們，我下車時想把告訴人拉下車…我正在下車時，有看到被告在揮手，不清楚被告有沒有打到告訴人的臉或是哪裡等語（見調院偵卷第30頁），可知證人楊佩師並未目擊被告在車內有何徒手毆打告訴人之舉，矧且，無論是告訴人自己或證人楊佩師，都未於車內或後續楊佩師護送告訴人返家期間，發現告訴人有何頭臉鼻部之傷勢，則告訴人所謂之傷勢係如何造成、抑或於此4小時內有無其他因素致傷，尚屬不明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997819066047668,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 70,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣再者，徵諸告訴人先前於112年12月22日晚間某時（即本案案",
+      "rule_score": 0.5,
+      "bert_score": 0.9997434020042419,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤基上脈絡，本件被告與告訴人固曾在計程車內發生爭執，惟",
+      "rule_score": 0.5,
+      "bert_score": 0.9997236132621765,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上，公訴人所舉事證，尚難使本院達於通常一般之人均不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997938275337219,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

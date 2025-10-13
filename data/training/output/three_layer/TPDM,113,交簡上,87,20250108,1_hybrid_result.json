@@ -1,0 +1,126 @@
+{
+  "source_file": "data/filted/TPDM,113,交簡上,87,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:15.496297",
+  "processing_time": 0.025470733642578125,
+  "statistics": {
+    "total_lines": 75,
+    "candidate_lines": 7,
+    "bert_processed_lines": 7,
+    "total_markers": 7,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 7,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 75,
+    "positive_predictions": 7,
+    "positive_ratio": 0.09333333333333334,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 66,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 7,
+        "positive": 7
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9997771722929818,
+      "std": 2.860382228911849e-05,
+      "min": 0.9997326731681824,
+      "max": 0.9998090863227844,
+      "count": 7
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本院審理範圍：按上訴得對於判決之一部為之，亦得明示僅",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、檢察官依告訴人李韋慶之請求，提起上訴意旨略以：被告蕭",
+      "rule_score": 0.5,
+      "bert_score": 0.9998090863227844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告上訴意旨略以：本案車禍事故案情單純，告訴人受有左",
+      "rule_score": 0.5,
+      "bert_score": 0.9998072981834412,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997790455818176,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按量刑之輕重，係事實審法院得依職權自由裁量之事項，茍",
+      "rule_score": 0.5,
+      "bert_score": 0.9997460246086121,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於本院中坦承犯行，並有原審判決所引用之證據在卷可",
+      "rule_score": 0.5,
+      "bert_score": 0.9997326731681824,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢末查，被告前因竊盜案件，經臺灣桃園地方法院95年度壢簡",
+      "rule_score": 0.5,
+      "bert_score": 0.9997633099555969,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

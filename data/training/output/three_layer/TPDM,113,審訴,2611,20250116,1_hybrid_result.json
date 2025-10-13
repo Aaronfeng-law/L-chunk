@@ -1,0 +1,491 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,2611,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:16.103051",
+  "processing_time": 1.830632209777832,
+  "statistics": {
+    "total_lines": 346,
+    "candidate_lines": 44,
+    "bert_processed_lines": 44,
+    "total_markers": 40,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 40,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 346,
+    "positive_predictions": 40,
+    "positive_ratio": 0.11560693641618497,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 286,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 16,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 44,
+        "positive": 40
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 32,
+      "大寫中文數字": 3,
+      "圍字數字": 2,
+      "括號數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9092132576307367,
+      "std": 0.28643411059196566,
+      "min": 0.0028946083039045334,
+      "max": 0.9998360872268677,
+      "count": 44
+    }
+  },
+  "markers": [
+    {
+      "line_number": 32,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、林佳男犯如附表編號1所示之罪，處如附表編號1「宣告刑」",
+      "rule_score": 0.5,
+      "bert_score": 0.9998288154602051,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、陳凱翔犯如附表編號2所示之罪，處如附表編號2「宣告刑」",
+      "rule_score": 0.5,
+      "bert_score": 0.9998217225074768,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、林禹辰犯如附表編號3所示之罪，處如附表編號3「宣告刑」",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、戴堃哲犯如附表編號4所示之罪，處如附表編號4「宣告刑」",
+      "rule_score": 0.5,
+      "bert_score": 0.9998041987419128,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、本案依刑事訴訟法第310條之2準用同法第454條第2項規定，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實，應予更正如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據部分另應補充增列「被告林佳男、陳凱翔、林禹辰、戴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998087286949158,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、論罪科刑之依據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：按行為後法律有變更者，適用行為時之法律，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998098015785217,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二。有期徒刑之減輕，應就其最高度及最低度同減輕之，然",
+      "rule_score": 0.5,
+      "bert_score": 0.9997405409812927,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠關於詐欺犯罪危害防制條例部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997430443763733,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡關於洗錢防制法部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997374415397644,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴被告4人本案洗錢之財物均未達1億元，且被告陳凱翔對於",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 143,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵另經本院函詢承辦分局即臺北市政府警察局文山第二分局之結果，就被告陳凱翔、林禹辰、戴堃哲部分，上開分局函覆以：警方均沒有因其自白而查獲發起、主持、操縱或指揮詐欺犯罪組織之人，或其他正犯、共犯者；另被告林佳男部分，上開分局函覆以：警方沒有因其自白而查獲發起、主持、操縱或指揮詐欺犯罪組織之人，惟讓警方鎖定其他正犯魏瓊苓並查獲到案，警方依被告林佳男於警詢中供述，故知悉其他正犯魏瓊苓，涉嫌於詐騙集團中擔任收水一職（通訊軟體飛機暱稱：控控），警方後循線於113年7月4日查獲魏瓊苓到案，魏瓊苓於警詢筆錄中對其犯行坦承不諱，案件已於同日移送至本分局偵查隊接續辦理。警方在事前並無情資鎖定其他正犯魏瓊苓等節，有上開分局113年12月5日北市警文二分刑字第1133034239號函暨其檢附之職務報告在卷可憑（見本院卷第107至109頁），並有被告林佳男之警詢筆錄附卷為佐（見偵字卷第35至36頁），是除被告林佳男部分，當有洗錢防制法第23條第3項後段規定之適用外，其餘被告部分均無洗錢防制法第23條第3項後段規定之適用。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996142387390137,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶綜其全部罪刑之結果而為比較，被告陳凱翔、林禹辰部分，行為時法之處斷刑範圍均為有期徒刑1月以上6年11月以下，裁判時法之處斷刑範圍則為有期徒刑3月以上4年11月以下；被告戴堃哲部分，行為時法之處斷刑範圍為有期徒刑1月以上6年11月以下，裁判時法之處斷刑範圍則為有期徒刑6月以上5年以下；被告林佳男部分，行為時法之處斷刑範圍為有期徒刑1月以上6年11月以下，裁判時法之處斷刑範圍則為有期徒刑2月以上4年11月以下，是依刑法第2條第1項但書之規定，均應以裁判時法有利於上開被告。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997102618217468,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告林佳男就附表編號1；被告陳凱翔就附表編號2；被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998028874397278,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告4人與通訊軟體飛機暱稱「控控」者（即魏瓊苓）及其",
+      "rule_score": 0.5,
+      "bert_score": 0.9997996687889099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、如附表編號1所示收據，依被告林佳男於警詢中供稱：是上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告林佳男就附表編號1⑴⑵所示對被害人先後所為三人以上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997949004173279,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 170,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、被告4人上開所為，各係以一行為而觸犯數罪名，為想像競",
+      "rule_score": 0.5,
+      "bert_score": 0.9997503161430359,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、被告4人行為後，詐欺犯罪危害防制條例業於113年7月31日",
+      "rule_score": 0.5,
+      "bert_score": 0.99979168176651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 191,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、爰以行為人之責任為基礎，審酌被告4人於本案均擔任面交取款車手，漠視他人財產權，危害公司文書信用，對社會治安造成相當之影響，均應予非難；併參以渠等犯後均坦承犯行；就洗錢犯行部分，被告陳凱翔、林禹辰、林佳男均於偵查中、本院準備程序中及審理時均自白在卷，且被告陳凱翔、林禹辰部分均無犯罪所得，另因被告林佳男自白而使警方查獲收水魏瓊苓等節，已如前述，依上開說明，被告陳凱翔、林禹辰、林佳男上開犯行均從一重論處三人以上共同詐欺取財罪，就此部分想像競合輕罪，被告陳凱翔、林禹辰均得依洗錢防制法第23條第3項前段規定減輕其刑部分；被告林佳男得依洗錢防制法第23條第3項後段規定減輕其刑部分，均依刑法第57條併予審酌之；另考量渠等已與被害人達成調解，此有本院調解筆錄影本附卷可憑（見本院卷第203至205頁）等犯後態度；兼衡渠等於本案擔任角色之涉案程度，犯罪所生損害；再審酌被告林佳男自述高中畢業之智識程度，入監前從事服務業，月收入3萬元，未婚，需扶養母親等家庭生活經濟狀況；被告陳凱翔自述大專肄業之智識程度，入監前在直播公司擔任副店長，月收入6萬元，離婚，需扶養1名幼子及父親等家庭生活經濟狀況；被告林禹辰自述大學畢業之智識程度，入監前從事服務業，月收入3萬元，未婚，需扶養父親等家庭生活經濟狀況；被告戴堃哲自述高中畢業之智識程度，入監前從事餐飲業，月收入3萬元，未婚，無扶養對象等家庭生活經濟狀況（見本院卷第194頁）暨渠等犯罪之動機、目的及手段等一切情狀，爰分別量處如主文（即附表編號1至4「宣告刑」欄）所示之刑，以示懲儆。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998181462287903,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、沒收部分：按沒收適用裁判時之法律；本法總則於其他法律",
+      "rule_score": 0.5,
+      "bert_score": 0.9997698664665222,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 204,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、如附表「偽造之印文、署押」欄所示偽造之印文共9枚、署押共4枚，均應依刑法第219條規定宣告沒收。至如附表所示偽造之收據部分，固係被告4人犯詐欺犯罪所用之物，惟既經渠等交與被害人收執，已非渠等所有，爰均不予宣告沒收。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998360872268677,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 205,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告戴堃哲因本案犯行獲得報酬2,000元；被告林佳男因本",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 214,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至被告陳凱翔、林禹辰並未因本案犯行獲有任何薪資、車馬",
+      "rule_score": 0.5,
+      "bert_score": 0.9997971653938293,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、另被告4人依指示向被害人所收取之受騙款項，固係洗錢之財物，惟渠等已依指示交與本案詐欺集團成員等節，業據渠等於偵查中供承在卷（【被告林佳男部分】：見偵字卷第235頁；【被告陳凱翔部分】：見偵字卷第238頁；【被告戴堃哲部分】：見偵字卷第210頁；【被告林禹辰部分】：見偵字卷第214頁），卷內復無證據證明渠等就上開款項有何事實上管領處分權限，如宣告沒收上開洗錢之財物，容有過苛之虞，爰依刑法第38條之2第2項規定，均不予宣告沒收。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 247,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 248,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 251,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 285,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、林佳男、陳凱翔、林禹辰、戴堃哲加入真實姓名年籍不詳、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998000264167786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 296,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經劉育瑞訴由臺北市政府警察局文山第二分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998155236244202,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 298,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 300,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告等人行為後，洗錢防制法於113年7月31日修正公布，於",
+      "rule_score": 0.5,
+      "bert_score": 0.9998220801353455,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 306,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、核被告4人所為，均係犯刑法第216條、第210條行使偽造私",
+      "rule_score": 0.5,
+      "bert_score": 0.9997832179069519,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 313,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997796416282654,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 333,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 334,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 335,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

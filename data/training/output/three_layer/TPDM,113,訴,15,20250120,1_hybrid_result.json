@@ -1,0 +1,535 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,15,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:50.187825",
+  "processing_time": 2.1769142150878906,
+  "statistics": {
+    "total_lines": 497,
+    "candidate_lines": 52,
+    "bert_processed_lines": 52,
+    "total_markers": 44,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 44,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 497,
+    "positive_predictions": 44,
+    "positive_ratio": 0.08853118712273642,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 436,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 9,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 52,
+        "positive": 44
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 11,
+      "大寫中文數字": 4,
+      "圍字數字": 23,
+      "全形數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.8464974468582883,
+      "std": 0.3594359584115392,
+      "min": 0.0028074285946786404,
+      "max": 0.9998347759246826,
+      "count": 52
+    }
+  },
+  "markers": [
+    {
+      "line_number": 27,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、緣己○○為網路博弈遊戲版主，而丙○○、乙○○參與己○○介紹之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998347759246826,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經丙○○訴由臺中市政府警察局豐原分局報告臺灣臺北地方",
+      "rule_score": 0.5,
+      "bert_score": 0.9998236298561096,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、供述證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 63,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、證人即告訴人丙○○、證人即被害人乙○○及證人即被告戊○○友",
+      "rule_score": 0.5,
+      "bert_score": 0.9997877478599548,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 67,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、按被告以外之人於檢察事務官、司法警察官或司法警察調查",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、被告己○○、戊○○、丁○○之辯護人雖均爭執證人即告訴人及證",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、其餘本判決所引用被告以外之人於審判外之陳述，均具有證",
+      "rule_score": 0.5,
+      "bert_score": 0.9997101426124573,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998019337654114,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 126,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、其餘本判決所引用被告以外之人於審判外之陳述，被告戊○○",
+      "rule_score": 0.5,
+      "bert_score": 0.9997684359550476,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、非供述證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9998056292533875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告3人於本院審理中均坦承不諱（本",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 164,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、公訴意旨雖認被告3人本案所為係涉犯刑法第330條第2項、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按刑法之強盜罪，係以意圖為自己或第三人不法之所有，以",
+      "rule_score": 0.5,
+      "bert_score": 0.9996871948242188,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、告訴人及被害人於案發地點遭被告3人及其他真實姓名、年籍",
+      "rule_score": 0.5,
+      "bert_score": 0.9997121691703796,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、針對告訴人所積欠之賭債金額，證人即告訴人於偵查及本院",
+      "rule_score": 0.5,
+      "bert_score": 0.9997472167015076,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 233,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、就被害人前是否確曾透過被告己○○參與網路博弈遊戲並因此",
+      "rule_score": 0.5,
+      "bert_score": 0.9997038245201111,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 278,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、至被害人於案發後雖曾與被告3人簽立和解書，此有前揭和解",
+      "rule_score": 0.5,
+      "bert_score": 0.9997113347053528,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 303,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、關於被告3人於案發時間毆打並私行拘禁被害人時之主觀認知",
+      "rule_score": 0.5,
+      "bert_score": 0.9997324347496033,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 325,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦、綜上，依據現存證據資料，尚難遽認被告3人於案發時間傷害",
+      "rule_score": 0.5,
+      "bert_score": 0.9998027682304382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 336,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、綜上，本案事證明確，被告3人上開犯行均堪以認定，應予",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 338,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 339,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、論罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9998094439506531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 340,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、查刑法第302條之1固於112年5月16日增訂，於同年5月31日經",
+      "rule_score": 0.5,
+      "bert_score": 0.9997146725654602,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 344,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、按刑法第302條第1項所謂以其他非法方法，剝奪人之行動自",
+      "rule_score": 0.5,
+      "bert_score": 0.9997296929359436,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 354,
+      "symbol": "１",
+      "unicode_code": "U+FF11",
+      "category": "全形數字",
+      "content": "１、告訴人及被害人於案發當日19時50分許進入案發地點後，隨",
+      "rule_score": 0.5,
+      "bert_score": 0.999779999256134,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 361,
+      "symbol": "２",
+      "unicode_code": "U+FF12",
+      "category": "全形數字",
+      "content": "２、告訴人於案發時間遭被告3人及其他真實姓名、年籍不詳之人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997817873954773,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 373,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、是核被告3人所為，均係犯刑法第277條第1項之傷害罪及刑法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997159838676453,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 383,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣、被告3人及其他真實姓名、年籍不詳之人就上開犯行，彼此間",
+      "rule_score": 0.5,
+      "bert_score": 0.9996957778930664,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 385,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤、被告3人自案發當日19時50分許對告訴人及被害人施以私行拘",
+      "rule_score": 0.5,
+      "bert_score": 0.9997227787971497,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 396,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥、按累犯事實之有無，雖與被告是否有罪無關，然係攸關刑罰加重且對被告不利之事項，為刑之應否為類型性之加重事實，就被告而言，與有罪、無罪之問題有其相同之重要性，自應由檢察官負主張及實質舉證責任；倘檢察官未主張或具體指出證明方法時，可認檢察官並不認為被告構成累犯或有加重其刑予以延長矯正其惡性此一特別預防之必要，且為貫徹舉證責任之危險結果所當然，是法院不予調查，而未論以累犯或依累犯規定加重其刑，即難謂有應調查而不予調查之違法（最高法院110年度台上大字第5660號裁定意旨參照）。查被告戊○○固有因傷害及違反毒品危害防制條例案件、被告丁○○有因妨害性自主及妨害自由案件經法院判處有期徒刑確定之前案紀錄，此有臺灣高等法院被告前案紀錄表附卷可參（本院卷二第315至351頁），然本案檢察官既未主張被告戊○○及丁○○本案犯行構成累犯，或認被告戊○○及丁○○本案犯行有依累犯規定加重其刑之必要，則揆諸前揭說明，並參酌現行刑事訴訟法係採行改良式當事人進行主義之本旨，本院爰不審究被告戊○○及丁○○本案犯行是否構成累犯，或其等本案犯行有無依累犯規定加重其刑之必要。至記載被告戊○○及丁○○前案犯行紀錄之臺灣高等法院被告前案紀錄表，仍將列為刑法第57條第5款「犯罪行為人之品行」之量刑審酌事由。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 397,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997938275337219,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 398,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、爰以行為人之責任為基礎，審酌被告3人透過毆打告訴人、被害人及恫嚇告訴人之方式，私行拘禁告訴人、被害人並對告訴人遂行傷害犯行，侵害告訴人之身體法益、告訴人及被害人之自由法益，所為殊值非難，且被告3人雖均坦承犯行，亦已與告訴人及被害人達成和解，此有被告3人與告訴人間之和解協議書（本院卷ㄧ第143至144頁）、被告3人與被害人間之和解協議書（本院卷二第261至262頁）在卷可參，足認其等犯後態度尚可，然衡酌被告3人僅履行其等與被害人間之和解約定、尚未履行其等與告訴人間之和解內容，此分別業據告訴人及被害人於本院審理中指述明確（本院卷二第30、150頁），復考量告訴人及被害人本案所受傷勢之嚴重程度及其等遭剝奪行動自由之時間長度等情，本院認就被告3人本案犯行，仍應給予相當程度之處罰，併參酌被告3人參與本案之情節輕重，兼衡被告己○○前曾因賭博案件經法院判決有罪確定，被告戊○○曾因公共危險、偽造文書、過失致死、傷害、妨害自由、恐嚇取財得利、毀棄損壞、違反毒品危害防制條例案件經法院判決有罪確定，被告丁○○曾因妨害性自主、妨害自由及違反洗錢防制法案件經法院判決有罪確定等情，此有臺灣高等法院被告前案紀錄表附卷可佐（本院卷二第309至351頁），暨被告3人於本院審理程序中自述之智識程度及家庭經濟情況（本院卷二第297頁）等一切情狀，分別量處如主文所示之刑。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997841715812683,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 399,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、至辯護人固為被告丁○○請求本院為緩刑之宣告（本院卷一第292頁），然被告丁○○前曾因妨害自由及妨害性自主案件，經臺灣士林地方法院以110年度侵訴字第52號判決判處有期徒刑2月及6月，應執行有期徒刑7月確定，於111年6月6日易科罰金執行完畢，此有臺灣高等法院被告前案紀錄表附卷可佐（本院卷二第345頁），足見被告丁○○本案未符合刑法第74條第1項第1款所定「未曾因故意犯罪受有期徒刑以上刑之宣告」或同條項第2款所定「前因故意犯罪受有期徒刑以上刑之宣告，執行完畢或赦免後，5年以內未曾因故意犯罪受有期徒刑以上刑之宣告」之緩刑宣告要件，故被告丁○○之辯護人上揭所請，尚屬無據，無從准許。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997907280921936,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 400,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997946619987488,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 401,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、宣告沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998047947883606,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 402,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、按供犯罪所用、犯罪預備之物或犯罪所生之物，屬於犯罪行",
+      "rule_score": 0.5,
+      "bert_score": 0.999750554561615,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 404,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、扣案如附表編號1至3所示之物，依序為被告己○○、戊○○及丁○",
+      "rule_score": 0.5,
+      "bert_score": 0.9996631145477295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 418,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、扣案如附表編號4至10所示之物皆為被告己○○所有等情，業據",
+      "rule_score": 0.5,
+      "bert_score": 0.9997046589851379,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 428,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、不予宣告沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997950196266174,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 429,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、扣案如附表編號11所示之物，雖屬被告己○○所有等情，業據",
+      "rule_score": 0.5,
+      "bert_score": 0.9997076392173767,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 443,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、扣案如附表編號12至16所示之物，雖亦屬被告己○○所有等節",
+      "rule_score": 0.5,
+      "bert_score": 0.9996815919876099,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 457,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、就扣案如附表編號17至20所示之物，證人甲○○於警詢及偵查",
+      "rule_score": 0.5,
+      "bert_score": 0.9996849298477173,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

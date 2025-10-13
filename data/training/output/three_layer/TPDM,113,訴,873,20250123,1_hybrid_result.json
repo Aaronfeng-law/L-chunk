@@ -1,0 +1,348 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,873,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:58.035591",
+  "processing_time": 0.08474969863891602,
+  "statistics": {
+    "total_lines": 245,
+    "candidate_lines": 32,
+    "bert_processed_lines": 32,
+    "total_markers": 27,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 27,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 245,
+    "positive_predictions": 27,
+    "positive_ratio": 0.11020408163265306,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 211,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 32,
+        "positive": 27
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "大寫中文數字": 2,
+      "圍字數字": 9,
+      "括號數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8446353862818796,
+      "std": 0.36052071195422264,
+      "min": 0.003408829215914011,
+      "max": 0.9998278617858887,
+      "count": 32
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、黃典雅明知3,4-亞甲基雙氧甲基安非他命（簡稱MDMA，俗稱",
+      "rule_score": 0.5,
+      "bert_score": 0.9998123049736023,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經內政部警政署保安警察第三總隊第一大隊(下稱保安大",
+      "rule_score": 0.5,
+      "bert_score": 0.9998278617858887,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決所引被告以外之人於審判外所為之陳述，悉經當事人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本判決資以認定被告犯罪事實之非供述證據，查無違反法定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998078942298889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 58,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 59,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998108744621277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠查MDMA為毒品危害防制條例第2條第2項第2款所列第二級毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.9997428059577942,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告與本案毒品賣家就上開犯行，有犯意聯絡及行為分擔，",
+      "rule_score": 0.5,
+      "bert_score": 0.9996823072433472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告與本案毒品賣家利用不知情之運輸業者遂行本案運輸、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997414946556091,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告基於同一運輸毒品之目的，一行為觸犯運輸第二級毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.99972003698349,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤刑之減輕事由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997774958610535,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 107,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴按被告因供自己施用而犯毒品危害防制條例第4條之運輸毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.9998114705085754,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵被告於本院自承：我從來沒有施用過毒品，當時因面臨離婚",
+      "rule_score": 0.5,
+      "bert_score": 0.9997676014900208,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 132,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴按刑法第59條規定之酌量減輕其刑，必須犯罪另有特殊之原",
+      "rule_score": 0.5,
+      "bert_score": 0.9998158812522888,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 149,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵查被告為本案犯行固有不該，惟被告係聽信紀錄片所稱本案",
+      "rule_score": 0.5,
+      "bert_score": 0.999778687953949,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥爰以行為人之責任為基礎，審酌被告漠視法令禁制而為本案",
+      "rule_score": 0.5,
+      "bert_score": 0.9997747540473938,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦緩刑之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9997026324272156,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠扣案如附表編號2所示之物含有第二級毒品MDMA成分，屬違禁",
+      "rule_score": 0.5,
+      "bert_score": 0.9996857643127441,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 195,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡作為裝盛、掩飾本案毒品所用之扣案如附表編號3、4所示生",
+      "rule_score": 0.5,
+      "bert_score": 0.9997300505638123,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 234,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、為防止犯罪必要，禁止易供或常供犯罪使用之特定器物進口",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 236,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、為維護金融秩序或交易安全必要，禁止偽造、變造之各種貨",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 238,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、為維護國民健康必要，禁止、限制特定物品或來自特定地區",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 240,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、為維護國內農業產業發展必要，禁止、限制來自特定地區或",
+      "rule_score": 0.5,
+      "bert_score": 0.999795138835907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 242,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、為遵守條約協定、履行國際義務必要，禁止、限制一定物品",
+      "rule_score": 0.5,
+      "bert_score": 0.9997685551643372,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

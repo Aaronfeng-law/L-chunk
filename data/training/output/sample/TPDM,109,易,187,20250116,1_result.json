@@ -1,0 +1,839 @@
+{
+  "input_file": "data/sample/TPDM,109,易,187,20250116,1.json",
+  "file_name": "TPDM,109,易,187,20250116,1.json",
+  "processing_time": 0.0012750625610351562,
+  "detection_method": "ultra_strict_format",
+  "ultra_strict_rules": [
+    "必須以 \\r\\n 開頭",
+    "只能是單個 Unicode 字符",
+    "必須緊跟 、(頓號)",
+    "字符必須在預定義範圍內（含PUA）",
+    "層級符號行不得以4個空格開頭",
+    "零例外，零妥協"
+  ],
+  "total_lines": 557,
+  "total_markers": 29,
+  "pua_markers": 0,
+  "newline_compliance": 0,
+  "markers": [
+    {
+      "line_number": 31,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "邱創智經梁志遠介紹而結識慶京不動產有限公司(起訴書誤\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "案經法務部調查局臺北市調查處移送臺灣臺北地方檢察署(\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "有罪部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "程序部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "本判決所引被告以外之人於審判外所為之陳述，悉經當事人\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "本判決資以認定被告犯罪事實之非供述證據，查無違反法定\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "實體部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "認定事實所憑之證據及理由\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "論罪科刑\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 163,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "沒收\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "無罪部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 168,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "公訴意旨略以：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 169,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "被告邱創智明知其未合法取得律師資格，不得設立事務所而\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "嗣因被告邱創智、梁志遠、邱靖貽3人合夥經營宸翰法律事\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 216,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "公訴意旨認被告邱創智、梁志遠、邱靖貽、林延慶涉犯上開\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 264,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "按修正前律師法第50條第1項規定：「未取得律師資格，意\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "關於公訴意旨一之被告邱創智、梁志遠、邱靖貽部分\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 311,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "被告邱創智、梁志遠均未具律師資格，被告邱靖貽領有法務\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 331,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "查本案合資契約第2條記載：「甲乙丙(按依序為被告邱創智\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 342,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "依卷內現存事證，就被告邱靖貽等3人實際合夥經營「宸翰\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 398,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "公訴意旨固稱被告邱靖貽等3人以合資經營宸翰公司方式，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 432,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "被告邱靖貽固受附表一編號1至6 、8 至10「委託人」欄所\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 444,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "綜上所述，本件檢察官起訴所憑之證據，尚未達於通常一般\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 448,
+      "symbol": "陸",
+      "unicode_code": "U+9678",
+      "category": "大寫中文數字",
+      "content": "關於公訴意旨二之被告邱創智、林延慶部分 \r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 459,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "被告邱創智未具律師資格，被告林延慶領有法務部96臺檢證\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 476,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "按稱合夥者，謂二人以上互約出資以經營共同事業之契約，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 489,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "縱被告邱創智有如公訴意旨所稱對外招攬、參與附表二案件\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 530,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "綜上所述，依卷內現有事證，尚難證明被告林延慶等2人確\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    }
+  ],
+  "analysis": {
+    "total_markers": 29,
+    "by_category": {
+      "中文數字": [
+        {
+          "line": 31,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 45,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 50,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 57,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 61,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 112,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 163,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 169,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 188,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 311,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 331,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 342,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 398,
+          "symbol": "四",
+          "unicode": "U+56DB",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 432,
+          "symbol": "五",
+          "unicode": "U+4E94",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 444,
+          "symbol": "六",
+          "unicode": "U+516D",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 459,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 476,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 489,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 530,
+          "symbol": "四",
+          "unicode": "U+56DB",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "天干": [
+        {
+          "line": 48,
+          "symbol": "甲",
+          "unicode": "U+7532",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 167,
+          "symbol": "乙",
+          "unicode": "U+4E59",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "大寫中文數字": [
+        {
+          "line": 49,
+          "symbol": "壹",
+          "unicode": "U+58F9",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 60,
+          "symbol": "貳",
+          "unicode": "U+8CB3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 168,
+          "symbol": "壹",
+          "unicode": "U+58F9",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 200,
+          "symbol": "貳",
+          "unicode": "U+8CB3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 216,
+          "symbol": "參",
+          "unicode": "U+53C3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 264,
+          "symbol": "肆",
+          "unicode": "U+8086",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 280,
+          "symbol": "伍",
+          "unicode": "U+4F0D",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 448,
+          "symbol": "陸",
+          "unicode": "U+9678",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ]
+    },
+    "by_pua_group": {},
+    "by_format_type": {},
+    "by_level": {
+      "1": 29
+    },
+    "pua_count": 0,
+    "unicode_distribution": {
+      "U+4E00": 6,
+      "U+4E8C": 6,
+      "U+7532": 1,
+      "U+58F9": 2,
+      "U+8CB3": 2,
+      "U+4E09": 3,
+      "U+4E59": 1,
+      "U+53C3": 1,
+      "U+8086": 1,
+      "U+4F0D": 1,
+      "U+56DB": 2,
+      "U+4E94": 1,
+      "U+516D": 1,
+      "U+9678": 1
+    },
+    "newline_compliance": 0,
+    "structure": [
+      {
+        "line": 31,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "邱創智經梁志遠介紹而結識慶京不動產有限公司(起訴書誤\r",
+        "newline_ok": false
+      },
+      {
+        "line": 45,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "案經法務部調查局臺北市調查處移送臺灣臺北地方檢察署(\r",
+        "newline_ok": false
+      },
+      {
+        "line": 48,
+        "level": 1,
+        "symbol": "甲",
+        "unicode": "U+7532",
+        "category": "天干",
+        "format_type": "",
+        "is_pua": false,
+        "content": "有罪部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 49,
+        "level": 1,
+        "symbol": "壹",
+        "unicode": "U+58F9",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "程序部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 50,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "本判決所引被告以外之人於審判外所為之陳述，悉經當事人\r",
+        "newline_ok": false
+      },
+      {
+        "line": 57,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "本判決資以認定被告犯罪事實之非供述證據，查無違反法定\r",
+        "newline_ok": false
+      },
+      {
+        "line": 60,
+        "level": 1,
+        "symbol": "貳",
+        "unicode": "U+8CB3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "實體部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 61,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "認定事實所憑之證據及理由\r",
+        "newline_ok": false
+      },
+      {
+        "line": 112,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "論罪科刑\r",
+        "newline_ok": false
+      },
+      {
+        "line": 163,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "沒收\r",
+        "newline_ok": false
+      },
+      {
+        "line": 167,
+        "level": 1,
+        "symbol": "乙",
+        "unicode": "U+4E59",
+        "category": "天干",
+        "format_type": "",
+        "is_pua": false,
+        "content": "無罪部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 168,
+        "level": 1,
+        "symbol": "壹",
+        "unicode": "U+58F9",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴意旨略以：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 169,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告邱創智明知其未合法取得律師資格，不得設立事務所而\r",
+        "newline_ok": false
+      },
+      {
+        "line": 188,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "嗣因被告邱創智、梁志遠、邱靖貽3人合夥經營宸翰法律事\r",
+        "newline_ok": false
+      },
+      {
+        "line": 200,
+        "level": 1,
+        "symbol": "貳",
+        "unicode": "U+8CB3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不\r",
+        "newline_ok": false
+      },
+      {
+        "line": 216,
+        "level": 1,
+        "symbol": "參",
+        "unicode": "U+53C3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴意旨認被告邱創智、梁志遠、邱靖貽、林延慶涉犯上開\r",
+        "newline_ok": false
+      },
+      {
+        "line": 264,
+        "level": 1,
+        "symbol": "肆",
+        "unicode": "U+8086",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按修正前律師法第50條第1項規定：「未取得律師資格，意\r",
+        "newline_ok": false
+      },
+      {
+        "line": 280,
+        "level": 1,
+        "symbol": "伍",
+        "unicode": "U+4F0D",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "關於公訴意旨一之被告邱創智、梁志遠、邱靖貽部分\r",
+        "newline_ok": false
+      },
+      {
+        "line": 311,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告邱創智、梁志遠均未具律師資格，被告邱靖貽領有法務\r",
+        "newline_ok": false
+      },
+      {
+        "line": 331,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "查本案合資契約第2條記載：「甲乙丙(按依序為被告邱創智\r",
+        "newline_ok": false
+      },
+      {
+        "line": 342,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "依卷內現存事證，就被告邱靖貽等3人實際合夥經營「宸翰\r",
+        "newline_ok": false
+      },
+      {
+        "line": 398,
+        "level": 1,
+        "symbol": "四",
+        "unicode": "U+56DB",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴意旨固稱被告邱靖貽等3人以合資經營宸翰公司方式，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 432,
+        "level": 1,
+        "symbol": "五",
+        "unicode": "U+4E94",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告邱靖貽固受附表一編號1至6 、8 至10「委託人」欄所\r",
+        "newline_ok": false
+      },
+      {
+        "line": 444,
+        "level": 1,
+        "symbol": "六",
+        "unicode": "U+516D",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "綜上所述，本件檢察官起訴所憑之證據，尚未達於通常一般\r",
+        "newline_ok": false
+      },
+      {
+        "line": 448,
+        "level": 1,
+        "symbol": "陸",
+        "unicode": "U+9678",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "關於公訴意旨二之被告邱創智、林延慶部分 \r",
+        "newline_ok": false
+      },
+      {
+        "line": 459,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "被告邱創智未具律師資格，被告林延慶領有法務部96臺檢證\r",
+        "newline_ok": false
+      },
+      {
+        "line": 476,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按稱合夥者，謂二人以上互約出資以經營共同事業之契約，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 489,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "縱被告邱創智有如公訴意旨所稱對外招攬、參與附表二案件\r",
+        "newline_ok": false
+      },
+      {
+        "line": 530,
+        "level": 1,
+        "symbol": "四",
+        "unicode": "U+56DB",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "綜上所述，依卷內現有事證，尚難證明被告林延慶等2人確\r",
+        "newline_ok": false
+      }
+    ]
+  }
+}

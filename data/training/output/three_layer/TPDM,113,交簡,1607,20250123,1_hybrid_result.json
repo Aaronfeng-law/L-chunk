@@ -1,0 +1,280 @@
+{
+  "source_file": "data/filted/TPDM,113,交簡,1607,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:12.548531",
+  "processing_time": 0.04829263687133789,
+  "statistics": {
+    "total_lines": 111,
+    "candidate_lines": 22,
+    "bert_processed_lines": 22,
+    "total_markers": 21,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 21,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 111,
+    "positive_predictions": 21,
+    "positive_ratio": 0.1891891891891892,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 86,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 22,
+        "positive": 21
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 15,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9554061545059085,
+      "std": 0.20328547594259214,
+      "min": 0.0238350797444582,
+      "max": 0.9998109936714172,
+      "count": 22
+    }
+  },
+  "markers": [
+    {
+      "line_number": 12,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、蘇立仁知悉其駕駛執照已於民國111年9月26日遭記點處銷，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998109936714172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告蘇立仁於警詢中之自白。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997264742851257,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人即告訴人劉芷君於警詢中之指述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997574687004089,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢臺北市政府警察局交通警察大隊道路交通事故初步分析研判",
+      "rule_score": 0.5,
+      "bert_score": 0.9997549653053284,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按汽車行駛至交岔路口，其左轉彎時，應距交岔路口30公尺",
+      "rule_score": 0.5,
+      "bert_score": 0.9997101426124573,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡刑之加重、減輕事由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997742772102356,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰審酌被告於駕駛執照經吊銷，期滿後未考領駕駛執照，即",
+      "rule_score": 0.5,
+      "bert_score": 0.9997764229774475,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第449條第1項、第3項、第300條，逕以簡易判",
+      "rule_score": 0.5,
+      "bert_score": 0.9997939467430115,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、如不服本判決，應自判決送達之日起20日內，向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、未領有駕駛執照駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997859597206116,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、駕駛執照經吊銷、註銷或吊扣期間駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、酒醉駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997561573982239,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、吸食毒品、迷幻藥、麻醉藥品或其相類似之管制藥品駕車。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997615218162537,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、行駛人行道、行近行人穿越道或其他依法可供行人穿越之交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997667670249939,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、行車速度，超過規定之最高時速四十公里以上。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997451901435852,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 99,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、任意以迫近、驟然變換車道或其他不當方式，迫使他車讓道",
+      "rule_score": 0.5,
+      "bert_score": 0.9997538924217224,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、非遇突發狀況，在行駛途中任意驟然減速、煞車或於車道中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997546076774597,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、二輛以上之汽車在道路上競駛、競技。",
+      "rule_score": 0.5,
+      "bert_score": 0.999769389629364,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十、連續闖紅燈併有超速行為。",
+      "rule_score": 0.5,
+      "bert_score": 0.99974125623703,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "input_file": "data/sample/TPDM,111,侵訴,89,20250115,1.json",
+  "file_name": "TPDM,111,侵訴,89,20250115,1.json",
+  "processing_time": 0.0010230541229248047,
+  "detection_method": "ultra_strict_format",
+  "ultra_strict_rules": [
+    "必須以 \\r\\n 開頭",
+    "只能是單個 Unicode 字符",
+    "必須緊跟 、(頓號)",
+    "字符必須在預定義範圍內（含PUA）",
+    "層級符號行不得以4個空格開頭",
+    "零例外，零妥協"
+  ],
+  "total_lines": 498,
+  "total_markers": 18,
+  "pua_markers": 0,
+  "newline_compliance": 0,
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "鄭煒奕明無拍攝成人影片及支付影片片酬之能力與意願，竟\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "案經A女、B女、C女、D女、E女、F女、追加A女、追加B女訴\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 149,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "程序部分：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "按性侵害犯罪防治法所稱性侵害犯罪，係指觸犯刑法第221\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 166,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "證據能力：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "認定事實所憑之證據及理由：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 195,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "訊據被告固坦承確有與告訴人A女、B女、C女、追加A女、追\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 352,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "論罪科刑：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 409,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "沒收：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 421,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "不另為無罪之諭知：\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 422,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "公訴意旨另以：被告透過網際網路貼文之方式，向公眾刊登\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 428,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "按犯罪事實應依證據認定之，無證據不得認定其犯罪事實；\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 450,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "經查，證人及告訴人A女、B女、C女、追加A女、追加B女於\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 460,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "從而，依本案卷內事證，檢察官所指被告之以其他違反意願\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 492,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "冒用政府機關或公務員名義犯之。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 493,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "三人以上共同犯之。\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 494,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    },
+    {
+      "line_number": 496,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "以電腦合成或其他科技方法製作關於他人不實影像、聲音或\r",
+      "is_pua": false,
+      "has_proper_newline": false
+    }
+  ],
+  "analysis": {
+    "total_markers": 18,
+    "by_category": {
+      "中文數字": [
+        {
+          "line": 17,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 145,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 150,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 166,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 195,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 352,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 409,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 422,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 428,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 450,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 460,
+          "symbol": "四",
+          "unicode": "U+56DB",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 492,
+          "symbol": "一",
+          "unicode": "U+4E00",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 493,
+          "symbol": "二",
+          "unicode": "U+4E8C",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 494,
+          "symbol": "三",
+          "unicode": "U+4E09",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 496,
+          "symbol": "四",
+          "unicode": "U+56DB",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ],
+      "大寫中文數字": [
+        {
+          "line": 149,
+          "symbol": "壹",
+          "unicode": "U+58F9",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 194,
+          "symbol": "貳",
+          "unicode": "U+8CB3",
+          "is_pua": false,
+          "has_proper_newline": false
+        },
+        {
+          "line": 421,
+          "symbol": "參",
+          "unicode": "U+53C3",
+          "is_pua": false,
+          "has_proper_newline": false
+        }
+      ]
+    },
+    "by_pua_group": {},
+    "by_format_type": {},
+    "by_level": {
+      "1": 18
+    },
+    "pua_count": 0,
+    "unicode_distribution": {
+      "U+4E00": 5,
+      "U+4E8C": 5,
+      "U+58F9": 1,
+      "U+8CB3": 1,
+      "U+4E09": 3,
+      "U+53C3": 1,
+      "U+56DB": 2
+    },
+    "newline_compliance": 0,
+    "structure": [
+      {
+        "line": 17,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "鄭煒奕明無拍攝成人影片及支付影片片酬之能力與意願，竟\r",
+        "newline_ok": false
+      },
+      {
+        "line": 145,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "案經A女、B女、C女、D女、E女、F女、追加A女、追加B女訴\r",
+        "newline_ok": false
+      },
+      {
+        "line": 149,
+        "level": 1,
+        "symbol": "壹",
+        "unicode": "U+58F9",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "程序部分：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 150,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按性侵害犯罪防治法所稱性侵害犯罪，係指觸犯刑法第221\r",
+        "newline_ok": false
+      },
+      {
+        "line": 166,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "證據能力：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 194,
+        "level": 1,
+        "symbol": "貳",
+        "unicode": "U+8CB3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "認定事實所憑之證據及理由：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 195,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "訊據被告固坦承確有與告訴人A女、B女、C女、追加A女、追\r",
+        "newline_ok": false
+      },
+      {
+        "line": 352,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "論罪科刑：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 409,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "沒收：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 421,
+        "level": 1,
+        "symbol": "參",
+        "unicode": "U+53C3",
+        "category": "大寫中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "不另為無罪之諭知：\r",
+        "newline_ok": false
+      },
+      {
+        "line": 422,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "公訴意旨另以：被告透過網際網路貼文之方式，向公眾刊登\r",
+        "newline_ok": false
+      },
+      {
+        "line": 428,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "按犯罪事實應依證據認定之，無證據不得認定其犯罪事實；\r",
+        "newline_ok": false
+      },
+      {
+        "line": 450,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "經查，證人及告訴人A女、B女、C女、追加A女、追加B女於\r",
+        "newline_ok": false
+      },
+      {
+        "line": 460,
+        "level": 1,
+        "symbol": "四",
+        "unicode": "U+56DB",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "從而，依本案卷內事證，檢察官所指被告之以其他違反意願\r",
+        "newline_ok": false
+      },
+      {
+        "line": 492,
+        "level": 1,
+        "symbol": "一",
+        "unicode": "U+4E00",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "冒用政府機關或公務員名義犯之。\r",
+        "newline_ok": false
+      },
+      {
+        "line": 493,
+        "level": 1,
+        "symbol": "二",
+        "unicode": "U+4E8C",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "三人以上共同犯之。\r",
+        "newline_ok": false
+      },
+      {
+        "line": 494,
+        "level": 1,
+        "symbol": "三",
+        "unicode": "U+4E09",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，\r",
+        "newline_ok": false
+      },
+      {
+        "line": 496,
+        "level": 1,
+        "symbol": "四",
+        "unicode": "U+56DB",
+        "category": "中文數字",
+        "format_type": "",
+        "is_pua": false,
+        "content": "以電腦合成或其他科技方法製作關於他人不實影像、聲音或\r",
+        "newline_ok": false
+      }
+    ]
+  }
+}

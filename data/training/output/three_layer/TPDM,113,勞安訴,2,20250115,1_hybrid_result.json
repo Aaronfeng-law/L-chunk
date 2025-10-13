@@ -1,0 +1,247 @@
+{
+  "source_file": "data/filted/TPDM,113,勞安訴,2,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:19.071435",
+  "processing_time": 0.7071206569671631,
+  "statistics": {
+    "total_lines": 304,
+    "candidate_lines": 19,
+    "bert_processed_lines": 19,
+    "total_markers": 18,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 18,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 304,
+    "positive_predictions": 18,
+    "positive_ratio": 0.05921052631578947,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 278,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 19,
+        "positive": 18
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 4,
+      "中文數字": 14
+    },
+    "bert_score_stats": {
+      "mean": 0.9479284004161233,
+      "std": 0.22005738615515336,
+      "min": 0.014303982257843018,
+      "max": 0.99981290102005,
+      "count": 19
+    }
+  },
+  "markers": [
+    {
+      "line_number": 42,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 54,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997931122779846,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告寬洋營造公司為甲級綜合營造廠商，於110年3月9日承",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按刑法上之過失犯，以行為人對於結果之發生，應注意，並",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、起訴書應補充、更正之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.9998005032539368,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 197,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告等及辯護人所辯俱不可採",
+      "rule_score": 0.5,
+      "bert_score": 0.9997915625572205,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 205,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，被告等上揭違反職業安全衛生法犯行，其辯解不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997841715812683,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 207,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、依職業安全衛生法第40條第1項規定：「違反第6條第1項或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997887015342712,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 229,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告張家豪以一行為觸犯上開2罪，為想像競合犯，應依刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9998082518577576,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 231,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰審酌被告等皆為職業安全衛生法之雇主，應使勞工正確戴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998117089271545,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 245,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、不另為無罪諭知部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998002648353577,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 246,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨：就事實欄所載本案工程，被告等應使勞工從事營",
+      "rule_score": 0.5,
+      "bert_score": 0.9998070597648621,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 252,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實。又",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 268,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告等涉犯此部分犯行，無非係以上開貳、有罪",
+      "rule_score": 0.5,
+      "bert_score": 0.9998021721839905,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 270,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告等答辯：被告等就本案工程之樓梯安全維護管理並無疏",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 274,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查卷附之本案職業災害檢查報告書，固然記載被告等違反職業安全衛生法第6條第1項第13款所定之「防止通道、地板或階梯等引起之危害。」（見偵卷第22頁），然而，該報告書並未說明被告等就本案工地階梯之設置或管理有何未疏失，而可認有未防止之作為，致生危害之情形。嗣本院函詢臺北市勞動檢查處上開設備有何未符何法規之處，該處先於113年4月3日以北市勞檢建字第1136015450號函覆略以：案發樓梯未鋪設階梯防滑設備，致被害人行走該處跌倒，爰認定被告等違反上開規定等（見本院訴卷第43至47頁），復經本院再函詢所稱應鋪設防滑設備之法規依據(見本院訴卷第127頁)，該處後於同年7月26日以北市勞檢建字第1136022905號函覆略以：案發之階梯，尚難認定未符何安全設備之規定等（見本院訴卷第129至131頁）；加以卷內亦無其他證據證明被告等就該樓梯設置或管理有何違失之情形，則本案並無足夠積極證據證明被告等就該樓梯之管理有違規情事，依前開過失不作為犯之成立要件說明，自無從逕以被害人行走於樓梯失足跌倒，即認被告等就該部分有何過失或不作為導致被害人死亡之情。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998024106025696,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 275,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上，起訴意旨就此部分認被告等違反職業安全衛生法第6",
+      "rule_score": 0.5,
+      "bert_score": 0.9997852444648743,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

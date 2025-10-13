@@ -1,0 +1,137 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1386,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:27.694662",
+  "processing_time": 0.03204703330993652,
+  "statistics": {
+    "total_lines": 136,
+    "candidate_lines": 9,
+    "bert_processed_lines": 9,
+    "total_markers": 8,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 8,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 136,
+    "positive_predictions": 8,
+    "positive_ratio": 0.058823529411764705,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 124,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 9,
+        "positive": 8
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8891409040014777,
+      "std": 0.31293571474147813,
+      "min": 0.004025042522698641,
+      "max": 0.999815046787262,
+      "count": 9
+    }
+  },
+  "markers": [
+    {
+      "line_number": 14,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、聲請簡易判決處刑意旨略以：被告翁鼎崴於民國113年4月30",
+      "rule_score": 0.5,
+      "bert_score": 0.999815046787262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實，又",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告涉有上開罪嫌，主要係以被告於警詢、偵訊",
+      "rule_score": 0.5,
+      "bert_score": 0.9998000264167786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告固坦承有朝告訴人比中指之舉，然堅詞否認有何公",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於113年4月30日14時40分許，騎乘本案機車沿臺北市中山",
+      "rule_score": 0.5,
+      "bert_score": 0.9997548460960388,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按刑法第309條第1項之公然侮辱罪係以刑罰事後追懲侮辱性",
+      "rule_score": 0.5,
+      "bert_score": 0.9997474551200867,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢查，被告固有於前開時、地，對告訴人以左手比中指，然被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，檢察官所提出之事證，客觀上尚未達到使通常一",
+      "rule_score": 0.5,
+      "bert_score": 0.99978107213974,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

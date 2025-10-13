@@ -1,0 +1,41 @@
+{
+  "source_file": "data/filted/TPDM,113,交附民,121,20250120,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:15.518175",
+  "processing_time": 0.0003056526184082031,
+  "statistics": {
+    "total_lines": 16,
+    "candidate_lines": 0,
+    "bert_processed_lines": 0,
+    "total_markers": 0,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 0,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 16,
+    "positive_predictions": 0,
+    "positive_ratio": 0.0,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 14,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      }
+    },
+    "symbol_category_distribution": {},
+    "bert_score_stats": {
+      "mean": 0,
+      "std": 0,
+      "min": 0,
+      "max": 0,
+      "count": 0
+    }
+  },
+  "markers": []
+}

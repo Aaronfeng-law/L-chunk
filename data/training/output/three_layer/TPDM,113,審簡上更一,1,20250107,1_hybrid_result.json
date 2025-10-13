@@ -1,0 +1,392 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上更一,1,20250107,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:44.131941",
+  "processing_time": 1.4999139308929443,
+  "statistics": {
+    "total_lines": 301,
+    "candidate_lines": 39,
+    "bert_processed_lines": 39,
+    "total_markers": 31,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 31,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 301,
+    "positive_predictions": 31,
+    "positive_ratio": 0.10299003322259136,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 258,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 39,
+        "positive": 31
+      }
+    },
+    "symbol_category_distribution": {
+      "天干": 2,
+      "大寫中文數字": 6,
+      "中文數字": 16,
+      "圍字數字": 7
+    },
+    "bert_score_stats": {
+      "mean": 0.8044536021024657,
+      "std": 0.38646803837047866,
+      "min": 0.003136098152026534,
+      "max": 0.999817430973053,
+      "count": 39
+    }
+  },
+  "markers": [
+    {
+      "line_number": 29,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、程序部分即審理範圍：本案僅檢察官提起上訴指摘原審判決",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、實體部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.99979168176651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、上開事實，業據被告於警詢中、原審準備程序中及審理時、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證人即附表編號1至21所示被害人於警詢中之證述。",
+      "rule_score": 0.5,
+      "bert_score": 0.999817430973053,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證人即另案被告郭建佑、翁玉恕於警詢中之證述。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998065829277039,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、附表編號1至21所示被害人提出之對話紀錄截圖、匯款交易",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告中信帳戶開戶資料及交易明細表。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997654557228088,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、依上開補強證據，足見被告任意性之自白有相當之證據相佐",
+      "rule_score": 0.5,
+      "bert_score": 0.9997883439064026,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑之依據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997727274894714,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：按行為後法律有變更者，適用行為時之法律，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998098015785217,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告行為後，洗錢防制法先於民國112年6月14日修正公布第1",
+      "rule_score": 0.5,
+      "bert_score": 0.999736487865448,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告行為時，修正前洗錢防制法第14條第1項規定：「有第2",
+      "rule_score": 0.5,
+      "bert_score": 0.9997214674949646,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢惟法律變更之比較，應就罪刑有關之法定加減原因與加減例",
+      "rule_score": 0.5,
+      "bert_score": 0.9997580647468567,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 115,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣又關於自白減刑之規定，被告行為時法即112年6月14日修正前洗錢防制法第16條第2項係規定：「犯前2條之罪，在偵查或審判中自白者，減輕其刑。」；中間時法即112年6月14日修正後、113年7月31日修正前同法第16條第2項則規定：「犯前4條之罪，在偵查及歷次審判中均自白者，減輕其刑。」；裁判時法即113年7月31日修正後則移列為同法第23條第3項前段並增訂同條項後段規定：「犯前4條之罪，在偵查及歷次審判中均自白者，如有所得並自動繳交全部所得財物者，減輕其刑；並因而使司法警察機關或檢察官得以扣押全部洗錢之財物或財產上利益，或查獲其他正犯或共犯者，減輕或免除其刑。」；若無犯罪所得者，當無是否自動繳交全部所得財物之問題，祗要在偵查及歷次審判中均自白，即應認有洗錢防制法第23條第3項前段規定之適用。而所謂自白，係指對於自己所為犯罪事實全部或主要部分為肯定供述而言。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997149109840393,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997534155845642,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按刑法關於正犯、幫助犯之區別，係以其主觀之犯意及客觀",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 176,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查，被告受真實姓名年籍不詳、自稱「林士傑」之人指示交付本案帳戶資料等節，業據被告於警詢中、原審準備程序中供承在卷（見偵字第20336號卷第12至14頁，本院審訴字影卷第137頁），卷內復無證據證明被告有參與本案詐欺取財、洗錢犯行之構成要件行為，惟其提供申設之帳戶資料與無任何親密、信賴關係之真實姓名年籍不詳自稱「林士傑」之人使用，嗣該人所屬之本案詐欺集團成員即利用該帳戶作為向附表編號1至21所示被害人為詐欺取財時收受、取得詐欺犯罪所得使用，用以遮斷資金流動軌跡，以掩飾、隱匿犯罪所得財物去向，被告主觀上可預見其所提供之上開帳戶資料，可能作為本案詐欺集團成員收受、取得特定犯罪所得使用，並因此遮斷金流而逃避追緝，猶予以提供，是其基於幫助犯意而為之，應論以幫助犯。是核被告所為，係犯刑法第30條第1項前段、同法第339條第1項之幫助詐欺取財罪及刑法第30條第1項前段、洗錢防制法第19條第1項後段之幫助洗錢罪。起訴意旨認被告所為，係犯刑法第339條之4第1項第2款之三人以上共同犯詐欺取財罪及洗錢防制法第14條第1項一般洗錢罪之正犯，容有誤會。惟正犯與幫助犯，其基本犯罪事實並無不同，僅犯罪之態樣有所不同，尚不生變更起訴法條之問題，附此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998136162757874,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 177,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、至起訴意旨認被告所為，係涉犯刑法第339條之4第1項第2款之三人以上共同犯詐欺取財罪嫌。惟查，被告僅與「林仕傑」接觸，且「林仕傑」此人與起訴書犯罪事實欄一㈠㈡之詐欺集團無關等節，業據被告於警詢、原審準備程序中供承無誤（見偵字第20336號卷第12至14頁，本院審訴字影卷第137頁）；卷內復無證據證明被告知悉參與本案犯行者除「林仕傑」外，尚有其他與起訴書犯罪事實欄一㈠㈡所示之同一詐欺集團暱稱「魚魚」、「璇」及其他真實姓名年籍不詳之成員3人以上之共犯存在。是依罪疑唯輕有利被告之認定，被告本案所為，當無涉刑法第339條之4第1項第2款之三人以上共同犯詐欺取財罪。此部分起訴法條容有未洽，惟因二者基本社會事實同一，加以刑法第339條第1項詐欺取財罪之法定刑，較刑法第339條之4第1項第2款三人以上共同詐欺取財罪為輕，且於本院審理時業已提示相關證據（見本院審簡上更一字卷第141至157頁），無礙於被告防禦權之行使，爰依法變更起訴法條，附此說明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998127818107605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、被告以一行為觸犯數罪名，為想像競合犯，依刑法第55條規",
+      "rule_score": 0.5,
+      "bert_score": 0.9997739195823669,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、起訴意旨雖未就被告因提供其申設之中信帳戶致附表編號2至21所示被害人受騙匯款、交付款項與他人後復轉匯入被告前揭帳戶，而由本案詐欺集團成員提領轉匯之犯行起訴（即移送併辦部分），惟此等部分犯行與已起訴部分，均具想像競合犯之裁判上一罪關係，均為起訴效力所及，本院自得併予審理。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998093247413635,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、被告幫助他人犯洗錢防制法第19條第1項後段之洗錢罪，爰",
+      "rule_score": 0.5,
+      "bert_score": 0.9997778534889221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、被告於警詢中、原審準備程序中及審理時、本院準備程序中",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 188,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、本件同有刑法第30條第2項、洗錢防制法第23條第3項前段規",
+      "rule_score": 0.5,
+      "bert_score": 0.9997712969779968,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 190,
+      "symbol": "十",
+      "unicode_code": "U+5341",
+      "category": "中文數字",
+      "content": "十、不另為無罪之諭知：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997691512107849,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、撤銷改判之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠原審以被告犯行罪證明確，予以論罪科刑，固非無見。惟查",
+      "rule_score": 0.5,
+      "bert_score": 0.9997408986091614,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告任意提供其申設之中信",
+      "rule_score": 0.5,
+      "bert_score": 0.9997759461402893,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 233,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "伍、沒收部分：按沒收適用裁判時之法律；本法總則於其他法律",
+      "rule_score": 0.5,
+      "bert_score": 0.9997798800468445,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 243,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告並未因本案犯行而獲取報酬一節，業據被告於警詢中、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998076558113098,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 247,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案被害人受騙匯款、輾轉匯至被告中信帳戶之款項，固係",
+      "rule_score": 0.5,
+      "bert_score": 0.99980229139328,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 252,
+      "symbol": "陸",
+      "unicode_code": "U+9678",
+      "category": "大寫中文數字",
+      "content": "陸、依通常程序為第一審判決之說明：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997698664665222,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "source_file": "data/filted/TPDM,114,審訴,196,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:09.786254",
+  "processing_time": 0.01976633071899414,
+  "statistics": {
+    "total_lines": 78,
+    "candidate_lines": 4,
+    "bert_processed_lines": 4,
+    "total_markers": 3,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 3,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 78,
+    "positive_predictions": 3,
+    "positive_ratio": 0.038461538461538464,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 72,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 4,
+        "positive": 3
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.7550353221595287,
+      "std": 0.4239645190465568,
+      "min": 0.020707234740257263,
+      "max": 0.9998194575309753,
+      "count": 4
+    }
+  },
+  "markers": [
+    {
+      "line_number": 12,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告韋傳玲已預見提供個人金融帳戶之存摺、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998183846473694,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 32,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按已經提起公訴或自訴之案件，在同一法院重行起訴者，應",
+      "rule_score": 0.5,
+      "bert_score": 0.9998194575309753,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997962117195129,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

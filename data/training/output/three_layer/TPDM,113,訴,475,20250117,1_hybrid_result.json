@@ -1,0 +1,501 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,475,20250117,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:53.684303",
+  "processing_time": 0.7784502506256104,
+  "statistics": {
+    "total_lines": 303,
+    "candidate_lines": 46,
+    "bert_processed_lines": 46,
+    "total_markers": 41,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 41,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 303,
+    "positive_predictions": 41,
+    "positive_ratio": 0.1353135313531353,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 255,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 46,
+        "positive": 41
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 13,
+      "大寫中文數字": 2,
+      "圍字數字": 26
+    },
+    "bert_score_stats": {
+      "mean": 0.8915051052235472,
+      "std": 0.31000296586598286,
+      "min": 0.003014529589563608,
+      "max": 0.9998272061347961,
+      "count": 46
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、丙○○於民國112年5月8日18時20分許，至乙○○所承租、提供",
+      "rule_score": 0.5,
+      "bert_score": 0.9998237490653992,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經乙○○、甲○○訴由臺北市政府警察局中山分局報告臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998272061347961,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、有罪部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998059868812561,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、程序部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 47,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998113512992859,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告固坦承於上開時地對告訴人乙○○及甲○○噴灑辣椒水",
+      "rule_score": 0.5,
+      "bert_score": 0.9997778534889221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 64,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，被告於上開時地與阮氏春從事性交易而帶走阮氏春的",
+      "rule_score": 0.5,
+      "bert_score": 0.9997230172157288,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 72,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢次觀諸馬偕紀念醫院診斷證明書，分載：告訴人乙○○於112年",
+      "rule_score": 0.5,
+      "bert_score": 0.999788224697113,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告為誤想正當防衛而為本案犯行，應構成過失傷害：",
+      "rule_score": 0.5,
+      "bert_score": 0.9996938705444336,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告及辯護人所辯不可採之理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997606873512268,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 150,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥綜上所述，本案事證明確，被告上開犯行堪以認定，應予依",
+      "rule_score": 0.5,
+      "bert_score": 0.999687671661377,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 152,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 153,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第284條前段之過失傷害罪。公訴意旨",
+      "rule_score": 0.5,
+      "bert_score": 0.999711811542511,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 159,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告本案傷害情節及動機、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997808337211609,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 166,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997760653495789,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠經查，扣案之辣椒水1瓶為被告持以傷害告訴人2人所用，已",
+      "rule_score": 0.5,
+      "bert_score": 0.9996925592422485,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 170,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡末查，本案除辣椒水外之扣案物品均非違禁物，又與被告本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997057318687439,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 173,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、不另為無罪之諭知：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997832179069519,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 174,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠公訴意旨略以：被告於上開時間、地點持以安全帽、甩棍毆",
+      "rule_score": 0.5,
+      "bert_score": 0.9997416138648987,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 177,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡惟查，依據前揭證述，縱使認定被告有持安全帽對告訴人2人揮動，惟卷內並無證據證明被告確實以此方式碰觸告訴人2人；復依前揭診斷證明書所載（參見偵字卷第61、73頁），告訴人2人並未因此成傷，已無證據證明被告有此傷害行為及其等因而受傷害。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997925162315369,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 178,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢再者，依據前揭證述，僅能認定被告有與告訴人乙○○爭奪甩",
+      "rule_score": 0.5,
+      "bert_score": 0.9997497200965881,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 181,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣從而，卷內證據既無法證明被告有以安全帽、甩棍毆打告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997934699058533,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 185,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、無罪部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.999786913394928,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 186,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告於攜帶辣椒水1瓶、折疊刀1支、甩棍1",
+      "rule_score": 0.5,
+      "bert_score": 0.999812662601471,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實，不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告涉有上開犯嫌，無非係以下列證據，為其主",
+      "rule_score": 0.5,
+      "bert_score": 0.9998000264167786,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於警詢及偵查中之供述；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997257590293884,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡告訴人乙○○於警詢及偵查中之指訴；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997727274894714,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢告訴人甲○○於警詢及偵查中之指訴；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997720122337341,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 214,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣證人丁○○於警詢及偵查中之證述；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997628331184387,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 215,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤自願受搜索同意書、臺北市政府警察局中山分局搜索及扣押",
+      "rule_score": 0.5,
+      "bert_score": 0.9997674822807312,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥監視器畫面擷圖15張及監視器光碟1片；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997518658638,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦臺北地檢署勘驗報告1份及監視器光碟1片；",
+      "rule_score": 0.5,
+      "bert_score": 0.9996716976165771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 220,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧被告遭扣押之手機內照片截圖5張。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997214674949646,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 221,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告否認有何加重搶奪犯行，辯稱：我因為要終止性交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 232,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 233,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠公訴意旨固認：被告意圖為自己不法之所有，基於加重搶奪之犯意，與被害人阮氏春發生拉扯並試圖壓制，經被害人阮氏春逃離後，即取走被害人阮氏春之手機而逃離等情等語。惟查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997615218162537,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 261,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢公訴意旨復以被告遭扣押之手機內存有「把項鍊給我」、「錢包給我」、「把錢給我，不然我就報警說你在賣淫」等語翻譯為越南文之擷圖，而認被告持以為本案搶奪犯行等語。惟查，上開擷圖所示內容顯與本案被訴搶奪手機及打開抽屜搜尋財物等行為未合，且無其他客觀證據可認被告確實有向被害人阮氏春出示上開擷圖而為搶奪，又被告已就手機內存有上揭擷圖之原因為說明而與本案無涉（見偵字卷第40-41頁、訴字卷第299-300頁），自無以認定被告有持以為加重搶奪之犯行。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997802376747131,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 262,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣總而言之，縱使認為被告前後供述已有不一，且就與被害人",
+      "rule_score": 0.5,
+      "bert_score": 0.9996833801269531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 270,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤至證人乙○○固於本院審理時證稱：我在本案發生日前有拿1萬",
+      "rule_score": 0.5,
+      "bert_score": 0.999743640422821,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，本案依卷存事證尚無法使本院就被告被訴攜帶兇",
+      "rule_score": 0.5,
+      "bert_score": 0.9997772574424744,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

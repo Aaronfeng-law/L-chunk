@@ -1,0 +1,215 @@
+{
+  "source_file": "data/filted/TPDM,113,附民,707,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:02.841375",
+  "processing_time": 0.04094862937927246,
+  "statistics": {
+    "total_lines": 111,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 15,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 15,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 111,
+    "positive_predictions": 15,
+    "positive_ratio": 0.13513513513513514,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 94,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 15
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 2,
+      "中文數字": 7,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9375722568947822,
+      "std": 0.24091046852017653,
+      "min": 0.004530031234025955,
+      "max": 0.9998251795768738,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告主張：原告於民國112年9月25日17時34分許，接獲詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998072981834412,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告應賠償原告11萬8,176元，並自起訴狀繕本送達之翌日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997548460960388,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告則以：我承認有原告所說的侵權行為，我願意賠償原告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998251795768738,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本院之判斷：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998118281364441,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按故意或過失，不法侵害他人之權利者，負損害賠償責任；",
+      "rule_score": 0.5,
+      "bert_score": 0.9997343420982361,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 55,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，原告主張之事實，業經本院以113年度易字第510號判",
+      "rule_score": 0.5,
+      "bert_score": 0.9997281432151794,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告提供手機門號0000000000供詐欺集團成員作為詐騙原告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997319579124451,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣末按給付無確定期限者，債務人於債權人得請求給付時，經",
+      "rule_score": 0.5,
+      "bert_score": 0.9997549653053284,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤從而，原告依侵權行為法律關係，請求被告給付11萬6,431元",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、本判決原告勝訴部分所命給付金額未逾50萬元，依刑事訴訟",
+      "rule_score": 0.5,
+      "bert_score": 0.9997932314872742,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、本件事證已臻明確，兩造其餘攻擊或防禦方法及證據資料，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997585415840149,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 97,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本件為刑事附帶民事訴訟，依法毋庸繳納裁判費，且訴訟程",
+      "rule_score": 0.5,
+      "bert_score": 0.9997764229774475,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、據上論結，本件原告之訴為一部有理由、一部無理由，依刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997740387916565,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

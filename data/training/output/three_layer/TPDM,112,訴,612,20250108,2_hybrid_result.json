@@ -1,0 +1,315 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,612,20250108,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:08.551209",
+  "processing_time": 0.08108210563659668,
+  "statistics": {
+    "total_lines": 371,
+    "candidate_lines": 32,
+    "bert_processed_lines": 32,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 371,
+    "positive_predictions": 24,
+    "positive_ratio": 0.0646900269541779,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 336,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 32,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "圍字數字": 12,
+      "大寫中文數字": 2,
+      "括號數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.7511755588348024,
+      "std": 0.4305806738508057,
+      "min": 0.003385548945516348,
+      "max": 0.9998216032981873,
+      "count": 32
+    }
+  },
+  "markers": [
+    {
+      "line_number": 19,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、甲○○知悉甲基安非他命屬毒品危害防制條例所管制之第二級",
+      "rule_score": 0.5,
+      "bert_score": 0.9998179078102112,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠意圖營利，基於販賣第二級毒品甲基安非他命之犯意，分別",
+      "rule_score": 0.5,
+      "bert_score": 0.9997246861457825,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡基於轉讓禁藥甲基安非他命之犯意，於如附表一編號4所示之",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺灣臺北地方檢察署檢察官指揮新北市政府警察局新店",
+      "rule_score": 0.5,
+      "bert_score": 0.9998216032981873,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 33,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、供述證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、非供述證據部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠如附表一編號1至3販賣第二級毒品部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997281432151794,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡如附表編號4轉讓禁藥部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997439980506897,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 210,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上所述，本案事證明確，被告上開犯行，均堪認定，均應",
+      "rule_score": 0.5,
+      "bert_score": 0.9996811151504517,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按甲基安非他命係毒品危害防制條例第2條第2項第2款所列管",
+      "rule_score": 0.5,
+      "bert_score": 0.9997656941413879,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 233,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告如附表一編號1至3所為，均係犯毒品危害防制條例第4",
+      "rule_score": 0.5,
+      "bert_score": 0.9997512698173523,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 242,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告如附表一編號1至3所示3次販賣第二級毒品甲基安非他命",
+      "rule_score": 0.5,
+      "bert_score": 0.9997467398643494,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 245,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣刑之減輕",
+      "rule_score": 0.5,
+      "bert_score": 0.9997729659080505,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 259,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴按刑法第59條規定犯罪之情狀可憫恕者，得酌量減輕其刑，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998111128807068,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 277,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵經查，被告如附表一編號1至3所示之販賣第二級毒品犯行，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997904896736145,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 288,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶至被告如附表一編號4所示之轉讓禁藥犯行，經依毒品危害防",
+      "rule_score": 0.5,
+      "bert_score": 0.9997290968894958,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 295,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤爰以行為人之責任為基礎，審酌被告明知毒品對社會秩序及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997884631156921,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 318,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 319,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯毒品危害防制條例第4條至第9條、第12條、第13條或第1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997664093971252,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 325,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按犯罪所得，屬於犯罪行為人者，沒收之；全部或一部不能",
+      "rule_score": 0.5,
+      "bert_score": 0.9996803998947144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

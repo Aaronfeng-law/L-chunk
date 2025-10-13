@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,113,易,630,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:30.583693",
+  "processing_time": 0.04981732368469238,
+  "statistics": {
+    "total_lines": 224,
+    "candidate_lines": 18,
+    "bert_processed_lines": 18,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 224,
+    "positive_predictions": 14,
+    "positive_ratio": 0.0625,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 204,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 18,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 3,
+      "中文數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.7791482581394829,
+      "std": 0.4127958732533311,
+      "min": 0.0052291713654994965,
+      "max": 0.9998242259025574,
+      "count": 18
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本判決下述所引用被告陳宗明以外之人於審判外之陳述，檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案認定事實所引用之非供述證據，無證據證明係公務員違",
+      "rule_score": 0.5,
+      "bert_score": 0.999794065952301,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997931122779846,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告為本案社區之管理主任，於112年12月6日12時35分許，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、告訴人於本院審理時結證稱：我於案發前有先向證人即本案",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、另證人湯建華於本院審理時結證稱：案發日早上被告還沒上",
+      "rule_score": 0.5,
+      "bert_score": 0.9998108744621277,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、又經本院勘驗前開大廳錄影影像檔案「0000000-陳宗明-傷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998013377189636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 138,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、基前，告訴人於本院審理時，就與被告爭執起因、2人以身",
+      "rule_score": 0.5,
+      "bert_score": 0.9997895359992981,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 158,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、被告及辯護人所辯俱不足採之說明",
+      "rule_score": 0.5,
+      "bert_score": 0.999782145023346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 192,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、綜上，本案事證明確，被告犯行堪以認定，被告所辯不可採",
+      "rule_score": 0.5,
+      "bert_score": 0.9997794032096863,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.999749481678009,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 195,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、核被告所為，係犯刑法第277條第1項之傷害罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 196,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、爰以行為人之責任為基礎，審酌被告與告訴人素不相識，卻",
+      "rule_score": 0.5,
+      "bert_score": 0.9998242259025574,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

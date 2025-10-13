@@ -1,0 +1,315 @@
+{
+  "source_file": "data/filted/TPDM,113,易,1005,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:26.166022",
+  "processing_time": 0.06840682029724121,
+  "statistics": {
+    "total_lines": 185,
+    "candidate_lines": 26,
+    "bert_processed_lines": 26,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 185,
+    "positive_predictions": 24,
+    "positive_ratio": 0.12972972972972974,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 156,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 26,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 7,
+      "大寫中文數字": 2,
+      "圍字數字": 6,
+      "括號數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.9231845974169958,
+      "std": 0.2652561983873813,
+      "min": 0.0031794128008186817,
+      "max": 0.99982088804245,
+      "count": 26
+    }
+  },
+  "markers": [
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、朱金台意圖為自己不法之所有，基於竊盜之犯意，於民國11",
+      "rule_score": 0.5,
+      "bert_score": 0.999812662601471,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經葉純琪訴由臺北市政府警察局中正第二分局報告臺灣臺",
+      "rule_score": 0.5,
+      "bert_score": 0.99982088804245,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998145699501038,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、供述證據",
+      "rule_score": 0.5,
+      "bert_score": 0.9998144507408142,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 40,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、非供述證據部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 44,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998069405555725,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠訊據被告固坦承本案監視器錄影攝得之人為其本人之事實，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997573494911194,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "⑴",
+      "unicode_code": "U+2474",
+      "category": "括號數字",
+      "content": "⑴畫面顯示時間15：24：38，被告自畫面上方出現。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998052716255188,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "⑵",
+      "unicode_code": "U+2475",
+      "category": "括號數字",
+      "content": "⑵畫面顯示時間15：24：53至15：24：57，被告徒手拉開畫面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997668862342834,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "⑶",
+      "unicode_code": "U+2476",
+      "category": "括號數字",
+      "content": "⑶畫面顯示時間15：25：00至15：25：03，被告打開畫面右上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997158646583557,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "⑷",
+      "unicode_code": "U+2477",
+      "category": "括號數字",
+      "content": "⑷畫面顯示時間15：25：12至15：25：03，被告自畫面上方往",
+      "rule_score": 0.5,
+      "bert_score": 0.9997228980064392,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "⑸",
+      "unicode_code": "U+2478",
+      "category": "括號數字",
+      "content": "⑸畫面顯示時間15：25：18至15：25：24，被告觀看畫面左側",
+      "rule_score": 0.5,
+      "bert_score": 0.9997408986091614,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 91,
+      "symbol": "⑹",
+      "unicode_code": "U+2479",
+      "category": "括號數字",
+      "content": "⑹畫面顯示時間15：25：27至15：25：48，被告走向畫面左下",
+      "rule_score": 0.5,
+      "bert_score": 0.9997163414955139,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "⑺",
+      "unicode_code": "U+247A",
+      "category": "括號數字",
+      "content": "⑺畫面顯示時間15：26：48至15：27：08，被告走近畫面中央",
+      "rule_score": 0.5,
+      "bert_score": 0.9996962547302246,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 96,
+      "symbol": "⑻",
+      "unicode_code": "U+247B",
+      "category": "括號數字",
+      "content": "⑻畫面顯示時間15：27：20至15：27：26，被告再度走近畫面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997182488441467,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "⑼",
+      "unicode_code": "U+247C",
+      "category": "括號數字",
+      "content": "⑼畫面顯示時間15：27：28，被告走出該房間。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997146725654602,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡綜上所述，本案事證明確，被告上開竊盜犯行，洵堪認定，",
+      "rule_score": 0.5,
+      "bert_score": 0.999688982963562,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第320條第1項之竊盜罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997056126594543,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人責任為基礎，審酌被告因缺錢花用，恣意竊取告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 143,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997863173484802,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 144,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之；全部或一部不能",
+      "rule_score": 0.5,
+      "bert_score": 0.9996803998947144,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡查被告本案竊得之現金1萬5,000元，為被告之犯罪所得，雖",
+      "rule_score": 0.5,
+      "bert_score": 0.9997362494468689,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

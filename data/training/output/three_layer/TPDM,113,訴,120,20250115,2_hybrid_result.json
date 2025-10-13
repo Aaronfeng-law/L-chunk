@@ -1,0 +1,313 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,120,20250115,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:44.501646",
+  "processing_time": 0.07560610771179199,
+  "statistics": {
+    "total_lines": 236,
+    "candidate_lines": 28,
+    "bert_processed_lines": 28,
+    "total_markers": 24,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 24,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 236,
+    "positive_predictions": 24,
+    "positive_ratio": 0.1016949152542373,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 199,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 9,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 28,
+        "positive": 24
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "圍字數字": 16
+    },
+    "bert_score_stats": {
+      "mean": 0.8578155294526368,
+      "std": 0.347695243998593,
+      "min": 0.0033294649329036474,
+      "max": 0.9998218417167664,
+      "count": 28
+    }
+  },
+  "markers": [
+    {
+      "line_number": 22,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、楊智凱依其智識程度及社會生活經驗，知悉手機門號係個人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998043179512024,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、楊智凱與鄭慶權（由本院另行審結）共同意圖為自己不法之",
+      "rule_score": 0.5,
+      "bert_score": 0.9998218417167664,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、楊智凱意圖為自己不法之所有，於111年9月25日9時許，透",
+      "rule_score": 0.5,
+      "bert_score": 0.999795138835907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、楊智凱可預見將自己申辦之手機門號提供予他人，可能遭詐",
+      "rule_score": 0.5,
+      "bert_score": 0.9997910857200623,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本院引用被告以外之人於審判外之陳述經本院審理時逐項提",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、認定事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998113512992859,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 83,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠上揭犯罪事實業據被告楊智凱於本院審理中坦承不諱（見本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997467398643494,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 85,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡犯罪事實一，有附表一證據資料欄所示各項證據在卷可佐。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997113347053528,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢犯罪事實二，核與證人即告訴人李志庸於警詢中之指述相符",
+      "rule_score": 0.5,
+      "bert_score": 0.9997487664222717,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣犯罪事實三，核與證人即告訴人陳○儒於警詢中之指述、證人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997684359550476,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤就犯罪事實四，核與證人即告訴人李豪凱、潘春勇、王世忠",
+      "rule_score": 0.5,
+      "bert_score": 0.9997572302818298,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 109,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥綜上，足認被告上開任意性自白與事實相符，堪以採信。本",
+      "rule_score": 0.5,
+      "bert_score": 0.999701201915741,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 111,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按刑法之幫助犯，係對於犯罪與正犯有共同之認識，而以幫",
+      "rule_score": 0.5,
+      "bert_score": 0.9997379183769226,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 131,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡核被告就犯罪事實二所為，係犯刑法第339條之1第2項之非法",
+      "rule_score": 0.5,
+      "bert_score": 0.9997556805610657,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢檢察官關於犯罪事實一，以113年度偵字第2444、3932、6298",
+      "rule_score": 0.5,
+      "bert_score": 0.9997690320014954,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告與鄭慶權就犯罪事實二之犯行，有犯意聯絡及行為分擔",
+      "rule_score": 0.5,
+      "bert_score": 0.9997369647026062,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 141,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告就犯罪事實一、四所為之幫助行為，均係於密切接近之",
+      "rule_score": 0.5,
+      "bert_score": 0.9997488856315613,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告就犯罪事實一、四所為之幫助行為，屬一行為同時觸犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9997398257255554,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 155,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告就犯罪事實一至四所為，其犯意各別、行為互殊，應分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997290968894958,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 157,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦爰審酌被告正值青壯，不思以正當方式獲取金錢，竟為圖不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 176,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997830986976624,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 177,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之；於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9996833801269531,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 180,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告於本院審理中供稱：我出售A、B、C門號給鄭慶權，各獲",
+      "rule_score": 0.5,
+      "bert_score": 0.9997238516807556,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

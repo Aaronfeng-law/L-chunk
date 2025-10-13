@@ -1,0 +1,446 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,1240,20250109,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:46.740234",
+  "processing_time": 1.6837389469146729,
+  "statistics": {
+    "total_lines": 465,
+    "candidate_lines": 45,
+    "bert_processed_lines": 45,
+    "total_markers": 36,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 36,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 465,
+    "positive_predictions": 36,
+    "positive_ratio": 0.07741935483870968,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 411,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 9,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 45,
+        "positive": 36
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 21,
+      "大寫中文數字": 5,
+      "圍字數字": 10
+    },
+    "bert_score_stats": {
+      "mean": 0.8007142440415919,
+      "std": 0.3981461721020701,
+      "min": 0.0033670268021523952,
+      "max": 0.9998394250869751,
+      "count": 45
+    }
+  },
+  "markers": [
+    {
+      "line_number": 30,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王昱翔、李紹彬、史竫延基於參與犯罪組織之犯意，於民國113年7月11日前不詳時間陸續加入通訊軟體Telegram暱稱「豬八戒」等姓名年籍不詳之人所組成，具有持續性、牟利性、結構性並以實施詐術為手段之詐欺集團，其等與同集團不詳成員共同意圖為自己不法之所有，基於三人以上詐欺取財、洗錢之犯意聯絡，先由同集團不詳成員自稱刑事組承辦員警「陳文忠」（尚無證據證明冒用公務員名義部分亦為王昱翔、李紹彬、史竫延所悉）以電話及通訊軟體LINE向高葉雪瓊佯稱：妳涉入刑事案件為檢警偵辦中，須配合交付名下財產監管云云，致高葉雪瓊陷於錯誤，於113年7月11日14時許在其住處（址新北市深坑區，詳卷）交付包含現金新臺幣（下同）202萬5500元及金手鍊、手鐲、錶、耳環、項鍊之財物1袋（下稱甲袋）予史竫延，經「豬八戒」指示史竫延於同日14時33分許將包裹攜往新北市○○區○○○0段00號之修車廠，放在李紹彬站立在側、引擎蓋開啟之無牌小客車（下稱Ａ車）副駕駛座上，徵詢李紹彬後先離開在旁等候，待李紹彬進入Ａ車將甲袋移往後車箱並放置其他物品（下稱乙袋）在副駕駛座處理完畢後，史竫延再依「豬八戒」指示返回Ａ車副駕駛座取走乙袋送往他處，李紹彬則在修車廠內Ａ車旁留待王昱翔於同日14時47分步行前來交談、於同日14時51分許駕駛車號000-0000號自小客車（下稱Ｂ車）前來，再於同日14時54分許自Ａ車車尾拿取甲袋搭乘Ｂ車，在車上交付甲袋予王昱翔，嗣由王昱翔依「豬八戒」指示抽取其中現金2萬元後，放置甲袋在修車廠附近白色腳踏車下方，以前揭方式掩飾、隱匿詐欺犯罪所得之來源及去向。嗣經高葉雪瓊發覺受騙報警處理，由警循線查悉上情。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998226761817932,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經高葉雪瓊訴由新北市政府警察局新店分局報告臺灣臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.999813973903656,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、證據能力",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、關於違反組織犯罪防制條例部分之供述證據證據能力：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997963309288025,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、關於加重詐欺取財及洗錢部分之供述證據證據能力：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998021721839905,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按被告以外之人於檢察事務官、司法警察官或司法警察調查",
+      "rule_score": 0.5,
+      "bert_score": 0.9997650980949402,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 84,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997506737709045,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本判決所援引之非供述證據，無證據證明係公務員違背法定",
+      "rule_score": 0.5,
+      "bert_score": 0.9997965693473816,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、認定犯罪事實所憑之證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9997866749763489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 105,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王昱翔、史竫延二人部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998044371604919,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、李紹彬部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998001456260681,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告三人於113年7月11日在修車廠內互動歷程如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997320771217346,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 158,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡前揭過程，復據證人即同案被告史竫延、王昱翔證述如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997583031654358,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 207,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢經核，李紹彬辯稱史竫延自稱係有意購買Ａ車而看車之客戶云",
+      "rule_score": 0.5,
+      "bert_score": 0.9997455477714539,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 241,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣又李紹彬之辯護人辯稱查無李紹彬與「豬八戒」間通訊紀錄",
+      "rule_score": 0.5,
+      "bert_score": 0.9997751116752625,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 269,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤是以，被告李紹彬辯稱是在不明所以之狀況下，恰巧地收到",
+      "rule_score": 0.5,
+      "bert_score": 0.999734103679657,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 280,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、綜上，本件事證既明，被告三人前揭犯行俱堪認定，應依法",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 282,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、新舊法比較",
+      "rule_score": 0.5,
+      "bert_score": 0.9997498393058777,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 283,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告三人行為後，詐欺犯罪危害防制條例全文於113年7月31日公布、除部分規定外於同年8月2日施行。其中刑法第339條之4之罪為該條例第2條第1款第1目之罪，被告三人所犯為刑法第339條之4第1項第2款之罪，並無該條例43條第1項規定詐欺獲取之財物或財產上利益達500萬元、1億元以上之各加重其法定刑，第44條第1項規定並犯數加重詐欺條款規定加重其刑二分之一等之加重其刑事由，而上開條例關於刑法第339條之4第1項第2款之罪之構成要件及刑罰均未修正，不生新舊法比較適用問題，逕行適用刑法第339條之4第1項第2款之規定。惟詐欺犯罪危害防制條例所增訂之減輕條件（如第47條規定在偵查及歷次審判中均自白並自動繳交犯罪所得者減輕其刑、因而有助於溯源追查者減輕或免除其刑等），乃新增原法律所無之減輕刑責規定，則應依刑法第2條第1項從舊從輕原則，分別適用最有利於行為人之法律，且因各該減輕條件彼此間暨與上開各加重條件間，並未具有適用上之「依附及相互關聯」之特性，自無須同其新舊法之整體比較適用，而應依刑法第2條第1項從舊從輕原則，應適用最有利於行為人之法律（參最高法院113年度台上字第3358號判決意旨），即應審酌被告有無符合如詐欺犯罪危害防制條例第47條減輕事由之規定並依法減輕其刑，以契合詐欺犯罪危害防制條例增訂第3章溯源打詐執法（第43條至第50條）與第4章詐欺犯罪被害人保護（第51條至第55條）本旨。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998338222503662,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 284,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告三人行為後，洗錢防制法亦於113年7月31日修正公布、",
+      "rule_score": 0.5,
+      "bert_score": 0.9998182654380798,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 286,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠修正前同法第2條原規定「本法所稱洗錢，指下列行為：一、",
+      "rule_score": 0.5,
+      "bert_score": 0.9997032284736633,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 298,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡修正前同法第14條第1項原規定「有第二條各款所列洗錢行為",
+      "rule_score": 0.5,
+      "bert_score": 0.9997395873069763,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 310,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢修正前同法第16條第2項原規定「犯前四條之罪，在偵查及歷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997331500053406,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 322,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997861981391907,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 323,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、核被告王昱翔、李紹彬、史竫延三人所為，俱係犯組織犯罪防制條例第3條第1項後段之參與犯罪組織罪、刑法第339條之4第1項第2款之三人以上共同詐欺取財罪及修正後洗錢防制法第19條第1項後段之一般洗錢罪。被告三人與同集團之姓名年籍不詳成員「豬八戒」等人間，就三人以上共同詐欺取財及一般洗錢犯行，有犯意聯絡及行為分擔，應論以共同正犯。被告三人俱以一行為犯參與犯罪組織罪、一般洗錢罪與三人以上共同詐欺取財罪，應依想像競合犯之規定，從一重之三人以上共同詐欺取財罪處斷。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998231530189514,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 324,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯詐欺犯罪，在偵查及歷次審判中均自白，如有犯罪所得",
+      "rule_score": 0.5,
+      "bert_score": 0.9997947812080383,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 355,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰以行為人之責任為基礎，審酌被告三人明知現今社會詐欺",
+      "rule_score": 0.5,
+      "bert_score": 0.9998243451118469,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 368,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、末查被告王昱翔、史竫延二人之素行良好，前俱未曾因故意",
+      "rule_score": 0.5,
+      "bert_score": 0.9997884631156921,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 384,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "伍、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997697472572327,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 385,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按沒收、非拘束人身自由之保安處分適用裁判時之法律，刑法第2條第2項定有明文。而113年7月31日經總統制定公布、000年0月0日生效之詐欺犯罪危害防制條例第48條第1項規定「犯詐欺犯罪，其供犯罪所用之物，不問屬於犯罪行為人與否，均沒收之。」，就供犯罪所用之物部分係刑法第38條第2項之特別規定，應優先適用，不問屬於犯罪行為人與否，宣告沒收。查扣案如附表二編號一、三所示之物，分係被告史竫延、王昱翔所有供其等聯繫「豬八戒」使用之物，附表二編號二所示之物，則係被告史竫延所有供盛裝甲袋使用之物，業據其等所自陳（見偵一卷第22-23、31、23、43頁，偵二卷第390頁），應依詐欺犯罪危害防制條例第48條第1項之規定宣告沒收。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998394250869751,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 386,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪所得，屬於犯罪行為人者，沒收之。於全部或一部不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998018145561218,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 400,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、按沒收適用裁判時之法律，刑法第2條第2項定有明文。查被",
+      "rule_score": 0.5,
+      "bert_score": 0.9998039603233337,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 441,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 442,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 443,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 445,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

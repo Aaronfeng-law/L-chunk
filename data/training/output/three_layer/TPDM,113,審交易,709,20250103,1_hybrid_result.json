@@ -1,0 +1,92 @@
+{
+  "source_file": "data/filted/TPDM,113,審交易,709,20250103,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:20.471719",
+  "processing_time": 0.02064228057861328,
+  "statistics": {
+    "total_lines": 46,
+    "candidate_lines": 4,
+    "bert_processed_lines": 4,
+    "total_markers": 4,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 4,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 46,
+    "positive_predictions": 4,
+    "positive_ratio": 0.08695652173913043,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 40,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 4,
+        "positive": 4
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9998013079166412,
+      "std": 9.95393106313518e-06,
+      "min": 0.9997844099998474,
+      "max": 0.9998101592063904,
+      "count": 4
+    }
+  },
+  "markers": [
+    {
+      "line_number": 12,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告張裕寧於民國112年12月26日6時許，騎",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按告訴乃論之罪，告訴人於第一審辯論終結前得撤回其告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9998055100440979,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、查被告涉犯之過失傷害罪，依刑法第287條前段規定，須告",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 35,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、依刑事訴訟法第303條第3款、第307條，判決如主文。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997844099998474,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

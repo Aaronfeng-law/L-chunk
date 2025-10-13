@@ -1,0 +1,159 @@
+{
+  "source_file": "data/filted/TPDM,112,侵訴,96,20250108,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:02.009412",
+  "processing_time": 0.03162050247192383,
+  "statistics": {
+    "total_lines": 231,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 10,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 10,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 231,
+    "positive_predictions": 10,
+    "positive_ratio": 0.04329004329004329,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 217,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 10
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 7,
+      "中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9094723275100643,
+      "std": 0.2856207200649991,
+      "min": 0.006260307505726814,
+      "max": 0.9998181462287903,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、公訴意旨略以：被告程品綸與告訴人代號AW000-A112217號",
+      "rule_score": 0.5,
+      "bert_score": 0.9998143315315247,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 36,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、按性侵害犯罪防治法所稱性侵害犯罪，係指觸犯刑法第221",
+      "rule_score": 0.5,
+      "bert_score": 0.9997811913490295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、按犯罪事實應依證據認定之，無證據不得認定犯罪事實。不",
+      "rule_score": 0.5,
+      "bert_score": 0.9997522234916687,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、公訴意旨認被告涉有上開犯嫌，無非係以證人即告訴人於警",
+      "rule_score": 0.5,
+      "bert_score": 0.9997661709785461,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 106,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、訊據被告雖坦承與告訴人於上開時地曾為性交行為，惟堅詞",
+      "rule_score": 0.5,
+      "bert_score": 0.9998134970664978,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "伍、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告與告訴人結識、見面之經過，於112年3月1日凌晨4、5",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 137,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證人即告訴人雖指述被告於112年3月1日4、5時許，違反其",
+      "rule_score": 0.5,
+      "bert_score": 0.9998181462287903,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 202,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、本院綜合前揭各項事證，關鍵仍在於無其他補強證據足以擔",
+      "rule_score": 0.5,
+      "bert_score": 0.9998102784156799,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "陸",
+      "unicode_code": "U+9678",
+      "category": "大寫中文數字",
+      "content": "陸、綜上所述，本件依公訴人所舉之直接或間接證據，尚有合理",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

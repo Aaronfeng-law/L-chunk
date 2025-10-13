@@ -1,0 +1,227 @@
+{
+  "source_file": "data/filted/TPDM,113,交易,287,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:11.326226",
+  "processing_time": 0.04248642921447754,
+  "statistics": {
+    "total_lines": 252,
+    "candidate_lines": 17,
+    "bert_processed_lines": 17,
+    "total_markers": 16,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 16,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 252,
+    "positive_predictions": 16,
+    "positive_ratio": 0.06349206349206349,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 231,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 17,
+        "positive": 16
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 5,
+      "大寫中文數字": 2,
+      "圍字數字": 5,
+      "帶圈數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.9412971643785781,
+      "std": 0.2338675964230458,
+      "min": 0.005826795008033514,
+      "max": 0.9998224377632141,
+      "count": 17
+    }
+  },
+  "markers": [
+    {
+      "line_number": 16,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、王自國於民國112年9月24日晚間11時10分許，騎乘車牌號碼",
+      "rule_score": 0.5,
+      "bert_score": 0.999810516834259,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經陳奕廷、李珮儀、李珮薰訴由臺北市政府警察局信義分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998224377632141,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、訊據被告王自國固坦承有於前開時、地，騎乘車牌號碼000-",
+      "rule_score": 0.5,
+      "bert_score": 0.999809205532074,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、被告於112年9月24日晚間11時10分許，騎乘車牌號碼000-000",
+      "rule_score": 0.5,
+      "bert_score": 0.9997217059135437,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告就本件交通事故有過失，有下列證據可資認定：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997180104255676,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 108,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "①被告於112年9月25日警詢中供稱：我是由東北往西南方向直",
+      "rule_score": 0.5,
+      "bert_score": 0.9997730851173401,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "②又告訴人陳奕廷於112年9月25日警詢中證稱：我當時直行基",
+      "rule_score": 0.5,
+      "bert_score": 0.9997701048851013,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 165,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "③而被告與告訴人陳奕廷於事故發生前係同向行駛在基隆路2段",
+      "rule_score": 0.5,
+      "bert_score": 0.9997784495353699,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 194,
+      "symbol": "④",
+      "unicode_code": "U+2463",
+      "category": "帶圈數字",
+      "content": "④被告雖辯稱在車禍事故發生前，告訴人陳奕廷之機車在未到",
+      "rule_score": 0.5,
+      "bert_score": 0.9997429251670837,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 209,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、綜上所述，本案事證明確，被告之辯解為卸責之詞，不足採",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 217,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997873902320862,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 218,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠、核被告所為，係犯刑法第284條第1項過失傷害罪。又被告以",
+      "rule_score": 0.5,
+      "bert_score": 0.9996768236160278,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 222,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡、被告於肇事後，於報案人或勤務指揮中心未報明肇事人姓名",
+      "rule_score": 0.5,
+      "bert_score": 0.9996898174285889,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢、爰以行為人責任為基礎，審酌被告右轉時未提前變換車道，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997208714485168,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

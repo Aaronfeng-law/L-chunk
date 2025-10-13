@@ -1,0 +1,81 @@
+{
+  "source_file": "data/filted/TPDM,113,附民,1621,20250106,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:02.702157",
+  "processing_time": 0.01962113380432129,
+  "statistics": {
+    "total_lines": 28,
+    "candidate_lines": 3,
+    "bert_processed_lines": 3,
+    "total_markers": 3,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 3,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 28,
+    "positive_predictions": 3,
+    "positive_ratio": 0.10714285714285714,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 24,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 1,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 3,
+        "positive": 3
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.999805748462677,
+      "std": 7.331129008065128e-06,
+      "min": 0.9997981190681458,
+      "max": 0.9998156428337097,
+      "count": 3
+    }
+  },
+  "markers": [
+    {
+      "line_number": 11,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按刑事訴訟諭知無罪、免訴或不受理之判決者，應以判決駁",
+      "rule_score": 0.5,
+      "bert_score": 0.9998156428337097,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 14,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、查被告洪聖欽被訴詐欺等案件（本院113年度訴字第1247號",
+      "rule_score": 0.5,
+      "bert_score": 0.9998034834861755,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 21,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第503條第1項但書，裁定如主文。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

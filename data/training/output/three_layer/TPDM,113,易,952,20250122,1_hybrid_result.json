@@ -1,0 +1,193 @@
+{
+  "source_file": "data/filted/TPDM,113,易,952,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:32.849286",
+  "processing_time": 0.6052453517913818,
+  "statistics": {
+    "total_lines": 135,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 13,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 13,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 135,
+    "positive_predictions": 13,
+    "positive_ratio": 0.0962962962962963,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 117,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 13
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 6,
+      "中文數字": 4,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8135312528174836,
+      "std": 0.3877288251232013,
+      "min": 0.004280210006982088,
+      "max": 0.9998200535774231,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、公訴意旨略以：被告林韋翰為告訴人覺丙午之表弟，彼此間",
+      "rule_score": 0.5,
+      "bert_score": 0.9998200535774231,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 28,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；又",
+      "rule_score": 0.5,
+      "bert_score": 0.9997842907905579,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 51,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、公訴意旨認被告涉犯上述罪嫌，無非係以被告之供述、告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997683167457581,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 56,
+      "symbol": "肆",
+      "unicode_code": "U+8086",
+      "category": "大寫中文數字",
+      "content": "肆、本案不爭執事實及爭點",
+      "rule_score": 0.5,
+      "bert_score": 0.9998007416725159,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 57,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告對於其為告訴人之表弟，屬4親等旁系血親。於110年11",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 69,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、訊據被告固坦承上述不爭執事實，惟否認有何詐欺取財行為",
+      "rule_score": 0.5,
+      "bert_score": 0.99981290102005,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 79,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告有無詐欺取財主觀犯意？",
+      "rule_score": 0.5,
+      "bert_score": 0.9997478127479553,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "伍",
+      "unicode_code": "U+4F0D",
+      "category": "大寫中文數字",
+      "content": "伍、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案告訴人原已有投資之意，被告並未對告訴人施以詐術，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998038411140442,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 100,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告為告訴人所申辦之帳戶，與被告事後交與告訴人所使用",
+      "rule_score": 0.5,
+      "bert_score": 0.9998127818107605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告於110年11月12日晚間11時53分許起向告訴人表示要先註冊帳號，需要告訴人之電子郵件信箱、驗證碼、銀行卡正反面（遮住安全碼）、身分證號碼等資料後，為告訴人註冊帳戶，並詢問告訴人是否有收到券商寄送之信件，請告訴人截圖後，被告則傳送s88880000000il.com、aa1122等內容與告訴人，並告知這是前臺密碼，另告知告訴人可下載MT4此即帳號密碼等語，有對話紀錄可憑（甲1卷第117至123頁），而告訴人於同年12月1日詢問被告稱：我可以下單了嗎？錢要匯到哪裡？等語（甲1卷第131頁），再於同日晚間7時5分許，匯款1萬元匯款至被告中國信託銀行帳戶後（甲1卷第133頁、乙1卷第21、25頁），同時指示被告下單，被告遂於同日在MetaTrader 4中之CJC Markets帳戶（帳號：627498、密碼：詳卷）刷卡存入美元310元供告訴人交易之用，並代為下單後傳送截圖與告訴人（甲1卷第55至61、139頁），告訴人並稱：到時候應該還是我自己下比較方便，被告則回覆稱：對　可以先下載MT 4 我等等給你帳號密碼 627498 （******，密碼內容詳卷）等語（甲1卷第145至147頁），可見被告所提供與告訴人使用之MT 4帳號為「627498」。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997720122337341,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡證人即告訴人於本院審理時亦證稱：我記得被告當時有給我",
+      "rule_score": 0.5,
+      "bert_score": 0.9997544884681702,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "陸",
+      "unicode_code": "U+9678",
+      "category": "大寫中文數字",
+      "content": "陸、綜上所述，本案綜合卷內公訴人所提出之各項事證後，尚無",
+      "rule_score": 0.5,
+      "bert_score": 0.999796450138092,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

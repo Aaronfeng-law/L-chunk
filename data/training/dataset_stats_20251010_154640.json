@@ -1,0 +1,10 @@
+{
+  "total_files": 1102,
+  "total_lines": 219303,
+  "positive_lines": 23328,
+  "negative_lines": 195975,
+  "positive_ratio": 0.10637337382525547,
+  "generated_at": "2025-10-10T15:46:41.408885",
+  "full_dataset_file": "ml_data/line_dataset_20251010_154640.csv",
+  "positive_samples_file": "ml_data/positive_samples_20251010_154640.csv"
+}

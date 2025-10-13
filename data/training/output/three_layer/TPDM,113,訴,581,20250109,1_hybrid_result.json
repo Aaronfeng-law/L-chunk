@@ -1,0 +1,303 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,581,20250109,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:55.755727",
+  "processing_time": 0.6459348201751709,
+  "statistics": {
+    "total_lines": 292,
+    "candidate_lines": 27,
+    "bert_processed_lines": 27,
+    "total_markers": 23,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 23,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 292,
+    "positive_predictions": 23,
+    "positive_ratio": 0.07876712328767123,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 263,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 2,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 27,
+        "positive": 23
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 8,
+      "大寫中文數字": 2,
+      "圍字數字": 13
+    },
+    "bert_score_stats": {
+      "mean": 0.853239836257503,
+      "std": 0.3513934121249211,
+      "min": 0.0033213323913514614,
+      "max": 0.9998168349266052,
+      "count": 27
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、陳均銘明知大麻為第二級毒品，依法不得販賣及持有，竟仍",
+      "rule_score": 0.5,
+      "bert_score": 0.9998114705085754,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 26,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經臺北市政府警察局信義分局報告臺灣臺北地方檢察署檢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998168349266052,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9998142123222351,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之言詞或書面陳述，除法律有規定",
+      "rule_score": 0.5,
+      "bert_score": 0.9998086094856262,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按被告以外之人於偵查中向檢察官所為之陳述，除顯有不可",
+      "rule_score": 0.5,
+      "bert_score": 0.9998127818107605,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至本判決以下所引用之其餘被告以外之人於審判外之陳述，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997989535331726,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 61,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面",
+      "rule_score": 0.5,
+      "bert_score": 0.9997840523719788,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 62,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑證據及理由",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告與蔡承翰於111年9月22日晚間8時58分許，有以通訊軟體",
+      "rule_score": 0.5,
+      "bert_score": 0.9997313618659973,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 80,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告固否認其有於111年9月22日晚間10時47分許在春秋大樓",
+      "rule_score": 0.5,
+      "bert_score": 0.999743640422821,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 154,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢關於被告與證人蔡承翰交易毒品之地點，辯護人雖以證人蔡",
+      "rule_score": 0.5,
+      "bert_score": 0.9997393488883972,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 172,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣辯護人又為被告辯護稱：證人蔡承翰與被告之對話紀錄，並",
+      "rule_score": 0.5,
+      "bert_score": 0.9997585415840149,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 189,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤辯護人再為被告辯護稱縱使111年9月22日被告確有交付毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.9997566342353821,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥辯護人復以證人蔡承翰與被告有仇隙，且為求減刑之寬典，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997645020484924,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 225,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦綜上所述，本案事證明確，被告、辯護人所辯均無足採，被",
+      "rule_score": 0.5,
+      "bert_score": 0.9997952580451965,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 228,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯毒品危害防制條例第4條第2項之販賣第二",
+      "rule_score": 0.5,
+      "bert_score": 0.9997472167015076,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 231,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡按受徒刑之執行完畢，或一部之執行而赦免後，五年以內故意再犯有期徒刑以上之罪者，為累犯，加重本刑至二分之一，刑法第47條第1項固有明文，惟被告構成累犯之事實及應加重其刑之事項，均應由檢察官主張並具體指出證明之方法後，經法院踐行調查、辯論程序，方得作為論以累犯及是否加重其刑之裁判基礎（最高法院刑事大法庭110年度台上大字第5660號裁定意旨、111年度台上字第3895號判決意旨參照）。查本案檢察官並未就被告是否構成累犯之事實及應加重其刑之事項為任何主張並具體指出證明方法，依前揭說明，本院自毋庸就此部分審酌並列為是否加重其刑之裁判基礎，惟關於被告之前科（包含構成累犯之107年訴字第755號販賣第二級毒品案件）、素行，仍列為刑法第57條所定「犯罪行為人之品行」之審酌事項，併此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997885823249817,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 232,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按刑法第59條之酌量減輕其刑，必於犯罪之情狀，在客觀上",
+      "rule_score": 0.5,
+      "bert_score": 0.9997285008430481,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 245,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣爰以行為人之責任為基礎，審酌被告明知大麻為第二級毒品",
+      "rule_score": 0.5,
+      "bert_score": 0.9997797608375549,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 256,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、沒收",
+      "rule_score": 0.5,
+      "bert_score": 0.9997972846031189,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 257,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告本案販賣第二級毒品大麻所得之8,000元，屬其犯罪所得",
+      "rule_score": 0.5,
+      "bert_score": 0.9997265934944153,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 261,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡至被告本案經搜索扣得之菸草2包、大麻菸油吸食器1支、香",
+      "rule_score": 0.5,
+      "bert_score": 0.9997348189353943,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

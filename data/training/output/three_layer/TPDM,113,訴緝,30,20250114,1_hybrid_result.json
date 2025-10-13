@@ -1,0 +1,303 @@
+{
+  "source_file": "data/filted/TPDM,113,訴緝,30,20250114,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:59.596806",
+  "processing_time": 0.07894682884216309,
+  "statistics": {
+    "total_lines": 346,
+    "candidate_lines": 26,
+    "bert_processed_lines": 26,
+    "total_markers": 23,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 23,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 346,
+    "positive_predictions": 23,
+    "positive_ratio": 0.06647398843930635,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 310,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 10,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 26,
+        "positive": 23
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 12,
+      "大寫中文數字": 2,
+      "圍字數字": 9
+    },
+    "bert_score_stats": {
+      "mean": 0.8788626558469752,
+      "std": 0.3163838048955277,
+      "min": 0.0044882227666676044,
+      "max": 0.999828577041626,
+      "count": 26
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、金城賓前為於民國95年1月1日、98年12月10日分別設立於韓",
+      "rule_score": 0.5,
+      "bert_score": 0.999828577041626,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 30,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、詎金城賓明知「本案佣金協議僅係將應由船東即Jinyang公",
+      "rule_score": 0.5,
+      "bert_score": 0.9998101592063904,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 45,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、案經東森公司告發由臺灣臺北地方檢察署（下稱臺北地檢署",
+      "rule_score": 0.5,
+      "bert_score": 0.9998036026954651,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998132586479187,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 65,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、查朴齊勳偵查證述業經具結（他字卷第186頁、偵24707號卷",
+      "rule_score": 0.5,
+      "bert_score": 0.9998109936714172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、至於所引非供述證據部分，與本案事實具自然關聯性，且非",
+      "rule_score": 0.5,
+      "bert_score": 0.9997943043708801,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 71,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、又上開各項證據，已經本院於審理時合法踐行調查程序，自",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體方面：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997757077217102,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、認定犯罪事實所憑之證據及理由：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998053908348083,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 93,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告前為Samra(BVI)公司，及BK(BVI)公司之業務負責人，知",
+      "rule_score": 0.5,
+      "bert_score": 0.9997456669807434,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡依Samra(韓國)公司、BK(韓國)公司之設立資料，上開二家公",
+      "rule_score": 0.5,
+      "bert_score": 0.9997746348381042,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 139,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢關於被告明知「本案佣金協議僅係將應由船東即Jinyang公司",
+      "rule_score": 0.5,
+      "bert_score": 0.9997343420982361,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告明知「東森公司依本案佣金協議，所應支付之佣金業已",
+      "rule_score": 0.5,
+      "bert_score": 0.9997170567512512,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 208,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、七(按，即本案佣金協議)，潘凌雲代表被告與原告簽約",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 212,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七。」、並經法院續詢以「(問：附件三所示的船舶與附件",
+      "rule_score": 0.5,
+      "bert_score": 0.9997681975364685,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 213,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、七，是相同的嗎？）是。(問：依附件三個各頁背面之",
+      "rule_score": 0.5,
+      "bert_score": 0.8333235383033752,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告其餘所辯，亦不可採：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997584223747253,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 296,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥至被告之辯護人於本院審理程序，雖以朴齊勳偵查證述未經",
+      "rule_score": 0.5,
+      "bert_score": 0.9997573494911194,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 301,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦綜上所述，本案事證明確，被告犯行堪以認定，應依法論科",
+      "rule_score": 0.5,
+      "bert_score": 0.9997890591621399,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 303,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997956156730652,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 304,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告所為，係犯刑法第168條之偽證罪。",
+      "rule_score": 0.5,
+      "bert_score": 0.9996929168701172,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 305,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡爰以行為人之責任為基礎，審酌被告為使Samra(BVI)公司及B",
+      "rule_score": 0.5,
+      "bert_score": 0.9998006224632263,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

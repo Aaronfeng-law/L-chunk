@@ -1,0 +1,446 @@
+{
+  "source_file": "data/filted/TPDM,113,審訴,326,20250108,2.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:24.404345",
+  "processing_time": 1.3089125156402588,
+  "statistics": {
+    "total_lines": 270,
+    "candidate_lines": 37,
+    "bert_processed_lines": 37,
+    "total_markers": 36,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 36,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 270,
+    "positive_predictions": 36,
+    "positive_ratio": 0.13333333333333333,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 222,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 11,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 37,
+        "positive": 36
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 3,
+      "中文數字": 27,
+      "圍字數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.9727280730494877,
+      "std": 0.1615372019590208,
+      "min": 0.003517428645864129,
+      "max": 0.9998337030410767,
+      "count": 37
+    }
+  },
+  "markers": [
+    {
+      "line_number": 21,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、本案依刑事訴訟法第310條之2準用同法第454條第2項規定，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998003840446472,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實，應予更正如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、證據部分另應補充增列如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998196959495544,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 43,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告陳俊豪於本院準備程序中及審理時之自白（見本院卷第7",
+      "rule_score": 0.5,
+      "bert_score": 0.9997482895851135,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 46,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告李駿翔於本院準備程序中及審理時之自白（見本院卷第7",
+      "rule_score": 0.5,
+      "bert_score": 0.9997468590736389,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、論罪科刑之依據：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、新舊法比較：按行為後法律有變更者，適用行為時之法律，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998098015785217,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 60,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二。又有期徒刑之減輕，應就其最高度及最低度同減輕之，",
+      "rule_score": 0.5,
+      "bert_score": 0.9947202205657959,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告陳俊豪、李駿翔行為後，洗錢防制法先於民國112年6月1",
+      "rule_score": 0.5,
+      "bert_score": 0.9997379183769226,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 81,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告二人行為時，修正前洗錢防制法第14條第1項規定：「有",
+      "rule_score": 0.5,
+      "bert_score": 0.9996817111968994,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 88,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢又關於自白減刑之規定，被告二人行為時法即112年6月14日",
+      "rule_score": 0.5,
+      "bert_score": 0.9997257590293884,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 101,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997534155845642,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告二人所為，均係犯刑法第339條之4第1項第2款之三人",
+      "rule_score": 0.5,
+      "bert_score": 0.9998071789741516,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 116,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告二人與同案被告蔡建訓、「北峰」等人及其他真實姓名",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 119,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、被告二人上開所為，均係以一行為觸犯數罪名，為想像競合",
+      "rule_score": 0.5,
+      "bert_score": 0.9997778534889221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 122,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、犯罪事實擴張之說明：起訴書雖未記載被告陳俊豪擔任一層",
+      "rule_score": 0.5,
+      "bert_score": 0.9997891783714294,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 128,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、被告二人行為後，詐欺犯罪危害防制條例業於113年7月31日制定公布，其中於113年0月0日生效施行之上開條例第2條第1款第1目規定之詐欺犯罪，包括犯刑法第339條之4之罪；同條例第47條規定：「犯詐欺犯罪，在偵查及歷次審判中均自白，如有犯罪所得，自動繳交其犯罪所得者，減輕其刑；並因而使司法警察機關或檢察官得以扣押全部犯罪所得，或查獲發起、主持、操縱或指揮詐欺犯罪組織之人者，減輕或免除其刑」。經查，被告二人就上開所犯詐欺犯罪，渠等於偵查中、本院準備程序中及審理時均自白犯罪，且均無犯罪所得，業經認定如前，爰依上開條例第47條前段規定減輕其刑。至被告二人並未有供出為發起、主持、操縱或指揮詐欺犯罪組織之人，業經認定如前，渠等上開犯行當無同條後段規定適用，附此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.999818742275238,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 129,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、爰以行為人之責任為基礎，審酌被告陳俊豪有妨害自由前科，此有臺灣高等法院被告前案紀錄表附卷可考；被告李駿翔有妨害秩序前科，此有臺灣高等法院被告前案紀錄表附卷可考，素行非佳。渠等於本案擔任提款車手、收水等工作，漠視他人財產權，對社會治安造成相當之影響，應予非難；併參以渠等犯後均坦承犯行；另考量被告陳俊豪於本院審理時供稱：我知道自己不對，希望跟被害人和解等語（見本院卷第177頁），但被害人林筠家於本院準備程序中已表示：被告李駿翔在押，沒有賠償能力，沒有和解意願；對其他被告也沒有和解意願等語之意見（見本院卷第79頁），渠等迄今未與被害人洽談和解、予以賠償等犯後態度；兼衡渠等於本案詐欺集團中擔任角色之涉案程度，犯罪所生損害；再審酌被告陳俊豪自述大學畢業之智識程度、入監前擔任健身教練、月收入3至4萬元、已婚、無扶養對象之家庭生活經濟狀況（見本院卷第176頁、第321頁）；被告李駿翔自述高職畢業之智識程度、入監前職工、月收入約1至3萬元、未婚、需扶養父親之家庭生活經濟狀況（見本院卷第206頁、第321頁）暨其等犯罪之動機、目的及手段等一切情狀，爰分別量處如主文所示之刑，以示懲儆。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998230338096619,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "參",
+      "unicode_code": "U+53C3",
+      "category": "大寫中文數字",
+      "content": "參、沒收部分：按沒收適用裁判時之法律；本法總則於其他法律",
+      "rule_score": 0.5,
+      "bert_score": 0.9997698664665222,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、經查，被告李駿翔於本院準備程序中供稱：「（報酬為總金額的2％，是否如此？）這個％數是正確的，但是我沒有領到錢，我之前說直接從贓款當中抽，但是因為上頭『北峰』跟我講，不要直接拿，所以就都沒有領到了」；暨被告陳俊豪於本院準備程序中供稱：「比例正確，但是實際上沒有拿到錢，我只認識蔡建訓，上頭說先給上面那位，但是蔡建訓都沒有拿給我」等語（見本院卷第80頁）；卷內復無證據證明渠等確有因本案犯行獲有犯罪所得，爰均不予宣告沒收，附此敘明。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998310804367065,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 146,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、另由被告陳俊豪、同案被告蔡建訓所提領、由被告李駿翔向被告陳俊豪收取之上開受騙款項共計44萬9,115元，已由被告李駿翔交予本案詐欺集團成員等節，業據渠等於警詢及偵查中供承在卷（【被告陳俊豪部分】：見偵字卷第16至19頁、第130頁；【被告李駿翔部分】：見偵字卷第180頁；【同案被告蔡建訓部分】：見偵字卷第198頁），卷內復無證據證明被告二人就上開洗錢之財物有何事實上管領處分權限，如宣告沒收容有過苛之虞，爰依刑法第38條之2第2項規定不予宣告沒收。另提領超過本案被害人受騙匯款之其餘款項部分（即提領總額58萬9,000元扣除被害人受騙44萬9,115元之其餘款項），卷內並無證據證明與本案有何關聯，且已由本案詐欺集團收受，卷內復無證據證明被告二人就上開款項得以支配，爰均不予宣告沒收。",
+      "rule_score": 0.5,
+      "bert_score": 0.9998337030410767,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 147,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、未扣案供被告二人與同案被告蔡建訓及本案詐欺集團其他成",
+      "rule_score": 0.5,
+      "bert_score": 0.9997932314872742,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 182,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 183,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 184,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 186,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、以電腦合成或其他科技方法製作關於他人不實影像、聲音或",
+      "rule_score": 0.5,
+      "bert_score": 0.9997944235801697,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 207,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、李駿翔、陳俊豪、蔡建訓於民國112年5月間，與通訊軟體Te",
+      "rule_score": 0.5,
+      "bert_score": 0.9998034834861755,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 221,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單及待證事實：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998032450675964,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 223,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告李駿翔、陳俊豪、蔡建訓所為，均係犯刑法第339條",
+      "rule_score": 0.5,
+      "bert_score": 0.9998040795326233,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 235,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 247,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、冒用政府機關或公務員名義犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999803364276886,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 248,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、三人以上共同犯之。",
+      "rule_score": 0.5,
+      "bert_score": 0.999819815158844,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 249,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997977614402771,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 254,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、意圖掩飾或隱匿特定犯罪所得來源，或使他人逃避刑事追訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997990727424622,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 256,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、掩飾或隱匿特定犯罪所得之本質、來源、去向、所在、所有",
+      "rule_score": 0.5,
+      "bert_score": 0.9998067021369934,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 258,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、收受、持有或使用他人之特定犯罪所得。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997921586036682,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

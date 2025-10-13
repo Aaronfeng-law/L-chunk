@@ -1,0 +1,530 @@
+{
+  "source_file": "data/filted/TPDM,113,審簡上,106,20250110,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:40.166634",
+  "processing_time": 0.11834430694580078,
+  "statistics": {
+    "total_lines": 396,
+    "candidate_lines": 47,
+    "bert_processed_lines": 47,
+    "total_markers": 44,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 44,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 396,
+    "positive_predictions": 44,
+    "positive_ratio": 0.1111111111111111,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 349,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 47,
+        "positive": 44
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 19,
+      "圍字數字": 22,
+      "帶圈數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.9363282757781525,
+      "std": 0.24297198778856985,
+      "min": 0.0032388868276029825,
+      "max": 0.9998219609260559,
+      "count": 47
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按上訴得明示僅就判決之刑、沒收或保安處分一部為之，刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9998008608818054,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 24,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案犯罪事實、證據及論罪理由部分，除證據部分補充被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997954964637756,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 27,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、上訴意旨略以：被告已自白，原審判決之量刑，實屬過重，",
+      "rule_score": 0.5,
+      "bert_score": 0.9998149275779724,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 29,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、按量刑之輕重，係屬事實審法院得依職權自由裁量之事項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997779726982117,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 66,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、查被告前未曾因故意犯罪受有期徒刑以上刑之宣告，有臺灣",
+      "rule_score": 0.5,
+      "bert_score": 0.9997864365577698,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 110,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按刑事訴訟法第449條第1項規定之案件，檢察官依通常程序",
+      "rule_score": 0.5,
+      "bert_score": 0.9998037219047546,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 121,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本案之犯罪事實及證據，除證據部分補充「被告吳綵惠於本",
+      "rule_score": 0.5,
+      "bert_score": 0.9997976422309875,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 124,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、論罪科刑：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997953772544861,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 125,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告就起訴書犯罪事實一㈠（即附表Α編號1）所為，係犯刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997314810752869,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 130,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告偽造告訴人乙○○之印章、印文及署名，其偽造印章、印",
+      "rule_score": 0.5,
+      "bert_score": 0.9997541308403015,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告就附表Α編號1、2部分犯行，係分別於密接之時間、地點",
+      "rule_score": 0.5,
+      "bert_score": 0.9997429251670837,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 140,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣被告就附表Α編號1部分犯行，係以一行為同時觸犯行使偽造",
+      "rule_score": 0.5,
+      "bert_score": 0.9997044205665588,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 145,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤被告利用不知情之刻印人員偽刻「乙○○」印章1個，為間接正",
+      "rule_score": 0.5,
+      "bert_score": 0.999744713306427,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 147,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥被告就附表Α編號1、2所為，行為時間、地點均可明顯區隔，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997244477272034,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 149,
+      "symbol": "㈦",
+      "unicode_code": "U+3226",
+      "category": "圍字數字",
+      "content": "㈦爰以行為人之責任為基礎，審酌被告為有一定智識程度之成",
+      "rule_score": 0.5,
+      "bert_score": 0.9997974038124084,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 167,
+      "symbol": "㈧",
+      "unicode_code": "U+3227",
+      "category": "圍字數字",
+      "content": "㈧至辯護人為被告請求：被告患有精神疾病，領有身心障礙手",
+      "rule_score": 0.5,
+      "bert_score": 0.9997560381889343,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 183,
+      "symbol": "㈨",
+      "unicode_code": "U+3228",
+      "category": "圍字數字",
+      "content": "㈨辯護人另為被告聲請為緩刑宣告部分，本院審酌緩刑係附隨",
+      "rule_score": 0.5,
+      "bert_score": 0.9997490048408508,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 201,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、沒收部分：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997760653495789,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 202,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按犯罪所得，屬於犯罪行為人者，沒收之。前二項之沒收，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997270703315735,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 205,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告本案向臺北市都市發展局共詐得99,000元（見臺灣臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.9997697472572327,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 210,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢按犯罪所偽造之署押，固應依刑法第219條規定宣告沒收，惟",
+      "rule_score": 0.5,
+      "bert_score": 0.9997424483299255,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 219,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣如附表Ｂ「偽造之印文及署押」欄所示之印文及署押，暨被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997609257698059,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 222,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤至被告所偽造如附表Β編號1、2所示之房屋租賃契約書2份，",
+      "rule_score": 0.5,
+      "bert_score": 0.999742329120636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 225,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、據上論斷，應依刑事訴訟法第449條第2項、第3項、第450條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997937083244324,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 227,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於判決送達後20日內，向本院提出上訴書",
+      "rule_score": 0.5,
+      "bert_score": 0.9997815489768982,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 270,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、吳綵惠係駿綵國際企業有限公司(下稱駿綵公司)之實際負責",
+      "rule_score": 0.5,
+      "bert_score": 0.9998219609260559,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 272,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠吳綵惠明知其於108年12月20日以自己名義與乙○○簽訂房屋租",
+      "rule_score": 0.5,
+      "bert_score": 0.9997870326042175,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 293,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡吳綵惠亦明知按內政部營建署頒定自建自購住宅貸款利息及",
+      "rule_score": 0.5,
+      "bert_score": 0.9997474551200867,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 309,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經乙○○訴由臺北市政府警察局南港分局報告偵辦。",
+      "rule_score": 0.5,
+      "bert_score": 0.999818742275238,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 311,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、證據清單暨待證事實",
+      "rule_score": 0.5,
+      "bert_score": 0.9998106360435486,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 313,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、核被告就犯罪事實㈠所為，係犯刑法第216條、第210條之行",
+      "rule_score": 0.5,
+      "bert_score": 0.9997981190681458,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 327,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、依刑事訴訟法第251條第1項提起公訴。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997988343238831,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 360,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、出席職員如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998162388801575,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 364,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、到場調解關係人",
+      "rule_score": 0.5,
+      "bert_score": 0.9997910857200623,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 368,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、兩造達成調解內容如下：",
+      "rule_score": 0.5,
+      "bert_score": 0.9998049139976501,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 369,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠相對人願給付聲請人新臺幣（下同）壹拾貳萬元，給付方式",
+      "rule_score": 0.5,
+      "bert_score": 0.9997629523277283,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 371,
+      "symbol": "①",
+      "unicode_code": "U+2460",
+      "category": "帶圈數字",
+      "content": "①民國（下同）113 年10月10日以前給付貳萬元。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997552037239075,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 372,
+      "symbol": "②",
+      "unicode_code": "U+2461",
+      "category": "帶圈數字",
+      "content": "②餘款自民國113 年11月起，按月於每月10日以前給付壹萬",
+      "rule_score": 0.5,
+      "bert_score": 0.9997442364692688,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 375,
+      "symbol": "③",
+      "unicode_code": "U+2462",
+      "category": "帶圈數字",
+      "content": "③由相對人匯款至聲請人所指定之國泰世華銀行，戶名：乙",
+      "rule_score": 0.5,
+      "bert_score": 0.9997466206550598,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 377,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡相對人願於113 年11月30日以前負責將駿綵國際企業有限公",
+      "rule_score": 0.5,
+      "bert_score": 0.999751627445221,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 381,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢聲請人撤回本院民事臺北簡易庭113 年度北司補字第1876號",
+      "rule_score": 0.5,
+      "bert_score": 0.9997789263725281,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 383,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣聲請人同意以上開調解內容作為本案緩刑宣告之條件。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997536540031433,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 384,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤聲請人其餘之請求拋棄。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997618794441223,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 385,
+      "symbol": "㈥",
+      "unicode_code": "U+3225",
+      "category": "圍字數字",
+      "content": "㈥聲請費用各自負擔。",
+      "rule_score": 0.5,
+      "bert_score": 0.9997417330741882,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

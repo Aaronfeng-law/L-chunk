@@ -1,0 +1,370 @@
+{
+  "source_file": "data/filted/TPDM,112,訴,1469,20250116,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:25:07.900559",
+  "processing_time": 0.08398270606994629,
+  "statistics": {
+    "total_lines": 357,
+    "candidate_lines": 34,
+    "bert_processed_lines": 34,
+    "total_markers": 29,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 29,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 357,
+    "positive_predictions": 29,
+    "positive_ratio": 0.08123249299719888,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 316,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 7,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 34,
+        "positive": 29
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 14,
+      "天干": 2,
+      "大寫中文數字": 2,
+      "圍字數字": 11
+    },
+    "bert_score_stats": {
+      "mean": 0.8540724717792781,
+      "std": 0.350911635215554,
+      "min": 0.0034096650779247284,
+      "max": 0.9998192191123962,
+      "count": 34
+    }
+  },
+  "markers": [
+    {
+      "line_number": 26,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、呂東澔、劉昱甫意圖為自己不法之所有，基於詐欺取財之犯",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 34,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、案經莊曾美玉訴由臺北市政府警察局中山分局報告臺灣臺北",
+      "rule_score": 0.5,
+      "bert_score": 0.9998192191123962,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "甲",
+      "unicode_code": "U+7532",
+      "category": "天干",
+      "content": "甲、有罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998120665550232,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 38,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、程序部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998167157173157,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、按被告以外之人於審判外之陳述，雖不符刑事訴訟法第159",
+      "rule_score": 0.5,
+      "bert_score": 0.9998177886009216,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 50,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本判決所引用之非供述證據，查無違反法定程序取得之情形",
+      "rule_score": 0.5,
+      "bert_score": 0.9998063445091248,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 52,
+      "symbol": "貳",
+      "unicode_code": "U+8CB3",
+      "category": "大寫中文數字",
+      "content": "貳、實體部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997835755348206,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、上揭犯罪事實，業據被告呂東澔於準備及審理程序、劉昱甫",
+      "rule_score": 0.5,
+      "bert_score": 0.9998021721839905,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 74,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、論罪科刑",
+      "rule_score": 0.5,
+      "bert_score": 0.9997912049293518,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 75,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠核被告呂東澔、劉昱甫所為，均係犯刑法第339條第1項之詐",
+      "rule_score": 0.5,
+      "bert_score": 0.9997416138648987,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 87,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告呂東澔、劉昱甫就前揭之犯行，互有犯意聯絡及行為分",
+      "rule_score": 0.5,
+      "bert_score": 0.999734103679657,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 94,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢爰分別以被告呂東澔、劉昱甫之行為人責任為基礎，審酌其",
+      "rule_score": 0.5,
+      "bert_score": 0.9997805953025818,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 104,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告呂東澔就附表編號2至4部分，獲取不法所得共208萬，",
+      "rule_score": 0.5,
+      "bert_score": 0.999800980091095,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 112,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、不另為無罪之諭知部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9997860789299011,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 113,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠公訴意旨略以：被告呂東澔、劉昱甫與被告陳濰昀、方曦（",
+      "rule_score": 0.5,
+      "bert_score": 0.9997711777687073,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 117,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡經查，被告陳濰昀、方曦向告訴人接洽的時間為107年6、7月",
+      "rule_score": 0.5,
+      "bert_score": 0.999705970287323,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 127,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢綜上，檢察官就被告呂東澔、劉昱甫共與被告陳濰昀、方曦",
+      "rule_score": 0.5,
+      "bert_score": 0.9997418522834778,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 133,
+      "symbol": "乙",
+      "unicode_code": "U+4E59",
+      "category": "天干",
+      "content": "乙、無罪部分",
+      "rule_score": 0.5,
+      "bert_score": 0.9998051524162292,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 134,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、公訴意旨略以：被告陳濰昀（原名：陳霈羽），與被告方曦",
+      "rule_score": 0.5,
+      "bert_score": 0.9998183846473694,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 151,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定犯罪事實；不",
+      "rule_score": 0.5,
+      "bert_score": 0.9998112320899963,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 171,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告陳濰昀涉犯加重詐欺取財罪，無非係以被告",
+      "rule_score": 0.5,
+      "bert_score": 0.999799907207489,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 187,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告陳濰昀固承認有於107年6、7月間向告訴人推銷購",
+      "rule_score": 0.5,
+      "bert_score": 0.9997879862785339,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 199,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 200,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告陳濰昀於107年間為富圓公司之業務，並於107年6、7月",
+      "rule_score": 0.5,
+      "bert_score": 0.9997269511222839,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 211,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告陳濰昀是否有以統一全球風暴受害者為由向告訴人推銷",
+      "rule_score": 0.5,
+      "bert_score": 0.9997181296348572,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 254,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告陳濰昀並無以所販售之塔位位置為面海之詐術，使告訴",
+      "rule_score": 0.5,
+      "bert_score": 0.9997517466545105,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 291,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣告訴人係出於自由意思而與被告陳濰昀購買塔位，並無陷於",
+      "rule_score": 0.5,
+      "bert_score": 0.9997486472129822,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 315,
+      "symbol": "㈤",
+      "unicode_code": "U+3224",
+      "category": "圍字數字",
+      "content": "㈤告訴人固有遭同案被告呂東澔、劉昱甫詐欺，業經認定如前",
+      "rule_score": 0.5,
+      "bert_score": 0.9997311234474182,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 325,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，本案公訴人所舉證據，並無法證明被告陳濰昀有",
+      "rule_score": 0.5,
+      "bert_score": 0.9997768998146057,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

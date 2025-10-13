@@ -1,0 +1,114 @@
+{
+  "source_file": "data/filted/TPDM,114,簡,86,20250115,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:13.709202",
+  "processing_time": 0.022623777389526367,
+  "statistics": {
+    "total_lines": 55,
+    "candidate_lines": 6,
+    "bert_processed_lines": 6,
+    "total_markers": 6,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 6,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 55,
+    "positive_predictions": 6,
+    "positive_ratio": 0.10909090909090909,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 46,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 6,
+        "positive": 6
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 6
+    },
+    "bert_score_stats": {
+      "mean": 0.999795158704122,
+      "std": 1.5102522700158862e-05,
+      "min": 0.9997804760932922,
+      "max": 0.9998210072517395,
+      "count": 6
+    }
+  },
+  "markers": [
+    {
+      "line_number": 15,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、本案犯罪事實及證據，均引用聲請簡易判決處刑書（如附件",
+      "rule_score": 0.5,
+      "bert_score": 0.9998013377189636,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 17,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、被告莊智全前經觀察、勒戒，於民國112年2月16日執行完畢",
+      "rule_score": 0.5,
+      "bert_score": 0.9998045563697815,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 23,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、爰以行為人之責任為基礎，審酌被告前已有施用毒品而經判",
+      "rule_score": 0.5,
+      "bert_score": 0.9998210072517395,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 31,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、扣案之白色透明結晶1袋（含袋，驗餘淨重0.1508公克，保",
+      "rule_score": 0.5,
+      "bert_score": 0.9997811913490295,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 39,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、依刑事訴訟法第449條第1項前段、第3項、第454 條第2項，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997804760932922,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 41,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、如不服本判決，應於判決送達之翌日起20日內向本院提出上",
+      "rule_score": 0.5,
+      "bert_score": 0.999782383441925,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

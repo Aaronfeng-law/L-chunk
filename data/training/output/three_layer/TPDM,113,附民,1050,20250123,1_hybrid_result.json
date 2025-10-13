@@ -1,0 +1,203 @@
+{
+  "source_file": "data/filted/TPDM,113,附民,1050,20250123,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:27:02.124665",
+  "processing_time": 0.04069662094116211,
+  "statistics": {
+    "total_lines": 109,
+    "candidate_lines": 16,
+    "bert_processed_lines": 16,
+    "total_markers": 14,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 14,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 109,
+    "positive_predictions": 14,
+    "positive_ratio": 0.12844036697247707,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 90,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 3,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 16,
+        "positive": 14
+      }
+    },
+    "symbol_category_distribution": {
+      "中文數字": 10,
+      "圍字數字": 4
+    },
+    "bert_score_stats": {
+      "mean": 0.8757098859350663,
+      "std": 0.32824897282164284,
+      "min": 0.004492233972996473,
+      "max": 0.9998169541358948,
+      "count": 16
+    }
+  },
+  "markers": [
+    {
+      "line_number": 12,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、被告應給付原告新臺幣拾肆萬玖仟玖佰參拾肆元，及自民國",
+      "rule_score": 0.5,
+      "bert_score": 0.9998096823692322,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 15,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、本判決得假執行。但被告如以新臺幣拾肆萬玖仟玖佰參拾肆",
+      "rule_score": 0.5,
+      "bert_score": 0.9998169541358948,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 18,
+      "symbol": "一",
+      "unicode_code": "U+4E00",
+      "category": "中文數字",
+      "content": "一、原告主張：被告谷沛庭明知李駿翔、陳俊豪、蔡建訓及真實",
+      "rule_score": 0.5,
+      "bert_score": 0.9997970461845398,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 42,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、被告則以：我是從事空調工作，於112年5月18日下午，我是",
+      "rule_score": 0.5,
+      "bert_score": 0.9998121857643127,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 48,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、本院之判斷：",
+      "rule_score": 0.5,
+      "bert_score": 0.9997938275337219,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 49,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠按因故意或過失，不法侵害他人之權利者，負損害賠償責任",
+      "rule_score": 0.5,
+      "bert_score": 0.9997357726097107,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 53,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡被告與李駿翔、陳俊豪、蔡建訓、真實姓名年籍不詳、Teleg",
+      "rule_score": 0.5,
+      "bert_score": 0.9997283816337585,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 73,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢被告共同以詐欺之手段侵害原告之財產權，出面收取、轉交",
+      "rule_score": 0.5,
+      "bert_score": 0.9997504353523254,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "㈣",
+      "unicode_code": "U+3223",
+      "category": "圍字數字",
+      "content": "㈣本件侵權行為請求，屬於無確定期限之債。原告就上述請求",
+      "rule_score": 0.5,
+      "bert_score": 0.9996978044509888,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 82,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、綜上所述，原告依民法第184條第1項前段、第185條第1項前",
+      "rule_score": 0.5,
+      "bert_score": 0.9997888207435608,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 86,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、本件所命給付金額未逾50萬元，應依職權宣告假執行。被告",
+      "rule_score": 0.5,
+      "bert_score": 0.9997897744178772,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 92,
+      "symbol": "七",
+      "unicode_code": "U+4E03",
+      "category": "中文數字",
+      "content": "七、本件為刑事附帶民事訴訟，依法毋庸繳納裁判費，且訴訟程",
+      "rule_score": 0.5,
+      "bert_score": 0.999775230884552,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 95,
+      "symbol": "八",
+      "unicode_code": "U+516B",
+      "category": "中文數字",
+      "content": "八、本件事證已臻明確，兩造其餘攻擊防禦方法及所提之證據，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997655749320984,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 98,
+      "symbol": "九",
+      "unicode_code": "U+4E5D",
+      "category": "中文數字",
+      "content": "九、據上論結，本件原告之訴為有理由，依刑事訴訟法第502條",
+      "rule_score": 0.5,
+      "bert_score": 0.9997995495796204,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}

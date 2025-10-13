@@ -1,0 +1,149 @@
+{
+  "source_file": "data/filted/TPDM,113,訴,539,20250122,1.json",
+  "detection_method": "hybrid_rule_bert",
+  "bert_model_used": true,
+  "timestamp": "2025-10-12T11:26:55.015196",
+  "processing_time": 0.040969133377075195,
+  "statistics": {
+    "total_lines": 290,
+    "candidate_lines": 11,
+    "bert_processed_lines": 11,
+    "total_markers": 9,
+    "ultra_strict_markers": 0,
+    "bert_refined_markers": 9,
+    "rule_only_markers": 0
+  },
+  "analysis": {
+    "total_lines": 290,
+    "positive_predictions": 9,
+    "positive_ratio": 0.03103448275862069,
+    "ultra_strict_count": 0,
+    "method_statistics": {
+      "rule_rejected": {
+        "total": 275,
+        "positive": 0
+      },
+      "empty_line": {
+        "total": 4,
+        "positive": 0
+      },
+      "soft_rule_bert": {
+        "total": 11,
+        "positive": 9
+      }
+    },
+    "symbol_category_distribution": {
+      "大寫中文數字": 1,
+      "中文數字": 5,
+      "圍字數字": 3
+    },
+    "bert_score_stats": {
+      "mean": 0.8189380650239234,
+      "std": 0.38358944644658133,
+      "min": 0.005038211587816477,
+      "max": 0.9998072981834412,
+      "count": 11
+    }
+  },
+  "markers": [
+    {
+      "line_number": 17,
+      "symbol": "壹",
+      "unicode_code": "U+58F9",
+      "category": "大寫中文數字",
+      "content": "壹、公訴意旨略以：被告王源炯、王源標係兄弟，被告王源炯為",
+      "rule_score": 0.5,
+      "bert_score": 0.9998072981834412,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 37,
+      "symbol": "二",
+      "unicode_code": "U+4E8C",
+      "category": "中文數字",
+      "content": "二、按犯罪事實應依證據認定之，無證據不得認定其犯罪事實；",
+      "rule_score": 0.5,
+      "bert_score": 0.9998025298118591,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 68,
+      "symbol": "三",
+      "unicode_code": "U+4E09",
+      "category": "中文數字",
+      "content": "三、公訴意旨認被告二人涉犯上開犯行，無非係以被告二人之供",
+      "rule_score": 0.5,
+      "bert_score": 0.9997919201850891,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 77,
+      "symbol": "四",
+      "unicode_code": "U+56DB",
+      "category": "中文數字",
+      "content": "四、訊據被告二人均堅決否認有何過失致人於死及失火之犯行，",
+      "rule_score": 0.5,
+      "bert_score": 0.9997833371162415,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 89,
+      "symbol": "五",
+      "unicode_code": "U+4E94",
+      "category": "中文數字",
+      "content": "五、經查：",
+      "rule_score": 0.5,
+      "bert_score": 0.999771773815155,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 90,
+      "symbol": "㈠",
+      "unicode_code": "U+3220",
+      "category": "圍字數字",
+      "content": "㈠被告二人為兄弟，王源炯為本案房屋所有權人，107年10月1",
+      "rule_score": 0.5,
+      "bert_score": 0.999711811542511,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 103,
+      "symbol": "㈡",
+      "unicode_code": "U+3221",
+      "category": "圍字數字",
+      "content": "㈡本案經新北巿政府消防局調查鑑定火災原因，認定如下：「㈣",
+      "rule_score": 0.5,
+      "bert_score": 0.9996846914291382,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 166,
+      "symbol": "㈢",
+      "unicode_code": "U+3222",
+      "category": "圍字數字",
+      "content": "㈢公訴意旨以建築法第77條課以建築物所有權人負有維護建築",
+      "rule_score": 0.5,
+      "bert_score": 0.9997442364692688,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    },
+    {
+      "line_number": 269,
+      "symbol": "六",
+      "unicode_code": "U+516D",
+      "category": "中文數字",
+      "content": "六、綜上所述，檢察官所提出之證據，尚不足以為被告二人犯失",
+      "rule_score": 0.5,
+      "bert_score": 0.9997771382331848,
+      "method": "soft_rule_bert",
+      "is_pua": false
+    }
+  ]
+}
