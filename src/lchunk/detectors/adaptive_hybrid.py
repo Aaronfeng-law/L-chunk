@@ -139,7 +139,37 @@ class IntelligentHybridDetector:
         level_mapping = {}
         for rule in learned_rules:
             level_mapping[rule.symbol_category] = rule.assigned_level
-        
+
+        # 收集所有特殊標記行（包含日期）
+        special_line_set = set()
+        for marker_lines in special_markers.values():
+            special_line_set.update(marker_lines)
+
+        def emit_content_segment(segment_indices: List[int]):
+            if not segment_indices:
+                return
+            segment_lines = [lines[idx] for idx in segment_indices]
+            chunks.append(LineBasedChunk(
+                level=-1,
+                start_line=segment_indices[0],
+                end_line=segment_indices[-1],
+                chunk_type="content",
+                content_lines=segment_lines,
+                chunk_id=f"content_{segment_indices[0]}_{segment_indices[-1]}"
+            ))
+
+        def collect_content_segments(start_idx: int, end_idx: int):
+            current_indices: List[int] = []
+            for idx in range(start_idx, end_idx):
+                if idx in special_line_set or idx in leveling_symbol_lines:
+                    if current_indices:
+                        emit_content_segment(current_indices)
+                        current_indices = []
+                    continue
+                current_indices.append(idx)
+            if current_indices:
+                emit_content_segment(current_indices)
+
         # 步驟3: 標記所有層級符號行
         leveling_symbol_lines = {}  # line_number -> (symbol, category, level)
         for result in detection_results:
@@ -179,29 +209,17 @@ class IntelligentHybridDetector:
         
         # 特殊標記處理 (Lv 0)
         for marker_type, line_numbers in special_markers.items():
-            if marker_type == 'dates':
-                continue  # 日期單獨處理
             for line_num in line_numbers:
                 if content_start <= line_num <= content_end:
+                    chunk_type = marker_type if marker_type != 'dates' else 'date'
                     chunks.append(LineBasedChunk(
                         level=0,
                         start_line=line_num,
                         end_line=line_num,
-                        chunk_type=marker_type,
+                        chunk_type=chunk_type,
                         content_lines=[lines[line_num]],
-                        chunk_id=f"{marker_type}_{line_num}"
+                        chunk_id=f"{chunk_type}_{line_num}"
                     ))
-        
-        # 日期標記處理 (Lv -2)
-        for line_num in special_markers['dates']:
-            chunks.append(LineBasedChunk(
-                level=-2,
-                start_line=line_num,
-                end_line=line_num, 
-                chunk_type="date",
-                content_lines=[lines[line_num]],
-                chunk_id=f"date_{line_num}"
-            ))
         
         # 內容區域分塊：根據層級符號行分割
         sorted_symbol_lines = sorted(leveling_symbol_lines.keys())
@@ -213,24 +231,7 @@ class IntelligentHybridDetector:
                 
             # 層級符號行之前的內容 (Lv -1)
             if current_pos < symbol_line:
-                content_lines = []
-                for i in range(current_pos, symbol_line):
-                    if (i not in special_markers['main_text'] and 
-                        i not in special_markers['facts'] and
-                        i not in special_markers['reasons'] and
-                        i not in special_markers['facts_and_reasons'] and
-                        i not in special_markers['dates']):
-                        content_lines.append(lines[i])
-                
-                if content_lines:
-                    chunks.append(LineBasedChunk(
-                        level=-1,
-                        start_line=current_pos,
-                        end_line=symbol_line - 1,
-                        chunk_type="content", 
-                        content_lines=content_lines,
-                        chunk_id=f"content_{current_pos}_{symbol_line-1}"
-                    ))
+                collect_content_segments(current_pos, symbol_line)
             
             # 層級符號行本身
             symbol, category, level = leveling_symbol_lines[symbol_line]
@@ -248,21 +249,7 @@ class IntelligentHybridDetector:
         
         # 最後一個層級符號後的內容
         if current_pos <= content_end:
-            content_lines = []
-            for i in range(current_pos, content_end + 1):
-                if (i not in special_markers['dates'] and
-                    i not in leveling_symbol_lines):
-                    content_lines.append(lines[i])
-            
-            if content_lines:
-                chunks.append(LineBasedChunk(
-                    level=-1,
-                    start_line=current_pos,
-                    end_line=content_end,
-                    chunk_type="content",
-                    content_lines=content_lines,
-                    chunk_id=f"content_{current_pos}_{content_end}"
-                ))
+            collect_content_segments(current_pos, content_end + 1)
         
         # Footer區域 (Lv -3): 最後日期之後
         if last_date_line is not None and last_date_line < len(lines) - 1:
@@ -435,7 +422,7 @@ class IntelligentHybridDetector:
             print(f"   📋 {symbol_category}: Level {rule.assigned_level} (信心度: {rule.confidence:.3f})")
         
         return rules
-    
+
     def apply_leveling_rules(self, full_results: List[HybridDetectionResult], 
                            learned_rules: List[LevelingRule]) -> Dict:
         """將學習到的規則應用到全文檢測結果"""

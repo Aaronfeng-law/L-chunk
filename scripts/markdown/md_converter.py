@@ -103,37 +103,58 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
     last_list_indent: str | None = None
 
     for chunk in sorted(result.line_based_chunks, key=lambda item: item.start_line):
-        content_lines = sanitize_lines(chunk.content_lines)
+        raw_lines = [line.rstrip("\n") for line in chunk.content_lines]
+
+        if chunk.level == -3:
+            header_footer_lines = [line for line in raw_lines if line.strip()]
+            if not header_footer_lines:
+                continue
+            output_lines.extend(header_footer_lines)
+            output_lines.append("")
+            last_list_indent = None
+            continue
+
+        content_lines = sanitize_lines(raw_lines)
         if not content_lines:
             continue
 
         if chunk.level == 0:
-            output_lines.append(f"## {' '.join(content_lines)}")
+            heading_text = " ".join(content_lines)
+            if not heading_text:
+                continue
+            output_lines.append(f"## {heading_text}")
             output_lines.append("")
             numbering_state.clear()
             last_list_indent = None
         elif chunk.level >= 1:
+            list_payload = [" ".join(content_lines)] if content_lines else []
+            if not list_payload:
+                continue
             formatted_lines, content_indent = format_level_block(
-                chunk, numbering_state, content_lines
+                chunk, numbering_state, list_payload
             )
             output_lines.extend(formatted_lines)
             last_list_indent = content_indent
+            output_lines.append("")
         elif chunk.level == -1:
+            paragraph = " ".join(content_lines)
+            if not paragraph:
+                continue
             if last_list_indent:
-                for text in content_lines:
-                    output_lines.append(f"{last_list_indent}{text}")
-                output_lines.append(last_list_indent)
+                output_lines.append(f"{last_list_indent}{paragraph}")
             else:
-                output_lines.extend(content_lines)
-                output_lines.append("")
+                output_lines.append(paragraph)
+            output_lines.append("")
         elif chunk.level == -2:
-            output_lines.append(f"*{content_lines[0]}*")
+            date_text = " ".join(content_lines)
+            if not date_text:
+                continue
+            output_lines.append(f"*{date_text}*")
             output_lines.append("")
             last_list_indent = None
         elif chunk.level == -3:
-            output_lines.extend(content_lines)
-            output_lines.append("")
-            last_list_indent = None
+            # 已在前面處理
+            pass
 
     cleaned_output = [line.rstrip() for line in output_lines]
     return "\n".join(cleaned_output).strip() + "\n"

@@ -321,31 +321,23 @@ class HybridLevelSymbolDetector:
         if not positive_results:
             return {'hierarchy_levels': [], 'level_mapping': {}}
         
-        # 從後往前遍歷，追蹤符號類型
-        seen_symbol_types = set()
+        # 依行號順序遍歷，遇到新符號類型時建立下一層
         hierarchy_levels = []
-        current_level = 1  # 不使用 level 0
-        
-        # 從檔案末尾開始分析
-        for result in reversed(positive_results):
+        category_levels: Dict[str, int] = {}
+        current_level = 1
+
+        for result in positive_results:
             symbol_category = result.symbol_category
-            
+
             # 移除預定義層級，完全動態學習
-            predefined_level = 0  # 不再依賴預定義層級
-            
-            # 如果是新的符號類型，分配新層級
-            if symbol_category not in seen_symbol_types:
-                seen_symbol_types.add(symbol_category)
-                assigned_level = current_level
+            predefined_level = 0
+
+            if symbol_category not in category_levels:
+                category_levels[symbol_category] = current_level
                 current_level += 1
-            else:
-                # 已見過的符號類型，找到之前分配的層級
-                assigned_level = next(
-                    (item['assigned_level'] for item in hierarchy_levels 
-                     if item['symbol_category'] == symbol_category), 
-                    current_level
-                )
-            
+
+            assigned_level = category_levels[symbol_category]
+
             hierarchy_levels.append({
                 'line_number': result.line_number,
                 'detected_symbol': result.detected_symbol,
@@ -357,10 +349,7 @@ class HybridLevelSymbolDetector:
                 'method_used': result.method_used,
                 'bert_score': result.bert_score
             })
-        
-        # 反轉輸出順序（因為我們從後往前分析）
-        hierarchy_levels.reverse()
-        
+
         # 創建層級映射表
         level_mapping = {}
         for item in hierarchy_levels:
@@ -383,7 +372,7 @@ class HybridLevelSymbolDetector:
         return {
             'hierarchy_levels': hierarchy_levels,
             'level_mapping': level_mapping,
-            'total_levels': len(seen_symbol_types),
+            'total_levels': len(category_levels),
             'total_symbols': len(hierarchy_levels)
         }
     
