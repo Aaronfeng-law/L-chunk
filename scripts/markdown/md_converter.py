@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 import sys
 from pathlib import Path
-from typing import Dict, Iterable, List
+from typing import Dict, Iterable, List, Tuple
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
@@ -73,7 +73,7 @@ def format_level_block(
     chunk: LineBasedChunk,
     numbering_state: Dict[int, int],
     content_lines: List[str],
-) -> List[str]:
+) -> Tuple[List[str], str]:
     if chunk.level <= 0:
         raise ValueError("format_level_block expects level >= 1")
 
@@ -87,11 +87,11 @@ def format_level_block(
     first_line = f"{indent}{numbering_state[chunk.level]}. {content_lines[0]}"
     formatted = [first_line]
 
-    continuation_indent = f"{indent}   " if indent else "   "
+    content_indent = f"{indent}   " if indent else "   "
     for extra_line in content_lines[1:]:
-        formatted.append(f"{continuation_indent}{extra_line}")
+        formatted.append(f"{content_indent}{extra_line}")
 
-    return formatted
+    return formatted, content_indent
 
 
 def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
@@ -100,6 +100,7 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
 
     output_lines: List[str] = [f"# {result.filename}", f"- learning_region: {result.learning_region}", ""]
     numbering_state: Dict[int, int] = {}
+    last_list_indent: str | None = None
 
     for chunk in sorted(result.line_based_chunks, key=lambda item: item.start_line):
         content_lines = sanitize_lines(chunk.content_lines)
@@ -110,18 +111,29 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
             output_lines.append(f"## {' '.join(content_lines)}")
             output_lines.append("")
             numbering_state.clear()
+            last_list_indent = None
         elif chunk.level >= 1:
-            output_lines.extend(format_level_block(chunk, numbering_state, content_lines))
-            output_lines.append("")
+            formatted_lines, content_indent = format_level_block(
+                chunk, numbering_state, content_lines
+            )
+            output_lines.extend(formatted_lines)
+            last_list_indent = content_indent
         elif chunk.level == -1:
-            output_lines.extend(content_lines)
-            output_lines.append("")
+            if last_list_indent:
+                for text in content_lines:
+                    output_lines.append(f"{last_list_indent}{text}")
+                output_lines.append(last_list_indent)
+            else:
+                output_lines.extend(content_lines)
+                output_lines.append("")
         elif chunk.level == -2:
             output_lines.append(f"*{content_lines[0]}*")
             output_lines.append("")
+            last_list_indent = None
         elif chunk.level == -3:
             output_lines.extend(content_lines)
             output_lines.append("")
+            last_list_indent = None
 
     cleaned_output = [line.rstrip() for line in output_lines]
     return "\n".join(cleaned_output).strip() + "\n"
