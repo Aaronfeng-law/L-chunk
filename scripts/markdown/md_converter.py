@@ -102,7 +102,9 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
     numbering_state: Dict[int, int] = {}
     last_list_indent: str | None = None
 
-    for chunk in sorted(result.line_based_chunks, key=lambda item: item.start_line):
+    sorted_chunks = sorted(result.line_based_chunks, key=lambda item: item.start_line)
+
+    for idx, chunk in enumerate(sorted_chunks):
         raw_lines = [line.rstrip("\n") for line in chunk.content_lines]
 
         if chunk.level == -3:
@@ -113,6 +115,9 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
             output_lines.append("")
             last_list_indent = None
             continue
+
+        prev_chunk = sorted_chunks[idx - 1] if idx > 0 else None
+        next_chunk = sorted_chunks[idx + 1] if idx + 1 < len(sorted_chunks) else None
 
         content_lines = sanitize_lines(raw_lines)
         if not content_lines:
@@ -137,14 +142,27 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
             last_list_indent = content_indent
             output_lines.append("")
         elif chunk.level == -1:
-            paragraph = " ".join(content_lines)
-            if not paragraph:
-                continue
-            if last_list_indent:
-                output_lines.append(f"{last_list_indent}{paragraph}")
+            adjacent_date = (
+                (prev_chunk and prev_chunk.level == 0 and prev_chunk.chunk_type == "date")
+                or (next_chunk and next_chunk.level == 0 and next_chunk.chunk_type == "date")
+            )
+
+            if adjacent_date:
+                line_by_line = [line for line in raw_lines if line.strip()]
+                if not line_by_line:
+                    continue
+                output_lines.extend(line_by_line)
+                output_lines.append("")
+                last_list_indent = None
             else:
-                output_lines.append(paragraph)
-            output_lines.append("")
+                paragraph = " ".join(content_lines)
+                if not paragraph:
+                    continue
+                if last_list_indent:
+                    output_lines.append(f"{last_list_indent}{paragraph}")
+                else:
+                    output_lines.append(paragraph)
+                output_lines.append("")
         elif chunk.level == -2:
             date_text = " ".join(content_lines)
             if not date_text:
