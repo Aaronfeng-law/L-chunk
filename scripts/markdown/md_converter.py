@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
@@ -14,6 +15,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from src.lchunk.detectors.adaptive_hybrid import (  # pylint: disable=wrong-import-position
     AdaptiveDetectionResult,
     AdaptiveHybridDetector,
+    LevelingRule,
     LineBasedChunk,
 )
 
@@ -44,6 +46,11 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
         type=int,
         default=None,
         help="Optional limit on the number of files to process when input_path is a directory.",
+    )
+    parser.add_argument(
+        "--machine-input",
+        action="store_true",
+        help="Treat input JSON as detector machine exports (skip rerunning the detector).",
     )
     return parser.parse_args(list(argv))
 
@@ -178,10 +185,60 @@ def chunks_to_markdown(result: AdaptiveDetectionResult) -> str:
     return "\n".join(cleaned_output).strip() + "\n"
 
 
-def process_file(detector: AdaptiveHybridDetector, input_file: Path, output_dir: Path) -> Path | None:
-    result = detector.process_single_file(input_file)
-    if not result:
-        return None
+def load_machine_detection_result(payload_path: Path) -> AdaptiveDetectionResult:
+    data = json.loads(payload_path.read_text(encoding="utf-8"))
+
+    learned_rules = [
+        LevelingRule(
+            symbol_category=rule.get("symbol_category", ""),
+            assigned_level=rule.get("assigned_level", 0),
+            confidence=rule.get("confidence", 0.0),
+            learning_source=rule.get("learning_source", ""),
+            occurrences=rule.get("occurrences", 0),
+            examples=list(rule.get("examples", [])),
+        )
+        for rule in data.get("learned_rules", [])
+    ]
+
+    line_chunks = [
+        LineBasedChunk(
+            level=item.get("level", -1),
+            start_line=item.get("start_line", 0),
+            end_line=item.get("end_line", 0),
+            chunk_type=item.get("chunk_type", "content"),
+            content_lines=list(item.get("content_lines", [])),
+            leveling_symbol=item.get("leveling_symbol"),
+            chunk_id=item.get("chunk_id", ""),
+        )
+        for item in data.get("line_based_chunks", [])
+    ]
+
+    return AdaptiveDetectionResult(
+        filename=data.get("filename", payload_path.name),
+        file_structure=data.get("file_structure", {}),
+        learning_region=data.get("learning_region", ""),
+        learned_rules=learned_rules,
+        full_detection_results=[],
+        applied_hierarchy=data.get("applied_hierarchy", {}),
+        processing_stats=data.get("processing_stats", {}),
+        line_based_chunks=line_chunks,
+    )
+
+
+def process_file(
+    detector: AdaptiveHybridDetector | None,
+    input_file: Path,
+    output_dir: Path,
+    machine_input: bool,
+) -> Path | None:
+    if machine_input:
+        result = load_machine_detection_result(input_file)
+    else:
+        if detector is None:
+            raise ValueError("Detector instance required when machine_input is False")
+        result = detector.process_single_file(input_file)
+        if not result:
+            return None
 
     markdown = chunks_to_markdown(result)
     target_path = output_dir / f"{input_file.stem}.md"
@@ -193,7 +250,9 @@ def main(argv: Iterable[str]) -> int:
     args = parse_args(argv)
     ensure_output_dir(args.output_dir)
 
-    detector = AdaptiveHybridDetector(str(args.model_path) if args.model_path.exists() else None)
+    detector: AdaptiveHybridDetector | None = None
+    if not args.machine_input:
+        detector = AdaptiveHybridDetector(str(args.model_path) if args.model_path.exists() else None)
 
     targets = collect_targets(args.input_path, args.max_files)
     if not targets:
@@ -204,7 +263,7 @@ def main(argv: Iterable[str]) -> int:
     for path in targets:
         print(f"Converting {path} -> Markdown")
         try:
-            output_path = process_file(detector, path, args.output_dir)
+            output_path = process_file(detector, path, args.output_dir, args.machine_input)
         except Exception as exc:  # pylint: disable=broad-except
             print(f"Failed to convert {path.name}: {exc}")
             continue

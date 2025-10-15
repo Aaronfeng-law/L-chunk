@@ -74,6 +74,7 @@ uv run run_adaptive_detector.py \
 
 - 預設輸出：Markdown 與 JSON 檔案寫入 `output/adaptive/`，詳細日誌寫入 `logs/adaptive_detector.log`
 - 常用參數：`--model-path` 指定權重、`--max-files` 限制批次數量、`--verbose` 顯示即時進度
+- 匯出格式：`--export-format human|machine`（預設 human）。選擇 `machine` 時會輸出 JSON，並將 Lv -1 內容與對應上層 (Lv ≥ 1) 合併
 - 若模型路徑不存在，流程會自動退化為純規則檢測並於日誌提示
 
 ## 🎯 核心特性

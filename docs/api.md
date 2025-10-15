@@ -54,4 +54,5 @@
   - `--log-file`：詳細日誌輸出位置
   - `--max-files`：批量處理上限
   - `--verbose`：在終端顯示進度
+  - `--export-format`：`human` (Markdown + summary) 或 `machine` (JSON，將 Lv -1 內容併入對應 Lv ≥ 1)
 

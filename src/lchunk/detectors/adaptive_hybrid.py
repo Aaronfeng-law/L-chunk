@@ -17,7 +17,7 @@ import json
 import logging
 import sys
 from pathlib import Path
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict, Tuple, Optional, Any
 from dataclasses import dataclass
 from datetime import datetime
 import warnings
@@ -283,6 +283,106 @@ class AdaptiveHybridDetector:
             logger.debug("   %s: %d", level_type, count)
         
         return chunks
+
+    @staticmethod
+    def _chunk_to_machine_node(chunk: LineBasedChunk) -> Dict[str, Any]:
+        """將分塊轉換為機器可讀節點。"""
+        return {
+            "level": chunk.level,
+            "chunk_type": chunk.chunk_type,
+            "start_line": chunk.start_line + 1,
+            "end_line": chunk.end_line + 1,
+            "content_lines": list(chunk.content_lines),
+            "leveling_symbol": chunk.leveling_symbol,
+            "chunk_id": chunk.chunk_id,
+            "children": [],
+        }
+
+    def build_machine_tree(self, chunks: List[LineBasedChunk]) -> List[Dict[str, Any]]:
+        """建立機器可讀層級樹，並將 Lv -1 內容附加到對應的上層 (Lv >= 1)。"""
+        if not chunks:
+            return []
+
+        ordered_chunks = sorted(chunks, key=lambda item: item.start_line)
+        tree: List[Dict[str, Any]] = []
+        stack: List[Dict[str, Any]] = []
+
+        for chunk in ordered_chunks:
+            if chunk.level >= 0:
+                node = self._chunk_to_machine_node(chunk)
+                while stack and stack[-1]["level"] >= chunk.level:
+                    stack.pop()
+
+                if stack:
+                    stack[-1]["children"].append(node)
+                else:
+                    tree.append(node)
+
+                stack.append(node)
+            elif chunk.level == -1:
+                recipient: Dict[str, Any] | None = None
+                for candidate in reversed(stack):
+                    if candidate["level"] >= 1:
+                        recipient = candidate
+                        break
+
+                if recipient is not None:
+                    recipient["content_lines"].extend(chunk.content_lines)
+                    recipient["end_line"] = max(recipient["end_line"], chunk.end_line + 1)
+                else:
+                    tree.append(self._chunk_to_machine_node(chunk))
+            else:
+                # Header/Footer/Date 等保留為獨立節點
+                tree.append(self._chunk_to_machine_node(chunk))
+
+        return tree
+
+    def build_machine_payload(self, result: AdaptiveDetectionResult) -> Dict[str, Any]:
+        """組裝機器可讀輸出所需的 payload。"""
+        machine_tree = self.build_machine_tree(result.line_based_chunks or [])
+        learned_rules = [
+            {
+                "symbol_category": rule.symbol_category,
+                "assigned_level": rule.assigned_level,
+                "confidence": rule.confidence,
+                "learning_source": rule.learning_source,
+                "occurrences": rule.occurrences,
+                "examples": rule.examples,
+            }
+            for rule in result.learned_rules
+        ]
+
+        return {
+            "filename": result.filename,
+            "file_structure": result.file_structure,
+            "learning_region": result.learning_region,
+            "processing_stats": result.processing_stats,
+            "learned_rules": learned_rules,
+            "applied_hierarchy": result.applied_hierarchy,
+            "hierarchy": machine_tree,
+            "line_based_chunks": [
+                {
+                    "level": chunk.level,
+                    "start_line": chunk.start_line,
+                    "end_line": chunk.end_line,
+                    "chunk_type": chunk.chunk_type,
+                    "content_lines": list(chunk.content_lines),
+                    "leveling_symbol": chunk.leveling_symbol,
+                    "chunk_id": chunk.chunk_id,
+                }
+                for chunk in result.line_based_chunks or []
+            ],
+        }
+
+    def export_machine_result(self, result: AdaptiveDetectionResult, output_dir: Path) -> Path:
+        """輸出機器可讀 JSON 檔，將 Lv -1 內容附加於上層層級 (排除 Lv 0)。"""
+        output_dir.mkdir(parents=True, exist_ok=True)
+        payload = self.build_machine_payload(result)
+
+        target_name = f"{Path(result.filename).stem}_machine.json"
+        target_path = output_dir / target_name
+        target_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        return target_path
     
     def concatenate_level_content(self, chunks: List[LineBasedChunk]) -> Dict[str, List[str]]:
         """合併相同層級的內容 (步驟5: Concat the content of Lv -1 between lv 0 1 2 3 4 and so on)"""
