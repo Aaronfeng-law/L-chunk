@@ -1,67 +1,94 @@
 # L-chunk: 法律文檔層級符號檢測系統
 
+L-chunk 旨在自動解析法律文檔的層級結構，結合規則與 BERT 模型，輸出易於閱讀及後續分析的 Markdown 報告。
 
-## 🏗️ 項目結構
+## 🏗️ 專案結構
 
-```
-L-chunk-reorganized/
-├── src/lchunk/          # 核心源代碼
-│   ├── detectors/       # 檢測器模組
-│   ├── analyzers/       # 分析器模組
-│   ├── models/          # 數據模型
-│   ├── utils/           # 工具函數
-│   └── training/        # 訓練相關
-├── tests/               # 測試代碼
-├── output/              # 輸出
-├── data/                # 數據文件
-├── models/              # 訓練好的模型
-├── results/             # 輸出結果
-├── scripts/             # 可執行腳本
-└── docs/                # 文檔
+```text
+L-chunk/
+├── src/lchunk/          # 核心程式碼 (檢測器、分析器、模型)
+├── scripts/             # 指令稿 (含 Markdown 轉換工具)
+├── data/                # 原始/處理後數據與樣本
+├── models/              # 訓練後模型與檢測器設定
+├── output/              # 產出 (Markdown、報告、偵測結果)
+├── results/             # 評估報告與比較結果
+├── tests/               # 單元與整合測試
+└── docs/                # 補充文件與 API 說明
 ```
 
 ## 🚀 快速開始
 
-### 安裝
+### 先決條件
+
+- Python 3.10 以上版本
+- 建議使用 [uv](https://github.com/astral-sh/uv) 管理虛擬環境與依賴
+
+### 安裝步驟
+
 ```bash
+# 選用 uv 建立虛擬環境並安裝專案 (建議)
+uv venv
+source .venv/bin/activate
+uv pip install -e .
+
+# 或使用 pip
+python -m venv .venv
+source .venv/bin/activate
 pip install -e .
 ```
 
-### 使用
+### Python API 範例
+
 ```python
 from lchunk import IntelligentHybridDetector
 
-# 創建檢測器
 detector = IntelligentHybridDetector()
-
-# 處理文件
 result = detector.process_single_file("path/to/document.json")
+
+print(result.learning_region)
+print(len(result.line_based_chunks))
 ```
 
+### CLI：Markdown 轉換器
+
+利用 `scripts/markdown/md_converter.py` 將偵測結果轉換成 Markdown：
+
+```bash
+uv run scripts/markdown/md_converter.py \
+    data/samples/TPDM,109,易,187,20250116,1.json \
+    --output-dir output/markdown
+```
+
+> 預設會輸出到 `output/markdown/`。若輸入為目錄，可搭配 `--max-files` 限制轉換數量。
 
 ## 🎯 核心特性
 
-- **三層檢測**: 嚴格規則 → 軟規則 → BERT 分類
-- **自適應學習**: 基於文檔結構動態學習層級規則
-- **批量處理**: 高效處理大量文檔
-- **全面評估**: 多模型性能比較
+- **三層檢測流程**：嚴格規則 → 软規則 → BERT 分類
+- **自適應層級學習**：動態推斷段落層級與日期等特殊標記
+- **行為維度輸出**：維持標頭、日期區塊逐行輸出，便於法律文件校對
+- **批量與評估工具**：內建批次轉換、模型比較與性能報告
 
-## 🔧 開發
+## 🔧 開發指南
 
+```bash
+# 執行測試
+uv run pytest
 
-# 開發安裝
-pip install -e 
+# 重新訓練層級偵測模型 (範例)
+uv run scripts/training/train_bert.py --config config/training.yaml
+```
 
+> 若調整 Markdown 轉換邏輯，可使用專案資料夾中的範例 JSON 重新產出報告檢查格式。
 
-## 📊 性能
+## 📊 目前性能
 
-- **BERT 模型**: F1分數 0.9947 (最佳)
-- **隨機森林**: F1分數 0.9497 
-- **邏輯回歸**: F1分數 0.9471
+- **BERT 模型**：F1 = 0.9947 (最佳)
+- **隨機森林**：F1 = 0.9497
+- **邏輯回歸**：F1 = 0.9471
 
 ## 🤝 貢獻
 
-歡迎提交 Issue 和 Pull Request！
+歡迎先透過 Issue 討論，再提交 Pull Request。請確保程式碼通過測試並符合專案風格。
 
 ## 📄 許可證
 
