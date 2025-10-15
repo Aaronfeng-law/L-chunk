@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-自適應混合層級符號檢測器 (Intelligent Hybrid Detector)
+自適應混合層級符號檢測器 (Adaptive Hybrid Detector)
 先學習再應用" 原則：文件分塊 → 規則學習 → 全文應用
 
 處理流程：
@@ -14,6 +14,7 @@
 """
 
 import json
+import logging
 import sys
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
@@ -27,6 +28,9 @@ sys.path.append('.')
 from .hybrid import HybridLevelSymbolDetector, HybridDetectionResult
 from ..analyzers.splitter import process_single_file, find_section_patterns
 from ..analyzers.comprehensive import analyze_filtered_dataset
+
+
+logger = logging.getLogger(__name__)
 
 @dataclass
 class LevelingRule:
@@ -50,7 +54,7 @@ class LineBasedChunk:
     chunk_id: str = ""
 
 @dataclass
-class IntelligentDetectionResult:
+class AdaptiveDetectionResult:
     """自適應檢測結果"""
     filename: str
     file_structure: Dict  # comprehensive_analysis 結果
@@ -61,7 +65,7 @@ class IntelligentDetectionResult:
     processing_stats: Dict
     line_based_chunks: Optional[List[LineBasedChunk]] = None  # 新增：基於行的分塊結果
 
-class IntelligentHybridDetector:
+class AdaptiveHybridDetector:
     """自適應混合層級符號檢測器"""
     
     def __init__(self, model_path: Optional[str] = None):
@@ -71,8 +75,7 @@ class IntelligentHybridDetector:
         # 自適應檢測結果
         self.detection_results = []
         
-        print("🧠 自適應混合檢測器已初始化")
-        print("策略：文件分塊 → 規則學習 → 全文應用")
+        logger.debug("Adaptive hybrid detector initialized (chunking -> rule learning -> application).")
     
     def detect_special_markers(self, lines: List[str]) -> Dict[str, List[int]]:
         """檢測特殊標記：主文(lv 0), 理由(lv 0), 事實(lv 0), 事實及理由(lv 0), date1(lv -2), date2(lv -2)"""
@@ -97,27 +100,27 @@ class IntelligentHybridDetector:
             # 檢測主文 (支援 "主文", "主　文", "主 文" 等格式)
             if normalized_text == '主文':
                 markers['main_text'].append(line_num)
-                print(f"📍 找到主文標記 (Lv 0): 行 {line_num + 1} 「{line_text}」")
+                logger.debug("Detected 'main_text' marker at line %d: %s", line_num + 1, line_text)
             
             # 檢測事實 (支援 "事實", "事　實", "事 實" 等格式)
             elif normalized_text == '事實':
                 markers['facts'].append(line_num)
-                print(f"📍 找到事實標記 (Lv 0): 行 {line_num + 1} 「{line_text}」")
+                logger.debug("Detected 'facts' marker at line %d: %s", line_num + 1, line_text)
             
             # 檢測理由 (支援 "理由", "理　由", "理 由" 等格式)
             elif normalized_text == '理由':
                 markers['reasons'].append(line_num)
-                print(f"📍 找到理由標記 (Lv 0): 行 {line_num + 1} 「{line_text}」")
+                logger.debug("Detected 'reasons' marker at line %d: %s", line_num + 1, line_text)
             
             # 檢測事實及理由 (支援各種空白字符組合)
             elif normalized_text in ['事實及理由', '事實和理由']:
                 markers['facts_and_reasons'].append(line_num)
-                print(f"📍 找到事實及理由標記 (Lv 0): 行 {line_num + 1} 「{line_text}」")
+                logger.debug("Detected 'facts_and_reasons' marker at line %d: %s", line_num + 1, line_text)
             
             # 檢測日期 (ROC日期格式)
             elif patterns['date_pattern'].search(line_text) or patterns['date_pattern_strict'].search(line_text):
                 markers['dates'].append(line_num)
-                print(f"📍 找到日期標記 (Lv -2): 行 {line_num + 1} 「{line_text}」")
+                logger.debug("Detected 'date' marker at line %d: %s", line_num + 1, line_text)
         
         return markers
     
@@ -130,7 +133,7 @@ class IntelligentHybridDetector:
         4. content (lv -1): 兩個層級符號行之間的內容
         5. leveling_symbol (lv 1,2,3...): 檢測到的層級符號行
         """
-        print("🏗️ 開始基於行的分塊...")
+        logger.debug("Starting line-based chunking.")
         
         # 步驟1: 檢測特殊標記
         special_markers = self.detect_special_markers(lines)
@@ -201,7 +204,7 @@ class IntelligentHybridDetector:
                 content_lines=header_content,
                 chunk_id="header"
             ))
-            print(f"📝 Header區域: 行 1-{main_text_line} (Lv -3)")
+            logger.debug("Header segment captured (lines 1-%d).", main_text_line)
         
         # 處理主要內容區域
         content_start = main_text_line if main_text_line is not None else 0
@@ -262,12 +265,12 @@ class IntelligentHybridDetector:
                 content_lines=footer_content,
                 chunk_id="footer"
             ))
-            print(f"📝 Footer區域: 行 {last_date_line + 2}-{len(lines)} (Lv -3)")
+            logger.debug("Footer segment captured (lines %d-%d).", last_date_line + 2, len(lines))
         
         # 按行號排序
         chunks.sort(key=lambda x: x.start_line)
         
-        print(f"✅ 完成基於行的分塊: {len(chunks)} 個分塊")
+        logger.info("Constructed %d line-based chunks.", len(chunks))
         
         # 統計分塊類型
         chunk_stats = {}
@@ -275,15 +278,15 @@ class IntelligentHybridDetector:
             level_type = f"Lv{chunk.level}_{chunk.chunk_type}"
             chunk_stats[level_type] = chunk_stats.get(level_type, 0) + 1
         
-        print("📊 分塊統計:")
+        logger.debug("Chunk statistics:")
         for level_type, count in sorted(chunk_stats.items()):
-            print(f"   {level_type}: {count} 個")
+            logger.debug("   %s: %d", level_type, count)
         
         return chunks
     
     def concatenate_level_content(self, chunks: List[LineBasedChunk]) -> Dict[str, List[str]]:
         """合併相同層級的內容 (步驟5: Concat the content of Lv -1 between lv 0 1 2 3 4 and so on)"""
-        print("🔗 合併相同層級的內容...")
+        logger.debug("Merging content for identical levels.")
         
         level_content = {}
         
@@ -298,10 +301,10 @@ class IntelligentHybridDetector:
             level_content[level_key].extend(chunk.content_lines)
         
         # 顯示合併結果統計
-        print("📋 層級內容合併結果:")
+        logger.debug("Merged content statistics:")
         for level, content in sorted(level_content.items()):
             line_count = len([line for line in content if not line.startswith('[')])
-            print(f"   {level}: {line_count} 行內容")
+            logger.debug("   %s: %d lines", level, line_count)
         
         return level_content
     
@@ -379,8 +382,8 @@ class IntelligentHybridDetector:
             
             return True, structure_info
         
-        except Exception as e:
-            print(f"❌ 分析檔案結構失敗: {e}")
+        except Exception as exc:
+            logger.exception("Failed to analyze file structure for %s", file_path)
             return False, {}
     
     def learn_leveling_rules(self, learning_lines: List[str], learning_region: str) -> List[LevelingRule]:
@@ -388,8 +391,8 @@ class IntelligentHybridDetector:
         
         不再依賴任何預定義層級，完全基於文件本身的符號出現順序
         """
-        print(f"🎓 在 {learning_region} 區間學習層級規則...")
-        print(f"   學習範圍: {len(learning_lines)} 行")
+        logger.info("Learning hierarchy rules within region %s.", learning_region)
+        logger.debug("Learning span contains %d lines.", len(learning_lines))
         
         # 在學習區間執行檢測
         learning_results = self.hybrid_detector.detect_hybrid_markers(learning_lines)
@@ -399,14 +402,14 @@ class IntelligentHybridDetector:
         hierarchy_analysis = self.hybrid_detector.detect_hierarchy_levels()
         
         if not hierarchy_analysis or not hierarchy_analysis.get('level_mapping'):
-            print("⚠️ 學習區間未發現有效的層級規則")
+            logger.warning("No valid hierarchy rules found in the learning region.")
             return []
         
         # 建立規則 - 完全基於學習的層級
         rules = []
         level_mapping = hierarchy_analysis['level_mapping']
         
-        print(f"✅ 學習到 {len(level_mapping)} 種符號類型的層級規則")
+        logger.info("Learned hierarchy rules for %d symbol categories.", len(level_mapping))
         
         for symbol_category, level_info in level_mapping.items():
             rule = LevelingRule(
@@ -419,14 +422,19 @@ class IntelligentHybridDetector:
             )
             rules.append(rule)
             
-            print(f"   📋 {symbol_category}: Level {rule.assigned_level} (信心度: {rule.confidence:.3f})")
+            logger.debug(
+                "   %s -> level %d (confidence %.3f)",
+                symbol_category,
+                rule.assigned_level,
+                rule.confidence,
+            )
         
         return rules
 
     def apply_leveling_rules(self, full_results: List[HybridDetectionResult], 
                            learned_rules: List[LevelingRule]) -> Dict:
         """將學習到的規則應用到全文檢測結果"""
-        print("🔧 將學習規則應用到全文...")
+        logger.debug("Applying learned hierarchy rules to the full document.")
         
         # 建立規則映射
         rule_mapping = {}
@@ -486,10 +494,10 @@ class IntelligentHybridDetector:
                     'text': item['line_text'][:50] + '...'
                 })
         
-        print(f"✅ 規則應用完成:")
-        print(f"   已知規則: {len(rule_mapping) - len(unknown_categories)} 種")
-        print(f"   新發現: {len(unknown_categories)} 種")
-        print(f"   總層級符號: {len(enhanced_hierarchy)} 個")
+        logger.info("Rule application completed:")
+        logger.info("   Known rules: %d types", len(rule_mapping) - len(unknown_categories))
+        logger.info("   New discoveries: %d types", len(unknown_categories))
+        logger.info("   Total hierarchy symbols: %d", len(enhanced_hierarchy))
         
         return {
             'enhanced_hierarchy': enhanced_hierarchy,
@@ -499,21 +507,21 @@ class IntelligentHybridDetector:
             'total_symbols': len(enhanced_hierarchy)
         }
     
-    def process_single_file(self, file_path: Path) -> Optional[IntelligentDetectionResult]:
+    def process_single_file(self, file_path: Path) -> Optional[AdaptiveDetectionResult]:
         """處理單個檔案 - 完整的自適應檢測流程 + 基於行的分塊"""
-        print(f"\n🔍 自適應檢測: {file_path.name}")
+        logger.info("Processing file: %s", file_path.name)
         
         # 步驟1: 文件分塊
         success, structure_info = self.analyze_file_structure(file_path)
         if not success:
-            print(f"❌ 檔案結構分析失敗")
+            logger.error("File structure analysis failed for %s", file_path)
             return None
         
         learning_region = structure_info['learning_region']
-        print(f"📊 檔案結構: {learning_region} 模式")
+        logger.info("Detected document structure region: %s", learning_region)
         
         # 步驟2: 全文層級符號偵測
-        print("🔎 執行全文層級符號檢測...")
+        logger.debug("Running full-document hierarchy detection.")
         full_text_lines = structure_info['full_text_lines']
         full_detection_results = self.hybrid_detector.detect_hybrid_markers(full_text_lines)
         
@@ -525,7 +533,7 @@ class IntelligentHybridDetector:
         applied_hierarchy = self.apply_leveling_rules(full_detection_results, learned_rules)
         
         # 步驟5: 基於行的分塊 (新增)
-        print("🏗️ 執行基於行的分塊...")
+        logger.debug("Executing line-based chunk generation.")
         line_based_chunks = self.create_line_based_chunks(full_text_lines, full_detection_results, learned_rules)
         
         # 步驟6: 合併相同層級內容 (新增)
@@ -544,7 +552,7 @@ class IntelligentHybridDetector:
                                     for k, v in level_content.items()}  # 新增
         }
         
-        result = IntelligentDetectionResult(
+        result = AdaptiveDetectionResult(
             filename=file_path.name,
             file_structure=structure_info,
             learning_region=learning_region,
@@ -557,45 +565,55 @@ class IntelligentHybridDetector:
         
         return result
     
-    def process_sample_directory(self, sample_dir: Path):
+    def process_sample_directory(
+        self,
+        sample_dir: Path,
+        output_dir: Optional[Path] = None,
+        max_files: Optional[int] = None,
+    ):
         """處理 sample 目錄中的所有檔案"""
-        print(f"🚀 自適應批量檢測: {sample_dir}")
-        print("="*80)
+        logger.info("Starting batch adaptive detection for directory: %s", sample_dir)
         
         if not sample_dir.exists():
-            print(f"❌ 目錄不存在: {sample_dir}")
+            logger.error("Directory does not exist: %s", sample_dir)
             return
         
-        json_files = list(sample_dir.glob("*.json"))
+        json_files = sorted(p for p in sample_dir.glob("*.json") if p.is_file())
+        if max_files is not None:
+            json_files = json_files[:max_files]
         if not json_files:
-            print(f"❌ 在 {sample_dir} 中沒有找到 JSON 檔案")
+            logger.warning("No JSON files found under %s", sample_dir)
             return
         
-        print(f"📁 找到 {len(json_files)} 個檔案")
+        logger.info("Found %d JSON file(s) to process.", len(json_files))
         
         all_results = []
         learning_region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
         
         for i, json_file in enumerate(json_files, 1):
-            print(f"\n[{i}/{len(json_files)}] 處理: {json_file.name}")
+            logger.info("Processing file %d/%d: %s", i, len(json_files), json_file.name)
             
             result = self.process_single_file(json_file)
             if result:
                 all_results.append(result)
                 learning_region_stats[result.learning_region] += 1
             else:
-                print(f"❌ 處理失敗: {json_file.name}")
+                logger.error("Processing failed for %s", json_file.name)
         
         # 生成綜合報告
-        self.generate_batch_report(all_results, learning_region_stats)
+        self.generate_batch_report(all_results, learning_region_stats, output_dir)
     
-    def generate_batch_report(self, results: List[IntelligentDetectionResult], 
-                            region_stats: Dict):
+    def generate_batch_report(
+        self,
+        results: List[AdaptiveDetectionResult],
+        region_stats: Dict,
+        output_dir: Optional[Path] = None,
+    ):
         """生成批量處理報告"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_dir = Path("output")
-        output_dir.mkdir(exist_ok=True)
-        report_file = output_dir / f"adaptive_detection_report_{timestamp}.md"
+        target_dir = Path(output_dir) if output_dir else Path("output")
+        target_dir.mkdir(parents=True, exist_ok=True)
+        report_file = target_dir / f"adaptive_detection_report_{timestamp}.md"
         
         report = f"""# 自適應混合層級符號檢測報告
 生成時間: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
@@ -663,10 +681,10 @@ class IntelligentHybridDetector:
         with open(report_file, 'w', encoding='utf-8') as f:
             f.write(report)
         
-        print(f"\n✅ 自適應檢測報告已保存: {report_file}")
+        logger.info("Adaptive detection report saved to %s", report_file)
         
         # 保存詳細數據
-        json_file = output_dir / f"adaptive_detection_data_{timestamp}.json"
+        json_file = target_dir / f"adaptive_detection_data_{timestamp}.json"
         json_data = []
         
         for result in results:
@@ -705,18 +723,16 @@ class IntelligentHybridDetector:
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump(json_data, f, ensure_ascii=False, indent=2)
         
-        print(f"📊 詳細數據已保存: {json_file}")
+        logger.info("Detailed detection data saved to %s", json_file)
 
 def main():
     """主函數 - 自適應檢測演示"""
-    print("🧠 自適應混合層級符號檢測器")
-    print("基於  '先學習再應用' 原則")
-    print("文件分塊 → 規則學習 → 全文應用")
-    print("="*80)
+    logger.info("Adaptive detector demo following the 'learn then apply' principle.")
+    logger.info("Workflow: document chunking -> rule learning -> document-wide application.")
     
     # 初始化自適應檢測器
     model_path = "models/bert/level_detector/best_model"
-    detector = IntelligentHybridDetector(model_path if Path(model_path).exists() else None)
+    detector = AdaptiveHybridDetector(model_path if Path(model_path).exists() else None)
 
     # 處理 sample 目錄
     sample_dir = Path("data/processed/sample")

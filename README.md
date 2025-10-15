@@ -40,9 +40,9 @@ pip install -e .
 ### Python API 範例
 
 ```python
-from lchunk import IntelligentHybridDetector
+from lchunk import AdaptiveHybridDetector
 
-detector = IntelligentHybridDetector()
+detector = AdaptiveHybridDetector()
 result = detector.process_single_file("path/to/document.json")
 
 print(result.learning_region)
@@ -61,9 +61,24 @@ uv run scripts/markdown/md_converter.py \
 
 > 預設會輸出到 `output/markdown/`。若輸入為目錄，可搭配 `--max-files` 限制轉換數量。
 
+### CLI：自適應檢測器
+
+使用 `run_adaptive_detector.py` 可直接在終端執行自適應檢測（支援單檔與整批處理）：
+
+```bash
+uv run run_adaptive_detector.py \
+    data/samples \
+    --output-dir output/adaptive \
+    --log-file logs/adaptive_detector.log
+```
+
+- 預設輸出：Markdown 與 JSON 檔案寫入 `output/adaptive/`，詳細日誌寫入 `logs/adaptive_detector.log`
+- 常用參數：`--model-path` 指定權重、`--max-files` 限制批次數量、`--verbose` 顯示即時進度
+- 若模型路徑不存在，流程會自動退化為純規則檢測並於日誌提示
+
 ## 🎯 核心特性
 
-- **三層檢測流程**：嚴格規則 → 软規則 → BERT 分類
+- **三層檢測流程**：嚴格規則 → 軟規則 → BERT 分類
 - **自適應層級學習**：動態推斷段落層級與日期等特殊標記
 - **行為維度輸出**：維持標頭、日期區塊逐行輸出，便於法律文件校對
 - **批量與評估工具**：內建批次轉換、模型比較與性能報告

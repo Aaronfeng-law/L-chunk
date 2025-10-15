@@ -1,0 +1,90 @@
+2025-10-15 13:52:17,007 [INFO] lchunk.detectors.adaptive_hybrid: Starting batch adaptive detection for directory: data/samples
+2025-10-15 13:52:17,008 [INFO] lchunk.detectors.adaptive_hybrid: Found 4 JSON file(s) to process.
+2025-10-15 13:52:17,008 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 1/4: TPDM,109,易,187,20250116,1.json
+2025-10-15 13:52:17,008 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,109,易,187,20250116,1.json
+2025-10-15 13:52:17,014 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 13:52:17,480 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 13:52:17,621 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 4 symbol categories.
+2025-10-15 13:52:17,622 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 13:52:17,622 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 4 types
+2025-10-15 13:52:17,622 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 13:52:17,622 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 50
+2025-10-15 13:52:17,623 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 103 line-based chunks.
+2025-10-15 13:52:17,623 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 2/4: TPDM,111,侵訴,89,20250115,1.json
+2025-10-15 13:52:17,623 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,111,侵訴,89,20250115,1.json
+2025-10-15 13:52:17,627 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 13:52:17,745 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 13:52:17,836 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 3 symbol categories.
+2025-10-15 13:52:17,836 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 13:52:17,836 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 3 types
+2025-10-15 13:52:17,836 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 13:52:17,836 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 41
+2025-10-15 13:52:17,837 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 77 line-based chunks.
+2025-10-15 13:52:17,838 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 3/4: TPDM,111,易,564,20250113,1.json
+2025-10-15 13:52:17,838 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,111,易,564,20250113,1.json
+2025-10-15 13:52:17,847 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 13:52:24,213 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 13:52:28,931 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 7 symbol categories.
+2025-10-15 13:52:28,932 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 13:52:28,932 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 7 types
+2025-10-15 13:52:28,932 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 13:52:28,932 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 124
+2025-10-15 13:52:28,935 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 233 line-based chunks.
+2025-10-15 13:52:28,936 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 4/4: TPDM,111,金重訴,34,20250114,1.json
+2025-10-15 13:52:28,937 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,111,金重訴,34,20250114,1.json
+2025-10-15 13:52:28,950 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 13:52:36,837 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 13:52:44,431 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 5 symbol categories.
+2025-10-15 13:52:44,433 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 13:52:44,433 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 5 types
+2025-10-15 13:52:44,433 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 13:52:44,433 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 171
+2025-10-15 13:52:44,438 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 299 line-based chunks.
+2025-10-15 13:52:44,440 [INFO] lchunk.detectors.adaptive_hybrid: Adaptive detection report saved to output/adaptive/adaptive_detection_report_20251015_135244.md
+2025-10-15 13:52:44,464 [INFO] lchunk.detectors.adaptive_hybrid: Detailed detection data saved to output/adaptive/adaptive_detection_data_20251015_135244.json
+2025-10-15 13:52:44,467 [INFO] __main__: Batch detection finished for directory data/samples (max_files=None).
+2025-10-15 14:03:34,458 [INFO] lchunk.detectors.adaptive_hybrid: Starting batch adaptive detection for directory: data/samples
+2025-10-15 14:03:34,460 [INFO] lchunk.detectors.adaptive_hybrid: Found 4 JSON file(s) to process.
+2025-10-15 14:03:34,460 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 1/4: TPDM,109,易,187,20250116,1.json
+2025-10-15 14:03:34,460 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,109,易,187,20250116,1.json
+2025-10-15 14:03:34,468 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 14:03:35,674 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 14:03:35,834 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 4 symbol categories.
+2025-10-15 14:03:35,835 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 14:03:35,835 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 4 types
+2025-10-15 14:03:35,835 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 14:03:35,835 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 50
+2025-10-15 14:03:35,837 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 103 line-based chunks.
+2025-10-15 14:03:35,838 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 2/4: TPDM,111,侵訴,89,20250115,1.json
+2025-10-15 14:03:35,838 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,111,侵訴,89,20250115,1.json
+2025-10-15 14:03:35,841 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 14:03:35,964 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 14:03:36,062 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 3 symbol categories.
+2025-10-15 14:03:36,062 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 14:03:36,062 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 3 types
+2025-10-15 14:03:36,063 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 14:03:36,063 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 41
+2025-10-15 14:03:36,064 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 77 line-based chunks.
+2025-10-15 14:03:36,064 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 3/4: TPDM,111,易,564,20250113,1.json
+2025-10-15 14:03:36,064 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,111,易,564,20250113,1.json
+2025-10-15 14:03:36,073 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 14:03:42,542 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 14:03:47,258 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 7 symbol categories.
+2025-10-15 14:03:47,259 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 14:03:47,260 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 7 types
+2025-10-15 14:03:47,260 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 14:03:47,260 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 124
+2025-10-15 14:03:47,264 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 233 line-based chunks.
+2025-10-15 14:03:47,265 [INFO] lchunk.detectors.adaptive_hybrid: Processing file 4/4: TPDM,111,金重訴,34,20250114,1.json
+2025-10-15 14:03:47,265 [INFO] lchunk.detectors.adaptive_hybrid: Processing file: TPDM,111,金重訴,34,20250114,1.json
+2025-10-15 14:03:47,278 [INFO] lchunk.detectors.adaptive_hybrid: Detected document structure region: R-D
+2025-10-15 14:03:55,136 [INFO] lchunk.detectors.adaptive_hybrid: Learning hierarchy rules within region R-D.
+2025-10-15 14:04:02,724 [INFO] lchunk.detectors.adaptive_hybrid: Learned hierarchy rules for 5 symbol categories.
+2025-10-15 14:04:02,726 [INFO] lchunk.detectors.adaptive_hybrid: Rule application completed:
+2025-10-15 14:04:02,726 [INFO] lchunk.detectors.adaptive_hybrid:    Known rules: 5 types
+2025-10-15 14:04:02,726 [INFO] lchunk.detectors.adaptive_hybrid:    New discoveries: 0 types
+2025-10-15 14:04:02,726 [INFO] lchunk.detectors.adaptive_hybrid:    Total hierarchy symbols: 171
+2025-10-15 14:04:02,730 [INFO] lchunk.detectors.adaptive_hybrid: Constructed 299 line-based chunks.
+2025-10-15 14:04:02,732 [INFO] lchunk.detectors.adaptive_hybrid: Adaptive detection report saved to output/adaptive/adaptive_detection_report_20251015_140402.md
+2025-10-15 14:04:02,759 [INFO] lchunk.detectors.adaptive_hybrid: Detailed detection data saved to output/adaptive/adaptive_detection_data_20251015_140402.json
+2025-10-15 14:04:02,761 [INFO] __main__: Batch detection finished for directory data/samples (max_files=None).

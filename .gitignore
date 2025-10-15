@@ -13,3 +13,7 @@ wheels/
 models/
 
 .vscode/
+
+#keep the output directory but not the file and folder below
+output/*
+!output/.gitkeep

@@ -16,7 +16,7 @@ import json
 import numpy as np
 import torch
 from pathlib import Path
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
 from datetime import datetime
 import warnings
@@ -57,7 +57,7 @@ class HybridDetectionResult:
 class HybridLevelSymbolDetector:
     """三層混合層級符號檢測器 (推理專用)"""
     
-    def __init__(self, model_path: str = None):
+    def __init__(self, model_path: Optional[str] = None):
         # 初始化規則檢測器
         self.rule_detector = UltraStrictDetector()
         
@@ -73,7 +73,7 @@ class HybridLevelSymbolDetector:
         if model_path is not None and Path(model_path).exists():
             self.load_bert_model(model_path)
     
-    def load_bert_model(self, model_path: str = None):
+    def load_bert_model(self, model_path: Optional[str] = None):
         """載入訓練好的 BERT 模型"""
         if model_path:
             self.model_path = Path(model_path)

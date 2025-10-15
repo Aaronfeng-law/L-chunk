@@ -12,8 +12,8 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.lchunk.detectors.adaptive_hybrid import (  # pylint: disable=wrong-import-position
-    IntelligentDetectionResult,
-    IntelligentHybridDetector,
+    AdaptiveDetectionResult,
+    AdaptiveHybridDetector,
     LineBasedChunk,
 )
 
@@ -94,7 +94,7 @@ def format_level_block(
     return formatted, content_indent
 
 
-def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
+def chunks_to_markdown(result: AdaptiveDetectionResult) -> str:
     if not result.line_based_chunks:
         raise ValueError("Detection result does not contain line based chunks.")
 
@@ -178,7 +178,7 @@ def chunks_to_markdown(result: IntelligentDetectionResult) -> str:
     return "\n".join(cleaned_output).strip() + "\n"
 
 
-def process_file(detector: IntelligentHybridDetector, input_file: Path, output_dir: Path) -> Path | None:
+def process_file(detector: AdaptiveHybridDetector, input_file: Path, output_dir: Path) -> Path | None:
     result = detector.process_single_file(input_file)
     if not result:
         return None
@@ -193,7 +193,7 @@ def main(argv: Iterable[str]) -> int:
     args = parse_args(argv)
     ensure_output_dir(args.output_dir)
 
-    detector = IntelligentHybridDetector(str(args.model_path) if args.model_path.exists() else None)
+    detector = AdaptiveHybridDetector(str(args.model_path) if args.model_path.exists() else None)
 
     targets = collect_targets(args.input_path, args.max_files)
     if not targets:
