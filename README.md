@@ -107,4 +107,4 @@ uv run scripts/training/train_bert.py --config config/training.yaml
 
 ## 📄 許可證
 
-MIT License
+GNU GPLv3
