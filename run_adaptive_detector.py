@@ -174,6 +174,26 @@ def run(argv: Iterable[str]) -> int:
             )
             print(f"Batch detection completed for {args.input_path}.")
             print(f"Reports stored under: {args.output_dir.resolve()}")
+            
+            # Also export individual machine-readable files for each processed file
+            json_files = sorted(p for p in args.input_path.glob("*.json") if p.is_file())
+            if args.max_files is not None:
+                json_files = json_files[:args.max_files]
+            
+            machine_exports = []
+            for json_file in json_files:
+                result = detector.process_single_file(json_file)
+                if result is None:
+                    continue
+                try:
+                    export_path = detector.export_machine_result(result, args.output_dir)
+                    machine_exports.append(export_path)
+                except Exception as exc:
+                    logger.error("Failed to export machine result for %s: %s", json_file.name, exc)
+            
+            if machine_exports:
+                logger.info("Individual machine-readable files exported: %d", len(machine_exports))
+                print(f"Individual machine-readable files: {len(machine_exports)}")
         else:
             exports: list[Path] = []
             for json_file in json_files:

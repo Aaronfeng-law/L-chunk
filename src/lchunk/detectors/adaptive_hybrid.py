@@ -804,6 +804,7 @@ class AdaptiveHybridDetector:
         
         all_results = []
         learning_region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
+        exported_files = []  # Track exported machine-readable files
         
         for i, json_file in enumerate(json_files, 1):
             logger.info("Processing file %d/%d: %s", i, len(json_files), json_file.name)
@@ -812,11 +813,21 @@ class AdaptiveHybridDetector:
             if result:
                 all_results.append(result)
                 learning_region_stats[result.learning_region] += 1
+                
+                # Export individual machine-readable result for each file
+                try:
+                    export_path = self.export_machine_result(result, output_dir or Path("output"))
+                    exported_files.append(export_path)
+                    logger.debug("Exported machine result for %s to %s", json_file.name, export_path)
+                except Exception as exc:
+                    logger.error("Failed to export machine result for %s: %s", json_file.name, exc)
             else:
                 logger.error("Processing failed for %s", json_file.name)
         
         # 生成綜合報告
         self.generate_batch_report(all_results, learning_region_stats, output_dir)
+        
+        logger.info("Successfully processed %d files and exported %d machine results", len(all_results), len(exported_files))
     
     def generate_batch_report(
         self,

@@ -51,10 +51,10 @@ print(len(result.line_based_chunks))
 
 ### CLI：Markdown 轉換器
 
-利用 `scripts/markdown/md_converter.py` 將偵測結果轉換成 Markdown：
+利用 `scripts/markdown/md_cli.py` 將偵測結果轉換成 Markdown：
 
 ```bash
-uv run scripts/markdown/md_converter.py \
+uv run scripts/markdown/md_cli.py \
     data/samples/TPDM,109,易,187,20250116,1.json \
     --output-dir output/markdown
 ```
