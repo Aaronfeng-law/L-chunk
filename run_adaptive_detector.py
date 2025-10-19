@@ -50,7 +50,7 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
     parser.add_argument(
         "--export-format",
         choices=("human", "machine"),
-        default="human",
+        default="machine",
         help=(
             "Select 'human' for Markdown/summary reports or 'machine' for JSON exports "
             "with level -1 content merged into upper levels (excluding level 0)."
@@ -61,6 +61,11 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
         type=int,
         default=None,
         help="When processing a directory, limit the number of files scanned (sorted alphabetically).",
+    )
+    parser.add_argument(
+        "--report",
+        action="store_true",
+        help="Generate human-readable Markdown reports in addition to machine-readable JSON exports.",
     )
     parser.add_argument(
         "--verbose",
@@ -107,7 +112,6 @@ def run(argv: Iterable[str]) -> int:
     configure_logging(args.log_file, args.verbose)
 
     logger = logging.getLogger(__name__)
-    export_format = args.export_format
 
     if not args.input_path.exists():
         logger.error("Input path does not exist: %s", args.input_path)
@@ -132,7 +136,16 @@ def run(argv: Iterable[str]) -> int:
 
         summary = summarize_result(result)
 
-        if export_format == "human":
+        # Always export machine-readable result for single files
+        export_path = detector.export_machine_result(result, args.output_dir)
+        logger.info(
+            "Machine-readable export for %s saved to %s (%s)",
+            args.input_path,
+            export_path,
+            summary,
+        )
+
+        if args.report:
             region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
             region_stats[result.learning_region] += 1
             detector.generate_batch_report([result], region_stats, args.output_dir)
@@ -141,13 +154,6 @@ def run(argv: Iterable[str]) -> int:
             print(f"Detection completed for {args.input_path.name}. {summary}")
             print(f"Reports stored under: {args.output_dir.resolve()}")
         else:
-            export_path = detector.export_machine_result(result, args.output_dir)
-            logger.info(
-                "Machine-readable export for %s saved to %s (%s)",
-                args.input_path,
-                export_path,
-                summary,
-            )
             print(f"Machine-readable export written to: {export_path}")
             print(f"Detection summary: {summary}")
 
@@ -165,60 +171,35 @@ def run(argv: Iterable[str]) -> int:
             print(f"Detailed log: {args.log_file}")
             return 0
 
-        if export_format == "human":
-            detector.process_sample_directory(args.input_path, args.output_dir, args.max_files)
-            logger.info(
-                "Batch detection finished for directory %s (max_files=%s).",
-                args.input_path,
-                args.max_files,
-            )
-            print(f"Batch detection completed for {args.input_path}.")
-            print(f"Reports stored under: {args.output_dir.resolve()}")
-            
-            # Also export individual machine-readable files for each processed file
+        # Always process directory and export individual machine-readable files
+        detector.process_sample_directory(args.input_path, args.output_dir, args.max_files, verbose=args.verbose)
+        logger.info(
+            "Batch detection finished for directory %s (max_files=%s).",
+            args.input_path,
+            args.max_files,
+        )
+        print(f"Batch detection completed for {args.input_path}.")
+        print(f"Machine-readable exports stored under: {args.output_dir.resolve()}")
+
+        if args.report:
+            # Generate human-readable batch report
             json_files = sorted(p for p in args.input_path.glob("*.json") if p.is_file())
             if args.max_files is not None:
                 json_files = json_files[:args.max_files]
-            
-            machine_exports = []
+
+            results = []
+            region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
+
             for json_file in json_files:
                 result = detector.process_single_file(json_file)
-                if result is None:
-                    continue
-                try:
-                    export_path = detector.export_machine_result(result, args.output_dir)
-                    machine_exports.append(export_path)
-                except Exception as exc:
-                    logger.error("Failed to export machine result for %s: %s", json_file.name, exc)
-            
-            if machine_exports:
-                logger.info("Individual machine-readable files exported: %d", len(machine_exports))
-                print(f"Individual machine-readable files: {len(machine_exports)}")
-        else:
-            exports: list[Path] = []
-            for json_file in json_files:
-                result = detector.process_single_file(json_file)
-                if result is None:
-                    logger.error("Adaptive detection failed for %s", json_file)
-                    continue
-                export_path = detector.export_machine_result(result, args.output_dir)
-                exports.append(export_path)
+                if result:
+                    results.append(result)
+                    region_stats[result.learning_region] += 1
 
-            if not exports:
-                logger.error("No machine-readable exports were produced.")
-                print("Machine-readable export failed for all files. See log for details.")
-                print(f"Detailed log: {args.log_file}")
-                return 2
-
-            logger.info(
-                "Machine-readable exports saved for %d file(s) in %s",
-                len(exports),
-                args.output_dir,
-            )
-            print(
-                f"Machine-readable exports written to: {args.output_dir.resolve()} "
-                f"({len(exports)} file(s))"
-            )
+            if results:
+                detector.generate_batch_report(results, region_stats, args.output_dir)
+                logger.info("Human-readable batch report generated for %d files", len(results))
+                print(f"Human-readable report stored under: {args.output_dir.resolve()}")
 
         print(f"Detailed log: {args.log_file}")
         return 0

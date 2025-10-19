@@ -601,7 +601,7 @@ class AdaptiveHybridDetector:
             logger.exception("Failed to analyze file structure for %s", file_path)
             return False, {}
     
-    def learn_leveling_rules(self, learning_lines: List[str], learning_region: str) -> List[LevelingRule]:
+    def learn_leveling_rules(self, learning_lines: List[str], learning_region: str, verbose: bool = False) -> List[LevelingRule]:
         """在學習區間建立層級規則 - 完全動態學習
         
         不再依賴任何預定義層級，完全基於文件本身的符號出現順序
@@ -610,7 +610,7 @@ class AdaptiveHybridDetector:
         logger.debug("Learning span contains %d lines.", len(learning_lines))
         
         # 在學習區間執行檢測
-        learning_results = self.hybrid_detector.detect_hybrid_markers(learning_lines)
+        learning_results = self.hybrid_detector.detect_hybrid_markers(learning_lines, verbose=verbose)
         
         # 獲取學習區間的層級分析
         self.hybrid_detector.detection_results = learning_results
@@ -722,33 +722,38 @@ class AdaptiveHybridDetector:
             'total_symbols': len(enhanced_hierarchy)
         }
     
-    def process_single_file(self, file_path: Path) -> Optional[AdaptiveDetectionResult]:
+    def process_single_file(self, file_path: Path, verbose: bool = False) -> Optional[AdaptiveDetectionResult]:
         """處理單個檔案 - 完整的自適應檢測流程 + 基於行的分塊"""
-        logger.info("Processing file: %s", file_path.name)
+        if verbose:
+            logger.info("Processing file: %s", file_path.name)
         
         # 步驟1: 文件分塊
         success, structure_info = self.analyze_file_structure(file_path)
         if not success:
-            logger.error("File structure analysis failed for %s", file_path)
+            if verbose:
+                logger.error("File structure analysis failed for %s", file_path)
             return None
         
         learning_region = structure_info['learning_region']
-        logger.info("Detected document structure region: %s", learning_region)
+        if verbose:
+            logger.info("Detected document structure region: %s", learning_region)
         
         # 步驟2: 全文層級符號偵測
-        logger.debug("Running full-document hierarchy detection.")
+        if verbose:
+            logger.debug("Running full-document hierarchy detection.")
         full_text_lines = structure_info['full_text_lines']
-        full_detection_results = self.hybrid_detector.detect_hybrid_markers(full_text_lines)
+        full_detection_results = self.hybrid_detector.detect_hybrid_markers(full_text_lines, verbose=verbose)
         
         # 步驟3: 規則學習區間
         learning_lines = structure_info['learning_lines']
-        learned_rules = self.learn_leveling_rules(learning_lines, learning_region)
+        learned_rules = self.learn_leveling_rules(learning_lines, learning_region, verbose=verbose)
         
         # 步驟4: 層級規則建立與全文應用
         applied_hierarchy = self.apply_leveling_rules(full_detection_results, learned_rules)
         
         # 步驟5: 基於行的分塊 (新增)
-        logger.debug("Executing line-based chunk generation.")
+        if verbose:
+            logger.debug("Executing line-based chunk generation.")
         line_based_chunks = self.create_line_based_chunks(full_text_lines, full_detection_results, learned_rules)
         
         # 步驟6: 合併相同層級內容 (新增)
@@ -785,9 +790,12 @@ class AdaptiveHybridDetector:
         sample_dir: Path,
         output_dir: Optional[Path] = None,
         max_files: Optional[int] = None,
+        verbose: bool = False,
+        generate_reports: bool = True,
     ):
         """處理 sample 目錄中的所有檔案"""
-        logger.info("Starting batch adaptive detection for directory: %s", sample_dir)
+        if verbose:
+            logger.info("Starting batch adaptive detection for directory: %s", sample_dir)
         
         if not sample_dir.exists():
             logger.error("Directory does not exist: %s", sample_dir)
@@ -797,19 +805,29 @@ class AdaptiveHybridDetector:
         if max_files is not None:
             json_files = json_files[:max_files]
         if not json_files:
-            logger.warning("No JSON files found under %s", sample_dir)
+            if verbose:
+                logger.warning("No JSON files found under %s", sample_dir)
             return
         
-        logger.info("Found %d JSON file(s) to process.", len(json_files))
+        if verbose:
+            logger.info("Found %d JSON file(s) to process.", len(json_files))
         
         all_results = []
         learning_region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
         exported_files = []  # Track exported machine-readable files
         
+        # Simple progress bar
+        print(f"Processing {len(json_files)} files...")
+        
         for i, json_file in enumerate(json_files, 1):
-            logger.info("Processing file %d/%d: %s", i, len(json_files), json_file.name)
+            if not verbose:
+                # Simple progress indicator
+                progress = f"[{i}/{len(json_files)}] {json_file.name}"
+                print(f"\r{progress:<60}", end="", flush=True)
+            else:
+                logger.info("Processing file %d/%d: %s", i, len(json_files), json_file.name)
             
-            result = self.process_single_file(json_file)
+            result = self.process_single_file(json_file, verbose=verbose)
             if result:
                 all_results.append(result)
                 learning_region_stats[result.learning_region] += 1
@@ -818,16 +836,29 @@ class AdaptiveHybridDetector:
                 try:
                     export_path = self.export_machine_result(result, output_dir or Path("output"))
                     exported_files.append(export_path)
-                    logger.debug("Exported machine result for %s to %s", json_file.name, export_path)
+                    if verbose:
+                        logger.debug("Exported machine result for %s to %s", json_file.name, export_path)
                 except Exception as exc:
-                    logger.error("Failed to export machine result for %s: %s", json_file.name, exc)
+                    if verbose:
+                        logger.error("Failed to export machine result for %s: %s", json_file.name, exc)
             else:
-                logger.error("Processing failed for %s", json_file.name)
+                if verbose:
+                    logger.error("Processing failed for %s", json_file.name)
+        
+        if not verbose:
+            print()  # New line after progress
         
         # 生成綜合報告
-        self.generate_batch_report(all_results, learning_region_stats, output_dir)
+        if generate_reports:
+            self.generate_batch_report(all_results, learning_region_stats, output_dir)
         
-        logger.info("Successfully processed %d files and exported %d machine results", len(all_results), len(exported_files))
+        if verbose:
+            logger.info("Successfully processed %d files and exported %d machine results", len(all_results), len(exported_files))
+        else:
+            if generate_reports:
+                print(f"✅ Completed: {len(all_results)} files processed, {len(exported_files)} machine results exported")
+            else:
+                print(f"✅ Completed: {len(all_results)} files processed, {len(exported_files)} machine results exported")
     
     def generate_batch_report(
         self,
@@ -962,7 +993,7 @@ def main():
 
     # 處理 sample 目錄
     sample_dir = Path("data/processed/sample")
-    detector.process_sample_directory(sample_dir)
+    detector.process_sample_directory(sample_dir, verbose=False)
 
 if __name__ == "__main__":
     main()

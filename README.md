@@ -72,9 +72,9 @@ uv run run_adaptive_detector.py \
     --log-file logs/adaptive_detector.log
 ```
 
-- 預設輸出：Markdown 與 JSON 檔案寫入 `output/adaptive/`，詳細日誌寫入 `logs/adaptive_detector.log`
+- 預設輸出：機器可讀 JSON 檔案寫入 `output/adaptive/`，詳細日誌寫入 `logs/adaptive_detector.log`
 - 常用參數：`--model-path` 指定權重、`--max-files` 限制批次數量、`--verbose` 顯示即時進度
-- 匯出格式：`--export-format human|machine`（預設 human）。選擇 `machine` 時會輸出 JSON，並將 Lv -1 內容與對應上層 (Lv ≥ 1) 合併
+- 報告生成：`--report` 啟用人類可讀的 Markdown 報告與統計摘要
 - 若模型路徑不存在，流程會自動退化為純規則檢測並於日誌提示
 
 ## 🎯 核心特性
@@ -82,6 +82,7 @@ uv run run_adaptive_detector.py \
 - **三層檢測流程**：嚴格規則 → 軟規則 → BERT 分類
 - **自適應層級學習**：動態推斷段落層級與日期等特殊標記
 - **行為維度輸出**：維持標頭、日期區塊逐行輸出，便於法律文件校對
+- **機器可讀優先**：預設輸出結構化 JSON，便於程式化處理，可選生成人類可讀報告(md_cli.py)
 - **批量與評估工具**：內建批次轉換、模型比較與性能報告
 
 ## 🔧 開發指南

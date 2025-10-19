@@ -21,7 +21,7 @@
 - 角色：自適應層級學習與全文應用
 - 功能：
   - `process_single_file(path: Path)`：完成結構分析、規則學習、全文檢測、行級分塊與統計
-  - `process_sample_directory(path: Path, output_dir: Path | None, max_files: int | None)`：批次處理並輸出 Markdown/JSON 報告
+  - `process_sample_directory(path: Path, output_dir: Path | None, max_files: int | None, verbose: bool = False, generate_reports: bool = True)`：批次處理並輸出機器可讀 JSON 檔案，可選擇是否生成人類可讀報告
   - `generate_batch_report(results, region_stats, output_dir)`：產生 Markdown/JSON 彙整報告
 - 日誌：使用 Python `logging`，詳細輸出預設寫入 `logs/adaptive_detector.log`
 
@@ -50,9 +50,9 @@
 - 主要參數：
   - `input_path`：JSON 檔或資料夾
   - `--model-path`：BERT 權重位置（預設為專案模型資料夾）
-  - `--output-dir`：報告輸出資料夾（Markdown/JSON）
+  - `--output-dir`：報告輸出資料夾
   - `--log-file`：詳細日誌輸出位置
   - `--max-files`：批量處理上限
   - `--verbose`：在終端顯示進度
-  - `--export-format`：`human` (Markdown + summary) 或 `machine` (JSON，將 Lv -1 內容併入對應 Lv ≥ 1)
+  - `--report`：啟用人類可讀的 Markdown 報告與統計摘要（預設僅輸出機器可讀 JSON）
 

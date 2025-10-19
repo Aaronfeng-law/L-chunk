@@ -174,9 +174,10 @@ class HybridLevelSymbolDetector:
         # 返回結果到 CPU
         return list(zip(scores.cpu().numpy(), predictions.cpu().numpy()))
     
-    def detect_hybrid_markers(self, text_lines: List[str], bert_threshold: float = 0.5) -> List[HybridDetectionResult]:
+    def detect_hybrid_markers(self, text_lines: List[str], bert_threshold: float = 0.5, verbose: bool = True) -> List[HybridDetectionResult]:
         """三層混合檢測層級標記 - """
-        print("🔍 啟動三層混合檢測...")
+        if verbose:
+            print("🔍 啟動三層混合檢測...")
         
         results = []
         ultra_strict_results = []
@@ -184,7 +185,8 @@ class HybridLevelSymbolDetector:
         soft_line_mapping = {}
         
         # 第一層：終極嚴格規則 (PUA + 頓號) - 100% 確定
-        print("🎯 步驟1: 終極嚴格規則 (PUA + 頓號)")
+        if verbose:
+            print("🎯 步驟1: 終極嚴格規則 (PUA + 頓號)")
         
         for line_num, line_text in enumerate(text_lines, 1):
             clean_text = line_text.strip()
@@ -243,12 +245,14 @@ class HybridLevelSymbolDetector:
                         method_used="rule_rejected"
                     ))
         
-        print(f"✅ 終極嚴格規則確定 {len(ultra_strict_results)} 個層級符號")
-        print(f"📋 軟規則找到 {len(soft_candidate_lines)} 個候選行")
+        if verbose:
+            print(f"✅ 終極嚴格規則確定 {len(ultra_strict_results)} 個層級符號")
+            print(f"📋 軟規則找到 {len(soft_candidate_lines)} 個候選行")
         
         # 第二層：軟規則 + BERT 分類
         if soft_candidate_lines and self.is_model_loaded():
-            print("🤖 步驟2: BERT 精細分類軟規則候選...")
+            if verbose:
+                print("🤖 步驟2: BERT 精細分類軟規則候選...")
             bert_results = self.bert_classify_lines(soft_candidate_lines)
             
             for i, (bert_score, bert_prediction) in enumerate(bert_results):
@@ -271,7 +275,8 @@ class HybridLevelSymbolDetector:
         
         elif soft_candidate_lines:
             # 沒有 BERT 模型，軟規則候選全部接受
-            print("⚠️ 沒有 BERT 模型，軟規則候選全部接受")
+            if verbose:
+                print("⚠️ 沒有 BERT 模型，軟規則候選全部接受")
             for i, line_info in soft_line_mapping.items():
                 results.append(HybridDetectionResult(
                     line_number=line_info['line_number'],
@@ -285,7 +290,8 @@ class HybridLevelSymbolDetector:
                 ))
         
         # 第三層：最終聚合
-        print("📊 步驟3: 聚合所有檢測結果...")
+        if verbose:
+            print("📊 步驟3: 聚合所有檢測結果...")
         
         # 合併終極嚴格和軟規則結果
         all_results = ultra_strict_results + results
@@ -299,10 +305,11 @@ class HybridLevelSymbolDetector:
         soft_rule_accepted = sum(1 for r in results if r.final_prediction and r.method_used.startswith("soft_rule"))
         total_detected = ultra_strict_count + soft_rule_accepted
         
-        print(f"✅ 三層檢測完成，處理了 {len(text_lines)} 行")
-        print(f"   🎯 終極嚴格: {ultra_strict_count} 個 (100% 確定)")
-        print(f"   🤖 軟規則+BERT: {soft_rule_accepted} 個")
-        print(f"   📊 總檢測: {total_detected} 個層級符號")
+        if verbose:
+            print(f"✅ 三層檢測完成，處理了 {len(text_lines)} 行")
+            print(f"   🎯 終極嚴格: {ultra_strict_count} 個 (100% 確定)")
+            print(f"   🤖 軟規則+BERT: {soft_rule_accepted} 個")
+            print(f"   📊 總檢測: {total_detected} 個層級符號")
         
         return all_results
     
