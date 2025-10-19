@@ -78,17 +78,33 @@ class AdaptiveHybridDetector:
         logger.debug("Adaptive hybrid detector initialized (chunking -> rule learning -> application).")
     
     def detect_special_markers(self, lines: List[str]) -> Dict[str, List[int]]:
-        """檢測特殊標記：主文(lv 0), 理由(lv 0), 事實(lv 0), 事實及理由(lv 0), date1(lv -2), date2(lv -2)"""
+        """檢測特殊標記：主文(lv 0), 理由(lv 0), 事實(lv 0), 事實及理由(lv 0), 附錄(lv 0), date1(lv -2), date2(lv -2)"""
         markers = {
             'main_text': [],      # 主文 (lv 0)
             'reasons': [],        # 理由 (lv 0) 
             'facts': [],          # 事實 (lv 0)
             'facts_and_reasons': [], # 事實及理由 (lv 0)
+            'appendix': [],       # 附錄 (lv 0) - 新增
             'dates': []           # 日期 (lv -2)
         }
         
         patterns = find_section_patterns()
         
+        # 第一階段：檢測所有日期行以確定Date2位置
+        date_lines = []
+        for line_num, line in enumerate(lines):
+            line_text = line.strip()
+            if not line_text:
+                continue
+            if patterns['date_pattern'].search(line_text) or patterns['date_pattern_strict'].search(line_text):
+                date_lines.append(line_num)
+                markers['dates'].append(line_num)
+                logger.debug("Detected 'date' marker at line %d: %s", line_num + 1, line_text)
+        
+        # 確定最後一個日期行（Date2）
+        last_date_line = max(date_lines) if date_lines else None
+        
+        # 第二階段：檢測其他特殊標記
         for line_num, line in enumerate(lines):
             line_text = line.strip()
             if not line_text:
@@ -117,10 +133,16 @@ class AdaptiveHybridDetector:
                 markers['facts_and_reasons'].append(line_num)
                 logger.debug("Detected 'facts_and_reasons' marker at line %d: %s", line_num + 1, line_text)
             
-            # 檢測日期 (ROC日期格式)
-            elif patterns['date_pattern'].search(line_text) or patterns['date_pattern_strict'].search(line_text):
-                markers['dates'].append(line_num)
-                logger.debug("Detected 'date' marker at line %d: %s", line_num + 1, line_text)
+            # 檢測附錄 - 限制條件：
+            # 1. 必須在Date2之後（如果有Date2的話）
+            # 2. 附錄關鍵詞必須是行首的前兩個字
+            elif last_date_line is not None and line_num > last_date_line:
+                # 檢查行首是否以附錄關鍵詞開始（前兩個字）
+                if len(normalized_text) >= 2:
+                    first_two_chars = normalized_text[:2]
+                    if first_two_chars in ['附錄', '附件', '附圖', '附表']:
+                        markers['appendix'].append(line_num)
+                        logger.debug("Detected 'appendix' marker at line %d (after Date2): %s", line_num + 1, line_text)
         
         return markers
     
@@ -206,17 +228,31 @@ class AdaptiveHybridDetector:
             ))
             logger.debug("Header segment captured (lines 1-%d).", main_text_line)
         
+        # 確定內容區域的結束點
+        content_end = len(lines) - 1
+        
+        # 如果有附錄標記，內容區域應該在第一個附錄標記之前結束
+        first_appendix_line = min(special_markers['appendix']) if special_markers['appendix'] else None
+        if first_appendix_line is not None:
+            content_end = first_appendix_line - 1
+        
         # 處理主要內容區域
         content_start = main_text_line if main_text_line is not None else 0
-        content_end = last_date_line if last_date_line is not None else len(lines) - 1
         
         # 特殊標記處理 (Lv 0)
         for marker_type, line_numbers in special_markers.items():
             for line_num in line_numbers:
                 if content_start <= line_num <= content_end:
-                    chunk_type = marker_type if marker_type != 'dates' else 'date'
+                    # 設定層級：附錄和其他主要章節都是 level 0，日期是 level -2
+                    if marker_type == 'dates':
+                        chunk_level = -2
+                        chunk_type = 'date'
+                    else:
+                        chunk_level = 0
+                        chunk_type = marker_type
+                    
                     chunks.append(LineBasedChunk(
-                        level=0,
+                        level=chunk_level,
                         start_line=line_num,
                         end_line=line_num,
                         chunk_type=chunk_type,
@@ -254,18 +290,97 @@ class AdaptiveHybridDetector:
         if current_pos <= content_end:
             collect_content_segments(current_pos, content_end + 1)
         
-        # Footer區域 (Lv -3): 最後日期之後
-        if last_date_line is not None and last_date_line < len(lines) - 1:
-            footer_content = lines[last_date_line + 1:]
-            chunks.append(LineBasedChunk(
-                level=-3,
-                start_line=last_date_line + 1,
-                end_line=len(lines) - 1,
-                chunk_type="footer",
-                content_lines=footer_content,
-                chunk_id="footer"
-            ))
-            logger.debug("Footer segment captured (lines %d-%d).", last_date_line + 2, len(lines))
+        # 處理附錄區域（如果有的話）
+        if first_appendix_line is not None:
+            appendix_start = first_appendix_line
+            appendix_end = len(lines) - 1
+            
+            # 找到下一個主要結構標記（如果有的話）
+            next_major_marker = None
+            for marker_type, line_numbers in special_markers.items():
+                if marker_type not in ['appendix', 'dates']:
+                    for line_num in line_numbers:
+                        if line_num > first_appendix_line:
+                            next_major_marker = min(next_major_marker, line_num) if next_major_marker else line_num
+            
+            if next_major_marker:
+                appendix_end = next_major_marker - 1
+            
+            # 處理附錄區域的內容
+            appendix_current_pos = appendix_start
+            for appendix_line in special_markers['appendix']:
+                if appendix_line < appendix_start or appendix_line > appendix_end:
+                    continue
+                
+                # 附錄標記行之前的內容
+                if appendix_current_pos < appendix_line:
+                    appendix_content_indices = []
+                    for idx in range(appendix_current_pos, appendix_line):
+                        if idx not in special_line_set and idx not in leveling_symbol_lines:
+                            appendix_content_indices.append(idx)
+                    
+                    if appendix_content_indices:
+                        appendix_content_lines = [lines[idx] for idx in appendix_content_indices]
+                        chunks.append(LineBasedChunk(
+                            level=-1,
+                            start_line=appendix_content_indices[0],
+                            end_line=appendix_content_indices[-1],
+                            chunk_type="content",
+                            content_lines=appendix_content_lines,
+                            chunk_id=f"content_{appendix_content_indices[0]}_{appendix_content_indices[-1]}"
+                        ))
+                
+                # 附錄標記行本身
+                chunks.append(LineBasedChunk(
+                    level=0,
+                    start_line=appendix_line,
+                    end_line=appendix_line,
+                    chunk_type="appendix",
+                    content_lines=[lines[appendix_line]],
+                    chunk_id=f"appendix_{appendix_line}"
+                ))
+                
+                appendix_current_pos = appendix_line + 1
+            
+            # 最後一個附錄標記後的內容
+            if appendix_current_pos <= appendix_end:
+                appendix_content_indices = []
+                for idx in range(appendix_current_pos, appendix_end + 1):
+                    if idx not in special_line_set and idx not in leveling_symbol_lines:
+                        appendix_content_indices.append(idx)
+                
+                if appendix_content_indices:
+                    appendix_content_lines = [lines[idx] for idx in appendix_content_indices]
+                    chunks.append(LineBasedChunk(
+                        level=-1,
+                        start_line=appendix_content_indices[0],
+                        end_line=appendix_content_indices[-1],
+                        chunk_type="content",
+                        content_lines=appendix_content_lines,
+                        chunk_id=f"content_{appendix_content_indices[0]}_{appendix_content_indices[-1]}"
+                    ))
+        
+        # Footer區域 (Lv -3): 最後日期之後，且在附錄區域之前的內容
+        if last_date_line is not None:
+            footer_start = last_date_line + 1
+            footer_end = first_appendix_line - 1 if first_appendix_line else len(lines) - 1
+            
+            if footer_start <= footer_end:
+                footer_lines = []
+                for line_idx in range(footer_start, footer_end + 1):
+                    if line_idx not in special_line_set and line_idx not in leveling_symbol_lines:
+                        footer_lines.append(lines[line_idx])
+                
+                if footer_lines:
+                    chunks.append(LineBasedChunk(
+                        level=-3,
+                        start_line=footer_start,
+                        end_line=footer_end,
+                        chunk_type="footer",
+                        content_lines=footer_lines,
+                        chunk_id="footer"
+                    ))
+                    logger.debug("Footer segment captured (lines %d-%d), excluded special markers and appendix content.", footer_start + 1, footer_end + 1)
         
         # 按行號排序
         chunks.sort(key=lambda x: x.start_line)
@@ -797,7 +912,7 @@ class AdaptiveHybridDetector:
                         'start_line': chunk.start_line,
                         'end_line': chunk.end_line,
                         'chunk_type': chunk.chunk_type,
-                        'content_lines_count': len(chunk.content_lines),
+                        'content_lines': list(chunk.content_lines),
                         'leveling_symbol': chunk.leveling_symbol,
                         'chunk_id': chunk.chunk_id
                     })
