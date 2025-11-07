@@ -148,10 +148,6 @@ class MarkdownConverter:
                 for line in raw_lines:
                     stripped = line.strip()
                     if stripped:
-                        # Skip appendix-related content in footer to avoid duplication
-                        if (stripped.startswith('編號') and ('接辦案件' in stripped or '時間' in stripped or '對話時間' in stripped) or
-                            stripped.startswith('刑法第') and '律師法第' in stripped):
-                            continue
                         header_footer_lines.append(line)
                 
                 if not header_footer_lines:
@@ -303,18 +299,35 @@ class MarkdownConverter:
             for rule in data.get("learned_rules", [])
         ]
 
-        line_chunks = [
-            LineBasedChunk(
-                level=item.get("level", -1),
-                start_line=item.get("start_line", 0),
-                end_line=item.get("end_line", 0),
-                chunk_type=item.get("chunk_type", "content"),
-                content_lines=list(item.get("content_lines", [])),
-                leveling_symbol=item.get("leveling_symbol"),
-                chunk_id=item.get("chunk_id", ""),
+        # Try to load from rag_chunks first (new format), fallback to line_based_chunks (old format)
+        chunks_data = data.get("rag_chunks", data.get("line_based_chunks", []))
+        
+        line_chunks = []
+        for item in chunks_data:
+            # If content_lines is empty but content field exists, split content into lines
+            content_lines = list(item.get("content_lines", []))
+            if not content_lines and "content" in item:
+                content_lines = item["content"].split("\n")
+            
+            # For hierarchical sections (level >= 1), prepend the title (leveling symbol line)
+            # because the title is the leveling symbol line itself
+            if item.get("level", -1) >= 1 and item.get("chunk_type") == "hierarchical_section":
+                title = item.get("title", "")
+                if title:
+                    # Prepend the title as the first line
+                    content_lines = [title] + content_lines
+            
+            line_chunks.append(
+                LineBasedChunk(
+                    level=item.get("level", -1),
+                    start_line=item.get("start_line", 0),
+                    end_line=item.get("end_line", 0),
+                    chunk_type=item.get("chunk_type", "content"),
+                    content_lines=content_lines,
+                    leveling_symbol=item.get("leveling_symbol"),
+                    chunk_id=item.get("chunk_id", ""),
+                )
             )
-            for item in data.get("line_based_chunks", [])
-        ]
 
         return AdaptiveDetectionResult(
             filename=data.get("filename", payload_path.name),

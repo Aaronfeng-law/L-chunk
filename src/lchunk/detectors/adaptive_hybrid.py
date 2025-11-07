@@ -203,6 +203,14 @@ class AdaptiveHybridDetector:
         for marker_lines in special_markers.values():
             special_line_set.update(marker_lines)
 
+        # 確定署名區域範圍（兩個日期之間）
+        signature_line_set = set()
+        date_lines_sorted = sorted(special_markers["dates"]) if special_markers["dates"] else []
+        if len(date_lines_sorted) >= 2:
+            first_date = date_lines_sorted[0]
+            last_date = date_lines_sorted[-1]
+            signature_line_set = set(range(first_date + 1, last_date))
+
         def emit_content_segment(segment_indices: List[int]):
             if not segment_indices:
                 return
@@ -221,7 +229,8 @@ class AdaptiveHybridDetector:
         def collect_content_segments(start_idx: int, end_idx: int):
             current_indices: List[int] = []
             for idx in range(start_idx, end_idx):
-                if idx in special_line_set or idx in leveling_symbol_lines:
+                # 跳過特殊標記、層級符號行和署名區域
+                if idx in special_line_set or idx in leveling_symbol_lines or idx in signature_line_set:
                     if current_indices:
                         emit_content_segment(current_indices)
                         current_indices = []
@@ -248,11 +257,11 @@ class AdaptiveHybridDetector:
             special_markers["main_text"][0] if special_markers["main_text"] else None
         )
 
-        # 找到最後的日期位置 (Lv -2)
-        last_date_line = (
-            max(special_markers["dates"]) if special_markers["dates"] else None
-        )
-
+        # 找到所有日期位置並確定 date1 和 date2
+        date_lines = sorted(special_markers["dates"]) if special_markers["dates"] else []
+        first_date_line = date_lines[0] if date_lines else None
+        last_date_line = date_lines[-1] if len(date_lines) > 0 else None
+        
         # 步驟5: 建立分塊
         chunks = []
 
@@ -284,26 +293,75 @@ class AdaptiveHybridDetector:
         # 處理主要內容區域
         content_start = main_text_line if main_text_line is not None else 0
 
-        # 特殊標記處理 (Lv 0)
-        for marker_type, line_numbers in special_markers.items():
-            for line_num in line_numbers:
-                if content_start <= line_num <= content_end:
-                    # 設定層級：附錄和其他主要章節都是 level 0，日期是 level -2
-                    if marker_type == "dates":
-                        chunk_level = -2
-                        chunk_type = "date"
-                    else:
-                        chunk_level = 0
-                        chunk_type = marker_type
+        # 處理第一個日期 (Date1)
+        if first_date_line is not None and content_start <= first_date_line <= content_end:
+            chunks.append(
+                LineBasedChunk(
+                    level=-2,
+                    start_line=first_date_line,
+                    end_line=first_date_line,
+                    chunk_type="date",
+                    content_lines=[lines[first_date_line]],
+                    chunk_id=f"date_{first_date_line}",
+                )
+            )
+            logger.debug("Date1 marker at line %d.", first_date_line + 1)
 
+        # 處理兩個日期之間的署名區域 (Signature) - 類似 header 處理，保留所有行
+        if (first_date_line is not None and last_date_line is not None and 
+            last_date_line > first_date_line and 
+            content_start <= first_date_line <= content_end):
+            
+            signature_start = first_date_line + 1
+            signature_end = last_date_line - 1
+            
+            if signature_start <= signature_end:
+                # 保留所有行，不進行任何過濾（類似 header/footer 處理）
+                signature_lines = [lines[line_idx] for line_idx in range(signature_start, signature_end + 1)]
+                
+                if signature_lines:
                     chunks.append(
                         LineBasedChunk(
-                            level=chunk_level,
+                            level=-3,
+                            start_line=signature_start,
+                            end_line=signature_end,
+                            chunk_type="signature",
+                            content_lines=signature_lines,
+                            chunk_id="signature",
+                        )
+                    )
+                    logger.debug("Signature segment captured between Date1 and Date2 (lines %d-%d).", 
+                               signature_start + 1, signature_end + 1)
+
+        # 處理第二個日期 (Date2)
+        if (last_date_line is not None and last_date_line != first_date_line and 
+            content_start <= last_date_line <= content_end):
+            chunks.append(
+                LineBasedChunk(
+                    level=-2,
+                    start_line=last_date_line,
+                    end_line=last_date_line,
+                    chunk_type="date",
+                    content_lines=[lines[last_date_line]],
+                    chunk_id=f"date_{last_date_line}",
+                )
+            )
+            logger.debug("Date2 marker at line %d.", last_date_line + 1)
+
+        # 處理其他特殊標記 (主文、事實、理由、附錄等)
+        for marker_type, line_numbers in special_markers.items():
+            if marker_type == "dates":  # 日期已經單獨處理
+                continue
+            for line_num in line_numbers:
+                if content_start <= line_num <= content_end:
+                    chunks.append(
+                        LineBasedChunk(
+                            level=0,
                             start_line=line_num,
                             end_line=line_num,
-                            chunk_type=chunk_type,
+                            chunk_type=marker_type,
                             content_lines=[lines[line_num]],
-                            chunk_id=f"{chunk_type}_{line_num}",
+                            chunk_id=f"{marker_type}_{line_num}",
                         )
                     )
 
@@ -426,7 +484,8 @@ class AdaptiveHybridDetector:
                         )
                     )
 
-        # Footer區域 (Lv -3): 最後日期之後，且在附錄區域之前的內容
+        # Footer區域 (Lv -3): Date2之後，且在附錄區域之前的內容
+        # 注意：Date1和Date2之間的內容已經被處理為signature區域
         if last_date_line is not None:
             footer_start = last_date_line + 1
             footer_end = (
@@ -439,6 +498,7 @@ class AdaptiveHybridDetector:
                     if (
                         line_idx not in special_line_set
                         and line_idx not in leveling_symbol_lines
+                        and line_idx not in signature_line_set
                     ):
                         footer_lines.append(lines[line_idx])
 
@@ -565,8 +625,13 @@ class AdaptiveHybridDetector:
         current_chunk = None
         
         for chunk in ordered_chunks:
-            # Header, Footer, Date 等特殊塊保持獨立
-            if chunk.level < 0 and chunk.chunk_type in ["header", "footer", "date"]:
+            # Header, Footer, Signature, Date 等特殊塊保持獨立
+            if chunk.level < 0 and chunk.chunk_type in ["header", "footer", "signature", "date"]:
+                # 先保存當前正在累積的 chunk（如果有）
+                if current_chunk:
+                    rag_chunks.append(current_chunk)
+                    current_chunk = None
+                
                 content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
                 full_text_cleaned = self._clean_text_for_rag(content_text)
                 rag_chunks.append({
@@ -585,6 +650,11 @@ class AdaptiveHybridDetector:
             
             # Level 0 標記（主文、事實、理由等）- 保持獨立但記錄層級路徑
             if chunk.level == 0:
+                # 先保存當前正在累積的 chunk（如果有）
+                if current_chunk:
+                    rag_chunks.append(current_chunk)
+                    current_chunk = None
+                
                 # 清空層級堆疊，這些是主要章節標記
                 title_text = chunk.content_lines[0].replace("\r\n", "\n").replace("\r", "\n").strip() if chunk.content_lines else chunk.chunk_type
                 content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
