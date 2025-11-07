@@ -531,41 +531,193 @@ class AdaptiveHybridDetector:
 
         return tree
 
+    @staticmethod
+    def _clean_text_for_rag(text: str) -> str:
+        """清理文本用於 RAG：移除所有換行符和多餘空白"""
+        # 移除所有換行符``
+        text = text.replace("\r\n", "").replace("\r", "").replace("\n", "").replace("\n\n", "").replace(" ", "")
+        # 移除多餘的空白（將多個空白合併為一個）
+        import re
+        text = re.sub(r'\s+', ' ', text)
+        # 移除首尾空白
+        return text.strip()
+    
+    def build_rag_chunks(self, chunks: List[LineBasedChunk]) -> List[Dict[str, Any]]:
+        """建立適合 RAG 檢索的分塊結構
+        
+        將層級符號行（level >= 1）與其管轄的內容（level -1）整合成完整的 chunk。
+        每個 chunk 包含：
+        - 層級符號標題（如果有）
+        - 該層級下的所有內容
+        - 完整的上下文路徑（從最頂層到當前層級）
+        """
+        if not chunks:
+            return []
+        
+        logger.debug("Building RAG-ready chunks from line-based chunks.")
+        
+        # 按行號排序
+        ordered_chunks = sorted(chunks, key=lambda x: x.start_line)
+        
+        # 建立層級結構
+        rag_chunks = []
+        level_stack = []  # 存儲當前的層級路徑
+        current_chunk = None
+        
+        for chunk in ordered_chunks:
+            # Header, Footer, Date 等特殊塊保持獨立
+            if chunk.level < 0 and chunk.chunk_type in ["header", "footer", "date"]:
+                content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
+                full_text_cleaned = self._clean_text_for_rag(content_text)
+                rag_chunks.append({
+                    "chunk_id": chunk.chunk_id,
+                    "chunk_type": chunk.chunk_type,
+                    "level": chunk.level,
+                    "start_line": chunk.start_line + 1,
+                    "end_line": chunk.end_line + 1,
+                    "title": chunk.chunk_type.upper(),
+                    "content": content_text,
+                    "full_text": full_text_cleaned,
+                    "hierarchy_path": [],
+                    "parent_titles": []
+                })
+                continue
+            
+            # Level 0 標記（主文、事實、理由等）- 保持獨立但記錄層級路徑
+            if chunk.level == 0:
+                # 清空層級堆疊，這些是主要章節標記
+                title_text = chunk.content_lines[0].replace("\r\n", "\n").replace("\r", "\n").strip() if chunk.content_lines else chunk.chunk_type
+                content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
+                full_text_cleaned = self._clean_text_for_rag(content_text)
+                
+                level_stack = [{
+                    "level": 0,
+                    "title": title_text,
+                    "start_line": chunk.start_line
+                }]
+                
+                rag_chunks.append({
+                    "chunk_id": chunk.chunk_id,
+                    "chunk_type": chunk.chunk_type,
+                    "level": chunk.level,
+                    "start_line": chunk.start_line + 1,
+                    "end_line": chunk.end_line + 1,
+                    "title": title_text,
+                    "content": content_text,
+                    "full_text": full_text_cleaned,
+                    "hierarchy_path": [],
+                    "parent_titles": []
+                })
+                current_chunk = None
+                continue
+            
+            # Level >= 1 層級符號行 - 開始新的 chunk
+            if chunk.level >= 1 and chunk.chunk_type == "leveling_symbol":
+                # 如果有正在處理的 chunk，先保存它
+                if current_chunk:
+                    # 清理 full_text：移除所有換行符和多餘空白
+                    current_chunk["full_text"] = self._clean_text_for_rag(current_chunk["full_text"])
+                    rag_chunks.append(current_chunk)
+                
+                # 更新層級堆疊
+                while level_stack and level_stack[-1]["level"] >= chunk.level:
+                    level_stack.pop()
+                
+                # 建立層級路徑
+                hierarchy_path = [item["level"] for item in level_stack]
+                parent_titles = [item["title"] for item in level_stack]
+                
+                # 創建新的 chunk - 移除 \r\n
+                title = chunk.content_lines[0].replace("\r\n","").replace("\r","").replace("\n","").strip() if chunk.content_lines else f"Level {chunk.level}"
+                
+                current_chunk = {
+                    "chunk_id": chunk.chunk_id,
+                    "chunk_type": "hierarchical_section",
+                    "level": chunk.level,
+                    "start_line": chunk.start_line + 1,
+                    "end_line": chunk.end_line + 1,
+                    "title": title,
+                    "leveling_symbol": chunk.leveling_symbol,
+                    "content": "",  # 將在後面添加
+                    "full_text": title,  # 完整文本包含標題
+                    "hierarchy_path": hierarchy_path,
+                    "parent_titles": parent_titles
+                }
+                
+                # 加入層級堆疊
+                level_stack.append({
+                    "level": chunk.level,
+                    "title": title,
+                    "start_line": chunk.start_line
+                })
+                
+            # Level -1 內容 - 附加到當前 chunk
+            elif chunk.level == -1 and chunk.chunk_type == "content":
+                if current_chunk:
+                    # 將內容添加到當前 chunk - 移除 \r\n
+                    content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
+                    if current_chunk["content"]:
+                        current_chunk["content"] += "\n" + content_text
+                        current_chunk["full_text"] += "\n" + content_text
+                    else:
+                        current_chunk["content"] = content_text
+                        current_chunk["full_text"] += "\n" + content_text
+                    
+                    # 更新結束行
+                    current_chunk["end_line"] = chunk.end_line + 1
+                else:
+                    # 沒有當前 chunk，可能是孤立的內容
+                    # 創建一個獨立的內容 chunk - 移除 \r\n
+                    content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
+                    full_text_cleaned = self._clean_text_for_rag(content_text)
+                    rag_chunks.append({
+                        "chunk_id": chunk.chunk_id,
+                        "chunk_type": "orphan_content",
+                        "level": -1,
+                        "start_line": chunk.start_line + 1,
+                        "end_line": chunk.end_line + 1,
+                        "title": "Content",
+                        "content": content_text,
+                        "full_text": full_text_cleaned,
+                        "hierarchy_path": [item["level"] for item in level_stack],
+                        "parent_titles": [item["title"] for item in level_stack]
+                    })
+        
+        # 保存最後一個 chunk
+        if current_chunk:
+            # 清理 full_text：移除所有換行符和多餘空白
+            current_chunk["full_text"] = self._clean_text_for_rag(current_chunk["full_text"])
+            rag_chunks.append(current_chunk)
+        
+        logger.info("Generated %d RAG-ready chunks.", len(rag_chunks))
+        
+        # 統計 chunk 類型
+        chunk_type_stats = {}
+        for chunk in rag_chunks:
+            chunk_type = chunk["chunk_type"]
+            chunk_type_stats[chunk_type] = chunk_type_stats.get(chunk_type, 0) + 1
+        
+        logger.debug("RAG chunk statistics:")
+        for chunk_type, count in sorted(chunk_type_stats.items()):
+            logger.debug("   %s: %d", chunk_type, count)
+        
+        return rag_chunks
+
     def build_machine_payload(self, result: AdaptiveDetectionResult) -> Dict[str, Any]:
         """組裝機器可讀輸出所需的 payload。"""
-        # machine_tree = self.build_machine_tree(result.line_based_chunks or [])
-        # learned_rules = [
-        #     {
-        #         "symbol_category": rule.symbol_category,
-        #         "assigned_level": rule.assigned_level,
-        #         "confidence": rule.confidence,
-        #         "learning_source": rule.learning_source,
-        #         "occurrences": rule.occurrences,
-        #         "examples": rule.examples,
-        #     }
-        #     for rule in result.learned_rules
-        # ]
-
+        rag_chunks = self.build_rag_chunks(result.line_based_chunks or [])
+        
         return {
             "filename": result.filename,
-            # "file_structure": result.file_structure,
-            # "learning_region": result.learning_region,
-            # "processing_stats": result.processing_stats,
-            # "learned_rules": learned_rules,
-            # "applied_hierarchy": result.applied_hierarchy,
-            # "hierarchy": machine_tree,
-            "line_based_chunks": [
-                {
-                    "level": chunk.level,
-                    "start_line": chunk.start_line,
-                    "end_line": chunk.end_line,
-                    "chunk_type": chunk.chunk_type,
-                    "content_lines": list(chunk.content_lines),
-                    "leveling_symbol": chunk.leveling_symbol,
-                    "chunk_id": chunk.chunk_id,
-                }
-                for chunk in result.line_based_chunks or []
-            ],
+            "learning_region": result.learning_region,
+            "processing_stats": {
+                "total_lines": result.processing_stats["total_lines"],
+                "total_symbols_detected": result.processing_stats["total_symbols_detected"],
+                "learned_rules_count": result.processing_stats["learned_rules_count"],
+                "final_levels": result.processing_stats["final_levels"],
+                "rag_chunks_count": len(rag_chunks)
+            },
+            "rag_chunks": rag_chunks
         }
 
     def export_machine_result(
@@ -838,78 +990,86 @@ class AdaptiveHybridDetector:
         self, file_path: Path, verbose: bool = False
     ) -> Optional[AdaptiveDetectionResult]:
         """處理單個檔案 - 完整的自適應檢測流程 + 基於行的分塊"""
-        if verbose:
-            logger.info("Processing file: %s", file_path.name)
-
-        # 步驟1: 文件分塊
-        success, structure_info = self.analyze_file_structure(file_path)
-        if not success:
+        try:
             if verbose:
-                logger.error("File structure analysis failed for %s", file_path)
-            return None
+                logger.info("Processing file: %s", file_path.name)
 
-        learning_region = structure_info["learning_region"]
-        if verbose:
-            logger.info("Detected document structure region: %s", learning_region)
+            # 步驟1: 文件分塊
+            success, structure_info = self.analyze_file_structure(file_path)
+            if not success:
+                if verbose:
+                    logger.error("File structure analysis failed for %s", file_path)
+                return None
 
-        # 步驟2: 全文層級符號偵測
-        if verbose:
-            logger.debug("Running full-document hierarchy detection.")
-        full_text_lines = structure_info["full_text_lines"]
-        full_detection_results = self.hybrid_detector.detect_hybrid_markers(
-            full_text_lines, verbose=verbose
-        )
+            learning_region = structure_info["learning_region"]
+            if verbose:
+                logger.info("Detected document structure region: %s", learning_region)
 
-        # 步驟3: 規則學習區間
-        learning_lines = structure_info["learning_lines"]
-        learned_rules = self.learn_leveling_rules(
-            learning_lines, learning_region, verbose=verbose
-        )
+            # 步驟2: 全文層級符號偵測
+            if verbose:
+                logger.debug("Running full-document hierarchy detection.")
+            full_text_lines = structure_info["full_text_lines"]
+            full_detection_results = self.hybrid_detector.detect_hybrid_markers(
+                full_text_lines, verbose=verbose
+            )
 
-        # 步驟4: 層級規則建立與全文應用
-        applied_hierarchy = self.apply_leveling_rules(
-            full_detection_results, learned_rules
-        )
+            # 步驟3: 規則學習區間
+            learning_lines = structure_info["learning_lines"]
+            learned_rules = self.learn_leveling_rules(
+                learning_lines, learning_region, verbose=verbose
+            )
 
-        # 步驟5: 基於行的分塊 (新增)
-        if verbose:
-            logger.debug("Executing line-based chunk generation.")
-        line_based_chunks = self.create_line_based_chunks(
-            full_text_lines, full_detection_results, learned_rules
-        )
+            # 步驟4: 層級規則建立與全文應用
+            applied_hierarchy = self.apply_leveling_rules(
+                full_detection_results, learned_rules
+            )
 
-        # 步驟6: 合併相同層級內容 (新增)
-        level_content = self.concatenate_level_content(line_based_chunks)
+            # 步驟5: 基於行的分塊 (新增)
+            if verbose:
+                logger.debug("Executing line-based chunk generation.")
+            line_based_chunks = self.create_line_based_chunks(
+                full_text_lines, full_detection_results, learned_rules
+            )
 
-        # 處理統計
-        processing_stats = {
-            "total_lines": structure_info["total_lines"],
-            "learning_lines": len(learning_lines),
-            "total_symbols_detected": len(
-                [r for r in full_detection_results if r.final_prediction]
-            ),
-            "learned_rules_count": len(learned_rules),
-            "rule_coverage": applied_hierarchy["rule_coverage"],
-            "final_levels": applied_hierarchy["total_levels"],
-            "line_based_chunks_count": len(line_based_chunks),  # 新增
-            "level_content_summary": {
-                k: len([line for line in v if not line.startswith("[")])
-                for k, v in level_content.items()
-            },  # 新增
-        }
+            # 步驟6: 合併相同層級內容 (新增)
+            # 步驟6: 合併相同層級內容 (新增)
+            level_content = self.concatenate_level_content(line_based_chunks)
 
-        result = AdaptiveDetectionResult(
-            filename=file_path.name,
-            file_structure=structure_info,
-            learning_region=learning_region,
-            learned_rules=learned_rules,
-            full_detection_results=full_detection_results,
-            applied_hierarchy=applied_hierarchy,
-            processing_stats=processing_stats,
-            line_based_chunks=line_based_chunks,  # 新增
-        )
+            # 處理統計
+            processing_stats = {
+                "total_lines": structure_info["total_lines"],
+                "learning_lines": len(learning_lines),
+                "total_symbols_detected": len(
+                    [r for r in full_detection_results if r.final_prediction]
+                ),
+                "learned_rules_count": len(learned_rules),
+                "rule_coverage": applied_hierarchy["rule_coverage"],
+                "final_levels": applied_hierarchy["total_levels"],
+                "line_based_chunks_count": len(line_based_chunks),  # 新增
+                "level_content_summary": {
+                    k: len([line for line in v if not line.startswith("[")])
+                    for k, v in level_content.items()
+                },  # 新增
+            }
 
-        return result
+            result = AdaptiveDetectionResult(
+                filename=file_path.name,
+                file_structure=structure_info,
+                learning_region=learning_region,
+                learned_rules=learned_rules,
+                full_detection_results=full_detection_results,
+                applied_hierarchy=applied_hierarchy,
+                processing_stats=processing_stats,
+                line_based_chunks=line_based_chunks,  # 新增
+            )
+
+            return result
+        
+        finally:
+            # 清理 CUDA 快取以避免 OOM
+            import torch
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
 
     def process_sample_directory(
         self,

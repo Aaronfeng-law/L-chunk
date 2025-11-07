@@ -140,39 +140,62 @@ class HybridLevelSymbolDetector:
         
         return False, None, None
     
-    def bert_classify_lines(self, lines: List[str]) -> List[Tuple[float, int]]:
-        """使用 BERT 對行進行分類 - 優化 GPU 推理性能"""
+    def bert_classify_lines(self, lines: List[str], batch_size: int = 32) -> List[Tuple[float, int]]:
+        """使用 BERT 對行進行分類 - 優化 GPU 推理性能，支持分批處理避免 OOM"""
         if not self.is_model_loaded():
             raise ValueError("請先載入 BERT 模型")
         
         if not lines:
             return []
         
-        # 自適應設備選擇 - 
-        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.bert_model = self.bert_model.to(device)
+        try:
+            # 自適應設備選擇
+            device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+            self.bert_model = self.bert_model.to(device)
+            
+            all_results = []
+            
+            # 分批處理以避免 OOM
+            for batch_start in range(0, len(lines), batch_size):
+                batch_end = min(batch_start + batch_size, len(lines))
+                batch_lines = lines[batch_start:batch_end]
+                
+                # 準備輸入
+                inputs = self.bert_tokenizer(
+                    batch_lines,
+                    truncation=True,
+                    padding=True,
+                    max_length=512,
+                    return_tensors="pt"
+                )
+                
+                # 將輸入移到同一設備
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+                
+                # 預測
+                with torch.no_grad():
+                    outputs = self.bert_model(**inputs)
+                    probabilities = F.softmax(outputs.logits, dim=1)
+                    predictions = torch.argmax(probabilities, dim=1)
+                    scores = probabilities[:, 1]  # 正類別的概率
+                
+                # 返回結果到 CPU 並保存
+                batch_results = list(zip(scores.cpu().numpy(), predictions.cpu().numpy()))
+                all_results.extend(batch_results)
+                
+                # 清理中間張量
+                del inputs, outputs, probabilities, predictions, scores
+                
+                # 在每個批次後清理 CUDA 快取
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+            
+            return all_results
         
-        # 準備輸入
-        inputs = self.bert_tokenizer(
-            lines,
-            truncation=True,
-            padding=True,
-            max_length=512,
-            return_tensors="pt"
-        )
-        
-        # 將輸入移到同一設備 
-        inputs = {k: v.to(device) for k, v in inputs.items()}
-        
-        # 預測
-        with torch.no_grad():
-            outputs = self.bert_model(**inputs)
-            probabilities = F.softmax(outputs.logits, dim=1)
-            predictions = torch.argmax(probabilities, dim=1)
-            scores = probabilities[:, 1]  # 正類別的概率
-        
-        # 返回結果到 CPU
-        return list(zip(scores.cpu().numpy(), predictions.cpu().numpy()))
+        finally:
+            # 最終清理 CUDA 快取
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
     
     def detect_hybrid_markers(self, text_lines: List[str], bert_threshold: float = 0.5, verbose: bool = True) -> List[HybridDetectionResult]:
         """三層混合檢測層級標記 - """
