@@ -601,6 +601,13 @@ class AdaptiveHybridDetector:
         text = re.sub(r'\s+', '', text)
         return text
     
+    @staticmethod
+    def _clean_text_preserve_space(text: str) -> str:
+        """清理文本但保留空格：只移除換行符，保留所有空格（用於表格等結構化內容）"""
+        # 只移除換行符，保留空格
+        text = text.replace("\r\n", "").replace("\r", "").replace("\n", "")
+        return text
+    
     def build_rag_chunks(self, chunks: List[LineBasedChunk]) -> List[Dict[str, Any]]:
         """建立適合 RAG 檢索的分塊結構
         
@@ -739,10 +746,11 @@ class AdaptiveHybridDetector:
                     # 更新結束行
                     current_chunk["end_line"] = chunk.end_line + 1
                 else:
-                    # 沒有當前 chunk，可能是孤立的內容
-                    # 創建一個獨立的內容 chunk - 移除 \r\n
+                    # 沒有當前 chunk，可能是孤立的內容（如附表內容）
+                    # 創建一個獨立的內容 chunk - 保留空格但移除換行
                     content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
-                    full_text_cleaned = self._clean_text_for_rag(content_text)
+                    # 對於 orphan_content（通常是表格數據），保留空格以維持結構
+                    full_text_cleaned = self._clean_text_preserve_space(content_text)
                     rag_chunks.append({
                         "chunk_id": chunk.chunk_id,
                         "chunk_type": "orphan_content",
