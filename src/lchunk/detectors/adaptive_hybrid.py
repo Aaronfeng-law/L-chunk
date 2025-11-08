@@ -608,6 +608,71 @@ class AdaptiveHybridDetector:
         text = text.replace("\r\n", "").replace("\r", "").replace("\n", "")
         return text
     
+    @staticmethod
+    def _determine_location(chunk_type: str, parent_titles: List[str], date_count: int = 0) -> str:
+        """判斷 chunk 的文件位置
+        
+        參數:
+            chunk_type: chunk 類型
+            parent_titles: 父標題列表
+            date_count: 已出現的日期數量（用於區分 D1/D2）
+        
+        返回值：
+        - H: Header
+        - M: Main (主文)
+        - F: Facts (事實)
+        - R: Reasons (理由)
+        - S: Facts and Reasons (事實及理由)
+        - D1: Date1 (第一個日期)
+        - D2: Date2 (第二個日期，通常在署名區前）
+        - SIG: Signature (署名區)
+        - A: Appendix (附錄/附表)
+        - O: Other (其他)
+        """
+        # 特殊區塊直接判斷
+        if chunk_type == "header":
+            return "H"
+        elif chunk_type == "signature":
+            return "SIG"
+        elif chunk_type == "date":
+            # 根據出現順序判斷 D1 或 D2
+            # 第一個日期是 D1，第二個及之後的日期是 D2
+            return "D1" if date_count == 0 else "D2"
+        elif chunk_type == "footer":
+            return "H"  # Footer 視為 header 的一部分
+        elif chunk_type == "appendix":
+            return "A"
+        elif chunk_type == "main_text":
+            return "M"
+        elif chunk_type == "facts":
+            return "F"
+        elif chunk_type == "reasons":
+            return "R"
+        elif chunk_type == "facts_and_reasons":
+            return "S"
+        
+        # 對於 hierarchical_section 和 orphan_content，根據 parent_titles 判斷
+        # 只檢查第一個父標題（最直接的父節點）
+        if parent_titles:
+            # 取得第一個父標題（最近的父節點）
+            first_parent = parent_titles[0]
+            
+            # 檢查關鍵字
+            if "附表" in first_parent or "附錄" in first_parent or "附件" in first_parent:
+                return "A"
+            elif "事實及理由" in first_parent or "事實和理由" in first_parent or "事實與理由" in first_parent:
+                return "S"
+            elif "事實" in first_parent or "事　實" in first_parent:
+                return "F"
+            elif "理由" in first_parent or "理　由" in first_parent:
+                return "R"
+            elif "主文" in first_parent or "主　文" in first_parent:
+                return "M"
+        
+        # 預設返回 Other
+        return "O"
+        return "O"
+    
     def build_rag_chunks(self, chunks: List[LineBasedChunk]) -> List[Dict[str, Any]]:
         """建立適合 RAG 檢索的分塊結構
         
@@ -629,6 +694,7 @@ class AdaptiveHybridDetector:
         rag_chunks = []
         level_stack = []  # 存儲當前的層級路徑
         current_chunk = None
+        date_count = 0  # 追蹤已出現的日期數量，用於區分 D1/D2
         
         for chunk in ordered_chunks:
             # Header, Footer, Signature, Date 等特殊塊保持獨立
@@ -642,6 +708,8 @@ class AdaptiveHybridDetector:
                 
                 # 特殊區塊：content 和 full_text 都保留原始換行和空格，只移除 \r\n
                 content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
+                location = self._determine_location(chunk.chunk_type, [], date_count)
+                
                 rag_chunks.append({
                     "chunk_id": chunk.chunk_id,
                     "chunk_type": chunk.chunk_type,
@@ -652,8 +720,14 @@ class AdaptiveHybridDetector:
                     "content": content_text,
                     "full_text": content_text,  # 特殊區塊保持原始格式（含換行和空格）
                     "hierarchy_path": [],
-                    "parent_titles": []
+                    "parent_titles": [],
+                    "location": location
                 })
+                
+                # 如果是日期，增加計數
+                if chunk.chunk_type == "date":
+                    date_count += 1
+                    
                 continue
             
             # Level 0 標記（主文、事實、理由等）- 保持獨立但記錄層級路徑
@@ -676,6 +750,7 @@ class AdaptiveHybridDetector:
                     "start_line": chunk.start_line
                 }]
                 
+                location = self._determine_location(chunk.chunk_type, [])
                 rag_chunks.append({
                     "chunk_id": chunk.chunk_id,
                     "chunk_type": chunk.chunk_type,
@@ -686,7 +761,8 @@ class AdaptiveHybridDetector:
                     "content": content_text,
                     "full_text": full_text_cleaned,
                     "hierarchy_path": [],
-                    "parent_titles": []
+                    "parent_titles": [],
+                    "location": location
                 })
                 current_chunk = None
                 continue
@@ -710,6 +786,9 @@ class AdaptiveHybridDetector:
                 # 創建新的 chunk - 移除 \r\n
                 title = chunk.content_lines[0].replace("\r\n","").replace("\r","").replace("\n","").strip() if chunk.content_lines else f"Level {chunk.level}"
                 
+                # 判斷 location：繼承自父層級
+                location = self._determine_location("hierarchical_section", parent_titles)
+                
                 current_chunk = {
                     "chunk_id": chunk.chunk_id,
                     "chunk_type": "hierarchical_section",
@@ -721,7 +800,8 @@ class AdaptiveHybridDetector:
                     "content": "",  # 將在後面添加
                     "full_text": title,  # 完整文本包含標題
                     "hierarchy_path": hierarchy_path,
-                    "parent_titles": parent_titles
+                    "parent_titles": parent_titles,
+                    "location": location
                 }
                 
                 # 加入層級堆疊
@@ -751,6 +831,8 @@ class AdaptiveHybridDetector:
                     content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
                     # 對於 orphan_content（通常是表格數據），保留空格以維持結構
                     full_text_cleaned = self._clean_text_preserve_space(content_text)
+                    parent_titles_list = [item["title"] for item in level_stack]
+                    location = self._determine_location("orphan_content", parent_titles_list)
                     rag_chunks.append({
                         "chunk_id": chunk.chunk_id,
                         "chunk_type": "orphan_content",
@@ -761,7 +843,8 @@ class AdaptiveHybridDetector:
                         "content": content_text,
                         "full_text": full_text_cleaned,
                         "hierarchy_path": [item["level"] for item in level_stack],
-                        "parent_titles": [item["title"] for item in level_stack]
+                        "parent_titles": parent_titles_list,
+                        "location": location
                     })
         
         # 保存最後一個 chunk

@@ -6,8 +6,6 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
-import time
-import threading
 from pathlib import Path
 from typing import Iterable
 
@@ -20,48 +18,6 @@ from lchunk.detectors.adaptive_hybrid import (  # pylint: disable=wrong-import-p
     AdaptiveDetectionResult,
     AdaptiveHybridDetector,
 )
-
-
-class RealTimeTimer:
-    """A timer that displays elapsed time in real-time."""
-    
-    def __init__(self, prefix: str = "Processing"):
-        self.start_time = None
-        self.stop_flag = False
-        self.thread = None
-        self.prefix = prefix
-    
-    def start(self):
-        """Start the timer."""
-        self.start_time = time.time()
-        self.stop_flag = False
-        self.thread = threading.Thread(target=self._update_display, daemon=True)
-        self.thread.start()
-    
-    def stop(self) -> float:
-        """Stop the timer and return elapsed time."""
-        self.stop_flag = True
-        if self.thread:
-            self.thread.join(timeout=0.5)
-        elapsed = time.time() - self.start_time if self.start_time else 0
-        # Clear the line and print final time
-        sys.stdout.write('\r' + ' ' * 80 + '\r')
-        sys.stdout.flush()
-        return elapsed
-    
-    def _update_display(self):
-        """Update the display every 0.1 seconds."""
-        while not self.stop_flag:
-            if self.start_time:
-                elapsed = time.time() - self.start_time
-                mins, secs = divmod(int(elapsed), 60)
-                if mins > 0:
-                    time_str = f"{mins}m {secs}s"
-                else:
-                    time_str = f"{elapsed:.1f}s"
-                sys.stdout.write(f'\r⏱️  {self.prefix}... {time_str}')
-                sys.stdout.flush()
-            time.sleep(0.1)
 
 
 def parse_args(argv: Iterable[str]) -> argparse.Namespace:
@@ -156,7 +112,6 @@ def run(argv: Iterable[str]) -> int:
     configure_logging(args.log_file, args.verbose)
 
     logger = logging.getLogger(__name__)
-    timer = RealTimeTimer("Processing")
 
     if not args.input_path.exists():
         logger.error("Input path does not exist: %s", args.input_path)
@@ -173,14 +128,10 @@ def run(argv: Iterable[str]) -> int:
     detector = AdaptiveHybridDetector(str(model_path) if model_path else None)
 
     if args.input_path.is_file():
-        timer.start()
         result = detector.process_single_file(args.input_path)
-        elapsed = timer.stop()
-        
         if result is None:
             logger.error("Adaptive detection failed for %s", args.input_path)
             print(f"Detection failed for {args.input_path.name}. See log: {args.log_file}")
-            print(f"Total time: {elapsed:.2f}s")
             return 2
 
         summary = summarize_result(result)
@@ -207,7 +158,6 @@ def run(argv: Iterable[str]) -> int:
             print(f"Detection summary: {summary}")
 
         print(f"Detailed log: {args.log_file}")
-        print(f"✅ Total time: {elapsed:.2f}s")
         return 0
 
     if args.input_path.is_dir():
@@ -222,10 +172,7 @@ def run(argv: Iterable[str]) -> int:
             return 0
 
         # Always process directory and export individual machine-readable files
-        timer.start()
         detector.process_sample_directory(args.input_path, args.output_dir, args.max_files, verbose=args.verbose)
-        elapsed = timer.stop()
-        
         logger.info(
             "Batch detection finished for directory %s (max_files=%s).",
             args.input_path,
@@ -255,7 +202,6 @@ def run(argv: Iterable[str]) -> int:
                 print(f"Human-readable report stored under: {args.output_dir.resolve()}")
 
         print(f"Detailed log: {args.log_file}")
-        print(f"✅ Total time: {elapsed:.2f}s")
         return 0
 
     logger.error("Input path is neither a file nor a directory: %s", args.input_path)
