@@ -593,14 +593,13 @@ class AdaptiveHybridDetector:
 
     @staticmethod
     def _clean_text_for_rag(text: str) -> str:
-        """清理文本用於 RAG：移除所有換行符和多餘空白"""
-        # 移除所有換行符``
-        text = text.replace("\r\n", "").replace("\r", "").replace("\n", "").replace("\n\n", "").replace(" ", "")
-        # 移除多餘的空白（將多個空白合併為一個）
+        """清理文本用於 RAG：移除所有換行符和所有空格"""
+        # 移除所有換行符（\r\n, \r, \n）
+        text = text.replace("\r\n", "").replace("\r", "").replace("\n", "")
+        # 移除所有空格和空白字符
         import re
-        text = re.sub(r'\s+', ' ', text)
-        # 移除首尾空白
-        return text.strip()
+        text = re.sub(r'\s+', '', text)
+        return text
     
     def build_rag_chunks(self, chunks: List[LineBasedChunk]) -> List[Dict[str, Any]]:
         """建立適合 RAG 檢索的分塊結構
@@ -629,11 +628,13 @@ class AdaptiveHybridDetector:
             if chunk.level < 0 and chunk.chunk_type in ["header", "footer", "signature", "date"]:
                 # 先保存當前正在累積的 chunk（如果有）
                 if current_chunk:
+                    # 清理 full_text：移除所有換行符和空格
+                    current_chunk["full_text"] = self._clean_text_for_rag(current_chunk["full_text"])
                     rag_chunks.append(current_chunk)
                     current_chunk = None
                 
+                # 特殊區塊：content 和 full_text 都保留原始換行和空格，只移除 \r\n
                 content_text = "\n".join(line.replace("\r\n", "\n").replace("\r", "\n") for line in chunk.content_lines)
-                full_text_cleaned = self._clean_text_for_rag(content_text)
                 rag_chunks.append({
                     "chunk_id": chunk.chunk_id,
                     "chunk_type": chunk.chunk_type,
@@ -642,7 +643,7 @@ class AdaptiveHybridDetector:
                     "end_line": chunk.end_line + 1,
                     "title": chunk.chunk_type.upper(),
                     "content": content_text,
-                    "full_text": full_text_cleaned,
+                    "full_text": content_text,  # 特殊區塊保持原始格式（含換行和空格）
                     "hierarchy_path": [],
                     "parent_titles": []
                 })
@@ -652,6 +653,8 @@ class AdaptiveHybridDetector:
             if chunk.level == 0:
                 # 先保存當前正在累積的 chunk（如果有）
                 if current_chunk:
+                    # 清理 full_text：移除所有換行符和空格
+                    current_chunk["full_text"] = self._clean_text_for_rag(current_chunk["full_text"])
                     rag_chunks.append(current_chunk)
                     current_chunk = None
                 
