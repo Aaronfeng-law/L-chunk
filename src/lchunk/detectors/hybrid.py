@@ -148,8 +148,10 @@ class HybridLevelSymbolDetector:
         
         # 檢查是否在預定義的符號範圍內
         for category, info in self.rule_detector.valid_symbol_ranges.items():
-            if first_char in info["chars"]:
-                return True, first_char, category
+                if first_char in info["chars"]:
+                    # 要求符號後方必須接頓號（、）
+                    if len(stripped) > 1 and stripped[1] == '、':
+                        return True, first_char, category
         
         # 檢查PUA符號（但不要求頓號）
         for pua_category, pua_info in self.rule_detector.pua_symbol_groups.items():
@@ -157,13 +159,17 @@ class HybridLevelSymbolDetector:
                 return True, first_char, pua_category
         
         # 軟規則：半形阿拉伯數字（r'^\s*\d'）
-        if re.match(r'^\d', stripped):
-            return True, first_char, "ARA_NUM"
+            if re.match(r'^\d', stripped):
+                # 要求符號後方必須接頓號（、）
+                if len(stripped) > 1 and stripped[1] == '、':
+                    return True, first_char, "ARA_NUM"
         
         # 軟規則：括號中文數字（r'^\s*\([一二三四五六七八九十]\)'）
-        paren_chn = re.match(r'^(\([一二三四五六七八九十]\))', stripped)
-        if paren_chn:
-            return True, paren_chn.group(1), "PAREN_CHN"
+            paren_chn = re.match(r'^(\([一二三四五六七八九十]\))', stripped)
+            if paren_chn:
+                # 要求符號後方必須接頓號（、）
+                if len(stripped) > len(paren_chn.group(1)) and stripped[len(paren_chn.group(1))] == '、':
+                    return True, paren_chn.group(1), "PAREN_CHN"
         
         return False, None, None
     
@@ -655,7 +661,7 @@ def main():
         # 生成報告
         report = detector.generate_detection_report(analysis)
         print(report)
-        
+            
         # 保存結果
         detector.save_results("three_layer_detection_results.json")
         
