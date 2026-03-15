@@ -16,4 +16,5 @@ dependencies = [
     "datasets>=2.0.0",
     "accelerate>=1.10.1",
     "dotenv>=0.9.9",
+    "pytest>=9.0.2",
 ]

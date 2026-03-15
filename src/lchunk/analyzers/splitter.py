@@ -11,8 +11,8 @@ import re
 from pathlib import Path
 
 def normalize_text(text):
-    """Remove spaces and \r\n from text for pattern matching"""
-    return re.sub(r'[\s\r\n]', '', text)
+    """Remove spaces and \r\n from text for pattern matching, strips"""
+    return re.sub(r'\s+', '', text.replace('\r', '').replace('\n', '')).strip()
 
 def find_section_patterns():
     """Define the patterns found in the specified lines"""
@@ -23,6 +23,8 @@ def find_section_patterns():
         'facts_and_reasons_pattern': re.compile(r'^\s*事實\s*[及與和]\s*理由\s*$'),  # Flexible combined format pattern
         'date_pattern': re.compile(r'中\s*華\s*民\s*國\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日'),  # ROC date pattern
         'date_pattern_strict': re.compile(r'中\s*華\s*民\s*國\s*(\d{2,3})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日'),  # More strict
+        #^附錄', r'^附件', r'^附圖', r'^附表
+        'appendix': re.compile(r'^\s*附[錄件圖表]')
     }
     return patterns
 
@@ -100,7 +102,7 @@ def split_judgment(jfull_content):
         dict: Dictionary with split sections
     """
     patterns = find_section_patterns()
-    
+    assert results[1]['full_match'] == expected_output
     # Split into lines and clean each line for pattern matching
     lines = jfull_content.split('\r\n')
     
@@ -110,9 +112,9 @@ def split_judgment(jfull_content):
         'facts': [],
         'reasons': [],
         'facts_and_reasons': [],  # New combined section
-        'footer': []
+        'footer': [],
+        'appendix': []
     }
-    
     current_section = 'header'
     
     for i, line in enumerate(lines):
@@ -135,6 +137,9 @@ def split_judgment(jfull_content):
         elif patterns['date_pattern_strict'].search(line) or patterns['date_pattern'].search(line):
             # Use strict regex first, then fallback to general pattern
             current_section = 'footer'
+            sections[current_section].append(line)
+        elif patterns['appendix'].match(cleaned_line):
+            current_section = 'appendix'
             sections[current_section].append(line)
         else:
             sections[current_section].append(line)
