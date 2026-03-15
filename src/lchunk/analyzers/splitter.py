@@ -102,7 +102,7 @@ def split_judgment(jfull_content):
         dict: Dictionary with split sections
     """
     patterns = find_section_patterns()
-    assert results[1]['full_match'] == expected_output
+    
     # Split into lines and clean each line for pattern matching
     lines = jfull_content.split('\r\n')
     
