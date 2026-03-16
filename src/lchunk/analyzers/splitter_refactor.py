@@ -7,8 +7,9 @@ Splits judgment documents based on structural patterns found in lines 40, 58, 10
 import json
 import sys
 import re
+import argparse
 from pathlib import Path
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
 from typing import List, Dict, Any, Optional, Tuple
 
 @dataclass(slots=True)
@@ -141,6 +142,23 @@ def split_judgment_document(file_path: Path) -> Optional[JudgmentArtifact]:
         #TODO: 使用額外的 metadata extractor 替代 直接從 JSON 提取 metadata 的方式，以減少記憶體使用
         # Extract metadata from JSON (excluding JFULL to save memory if needed)
         metadata = {k: v for k, v in data.items() if k != 'JFULL'}
+        court_code = metadata['JID'][0:4]
+        
+        with open("data/court_codes/court_mapping_grouped.json", "r", encoding="utf-8") as f:
+            court_data = json.load(f)
+        for base_court_name, court_info in court_data.get("courts", {}).items():
+            case_types = court_info.get("case_types", {})
+            for case_type, type_info in case_types.items():
+                if type_info.get("sub_court_code") == court_code:
+                    metadata['court_full_name'] = type_info.get("full_name")
+                    metadata['base_court_name'] = base_court_name
+                    metadata['case_type'] = case_type
+                    break
+            if 'court_full_name' in metadata:
+                break
+        print(f"Extracted metadata for court code {court_code}: {metadata.get('court_full_name', 'Unknown Court')}")    
+        
+         
         
         return JudgmentArtifact(
             file_path=str(file_path),
@@ -159,22 +177,29 @@ def process_single_file(file_path: Path) -> Optional[JudgmentArtifact]:
     return split_judgment_document(file_path)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python splitter_refactor.py <path_to_json_file>")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="Split judgment document")
+    parser.add_argument("input_file", type=Path, help="Path to input JSON file")
+    parser.add_argument("--save", action="store_true", help="Save the result to a JSON file for debug, default save to output/debug/splitter_refactor_debug.json")
     
-    file_path = Path(sys.argv[1])
-    artifact = process_single_file(file_path)
+    args = parser.parse_args()
+    
+    artifact = process_single_file(args.input_file)
     
     try:
         if artifact:
-            print(f"Processed {file_path} successfully.")
+            print(f"Processed {args.input_file} successfully.")
             # For demonstration, we can print out the sections and their line counts
             for section_name, content in artifact.sections.items():
                 print(f"Section '{section_name}': {len(content.lines)} lines")
             for key_line in artifact.key_lines:
                 print(f"Key Line (index {key_line.index}): {key_line.original_text}")
+            
+            if args.save:
+                output_path = "output/debug/splitter_refactor_debug.json" # Default path for debug output
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump(asdict(artifact), f, ensure_ascii=False, indent=2)
+                print(f"Saved debug output to {output_path}")
         else:
-            print(f"No valid JFULL content found in {file_path}.")
+            print(f"No valid JFULL content found in {args.input_file}.")
     except Exception as e:
-        print(f"Error occurred while processing {file_path}: {e}")
+        print(f"Error occurred while processing {args.input_file}: {e}")
