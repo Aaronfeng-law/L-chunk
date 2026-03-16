@@ -138,6 +138,7 @@ def split_judgment_document(file_path: Path) -> Optional[JudgmentArtifact]:
         
         full_lines, sections, key_lines= classify_document_sections(lines, patterns)
         
+        #TODO: 使用額外的 metadata extractor 替代 直接從 JSON 提取 metadata 的方式，以減少記憶體使用
         # Extract metadata from JSON (excluding JFULL to save memory if needed)
         metadata = {k: v for k, v in data.items() if k != 'JFULL'}
         
