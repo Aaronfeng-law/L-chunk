@@ -4,7 +4,7 @@
 
 
 結合：
-1. 規則檢測：零容忍格式檢查
+1. 規則檢測：格式檢查
 2. BERT分類：精確語義理解
 3. 批次處理：高效處理大量文檔
 
@@ -106,7 +106,7 @@ class HybridBatchProcessor:
             stats.bert_refined_markers = sum(1 for r in results if r.final_prediction and r.method_used == "soft_rule_bert")
             stats.rule_only_markers = sum(1 for r in results if r.final_prediction and r.method_used in ["ultra_strict_pua", "soft_rule_only"])
             stats.candidate_lines = sum(1 for r in results if r.rule_based_score > 0)
-            stats.bert_processed_lines = sum(1 for r in results if r.bert_score > 0 and r.bert_score < 1.0)  # 排除終極嚴格的1.0分
+            stats.bert_processed_lines = sum(1 for r in results if r.bert_score > 0 and r.bert_score < 1.0)  # 排除嚴格的1.0分
             
             # 分析結果
             analysis = self.detector.analyze_detection_results()
@@ -224,7 +224,7 @@ class HybridBatchProcessor:
                 batch_stats["total_bert_refined_markers"] += stats.bert_refined_markers
                 batch_stats["total_rule_only_markers"] += stats.rule_only_markers
                 
-                print(f"✅ 成功 - 檢測到 {stats.total_markers} 個標記 (終極嚴格: {stats.ultra_strict_markers}, BERT: {stats.bert_refined_markers}, 軟規則: {stats.rule_only_markers})")
+                print(f"✅ 成功 - 檢測到 {stats.total_markers} 個標記 (嚴格: {stats.ultra_strict_markers}, BERT: {stats.bert_refined_markers}, 軟規則: {stats.rule_only_markers})")
             else:
                 batch_stats["failed_files"] += 1
                 print(f"❌ 失敗 - {stats.error_message}")

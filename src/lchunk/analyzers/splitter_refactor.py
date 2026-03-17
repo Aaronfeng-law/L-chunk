@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
-Judgment Document Splitter
-Splits judgment documents based on structural patterns found in lines 40, 58, 100, 1504, 1514
+Judgment Document Splitter (Phase 1 of Pipeline)
+負責：讀取 JSON 判決文件 → 正規化文字 → 段落分割 → 提取 metadata → 產出 JudgmentArtifact
+
+此模組是整個管線的第一站，產出的 JudgmentArtifact 作為唯一 DTO 傳遞給後續階段。
 """
 
 import json
@@ -9,28 +11,17 @@ import sys
 import re
 import argparse
 from pathlib import Path
-from dataclasses import dataclass, field, asdict
+from dataclasses import asdict
 from typing import List, Dict, Any, Optional, Tuple
 
-@dataclass(slots=True)
-class DocumentLine:
-    index: int
-    original_text: str
-    normalized_text: str
-    tags: List[str] = field(default_factory=list)
-    
-@dataclass(slots=True)
-class SectionContent:
-    name: str
-    lines: List[DocumentLine] = field(default_factory=list)
-    
-@dataclass(slots=True)
-class JudgmentArtifact:
-    file_path: str
-    full_lines: List[DocumentLine]
-    sections: Dict[str, SectionContent]
-    metadata: Dict[str, Any] = field(default_factory=dict)
-    key_lines: List[DocumentLine] = field(default_factory=list)
+# ── 直接執行時自動設定 sys.path（uv run src/... 或 python src/...）──────────
+# parents[0]=analyzers, [1]=lchunk, [2]=src, [3]=專案根目錄
+_PROJECT_ROOT = Path(__file__).resolve().parents[3]
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+
+# 從 pipeline.py 匯入統一的資料結構
+from src.lchunk.pipeline import DocumentLine, SectionContent, JudgmentArtifact
 
 def normalize_text(text):
     if not text:
@@ -63,8 +54,13 @@ def classify_document_sections(lines: List[str], patterns: Dict[str, Any]) -> Tu
     """
     full_lines = []
     key_lines = []
-    sections = {k: SectionContent(name=k) for k in ['header', 'main_text', 'facts_and_reasons', 'facts', 'reasons', 'sig', 'footer', 'appendix']}
-    
+    # footer 已廢棄；date1 = 判決日期行，date2 = 正本送達日期行
+    sections = {
+        k: SectionContent(name=k)
+        for k in ['header', 'main_text', 'facts_and_reasons', 'facts', 'reasons',
+                  'date1', 'sig', 'date2', 'appendix']
+    }
+
     current_state = 'header'
     date_found_count = 0
 
@@ -72,15 +68,20 @@ def classify_document_sections(lines: List[str], patterns: Dict[str, Any]) -> Tu
         cleaned_line = normalize_text(line)
         doc_line = DocumentLine(index=i, original_text=line, normalized_text=cleaned_line)
         full_lines.append(doc_line)
-        
-        next_state = current_state
-        
-        # 狀態機與順序過濾邏輯
+
+        # ── next_state 初始化 ───────────────────────────────────────────────
+        # date1 是單行 section：日期行本身進 date1，下一行自動進 sig
+        if current_state == 'date1':
+            next_state = 'sig'
+        else:
+            next_state = current_state
+
+
         if current_state == 'header':
             if patterns['main_text'] == cleaned_line:
                 key_lines.append(doc_line)
                 next_state = 'main_text'
-                
+
         elif current_state == 'main_text':
             if patterns['facts_and_reasons_pattern'].match(cleaned_line):
                 key_lines.append(doc_line)
@@ -91,33 +92,35 @@ def classify_document_sections(lines: List[str], patterns: Dict[str, Any]) -> Tu
             elif patterns['reasons'] == cleaned_line:
                 key_lines.append(doc_line)
                 next_state = 'reasons'
-                
+
         elif current_state == 'facts':
             if patterns['reasons'] == cleaned_line:
                 key_lines.append(doc_line)
                 next_state = 'reasons'
-        
-        # 日期檢測：監測日期觸發 sig 與 footer
-        # 只要仍在非 footer 狀態，且符合日期規則，即計數
-        if next_state not in ['footer', 'appendix']:
+
+        # ── 日期偵測：date1 → sig → date2 ───────────────────────────
+        # 只在尚未進入 date2 / appendix 前偵測
+        if next_state not in ('date2', 'appendix'):
             if patterns['date_pattern'].search(cleaned_line):
                 key_lines.append(doc_line)
                 date_found_count += 1
                 if date_found_count == 1:
-                    next_state = 'sig'
-                elif date_found_count >= 2:
-                    next_state = 'footer'
-        
-        # Appendix 檢測：持續在 sig/footer 之後檢測所有符合 appendix 模式的關鍵行
-        # Allow transition from sig/footer to appendix, or within appendix (implicit)
-        if next_state in ['sig', 'footer', 'appendix']:
+                    # 第一個日期行 → date1（單行），下一行進入 sig
+                    next_state = 'date1'
+                else:
+                    # 第二個（含）以後的日期行 → date2
+                    next_state = 'date2'
+
+
+        # ── Appendix 偵測：在 sig / date2 / appendix 之後偵測 ────────
+        if next_state in ('sig', 'date2', 'appendix'):
             if patterns['appendix'].match(cleaned_line):
                 key_lines.append(doc_line)
                 next_state = 'appendix'
-        
+
         current_state = next_state
         sections[current_state].lines.append(doc_line)
-            
+
     return full_lines, sections, key_lines
     
 
@@ -142,23 +145,27 @@ def split_judgment_document(file_path: Path) -> Optional[JudgmentArtifact]:
         #TODO: 使用額外的 metadata extractor 替代 直接從 JSON 提取 metadata 的方式，以減少記憶體使用
         # Extract metadata from JSON (excluding JFULL to save memory if needed)
         metadata = {k: v for k, v in data.items() if k != 'JFULL'}
-        court_code = metadata['JID'][0:4]
+        court_code = metadata.get('JID', '')[0:4] if 'JID' in metadata else ''
         
-        with open("data/court_codes/court_mapping_grouped.json", "r", encoding="utf-8") as f:
-            court_data = json.load(f)
-        for base_court_name, court_info in court_data.get("courts", {}).items():
-            case_types = court_info.get("case_types", {})
-            for case_type, type_info in case_types.items():
-                if type_info.get("sub_court_code") == court_code:
-                    metadata['court_full_name'] = type_info.get("full_name")
-                    metadata['base_court_name'] = base_court_name
-                    metadata['case_type'] = case_type
+        # Optionally Map Court Names
+        try:
+            with open("data/court_codes/court_mapping_grouped.json", "r", encoding="utf-8") as f:
+                court_data = json.load(f)
+            for base_court_name, court_info in court_data.get("courts", {}).items():
+                case_types = court_info.get("case_types", {})
+                for case_type, type_info in case_types.items():
+                    if type_info.get("sub_court_code") == court_code:
+                        metadata['court_full_name'] = type_info.get("full_name")
+                        metadata['base_court_name'] = base_court_name
+                        metadata['case_type'] = case_type
+                        break
+                if 'court_full_name' in metadata:
                     break
-            if 'court_full_name' in metadata:
-                break
-        print(f"Extracted metadata for court code {court_code}: {metadata.get('court_full_name', 'Unknown Court')}")    
+        except FileNotFoundError:
+            pass  # Ignore if court_codes mapping doesn't exist
         
-         
+        if court_code:
+            print(f"Extracted metadata for court code {court_code}: {metadata.get('court_full_name', 'Unknown Court')}")
         
         return JudgmentArtifact(
             file_path=str(file_path),

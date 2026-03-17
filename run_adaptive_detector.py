@@ -14,7 +14,7 @@ SRC_PATH = PROJECT_ROOT / "src"
 if str(SRC_PATH) not in sys.path:
     sys.path.insert(0, str(SRC_PATH))
 
-from lchunk.detectors.adaptive_hybrid import (  # pylint: disable=wrong-import-position
+from lchunk.detectors.adaptive_hierarchy import (  # pylint: disable=wrong-import-position
     AdaptiveDetectionResult,
     AdaptiveHybridDetector,
 )

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-終極嚴格格式層級檢測器
-基於  "零容忍" 原則：
+嚴格格式層級檢測器
+基於  "" 原則：
 "規則要麼是絕對的，要麼就不是規則"
 
-終極嚴格規則：
+嚴格規則：
 1. 必須以 \r\n 開頭  
 2. 只能是單個 Unicode 字符
 3. 必須緊跟 、(頓號)
@@ -16,10 +16,11 @@ import json
 import re
 from typing import List, Dict, Set, Tuple
 from dataclasses import dataclass
+from src.lchunk.pipeline import JudgmentArtifact, SymbolDetection
 
 @dataclass
 class UltraStrictMarker:
-    """終極嚴格格式的層級標記"""
+    """嚴格格式的層級標記"""
     line_number: int
     symbol: str
     unicode_code: str
@@ -29,10 +30,10 @@ class UltraStrictMarker:
     has_proper_newline: bool
 
 class UltraStrictDetector:
-    """終極嚴格格式檢測器"""
+    """嚴格格式檢測器"""
     
     def __init__(self):
-        # 定義允許的單字符符號範圍（零容忍策略）
+        # 定義允許的單字符符號範圍（策略）
         self.valid_symbol_ranges = {
             # 中文數字
             "中文數字": {
@@ -78,10 +79,10 @@ class UltraStrictDetector:
             }
         }
         
-        # PUA符號分組 - 基於格式精確分類（零容忍分組）
+        # PUA符號分組 - 基於格式精確分類（分組）
         self.pua_symbol_groups = self._init_pua_groups()
         
-        # PUA範圍 (Private Use Area) - 終極精確定義
+        # PUA範圍 (Private Use Area) - 精確定義
         self.pua_ranges = [
             (0xE000, 0xF8FF),   # Basic Multilingual Plane PUA
             (0xF0000, 0xFFFFD), # Supplementary PUA-A
@@ -205,7 +206,7 @@ class UltraStrictDetector:
         return False, "無效字符"
     
     def get_pua_group(self, char: str) -> str:
-        """獲取PUA字符的精確分組（零容忍分類）
+        """獲取PUA字符的精確分組（分類）
         
         特殊合併規則：PUA_全形阿拉伯數字_原數字 → 全形數字
         """
@@ -251,37 +252,37 @@ class UltraStrictDetector:
         return 0
     
     def detect_ultra_strict_markers(self, text_lines: List[str]) -> List[UltraStrictMarker]:
-        """終極嚴格檢測層級標記"""
+        """嚴格檢測層級標記"""
         markers = []
         
-        # 終極嚴格的正則表達式：單個字符 + 頓號，無任何例外
+        # 嚴格的正則表達式：單個字符 + 頓號，無任何例外
         ultra_strict_pattern = r'^(.{1})、(.*)$'
         
         for line_num, line in enumerate(text_lines, 1):
             stripped_line = line.strip()
             
-            # 跳過空行（零容忍：空行不是有效標記）
+            # 跳過空行（：空行不是有效標記）
             if not stripped_line:
                 continue
             
-            # 檢查是否符合終極嚴格格式
+            # 檢查是否符合嚴格格式
             match = re.match(ultra_strict_pattern, stripped_line)
             if match:
                 symbol = match.group(1)
                 content_after_comma = match.group(2)
                 
-                # 終極嚴格要求1：必須是單個字符（已由正則保證）
-                # 終極嚴格要求2：字符必須在有效範圍內
+                # 嚴格要求1：必須是單個字符（已由正則保證）
+                # 嚴格要求2：字符必須在有效範圍內
                 is_valid, category = self.is_valid_symbol(symbol)
                 
                 if is_valid:
-                    # 終極嚴格要求3：檢查前一行是否以\r結尾（如果不是第一行）
+                    # 嚴格要求3：檢查前一行是否以\r結尾（如果不是第一行）
                     has_proper_newline = True
                     if line_num > 1:
                         prev_line = text_lines[line_num - 2]  # 0-indexed
                         has_proper_newline = prev_line.endswith('\r')
                     
-                    # 終極嚴格要求4：只有符合所有條件的才被接受（零妥協）
+                    # 嚴格要求4：只有符合所有條件的才被接受（零妥協）
                     if has_proper_newline:
                         marker = UltraStrictMarker(
                             line_number=line_num,
@@ -297,7 +298,7 @@ class UltraStrictDetector:
         return markers
     
     def analyze_ultra_strict_structure(self, markers: List[UltraStrictMarker]) -> Dict:
-        """分析終極嚴格檢測的結構"""
+        """分析嚴格檢測的結構"""
         analysis = {
             "total_markers": len(markers),
             "by_category": {},
@@ -396,22 +397,23 @@ class UltraStrictDetector:
         return analysis
     
     def generate_ultra_strict_report(self, markers: List[UltraStrictMarker], analysis: Dict) -> str:
-        """生成終極嚴格檢測報告"""
+    
+        """生成嚴格檢測報告"""
         newline_compliance_rate = (analysis["newline_compliance"] / len(markers) * 100) if markers else 0
         
         report = f"""
 ============================================================
-⚡ 終極嚴格格式層級檢測報告 (精確分組)
+⚡ 嚴格格式層級檢測報告 (精確分組)
 ============================================================
 
-🔒 終極嚴格規則 (零容忍):
+🔒 嚴格規則 ():
   ✓ 必須以 \\r\\n 開頭
   ✓ 只能是單個 Unicode 字符  
   ✓ 必須緊跟 、(頓號)
   ✓ 字符必須在預定義範圍內（含PUA精確分組）
   
 📊 檢測結果:
-  符合終極嚴格格式的標記: {len(markers)} 個
+  符合嚴格格式的標記: {len(markers)} 個
   PUA字符標記: {analysis['pua_count']} 個
   換行符合性: {analysis['newline_compliance']}/{len(markers)} ({newline_compliance_rate:.1f}%)
   
@@ -426,7 +428,7 @@ class UltraStrictDetector:
         
         # PUA精確分組統計
         if analysis["by_pua_group"]:
-            report += f"\n🎯 PUA精確分組 (零容忍分類):\n"
+            report += f"\n🎯 PUA精確分組 (分類):\n"
             for group_name, group_data in analysis["by_pua_group"].items():
                 format_type = group_data.get("format_type", "未知")
                 level = group_data.get("level", 0)
@@ -462,7 +464,7 @@ class UltraStrictDetector:
                                      for marker in markers) else ""
             report += f"  {unicode_code}: '{char}' ({count} 次){pua_mark}\n"
         
-        report += f"\n📋 終極嚴格結構預覽 (前15個):\n"
+        report += f"\n📋 嚴格結構預覽 (前15個):\n"
         for i, item in enumerate(analysis["structure"][:15], 1):
             level_str = f"L{item['level']}"
             format_type = f"[{item['format_type']}]" if item['format_type'] else ""
@@ -474,16 +476,53 @@ class UltraStrictDetector:
         if len(analysis["structure"]) > 15:
             report += f"  ... 還有 {len(analysis['structure']) - 15} 個標記\n"
         
-        report += f"\n⚡ 終極嚴格性分析:\n"
+        report += f"\n⚡ 嚴格性分析:\n"
         report += f"  字符範圍: {len(self.all_valid_chars)} 個預定義 + {len(self.pua_symbol_groups)} 個PUA分組\n"
         report += f"  PUA精確度: {len([g for g in analysis['by_pua_group']]) if 'by_pua_group' in analysis else 0} 個精確分組\n"
         
         return report
 
+    def process_artifact(self, artifact: JudgmentArtifact) -> None:
+        """接收 artifact 並處理，直接標記在 DocumentLine 的 detection 屬性上"""
+        ultra_strict_pattern = r'^(.{1})、(.*)$'
+        markers_count = 0
+        
+        for doc_line in artifact.full_lines:
+            stripped_line = doc_line.original_text.strip()
+            
+            if not stripped_line:
+                doc_line.detection = SymbolDetection(method_used="empty_line")
+                continue
+                
+            match = re.match(ultra_strict_pattern, stripped_line)
+            if match:
+                symbol = match.group(1)
+                
+                is_valid, category = self.is_valid_symbol(symbol)
+                if is_valid:
+                    has_proper_newline = True
+                    if doc_line.index > 0:
+                        prev_line = artifact.full_lines[doc_line.index - 1].original_text
+                        has_proper_newline = prev_line.endswith('\r')
+                    
+                    if has_proper_newline:
+                        doc_line.detection = SymbolDetection(
+                            detected_symbol=symbol,
+                            symbol_category=category,
+                            is_pua=self.is_pua_character(symbol),
+                            method_used="ultra_strict_pua",
+                            rule_based_score=1.0,
+                            bert_score=1.0,
+                            assigned_level=self.get_symbol_level(symbol, category)
+                        )
+                        markers_count += 1
+                        
+        artifact.processing_stats['ultra_strict_markers_count'] = markers_count
+    
 def main():
     INPUT_FILE = "data/samples/TPDM,111,易,564,20250113,1.json"
     
-    print("⚡ 啟動終極嚴格格式層級檢測器")
+    print("⚡ 啟動嚴格格式層級檢測器")
     
     try:
         # 讀取JSON文件
@@ -496,11 +535,11 @@ def main():
         text_lines = data['JFULL'].split('\n')  # 保留原始換行符
         print(f"📄 讀取文本：{len(text_lines)} 行")
         
-        # 終極嚴格檢測
+        # 嚴格檢測
         detector = UltraStrictDetector()
         markers = detector.detect_ultra_strict_markers(text_lines)
         
-        print(f"✅ 終極嚴格檢測完成：發現 {len(markers)} 個符合格式的標記")
+        print(f"✅ 嚴格檢測完成：發現 {len(markers)} 個符合格式的標記")
         
         # 分析結構
         analysis = detector.analyze_ultra_strict_structure(markers)
