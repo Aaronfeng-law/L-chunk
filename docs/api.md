@@ -1,58 +1,68 @@
 # API 文檔
 
+本專案採用統一的處理管線架構 (Pipeline Architecture)，由 `pipeline.py` 作為核心互動入口，並將處理流程拆分為多個獨立模組。
+
+## 核心管線 (src/lchunk/pipeline.py)
+
+### PipelineOrchestrator
+- **角色**：統一的資料處理協調者
+- **職責**：依序調用 Splitter → UltraStrict → Hybrid → Adaptive，並將狀態與結果封裝於 `JudgmentArtifact` 物件中傳遞。
+- **主要方法**：
+  - `process_file(input_path: Path) -> JudgmentArtifact | None`：執行單一檔案的完整處理管線。
+
+### JudgmentArtifact
+- **角色**：生命週期內的單一真相來源 (Single Source of Truth)
+- **屬性**：
+  - `metadata`：文檔基礎資訊
+  - `full_lines`：包含特徵與檢測結果的 `DocumentLine` 列表
+  - `sections`：文章段落分割結果
+  - `hierarchy_tree`：自適應檢測產生的階層式結構樹
+
 ## 檢測器 (src/lchunk/detectors)
 
 ### UltraStrictDetector
-
-- 角色：第一層「終極嚴格規則」檢測器
-- 能力：依據 PUA 符號與頓號模式進行 100% 確認的層級符號辨識
-- 方法摘要：`detect_ultra_strict(lines: List[str]) -> List[HybridDetectionResult]`
+- **角色**：首層「嚴格規則」檢測器 (Phase 2)
+- **能力**：依據全形數字、PUA 符號與頓號模式進行 100% 確認的層級符號辨識
 
 ### HybridLevelSymbolDetector
-
-- 角色：三層混合檢測主體 (嚴格 → 軟規則 → BERT)
-- 主要方法：
-  - `detect_hybrid_markers(lines: List[str])`：依序套用嚴格規則、軟規則與 BERT 模型
-  - `detect_hierarchy_levels()`：統整偵測結果，產生層級映射
-- 依賴：若提供 `model_path`，自動載入微調後的 BERT 分類器
+- **角色**：混合檢測主體 (Phase 3)
+- **能力**：套用軟規則與 BERT 模型填補嚴格規則未覆蓋的地帶
 
 ### AdaptiveHybridDetector
-
-- 角色：自適應層級學習與全文應用
-- 功能：
-  - `process_single_file(path: Path)`：完成結構分析、規則學習、全文檢測、行級分塊與統計
-  - `process_sample_directory(path: Path, output_dir: Path | None, max_files: int | None, verbose: bool = False, generate_reports: bool = True)`：批次處理並輸出機器可讀 JSON 檔案，可選擇是否生成人類可讀報告
-  - `generate_batch_report(results, region_stats, output_dir)`：產生 Markdown/JSON 彙整報告
-- 日誌：使用 Python `logging`，詳細輸出預設寫入 `logs/adaptive_detector.log`
+- **角色**：自適應層級學習與全文推廣 (Phase 4)
+- **能力**：學習文檔特定的層級編碼規則，將其應用於全文，最後建構出嵌套的 `hierarchy_tree` 並產出基於行的分塊結果 (`LineBasedChunk`)。
 
 ## 分析器 (src/lchunk/analyzers)
 
-### analyze_filtered_dataset
+### splitter_refactor.py
+- **角色**：文獻結構分割器 (Phase 1)
+- **主要方法**：
+  - `split_judgment_document(input_path: Path) -> JudgmentArtifact | None`：讀取 JSON 並將文檔分割成表頭、主文、事實、理由等段落。
 
-- 描述：分析 `data/processed/filtered` 資料集，產生章節統計與整體摘要
-- 回傳：統計字典，可用於模型比較或報告撰寫
+## 轉換器 (src/lchunk/converters)
 
-### process_single_file
+### md_exporter.py / md_converter.py
+- **角色**：Markdown 產生模組
+- **主要類別**：
+  - `PipelineMarkdownConverter`：讀取 `JudgmentArtifact.hierarchy_tree`（或 Debug JSON），渲染出具有階層縮排、斜體日期與附錄標記的高品質 Markdown。
+- **主要功能**：
+  - `export_to_markdown(...)`：API 呼叫介面，支援批次轉換與格式相容。
 
-- 描述：`splitter.process_single_file(path)` 分析單一 JSON 文檔，產出章節結構資訊
-- 回傳：`success: bool`, `result: Dict`，供 `AdaptiveHybridDetector` 後續步驟使用
+## 統一 CLI 工具 (`pipeline.py`)
 
-## CLI 工具
+`pipeline.py` 是唯一建議使用的命令列入口，整合了各種操作模式：
 
-### scripts/markdown/md_converter.py
+```bash
+# 1. 執行核心管線及除錯 JSON 保存
+uv run pipeline.py <input> --full --save
 
-- 用途：將行級分塊結果轉換為排版良好的 Markdown
-- 執行：`uv run scripts/markdown/md_converter.py <input> --output-dir <dir>`
+# 2. 生成 Markdown
+uv run pipeline.py <input> --markdown
 
-### run_adaptive_detector.py
+# 3. 讀取儲存的 Debug JSON 直接轉成 Markdown
+uv run pipeline.py output/debug/ --markdown --md-from-debug
 
-- 用途：命令列執行自適應檢測 (單檔或整批)
-- 主要參數：
-  - `input_path`：JSON 檔或資料夾
-  - `--model-path`：BERT 權重位置（預設為專案模型資料夾）
-  - `--output-dir`：報告輸出資料夾
-  - `--log-file`：詳細日誌輸出位置
-  - `--max-files`：批量處理上限
-  - `--verbose`：在終端顯示進度
-  - `--report`：啟用人類可讀的 Markdown 報告與統計摘要（預設僅輸出機器可讀 JSON）
+# 4. 指定特定模型路徑
+uv run pipeline.py <input> --markdown --model-path <path>
+```
 
