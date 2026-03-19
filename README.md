@@ -36,27 +36,37 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e .
 ```
+### 客製化bert模型
+
+huggingface:https://huggingface.co/Aaronfeng-law/bert-chinese-level-detector
+
+放到models/bert/level_detector/best_model
+
 
 ### Python API 範例
 
 ```python
-from lchunk import AdaptiveHybridDetector
+from lchunk import PipelineOrchestrator
 
-detector = AdaptiveHybridDetector()
-result = detector.process_single_file("path/to/document.json")
+# 初始化管線 (可選定模型路徑)
+orchestrator = PipelineOrchestrator()
 
-print(result.learning_region)
-print(len(result.line_based_chunks))
+# 取得階段成果 (包含所有結構層次與段落資訊)
+artifact = orchestrator.process_file("path/to/document.json")
+
+print(artifact.learning_region)
+print(len(artifact.hierarchy_tree) if artifact.hierarchy_tree else 0)
+print(f"找到段落: {list(artifact.sections.keys())}")
 ```
 
 ### CLI：Markdown 轉換器
 
-利用 `scripts/markdown/md_cli.py` 將偵測結果轉換成 Markdown：
+利用 `pipeline.py` 的 `--markdown` 參數將偵測結果轉換成 Markdown：
 
 ```bash
-uv run scripts/markdown/md_cli.py \
+uv run pipeline.py \
     data/samples/TPDM,109,易,187,20250116,1.json \
-    --output-dir output/markdown
+    --markdown --md-output-dir output/markdown
 ```
 
 > 預設會輸出到 `output/markdown/`。若輸入為目錄，可搭配 `--max-files` 限制轉換數量。
@@ -96,12 +106,6 @@ uv run scripts/training/train_bert.py --config config/training.yaml
 ```
 
 > 若調整 Markdown 轉換邏輯，可使用專案資料夾中的範例 JSON 重新產出報告檢查格式。
-
-## 📊 目前性能
-
-- **BERT 模型**：F1 = 0.9947 (最佳)
-- **隨機森林**：F1 = 0.9497
-- **邏輯回歸**：F1 = 0.9471
 
 ## 🤝 貢獻
 

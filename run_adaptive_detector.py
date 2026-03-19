@@ -14,7 +14,7 @@ SRC_PATH = PROJECT_ROOT / "src"
 if str(SRC_PATH) not in sys.path:
     sys.path.insert(0, str(SRC_PATH))
 
-from lchunk.detectors.adaptive_hybrid import (  # pylint: disable=wrong-import-position
+from lchunk.detectors.adaptive_hierarchy import (  # pylint: disable=wrong-import-position
     AdaptiveDetectionResult,
     AdaptiveHybridDetector,
 )
@@ -98,7 +98,9 @@ def configure_logging(log_path: Path, verbose: bool) -> None:
 
 
 def summarize_result(result: AdaptiveDetectionResult) -> str:
-    symbol_count = len([item for item in result.full_detection_results if item.final_prediction])
+    symbol_count = len(
+        [item for item in result.full_detection_results if item.final_prediction]
+    )
     return (
         f"learning_region={result.learning_region}, "
         f"learned_rules={len(result.learned_rules)}, "
@@ -131,7 +133,9 @@ def run(argv: Iterable[str]) -> int:
         result = detector.process_single_file(args.input_path)
         if result is None:
             logger.error("Adaptive detection failed for %s", args.input_path)
-            print(f"Detection failed for {args.input_path.name}. See log: {args.log_file}")
+            print(
+                f"Detection failed for {args.input_path.name}. See log: {args.log_file}"
+            )
             return 2
 
         summary = summarize_result(result)
@@ -146,7 +150,7 @@ def run(argv: Iterable[str]) -> int:
         )
 
         if args.report:
-            region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
+            region_stats = {"S-D": 0, "R-D": 0, "全文": 0}
             region_stats[result.learning_region] += 1
             detector.generate_batch_report([result], region_stats, args.output_dir)
 
@@ -163,7 +167,7 @@ def run(argv: Iterable[str]) -> int:
     if args.input_path.is_dir():
         json_files = sorted(p for p in args.input_path.glob("*.json") if p.is_file())
         if args.max_files is not None:
-            json_files = json_files[:args.max_files]
+            json_files = json_files[: args.max_files]
 
         if not json_files:
             logger.warning("No JSON files found under %s", args.input_path)
@@ -172,7 +176,9 @@ def run(argv: Iterable[str]) -> int:
             return 0
 
         # Always process directory and export individual machine-readable files
-        detector.process_sample_directory(args.input_path, args.output_dir, args.max_files, verbose=args.verbose)
+        detector.process_sample_directory(
+            args.input_path, args.output_dir, args.max_files, verbose=args.verbose
+        )
         logger.info(
             "Batch detection finished for directory %s (max_files=%s).",
             args.input_path,
@@ -183,12 +189,14 @@ def run(argv: Iterable[str]) -> int:
 
         if args.report:
             # Generate human-readable batch report
-            json_files = sorted(p for p in args.input_path.glob("*.json") if p.is_file())
+            json_files = sorted(
+                p for p in args.input_path.glob("*.json") if p.is_file()
+            )
             if args.max_files is not None:
-                json_files = json_files[:args.max_files]
+                json_files = json_files[: args.max_files]
 
             results = []
-            region_stats = {'S-D': 0, 'R-D': 0, '全文': 0}
+            region_stats = {"S-D": 0, "R-D": 0, "全文": 0}
 
             for json_file in json_files:
                 result = detector.process_single_file(json_file)
@@ -198,8 +206,12 @@ def run(argv: Iterable[str]) -> int:
 
             if results:
                 detector.generate_batch_report(results, region_stats, args.output_dir)
-                logger.info("Human-readable batch report generated for %d files", len(results))
-                print(f"Human-readable report stored under: {args.output_dir.resolve()}")
+                logger.info(
+                    "Human-readable batch report generated for %d files", len(results)
+                )
+                print(
+                    f"Human-readable report stored under: {args.output_dir.resolve()}"
+                )
 
         print(f"Detailed log: {args.log_file}")
         return 0

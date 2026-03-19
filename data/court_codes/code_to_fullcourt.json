@@ -1,0 +1,2108 @@
+{
+  "metadata": {
+    "description": "完整的法院資訊映射，包含所有詳細資料和案件類型資訊",
+    "total_entries": 208,
+    "generated_from": "court_mapping_grouped.json"
+  },
+  "mapping": {
+    "SJE": {
+      "court_name": "三重簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SJE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SJEM",
+          "full_name": "三重簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "SJEV",
+          "full_name": "三重簡易庭民事"
+        }
+      }
+    },
+    "SJEM": {
+      "court_name": "三重簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SJE",
+      "case_type": "刑事",
+      "sub_court_code": "SJEM",
+      "full_name": "三重簡易庭刑事"
+    },
+    "SJEV": {
+      "court_name": "三重簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SJE",
+      "case_type": "民事",
+      "sub_court_code": "SJEV",
+      "full_name": "三重簡易庭民事"
+    },
+    "CLE": {
+      "court_name": "中壢簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CLE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CLEM",
+          "full_name": "中壢簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "CLEV",
+          "full_name": "中壢簡易庭民事"
+        }
+      }
+    },
+    "CLEM": {
+      "court_name": "中壢簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CLE",
+      "case_type": "刑事",
+      "sub_court_code": "CLEM",
+      "full_name": "中壢簡易庭刑事"
+    },
+    "CLEV": {
+      "court_name": "中壢簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CLE",
+      "case_type": "民事",
+      "sub_court_code": "CLEV",
+      "full_name": "中壢簡易庭民事"
+    },
+    "NHE": {
+      "court_name": "內湖簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "NHE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "NHEM",
+          "full_name": "內湖簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "NHEV",
+          "full_name": "內湖簡易庭民事"
+        }
+      }
+    },
+    "NHEM": {
+      "court_name": "內湖簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "NHE",
+      "case_type": "刑事",
+      "sub_court_code": "NHEM",
+      "full_name": "內湖簡易庭刑事"
+    },
+    "NHEV": {
+      "court_name": "內湖簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "NHE",
+      "case_type": "民事",
+      "sub_court_code": "NHEV",
+      "full_name": "內湖簡易庭民事"
+    },
+    "PDEV": {
+      "court_name": "北斗簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "",
+      "case_type": "民事",
+      "sub_court_code": "PDEV",
+      "full_name": "北斗簡易庭民事"
+    },
+    "PKEV": {
+      "court_name": "北港簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "",
+      "case_type": "民事",
+      "sub_court_code": "PKEV",
+      "full_name": "北港簡易庭民事"
+    },
+    "NTEM": {
+      "court_name": "南投簡易庭(含埔里)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "",
+      "case_type": "刑事",
+      "sub_court_code": "NTEM",
+      "full_name": "南投簡易庭(含埔里)刑事"
+    },
+    "NTEV": {
+      "court_name": "南投簡易庭(含埔里)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "",
+      "case_type": "民事",
+      "sub_court_code": "NTEV",
+      "full_name": "南投簡易庭(含埔里)民事"
+    },
+    "TPC": {
+      "court_name": "司法院刑事補償法庭",
+      "jurisdiction": "司法院",
+      "base_court_code": "TPC",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TPCM",
+          "full_name": "司法院刑事補償法庭"
+        }
+      }
+    },
+    "TPCM": {
+      "court_name": "司法院刑事補償法庭",
+      "jurisdiction": "司法院",
+      "base_court_code": "TPC",
+      "case_type": "刑事",
+      "sub_court_code": "TPCM",
+      "full_name": "司法院刑事補償法庭"
+    },
+    "OLEV": {
+      "court_name": "員林簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "OLEV",
+      "case_type": "民事",
+      "sub_court_code": "OLEV",
+      "full_name": "員林簡易庭民事"
+    },
+    "CYE": {
+      "court_name": "嘉義簡易庭(含朴子)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CYE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CYEM",
+          "full_name": "嘉義簡易庭(含朴子)刑事"
+        },
+        "民事": {
+          "sub_court_code": "CYEV",
+          "full_name": "嘉義簡易庭(含朴子)民事"
+        }
+      }
+    },
+    "CYEM": {
+      "court_name": "嘉義簡易庭(含朴子)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CYE",
+      "case_type": "刑事",
+      "sub_court_code": "CYEM",
+      "full_name": "嘉義簡易庭(含朴子)刑事"
+    },
+    "CYEV": {
+      "court_name": "嘉義簡易庭(含朴子)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CYE",
+      "case_type": "民事",
+      "sub_court_code": "CYEV",
+      "full_name": "嘉義簡易庭(含朴子)民事"
+    },
+    "SLE": {
+      "court_name": "士林簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SLE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SLEM",
+          "full_name": "士林簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "SLEV",
+          "full_name": "士林簡易庭民事"
+        }
+      }
+    },
+    "SLEM": {
+      "court_name": "士林簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SLE",
+      "case_type": "刑事",
+      "sub_court_code": "SLEM",
+      "full_name": "士林簡易庭刑事"
+    },
+    "SLEV": {
+      "court_name": "士林簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SLE",
+      "case_type": "民事",
+      "sub_court_code": "SLEV",
+      "full_name": "士林簡易庭民事"
+    },
+    "ILE": {
+      "court_name": "宜蘭簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "ILE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "ILEV",
+          "full_name": "宜蘭簡易庭民事"
+        }
+      }
+    },
+    "ILEV": {
+      "court_name": "宜蘭簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "ILE",
+      "case_type": "民事",
+      "sub_court_code": "ILEV",
+      "full_name": "宜蘭簡易庭民事"
+    },
+    "PTE": {
+      "court_name": "屏東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "PTE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "PTEM",
+          "full_name": "屏東簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "PTEV",
+          "full_name": "屏東簡易庭民事"
+        }
+      }
+    },
+    "PTEM": {
+      "court_name": "屏東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "PTE",
+      "case_type": "刑事",
+      "sub_court_code": "PTEM",
+      "full_name": "屏東簡易庭刑事"
+    },
+    "PTEV": {
+      "court_name": "屏東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "PTE",
+      "case_type": "民事",
+      "sub_court_code": "PTEV",
+      "full_name": "屏東簡易庭民事"
+    },
+    "GSE": {
+      "court_name": "岡山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "GSE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "GSEM",
+          "full_name": "岡山簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "GSEV",
+          "full_name": "岡山簡易庭民事"
+        }
+      }
+    },
+    "GSEM": {
+      "court_name": "岡山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "GSE",
+      "case_type": "刑事",
+      "sub_court_code": "GSEM",
+      "full_name": "岡山簡易庭刑事"
+    },
+    "GSEV": {
+      "court_name": "岡山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "GSE",
+      "case_type": "民事",
+      "sub_court_code": "GSEV",
+      "full_name": "岡山簡易庭民事"
+    },
+    "CHE": {
+      "court_name": "彰化簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CHE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "CHEV",
+          "full_name": "彰化簡易庭民事"
+        }
+      }
+    },
+    "CHEV": {
+      "court_name": "彰化簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CHE",
+      "case_type": "民事",
+      "sub_court_code": "CHEV",
+      "full_name": "彰化簡易庭民事"
+    },
+    "JCC": {
+      "court_name": "憲法法庭",
+      "jurisdiction": "憲法法庭",
+      "base_court_code": "JCC",
+      "case_types": {
+        "憲法": {
+          "sub_court_code": "JCCC",
+          "full_name": "憲法法庭憲法"
+        }
+      }
+    },
+    "JCCC": {
+      "court_name": "憲法法庭",
+      "jurisdiction": "憲法法庭",
+      "base_court_code": "JCC",
+      "case_type": "憲法",
+      "sub_court_code": "JCCC",
+      "full_name": "憲法法庭憲法"
+    },
+    "TPP": {
+      "court_name": "懲戒法院-懲戒法庭",
+      "jurisdiction": "懲戒法院",
+      "base_court_code": "TPP",
+      "case_types": {
+        "懲戒": {
+          "sub_court_code": "TPPP",
+          "full_name": "懲戒法院-懲戒法庭"
+        }
+      }
+    },
+    "TPPP": {
+      "court_name": "懲戒法院-懲戒法庭",
+      "jurisdiction": "懲戒法院",
+      "base_court_code": "TPP",
+      "case_type": "懲戒",
+      "sub_court_code": "TPPP",
+      "full_name": "懲戒法院-懲戒法庭"
+    },
+    "TPJ": {
+      "court_name": "懲戒法院-職務法庭",
+      "jurisdiction": "懲戒法院",
+      "base_court_code": "TPJ",
+      "case_types": {
+        "懲戒": {
+          "sub_court_code": "TPJP",
+          "full_name": "懲戒法院-職務法庭"
+        }
+      }
+    },
+    "TPJP": {
+      "court_name": "懲戒法院-職務法庭",
+      "jurisdiction": "懲戒法院",
+      "base_court_code": "TPJ",
+      "case_type": "懲戒",
+      "sub_court_code": "TPJP",
+      "full_name": "懲戒法院-職務法庭"
+    },
+    "TLE": {
+      "court_name": "斗六簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TLE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "TLEV",
+          "full_name": "斗六簡易庭民事"
+        }
+      }
+    },
+    "TLEV": {
+      "court_name": "斗六簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TLE",
+      "case_type": "民事",
+      "sub_court_code": "TLEV",
+      "full_name": "斗六簡易庭民事"
+    },
+    "SSE": {
+      "court_name": "新市簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SSE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SSEM",
+          "full_name": "新市簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "SSEV",
+          "full_name": "新市簡易庭民事"
+        }
+      }
+    },
+    "SSEM": {
+      "court_name": "新市簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SSE",
+      "case_type": "刑事",
+      "sub_court_code": "SSEM",
+      "full_name": "新市簡易庭刑事"
+    },
+    "SSEV": {
+      "court_name": "新市簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SSE",
+      "case_type": "民事",
+      "sub_court_code": "SSEV",
+      "full_name": "新市簡易庭民事"
+    },
+    "STE": {
+      "court_name": "新店簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "STE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "STEM",
+          "full_name": "新店簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "STEV",
+          "full_name": "新店簡易庭民事"
+        }
+      }
+    },
+    "STEM": {
+      "court_name": "新店簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "STE",
+      "case_type": "刑事",
+      "sub_court_code": "STEM",
+      "full_name": "新店簡易庭刑事"
+    },
+    "STEV": {
+      "court_name": "新店簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "STE",
+      "case_type": "民事",
+      "sub_court_code": "STEV",
+      "full_name": "新店簡易庭民事"
+    },
+    "CSE": {
+      "court_name": "旗山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CSE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "CSEV",
+          "full_name": "旗山簡易庭民事"
+        }
+      }
+    },
+    "CSEV": {
+      "court_name": "旗山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CSE",
+      "case_type": "民事",
+      "sub_court_code": "CSEV",
+      "full_name": "旗山簡易庭民事"
+    },
+    "IPC": {
+      "court_name": "智慧財產及商業法院",
+      "jurisdiction": "專業法院",
+      "base_court_code": "IPC",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "IPCM",
+          "full_name": "智慧財產及商業法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "IPCV",
+          "full_name": "智慧財產及商業法院民事"
+        },
+        "行政": {
+          "sub_court_code": "IPCA",
+          "full_name": "智慧財產及商業法院行政"
+        }
+      }
+    },
+    "IPCM": {
+      "court_name": "智慧財產及商業法院",
+      "jurisdiction": "專業法院",
+      "base_court_code": "IPC",
+      "case_type": "刑事",
+      "sub_court_code": "IPCM",
+      "full_name": "智慧財產及商業法院刑事"
+    },
+    "IPCV": {
+      "court_name": "智慧財產及商業法院",
+      "jurisdiction": "專業法院",
+      "base_court_code": "IPC",
+      "case_type": "民事",
+      "sub_court_code": "IPCV",
+      "full_name": "智慧財產及商業法院民事"
+    },
+    "IPCA": {
+      "court_name": "智慧財產及商業法院",
+      "jurisdiction": "專業法院",
+      "base_court_code": "IPC",
+      "case_type": "行政",
+      "sub_court_code": "IPCA",
+      "full_name": "智慧財產及商業法院行政"
+    },
+    "TPS": {
+      "court_name": "最高法院",
+      "jurisdiction": "最高法院",
+      "base_court_code": "TPS",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TPSM",
+          "full_name": "最高法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TPSV",
+          "full_name": "最高法院民事"
+        }
+      }
+    },
+    "TPSM": {
+      "court_name": "最高法院",
+      "jurisdiction": "最高法院",
+      "base_court_code": "TPS",
+      "case_type": "刑事",
+      "sub_court_code": "TPSM",
+      "full_name": "最高法院刑事"
+    },
+    "TPSV": {
+      "court_name": "最高法院",
+      "jurisdiction": "最高法院",
+      "base_court_code": "TPS",
+      "case_type": "民事",
+      "sub_court_code": "TPSV",
+      "full_name": "最高法院民事"
+    },
+    "TPA": {
+      "court_name": "最高行政法院",
+      "jurisdiction": "最高法院",
+      "base_court_code": "TPA",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "TPAA",
+          "full_name": "最高行政法院行政"
+        }
+      }
+    },
+    "TPAA": {
+      "court_name": "最高行政法院",
+      "jurisdiction": "最高法院",
+      "base_court_code": "TPA",
+      "case_type": "行政",
+      "sub_court_code": "TPAA",
+      "full_name": "最高行政法院行政"
+    },
+    "PCE": {
+      "court_name": "板橋簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "PCE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "PCEM",
+          "full_name": "板橋簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "PCEV",
+          "full_name": "板橋簡易庭民事"
+        }
+      }
+    },
+    "PCEM": {
+      "court_name": "板橋簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "PCE",
+      "case_type": "刑事",
+      "sub_court_code": "PCEM",
+      "full_name": "板橋簡易庭刑事"
+    },
+    "PCEV": {
+      "court_name": "板橋簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "PCE",
+      "case_type": "民事",
+      "sub_court_code": "PCEV",
+      "full_name": "板橋簡易庭民事"
+    },
+    "SYE": {
+      "court_name": "柳營簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SYE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SYEM",
+          "full_name": "柳營簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "SYEV",
+          "full_name": "柳營簡易庭民事"
+        }
+      }
+    },
+    "SYEM": {
+      "court_name": "柳營簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SYE",
+      "case_type": "刑事",
+      "sub_court_code": "SYEM",
+      "full_name": "柳營簡易庭刑事"
+    },
+    "SYEV": {
+      "court_name": "柳營簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SYE",
+      "case_type": "民事",
+      "sub_court_code": "SYEV",
+      "full_name": "柳營簡易庭民事"
+    },
+    "TYE": {
+      "court_name": "桃園簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TYE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TYEM",
+          "full_name": "桃園簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "TYEV",
+          "full_name": "桃園簡易庭民事"
+        }
+      }
+    },
+    "TYEM": {
+      "court_name": "桃園簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TYE",
+      "case_type": "刑事",
+      "sub_court_code": "TYEM",
+      "full_name": "桃園簡易庭刑事"
+    },
+    "TYEV": {
+      "court_name": "桃園簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TYE",
+      "case_type": "民事",
+      "sub_court_code": "TYEV",
+      "full_name": "桃園簡易庭民事"
+    },
+    "CDE": {
+      "court_name": "橋頭簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CDE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CDEM",
+          "full_name": "橋頭簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "CDEV",
+          "full_name": "橋頭簡易庭民事"
+        }
+      }
+    },
+    "CDEM": {
+      "court_name": "橋頭簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CDE",
+      "case_type": "刑事",
+      "sub_court_code": "CDEM",
+      "full_name": "橋頭簡易庭刑事"
+    },
+    "CDEV": {
+      "court_name": "橋頭簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CDE",
+      "case_type": "民事",
+      "sub_court_code": "CDEV",
+      "full_name": "橋頭簡易庭民事"
+    },
+    "SDE": {
+      "court_name": "沙鹿簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SDE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SDEM",
+          "full_name": "沙鹿簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "SDEV",
+          "full_name": "沙鹿簡易庭民事"
+        }
+      }
+    },
+    "SDEM": {
+      "court_name": "沙鹿簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SDE",
+      "case_type": "刑事",
+      "sub_court_code": "SDEM",
+      "full_name": "沙鹿簡易庭刑事"
+    },
+    "SDEV": {
+      "court_name": "沙鹿簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "SDE",
+      "case_type": "民事",
+      "sub_court_code": "SDEV",
+      "full_name": "沙鹿簡易庭民事"
+    },
+    "CCE": {
+      "court_name": "潮州簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CCE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CCEM",
+          "full_name": "潮州簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "CCEV",
+          "full_name": "潮州簡易庭民事"
+        }
+      }
+    },
+    "CCEM": {
+      "court_name": "潮州簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CCE",
+      "case_type": "刑事",
+      "sub_court_code": "CCEM",
+      "full_name": "潮州簡易庭刑事"
+    },
+    "CCEV": {
+      "court_name": "潮州簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CCE",
+      "case_type": "民事",
+      "sub_court_code": "CCEV",
+      "full_name": "潮州簡易庭民事"
+    },
+    "LCD": {
+      "court_name": "福建連江地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "LCD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "LCDM",
+          "full_name": "福建連江地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "LCDV",
+          "full_name": "福建連江地方法院民事"
+        }
+      }
+    },
+    "LCDM": {
+      "court_name": "福建連江地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "LCD",
+      "case_type": "刑事",
+      "sub_court_code": "LCDM",
+      "full_name": "福建連江地方法院刑事"
+    },
+    "LCDV": {
+      "court_name": "福建連江地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "LCD",
+      "case_type": "民事",
+      "sub_court_code": "LCDV",
+      "full_name": "福建連江地方法院民事"
+    },
+    "KMD": {
+      "court_name": "福建金門地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KMD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KMDM",
+          "full_name": "福建金門地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "KMDV",
+          "full_name": "福建金門地方法院民事"
+        }
+      }
+    },
+    "KMDM": {
+      "court_name": "福建金門地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KMD",
+      "case_type": "刑事",
+      "sub_court_code": "KMDM",
+      "full_name": "福建金門地方法院刑事"
+    },
+    "KMDV": {
+      "court_name": "福建金門地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KMD",
+      "case_type": "民事",
+      "sub_court_code": "KMDV",
+      "full_name": "福建金門地方法院民事"
+    },
+    "KMH": {
+      "court_name": "福建高等法院金門分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KMH",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KMHM",
+          "full_name": "福建高等法院金門分院刑事"
+        },
+        "民事": {
+          "sub_court_code": "KMHV",
+          "full_name": "福建高等法院金門分院民事"
+        }
+      }
+    },
+    "KMHM": {
+      "court_name": "福建高等法院金門分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KMH",
+      "case_type": "刑事",
+      "sub_court_code": "KMHM",
+      "full_name": "福建高等法院金門分院刑事"
+    },
+    "KMHV": {
+      "court_name": "福建高等法院金門分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KMH",
+      "case_type": "民事",
+      "sub_court_code": "KMHV",
+      "full_name": "福建高等法院金門分院民事"
+    },
+    "CPE": {
+      "court_name": "竹北簡易庭(含竹東)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CPE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CPEM",
+          "full_name": "竹北簡易庭(含竹東)刑事"
+        },
+        "民事": {
+          "sub_court_code": "CPEV",
+          "full_name": "竹北簡易庭(含竹東)民事"
+        }
+      }
+    },
+    "CPEM": {
+      "court_name": "竹北簡易庭(含竹東)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CPE",
+      "case_type": "刑事",
+      "sub_court_code": "CPEM",
+      "full_name": "竹北簡易庭(含竹東)刑事"
+    },
+    "CPEV": {
+      "court_name": "竹北簡易庭(含竹東)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "CPE",
+      "case_type": "民事",
+      "sub_court_code": "CPEV",
+      "full_name": "竹北簡易庭(含竹東)民事"
+    },
+    "LTE": {
+      "court_name": "羅東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "LTE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "LTEV",
+          "full_name": "羅東簡易庭民事"
+        }
+      }
+    },
+    "LTEV": {
+      "court_name": "羅東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "LTE",
+      "case_type": "民事",
+      "sub_court_code": "LTEV",
+      "full_name": "羅東簡易庭民事"
+    },
+    "TCE": {
+      "court_name": "臺中簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TCE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TCEM",
+          "full_name": "臺中簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "TCEV",
+          "full_name": "臺中簡易庭民事"
+        }
+      }
+    },
+    "TCEM": {
+      "court_name": "臺中簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TCE",
+      "case_type": "刑事",
+      "sub_court_code": "TCEM",
+      "full_name": "臺中簡易庭刑事"
+    },
+    "TCEV": {
+      "court_name": "臺中簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TCE",
+      "case_type": "民事",
+      "sub_court_code": "TCEV",
+      "full_name": "臺中簡易庭民事"
+    },
+    "TCT": {
+      "court_name": "臺中高等行政法院 地方庭",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCT",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "TCTA",
+          "full_name": "臺中高等行政法院 地方庭行政"
+        }
+      }
+    },
+    "TCTA": {
+      "court_name": "臺中高等行政法院 地方庭",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCT",
+      "case_type": "行政",
+      "sub_court_code": "TCTA",
+      "full_name": "臺中高等行政法院 地方庭行政"
+    },
+    "TCB": {
+      "court_name": "臺中高等行政法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCB",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "TCBA",
+          "full_name": "臺中高等行政法院行政"
+        }
+      }
+    },
+    "TCBA": {
+      "court_name": "臺中高等行政法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCB",
+      "case_type": "行政",
+      "sub_court_code": "TCBA",
+      "full_name": "臺中高等行政法院行政"
+    },
+    "TPE": {
+      "court_name": "臺北簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TPE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TPEM",
+          "full_name": "臺北簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "TPEV",
+          "full_name": "臺北簡易庭民事"
+        }
+      }
+    },
+    "TPEM": {
+      "court_name": "臺北簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TPE",
+      "case_type": "刑事",
+      "sub_court_code": "TPEM",
+      "full_name": "臺北簡易庭刑事"
+    },
+    "TPEV": {
+      "court_name": "臺北簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TPE",
+      "case_type": "民事",
+      "sub_court_code": "TPEV",
+      "full_name": "臺北簡易庭民事"
+    },
+    "TPT": {
+      "court_name": "臺北高等行政法院 地方庭",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPT",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "TPTA",
+          "full_name": "臺北高等行政法院 地方庭行政"
+        }
+      }
+    },
+    "TPTA": {
+      "court_name": "臺北高等行政法院 地方庭",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPT",
+      "case_type": "行政",
+      "sub_court_code": "TPTA",
+      "full_name": "臺北高等行政法院 地方庭行政"
+    },
+    "TPB": {
+      "court_name": "臺北高等行政法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPB",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "TPBA",
+          "full_name": "臺北高等行政法院行政"
+        }
+      }
+    },
+    "TPBA": {
+      "court_name": "臺北高等行政法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPB",
+      "case_type": "行政",
+      "sub_court_code": "TPBA",
+      "full_name": "臺北高等行政法院行政"
+    },
+    "TNE": {
+      "court_name": "臺南簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TNE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TNEM",
+          "full_name": "臺南簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "TNEV",
+          "full_name": "臺南簡易庭民事"
+        }
+      }
+    },
+    "TNEM": {
+      "court_name": "臺南簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TNE",
+      "case_type": "刑事",
+      "sub_court_code": "TNEM",
+      "full_name": "臺南簡易庭刑事"
+    },
+    "TNEV": {
+      "court_name": "臺南簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TNE",
+      "case_type": "民事",
+      "sub_court_code": "TNEV",
+      "full_name": "臺南簡易庭民事"
+    },
+    "TTE": {
+      "court_name": "臺東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TTE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "TTEV",
+          "full_name": "臺東簡易庭民事"
+        }
+      }
+    },
+    "TTEV": {
+      "court_name": "臺東簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "TTE",
+      "case_type": "民事",
+      "sub_court_code": "TTEV",
+      "full_name": "臺東簡易庭民事"
+    },
+    "NTD": {
+      "court_name": "臺灣南投地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "NTD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "NTDM",
+          "full_name": "臺灣南投地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "NTDV",
+          "full_name": "臺灣南投地方法院民事"
+        }
+      }
+    },
+    "NTDM": {
+      "court_name": "臺灣南投地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "NTD",
+      "case_type": "刑事",
+      "sub_court_code": "NTDM",
+      "full_name": "臺灣南投地方法院刑事"
+    },
+    "NTDV": {
+      "court_name": "臺灣南投地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "NTD",
+      "case_type": "民事",
+      "sub_court_code": "NTDV",
+      "full_name": "臺灣南投地方法院民事"
+    },
+    "CYD": {
+      "court_name": "臺灣嘉義地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CYD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CYDM",
+          "full_name": "臺灣嘉義地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "CYDV",
+          "full_name": "臺灣嘉義地方法院民事"
+        }
+      }
+    },
+    "CYDM": {
+      "court_name": "臺灣嘉義地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CYD",
+      "case_type": "刑事",
+      "sub_court_code": "CYDM",
+      "full_name": "臺灣嘉義地方法院刑事"
+    },
+    "CYDV": {
+      "court_name": "臺灣嘉義地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CYD",
+      "case_type": "民事",
+      "sub_court_code": "CYDV",
+      "full_name": "臺灣嘉義地方法院民事"
+    },
+    "KLD": {
+      "court_name": "臺灣基隆地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KLD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KLDM",
+          "full_name": "臺灣基隆地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "KLDV",
+          "full_name": "臺灣基隆地方法院民事"
+        }
+      }
+    },
+    "KLDM": {
+      "court_name": "臺灣基隆地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KLD",
+      "case_type": "刑事",
+      "sub_court_code": "KLDM",
+      "full_name": "臺灣基隆地方法院刑事"
+    },
+    "KLDV": {
+      "court_name": "臺灣基隆地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KLD",
+      "case_type": "民事",
+      "sub_court_code": "KLDV",
+      "full_name": "臺灣基隆地方法院民事"
+    },
+    "SLD": {
+      "court_name": "臺灣士林地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "SLD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SLDM",
+          "full_name": "臺灣士林地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "SLDV",
+          "full_name": "臺灣士林地方法院民事"
+        }
+      }
+    },
+    "SLDM": {
+      "court_name": "臺灣士林地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "SLD",
+      "case_type": "刑事",
+      "sub_court_code": "SLDM",
+      "full_name": "臺灣士林地方法院刑事"
+    },
+    "SLDV": {
+      "court_name": "臺灣士林地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "SLD",
+      "case_type": "民事",
+      "sub_court_code": "SLDV",
+      "full_name": "臺灣士林地方法院民事"
+    },
+    "ILD": {
+      "court_name": "臺灣宜蘭地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "ILD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "ILDM",
+          "full_name": "臺灣宜蘭地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "ILDV",
+          "full_name": "臺灣宜蘭地方法院民事"
+        }
+      }
+    },
+    "ILDM": {
+      "court_name": "臺灣宜蘭地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "ILD",
+      "case_type": "刑事",
+      "sub_court_code": "ILDM",
+      "full_name": "臺灣宜蘭地方法院刑事"
+    },
+    "ILDV": {
+      "court_name": "臺灣宜蘭地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "ILD",
+      "case_type": "民事",
+      "sub_court_code": "ILDV",
+      "full_name": "臺灣宜蘭地方法院民事"
+    },
+    "PTD": {
+      "court_name": "臺灣屏東地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PTD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "PTDM",
+          "full_name": "臺灣屏東地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "PTDV",
+          "full_name": "臺灣屏東地方法院民事"
+        }
+      }
+    },
+    "PTDM": {
+      "court_name": "臺灣屏東地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PTD",
+      "case_type": "刑事",
+      "sub_court_code": "PTDM",
+      "full_name": "臺灣屏東地方法院刑事"
+    },
+    "PTDV": {
+      "court_name": "臺灣屏東地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PTD",
+      "case_type": "民事",
+      "sub_court_code": "PTDV",
+      "full_name": "臺灣屏東地方法院民事"
+    },
+    "CHD": {
+      "court_name": "臺灣彰化地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CHD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CHDM",
+          "full_name": "臺灣彰化地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "CHDV",
+          "full_name": "臺灣彰化地方法院民事"
+        }
+      }
+    },
+    "CHDM": {
+      "court_name": "臺灣彰化地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CHD",
+      "case_type": "刑事",
+      "sub_court_code": "CHDM",
+      "full_name": "臺灣彰化地方法院刑事"
+    },
+    "CHDV": {
+      "court_name": "臺灣彰化地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CHD",
+      "case_type": "民事",
+      "sub_court_code": "CHDV",
+      "full_name": "臺灣彰化地方法院民事"
+    },
+    "PCD": {
+      "court_name": "臺灣新北地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PCD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "PCDM",
+          "full_name": "臺灣新北地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "PCDV",
+          "full_name": "臺灣新北地方法院民事"
+        }
+      }
+    },
+    "PCDM": {
+      "court_name": "臺灣新北地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PCD",
+      "case_type": "刑事",
+      "sub_court_code": "PCDM",
+      "full_name": "臺灣新北地方法院刑事"
+    },
+    "PCDV": {
+      "court_name": "臺灣新北地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PCD",
+      "case_type": "民事",
+      "sub_court_code": "PCDV",
+      "full_name": "臺灣新北地方法院民事"
+    },
+    "SCD": {
+      "court_name": "臺灣新竹地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "SCD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "SCDM",
+          "full_name": "臺灣新竹地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "SCDV",
+          "full_name": "臺灣新竹地方法院民事"
+        }
+      }
+    },
+    "SCDM": {
+      "court_name": "臺灣新竹地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "SCD",
+      "case_type": "刑事",
+      "sub_court_code": "SCDM",
+      "full_name": "臺灣新竹地方法院刑事"
+    },
+    "SCDV": {
+      "court_name": "臺灣新竹地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "SCD",
+      "case_type": "民事",
+      "sub_court_code": "SCDV",
+      "full_name": "臺灣新竹地方法院民事"
+    },
+    "TYD": {
+      "court_name": "臺灣桃園地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TYD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TYDM",
+          "full_name": "臺灣桃園地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TYDV",
+          "full_name": "臺灣桃園地方法院民事"
+        }
+      }
+    },
+    "TYDM": {
+      "court_name": "臺灣桃園地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TYD",
+      "case_type": "刑事",
+      "sub_court_code": "TYDM",
+      "full_name": "臺灣桃園地方法院刑事"
+    },
+    "TYDV": {
+      "court_name": "臺灣桃園地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TYD",
+      "case_type": "民事",
+      "sub_court_code": "TYDV",
+      "full_name": "臺灣桃園地方法院民事"
+    },
+    "CTD": {
+      "court_name": "臺灣橋頭地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CTD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "CTDM",
+          "full_name": "臺灣橋頭地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "CTDV",
+          "full_name": "臺灣橋頭地方法院民事"
+        }
+      }
+    },
+    "CTDM": {
+      "court_name": "臺灣橋頭地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CTD",
+      "case_type": "刑事",
+      "sub_court_code": "CTDM",
+      "full_name": "臺灣橋頭地方法院刑事"
+    },
+    "CTDV": {
+      "court_name": "臺灣橋頭地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "CTD",
+      "case_type": "民事",
+      "sub_court_code": "CTDV",
+      "full_name": "臺灣橋頭地方法院民事"
+    },
+    "PHD": {
+      "court_name": "臺灣澎湖地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PHD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "PHDM",
+          "full_name": "臺灣澎湖地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "PHDV",
+          "full_name": "臺灣澎湖地方法院民事"
+        }
+      }
+    },
+    "PHDM": {
+      "court_name": "臺灣澎湖地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PHD",
+      "case_type": "刑事",
+      "sub_court_code": "PHDM",
+      "full_name": "臺灣澎湖地方法院刑事"
+    },
+    "PHDV": {
+      "court_name": "臺灣澎湖地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "PHD",
+      "case_type": "民事",
+      "sub_court_code": "PHDV",
+      "full_name": "臺灣澎湖地方法院民事"
+    },
+    "TCD": {
+      "court_name": "臺灣臺中地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TCD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TCDM",
+          "full_name": "臺灣臺中地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TCDV",
+          "full_name": "臺灣臺中地方法院民事"
+        }
+      }
+    },
+    "TCDM": {
+      "court_name": "臺灣臺中地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TCD",
+      "case_type": "刑事",
+      "sub_court_code": "TCDM",
+      "full_name": "臺灣臺中地方法院刑事"
+    },
+    "TCDV": {
+      "court_name": "臺灣臺中地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TCD",
+      "case_type": "民事",
+      "sub_court_code": "TCDV",
+      "full_name": "臺灣臺中地方法院民事"
+    },
+    "TPD": {
+      "court_name": "臺灣臺北地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TPD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TPDM",
+          "full_name": "臺灣臺北地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TPDV",
+          "full_name": "臺灣臺北地方法院民事"
+        }
+      }
+    },
+    "TPDM": {
+      "court_name": "臺灣臺北地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TPD",
+      "case_type": "刑事",
+      "sub_court_code": "TPDM",
+      "full_name": "臺灣臺北地方法院刑事"
+    },
+    "TPDV": {
+      "court_name": "臺灣臺北地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TPD",
+      "case_type": "民事",
+      "sub_court_code": "TPDV",
+      "full_name": "臺灣臺北地方法院民事"
+    },
+    "TND": {
+      "court_name": "臺灣臺南地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TND",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TNDM",
+          "full_name": "臺灣臺南地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TNDV",
+          "full_name": "臺灣臺南地方法院民事"
+        }
+      }
+    },
+    "TNDM": {
+      "court_name": "臺灣臺南地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TND",
+      "case_type": "刑事",
+      "sub_court_code": "TNDM",
+      "full_name": "臺灣臺南地方法院刑事"
+    },
+    "TNDV": {
+      "court_name": "臺灣臺南地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TND",
+      "case_type": "民事",
+      "sub_court_code": "TNDV",
+      "full_name": "臺灣臺南地方法院民事"
+    },
+    "TTD": {
+      "court_name": "臺灣臺東地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TTD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TTDM",
+          "full_name": "臺灣臺東地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TTDV",
+          "full_name": "臺灣臺東地方法院民事"
+        }
+      }
+    },
+    "TTDM": {
+      "court_name": "臺灣臺東地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TTD",
+      "case_type": "刑事",
+      "sub_court_code": "TTDM",
+      "full_name": "臺灣臺東地方法院刑事"
+    },
+    "TTDV": {
+      "court_name": "臺灣臺東地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "TTD",
+      "case_type": "民事",
+      "sub_court_code": "TTDV",
+      "full_name": "臺灣臺東地方法院民事"
+    },
+    "HLD": {
+      "court_name": "臺灣花蓮地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "HLD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "HLDM",
+          "full_name": "臺灣花蓮地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "HLDV",
+          "full_name": "臺灣花蓮地方法院民事"
+        }
+      }
+    },
+    "HLDM": {
+      "court_name": "臺灣花蓮地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "HLD",
+      "case_type": "刑事",
+      "sub_court_code": "HLDM",
+      "full_name": "臺灣花蓮地方法院刑事"
+    },
+    "HLDV": {
+      "court_name": "臺灣花蓮地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "HLD",
+      "case_type": "民事",
+      "sub_court_code": "HLDV",
+      "full_name": "臺灣花蓮地方法院民事"
+    },
+    "MLD": {
+      "court_name": "臺灣苗栗地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "MLD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "MLDM",
+          "full_name": "臺灣苗栗地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "MLDV",
+          "full_name": "臺灣苗栗地方法院民事"
+        }
+      }
+    },
+    "MLDM": {
+      "court_name": "臺灣苗栗地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "MLD",
+      "case_type": "刑事",
+      "sub_court_code": "MLDM",
+      "full_name": "臺灣苗栗地方法院刑事"
+    },
+    "MLDV": {
+      "court_name": "臺灣苗栗地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "MLD",
+      "case_type": "民事",
+      "sub_court_code": "MLDV",
+      "full_name": "臺灣苗栗地方法院民事"
+    },
+    "ULD": {
+      "court_name": "臺灣雲林地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "ULD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "ULDM",
+          "full_name": "臺灣雲林地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "ULDV",
+          "full_name": "臺灣雲林地方法院民事"
+        }
+      }
+    },
+    "ULDM": {
+      "court_name": "臺灣雲林地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "ULD",
+      "case_type": "刑事",
+      "sub_court_code": "ULDM",
+      "full_name": "臺灣雲林地方法院刑事"
+    },
+    "ULDV": {
+      "court_name": "臺灣雲林地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "ULD",
+      "case_type": "民事",
+      "sub_court_code": "ULDV",
+      "full_name": "臺灣雲林地方法院民事"
+    },
+    "TPH": {
+      "court_name": "臺灣高等法院--訴願決定",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPH",
+      "case_types": {
+        "其他": {
+          "sub_court_code": "TPHA",
+          "full_name": "臺灣高等法院--訴願決定"
+        }
+      }
+    },
+    "TPHA": {
+      "court_name": "臺灣高等法院--訴願決定",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPH",
+      "case_type": "其他",
+      "sub_court_code": "TPHA",
+      "full_name": "臺灣高等法院--訴願決定"
+    },
+    "TPHM": {
+      "court_name": "臺灣高等法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPH",
+      "case_type": "刑事",
+      "sub_court_code": "TPHM",
+      "full_name": "臺灣高等法院刑事"
+    },
+    "TPHV": {
+      "court_name": "臺灣高等法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TPH",
+      "case_type": "民事",
+      "sub_court_code": "TPHV",
+      "full_name": "臺灣高等法院民事"
+    },
+    "TCH": {
+      "court_name": "臺灣高等法院臺中分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCH",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TCHM",
+          "full_name": "臺灣高等法院臺中分院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TCHV",
+          "full_name": "臺灣高等法院臺中分院民事"
+        }
+      }
+    },
+    "TCHM": {
+      "court_name": "臺灣高等法院臺中分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCH",
+      "case_type": "刑事",
+      "sub_court_code": "TCHM",
+      "full_name": "臺灣高等法院臺中分院刑事"
+    },
+    "TCHV": {
+      "court_name": "臺灣高等法院臺中分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TCH",
+      "case_type": "民事",
+      "sub_court_code": "TCHV",
+      "full_name": "臺灣高等法院臺中分院民事"
+    },
+    "TNH": {
+      "court_name": "臺灣高等法院臺南分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TNH",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "TNHM",
+          "full_name": "臺灣高等法院臺南分院刑事"
+        },
+        "民事": {
+          "sub_court_code": "TNHV",
+          "full_name": "臺灣高等法院臺南分院民事"
+        }
+      }
+    },
+    "TNHM": {
+      "court_name": "臺灣高等法院臺南分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TNH",
+      "case_type": "刑事",
+      "sub_court_code": "TNHM",
+      "full_name": "臺灣高等法院臺南分院刑事"
+    },
+    "TNHV": {
+      "court_name": "臺灣高等法院臺南分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "TNH",
+      "case_type": "民事",
+      "sub_court_code": "TNHV",
+      "full_name": "臺灣高等法院臺南分院民事"
+    },
+    "HLH": {
+      "court_name": "臺灣高等法院花蓮分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "HLH",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "HLHM",
+          "full_name": "臺灣高等法院花蓮分院刑事"
+        },
+        "民事": {
+          "sub_court_code": "HLHV",
+          "full_name": "臺灣高等法院花蓮分院民事"
+        }
+      }
+    },
+    "HLHM": {
+      "court_name": "臺灣高等法院花蓮分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "HLH",
+      "case_type": "刑事",
+      "sub_court_code": "HLHM",
+      "full_name": "臺灣高等法院花蓮分院刑事"
+    },
+    "HLHV": {
+      "court_name": "臺灣高等法院花蓮分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "HLH",
+      "case_type": "民事",
+      "sub_court_code": "HLHV",
+      "full_name": "臺灣高等法院花蓮分院民事"
+    },
+    "KSH": {
+      "court_name": "臺灣高等法院高雄分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KSH",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KSHM",
+          "full_name": "臺灣高等法院高雄分院刑事"
+        },
+        "民事": {
+          "sub_court_code": "KSHV",
+          "full_name": "臺灣高等法院高雄分院民事"
+        }
+      }
+    },
+    "KSHM": {
+      "court_name": "臺灣高等法院高雄分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KSH",
+      "case_type": "刑事",
+      "sub_court_code": "KSHM",
+      "full_name": "臺灣高等法院高雄分院刑事"
+    },
+    "KSHV": {
+      "court_name": "臺灣高等法院高雄分院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KSH",
+      "case_type": "民事",
+      "sub_court_code": "KSHV",
+      "full_name": "臺灣高等法院高雄分院民事"
+    },
+    "KSD": {
+      "court_name": "臺灣高雄地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KSD",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KSDM",
+          "full_name": "臺灣高雄地方法院刑事"
+        },
+        "民事": {
+          "sub_court_code": "KSDV",
+          "full_name": "臺灣高雄地方法院民事"
+        }
+      }
+    },
+    "KSDM": {
+      "court_name": "臺灣高雄地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KSD",
+      "case_type": "刑事",
+      "sub_court_code": "KSDM",
+      "full_name": "臺灣高雄地方法院刑事"
+    },
+    "KSDV": {
+      "court_name": "臺灣高雄地方法院",
+      "jurisdiction": "地方法院",
+      "base_court_code": "KSD",
+      "case_type": "民事",
+      "sub_court_code": "KSDV",
+      "full_name": "臺灣高雄地方法院民事"
+    },
+    "KSY": {
+      "court_name": "臺灣高雄少年及家事法院",
+      "jurisdiction": "其他",
+      "base_court_code": "KSY",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "KSYV",
+          "full_name": "臺灣高雄少年及家事法院民事"
+        }
+      }
+    },
+    "KSYV": {
+      "court_name": "臺灣高雄少年及家事法院",
+      "jurisdiction": "其他",
+      "base_court_code": "KSY",
+      "case_type": "民事",
+      "sub_court_code": "KSYV",
+      "full_name": "臺灣高雄少年及家事法院民事"
+    },
+    "HLEV": {
+      "court_name": "花蓮簡易庭(含玉里)",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "HLEV",
+      "case_type": "民事",
+      "sub_court_code": "HLEV",
+      "full_name": "花蓮簡易庭(含玉里)民事"
+    },
+    "HUE": {
+      "court_name": "虎尾簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "HUE",
+      "case_types": {
+        "民事": {
+          "sub_court_code": "HUEV",
+          "full_name": "虎尾簡易庭民事"
+        }
+      }
+    },
+    "HUEV": {
+      "court_name": "虎尾簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "HUE",
+      "case_type": "民事",
+      "sub_court_code": "HUEV",
+      "full_name": "虎尾簡易庭民事"
+    },
+    "FYE": {
+      "court_name": "豐原簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "FYE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "FYEM",
+          "full_name": "豐原簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "FYEV",
+          "full_name": "豐原簡易庭民事"
+        }
+      }
+    },
+    "FYEM": {
+      "court_name": "豐原簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "FYE",
+      "case_type": "刑事",
+      "sub_court_code": "FYEM",
+      "full_name": "豐原簡易庭刑事"
+    },
+    "FYEV": {
+      "court_name": "豐原簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "FYE",
+      "case_type": "民事",
+      "sub_court_code": "FYEV",
+      "full_name": "豐原簡易庭民事"
+    },
+    "KME": {
+      "court_name": "金城簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "KME",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KMEM",
+          "full_name": "金城簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "KMEV",
+          "full_name": "金城簡易庭民事"
+        }
+      }
+    },
+    "KMEM": {
+      "court_name": "金城簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "KME",
+      "case_type": "刑事",
+      "sub_court_code": "KMEM",
+      "full_name": "金城簡易庭刑事"
+    },
+    "KMEV": {
+      "court_name": "金城簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "KME",
+      "case_type": "民事",
+      "sub_court_code": "KMEV",
+      "full_name": "金城簡易庭民事"
+    },
+    "MKE": {
+      "court_name": "馬公簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "MKE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "MKEM",
+          "full_name": "馬公簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "MKEV",
+          "full_name": "馬公簡易庭民事"
+        }
+      }
+    },
+    "MKEM": {
+      "court_name": "馬公簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "MKE",
+      "case_type": "刑事",
+      "sub_court_code": "MKEM",
+      "full_name": "馬公簡易庭刑事"
+    },
+    "MKEV": {
+      "court_name": "馬公簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "MKE",
+      "case_type": "民事",
+      "sub_court_code": "MKEV",
+      "full_name": "馬公簡易庭民事"
+    },
+    "KSE": {
+      "court_name": "高雄簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "KSE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "KSEM",
+          "full_name": "高雄簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "KSEV",
+          "full_name": "高雄簡易庭民事"
+        }
+      }
+    },
+    "KSEM": {
+      "court_name": "高雄簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "KSE",
+      "case_type": "刑事",
+      "sub_court_code": "KSEM",
+      "full_name": "高雄簡易庭刑事"
+    },
+    "KSEV": {
+      "court_name": "高雄簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "KSE",
+      "case_type": "民事",
+      "sub_court_code": "KSEV",
+      "full_name": "高雄簡易庭民事"
+    },
+    "KST": {
+      "court_name": "高雄高等行政法院 地方庭",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KST",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "KSTA",
+          "full_name": "高雄高等行政法院 地方庭行政"
+        }
+      }
+    },
+    "KSTA": {
+      "court_name": "高雄高等行政法院 地方庭",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KST",
+      "case_type": "行政",
+      "sub_court_code": "KSTA",
+      "full_name": "高雄高等行政法院 地方庭行政"
+    },
+    "KSB": {
+      "court_name": "高雄高等行政法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KSB",
+      "case_types": {
+        "行政": {
+          "sub_court_code": "KSBA",
+          "full_name": "高雄高等行政法院行政"
+        }
+      }
+    },
+    "KSBA": {
+      "court_name": "高雄高等行政法院",
+      "jurisdiction": "高等法院",
+      "base_court_code": "KSB",
+      "case_type": "行政",
+      "sub_court_code": "KSBA",
+      "full_name": "高雄高等行政法院行政"
+    },
+    "FSE": {
+      "court_name": "鳳山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "FSE",
+      "case_types": {
+        "刑事": {
+          "sub_court_code": "FSEM",
+          "full_name": "鳳山簡易庭刑事"
+        },
+        "民事": {
+          "sub_court_code": "FSEV",
+          "full_name": "鳳山簡易庭民事"
+        }
+      }
+    },
+    "FSEM": {
+      "court_name": "鳳山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "FSE",
+      "case_type": "刑事",
+      "sub_court_code": "FSEM",
+      "full_name": "鳳山簡易庭刑事"
+    },
+    "FSEV": {
+      "court_name": "鳳山簡易庭",
+      "jurisdiction": "簡易庭",
+      "base_court_code": "FSE",
+      "case_type": "民事",
+      "sub_court_code": "FSEV",
+      "full_name": "鳳山簡易庭民事"
+    }
+  }
+}
